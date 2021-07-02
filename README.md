@@ -2,6 +2,14 @@
 
 ## Welcome to my profile 👋
 
+<br />
+
+### Soundcloud Playing 🎧
+
+[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://soundcloud.com/kah3vich/sets/chaos)
+
+<br />
+
 ### Languages and Tools:
 
 ![PHP](https://img.shields.io/badge/-PHP-090909?style=for-the-badge&logo=PHP&logoColor=8892BF)
