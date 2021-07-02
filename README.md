@@ -3,9 +3,9 @@
 ## Welcome to my profile 👋
 
 
-### Soundcloud Playing 🎧
+[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" align="center" />](https://soundcloud.com/kah3vich/sets/chaos)
 
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://soundcloud.com/kah3vich/sets/chaos)
+
 
 
 ### Languages and Tools:
