@@ -2,13 +2,11 @@
 
 ## Welcome to my profile 👋
 
-<br />
 
 ### Soundcloud Playing 🎧
 
 [<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://soundcloud.com/kah3vich/sets/chaos)
 
-<br />
 
 ### Languages and Tools:
 
@@ -28,17 +26,4 @@
 [![Soundcloud](https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30)](https://soundcloud.com/kah3vich)
 
 
-<!--
-**kah3vich/kah3vich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
