@@ -1,4 +1,7 @@
-### Hi there 👋
+### Welcome to my profile 👋
+
+[![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/visuals-000825219022-zIEeS9-t1240x260.jpg)](https://github.com/kah3vich)
+
 
 <!--
 **kah3vich/kah3vich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
