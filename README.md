@@ -1,6 +1,6 @@
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/visuals-000825219022-zIEeS9-t1240x260.jpg)](https://github.com/kah3vich)
 
-## Welcome to my profile 👋
+<h1 align="center">Welcome to my profile 👋</h1> 
 
 
 ### Soundcloud Playing 🎧
