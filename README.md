@@ -7,6 +7,10 @@
 
 [<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://soundcloud.com/kah3vich/sets/chaos)
 
+<br />
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&layout=compact)](https://github.com/kah3vich/github-readme-stats)
+
 
 ### Languages and Tools:
 
@@ -16,6 +20,7 @@
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ff0)
 ![PUG](https://img.shields.io/badge/-PUG-090909?style=for-the-badge&logo=PUG)
 ![GULP](https://img.shields.io/badge/-GULP-090909?style=for-the-badge&logo=GULP)
+![SCSS](https://img.shields.io/badge/-SCSS-090909?style=for-the-badge&logo=SCSS)
 
 ### Follow Me:
 
