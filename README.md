@@ -15,12 +15,14 @@
 ### Languages and Tools:
 
 ![PHP](https://img.shields.io/badge/-PHP-090909?style=for-the-badge&logo=PHP&logoColor=8892BF)
-![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=E9D54D)
 ![Sql](https://img.shields.io/badge/-Sql-090909?style=for-the-badge&logo=mysql&logoColor=00648B)
+![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=E9D54D)
+![VUE](https://img.shields.io/badge/-vue-090909?style=for-the-badge&logo=vue.js&logoColor=00648B)
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ff0)
 ![PUG](https://img.shields.io/badge/-PUG-090909?style=for-the-badge&logo=PUG)
 ![GULP](https://img.shields.io/badge/-GULP-090909?style=for-the-badge&logo=GULP)
-![SCSS](https://img.shields.io/badge/-SCSS-090909?style=for-the-badge&logo=SCSS)
+![SCSS](https://img.shields.io/badge/-SCSS-090909?style=for-the-badge&logo=sass)
+![GIT](https://img.shields.io/badge/-GIT-090909?style=for-the-badge&logo=GIT)
 
 ### Follow Me:
 
