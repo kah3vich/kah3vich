@@ -24,6 +24,8 @@
 ![GULP](https://img.shields.io/badge/-GULP-090909?style=for-the-badge&logo=GULP)
 ![SCSS](https://img.shields.io/badge/-SCSS-090909?style=for-the-badge&logo=sass)
 ![GIT](https://img.shields.io/badge/-GIT-090909?style=for-the-badge&logo=GIT)
+![HTML](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-090909?style=for-the-badge&logo=CSS3&logoColor=00bfff)
 
 ### Follow Me:
 
