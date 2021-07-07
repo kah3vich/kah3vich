@@ -5,7 +5,7 @@
  
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&layout=compact)](https://github.com/kah3vich/github-readme-stats)
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="400"/>](https://soundcloud.com/kah3vich/sets/chaos)
+[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="500"/>](https://soundcloud.com/kah3vich/sets/chaos)
 
 
 
