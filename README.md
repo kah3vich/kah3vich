@@ -2,14 +2,13 @@
 
 <h1 align="center">Welcome to my profile 👋</h1> 
 
-
+ 
 ### Soundcloud Playing 🎧
 
 [<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://soundcloud.com/kah3vich/sets/chaos)
-
-<br />
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&layout=compact)](https://github.com/kah3vich/github-readme-stats)
+
+
 
 
 ### Languages and Tools:
