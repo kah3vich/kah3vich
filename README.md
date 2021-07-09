@@ -31,7 +31,6 @@
 [![Telegram](https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/kah3vich)
 [![Instagram](https://img.shields.io/badge/-Instagram-090909?style=for-the-badge&logo=instagram&logoColor=B4068E)](https://www.instagram.com/kah3vich_)
 [![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=Vk&logoColor=4F7DB3)](https://vk.com/kah3vich)
-[![GitLab](https://img.shields.io/badge/-GitLab-090909?style=for-the-badge&logo=Gitlab&logoColor=1195F5)](https://gitlab.com/kah3vich)
 [![Soundcloud](https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30)](https://soundcloud.com/kah3vich)
 
 
