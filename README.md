@@ -36,5 +36,4 @@
 <br />
 <hr />
 
-<div style="text-align:center"><img src="https://github.com/kah3vich/kah3vich/blob/main/assets/art.jpg" /></div>
 
