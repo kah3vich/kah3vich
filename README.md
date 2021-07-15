@@ -1,4 +1,4 @@
-[![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/art.jpg)](https://github.com/kah3vich)
+[![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/visuals-000825219022-zIEeS9-t1240x260.jpg)](https://github.com/kah3vich)
 
 <h1 align="center">Welcome to my profile 👋</h1> 
 
@@ -33,5 +33,8 @@
 [![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=Vk&logoColor=4F7DB3)](https://vk.com/kah3vich)
 [![Soundcloud](https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30)](https://soundcloud.com/kah3vich)
 
+<br />
+<hr />
 
+<div style="text-align:center"><img src="https://github.com/kah3vich/kah3vich/blob/main/assets/art.jpg" /></div>
 
