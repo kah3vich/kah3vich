@@ -33,7 +33,5 @@
 [![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=Vk&logoColor=4F7DB3)](https://vk.com/kah3vich)
 [![Soundcloud](https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30)](https://soundcloud.com/kah3vich)
 
-<br />
-<hr />
 
 
