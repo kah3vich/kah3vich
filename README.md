@@ -1,4 +1,4 @@
-[![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/visuals-000825219022-zIEeS9-t1240x260.jpg)](https://github.com/kah3vich)
+[![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/art.jpg)](https://github.com/kah3vich)
 
 <h1 align="center">Welcome to my profile 👋</h1> 
 
