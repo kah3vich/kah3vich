@@ -5,7 +5,7 @@
  
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&layout=compact)](https://github.com/kah3vich/github-readme-stats)
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="500"/>](https://soundcloud.com/kah3vich/sets/chaos)
+<!-- [<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="500"/>](https://soundcloud.com/kah3vich/sets/chaos) -->
 
 
 
@@ -33,9 +33,3 @@
 [![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=Vk&logoColor=4F7DB3)](https://vk.com/kah3vich)
 [![Soundcloud](https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30)](https://soundcloud.com/kah3vich)
 
-
-
-<summary>:zap: Recent GitHub Activity</summary>
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
