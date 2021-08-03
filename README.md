@@ -4,6 +4,7 @@
 
 <div align="center">
 <a href="https://t.me/kah3vich"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
+<a href="https://codepen.io/kah3vich"><img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff"></a>
 </div>
 
 <h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.
@@ -340,4 +341,5 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<!-- babel composer 1 2 3 4 5 6 7 8 9 10 -->
+<!-- babel composer 1 2 3 4 5 6 7 8 9 10 1 git commit --amend --date="Wed Aug 4 14:00 2021 +0100" --no-edit
+ -->
