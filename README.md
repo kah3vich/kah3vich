@@ -17,7 +17,6 @@
 ![Sql](https://img.shields.io/badge/-Sql-090909?style=for-the-badge&logo=mysql&logoColor=00648B)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&logoColor=E9D54D)
 ![VUE](https://img.shields.io/badge/-vue-090909?style=for-the-badge&logo=vue.js&logoColor=00648B)
-![REACT](https://img.shields.io/badge/-REACT-090909?style=for-the-badge&logo=REACT&logoColor=00648B)
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=Python&logoColor=ff0)
 ![PUG](https://img.shields.io/badge/-PUG-090909?style=for-the-badge&logo=PUG)
 ![GULP](https://img.shields.io/badge/-GULP-090909?style=for-the-badge&logo=GULP)
@@ -33,3 +32,4 @@
 [![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=Vk&logoColor=4F7DB3)](https://vk.com/kah3vich)
 [![Soundcloud](https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30)](https://soundcloud.com/kah3vich)
 
+<!-- ![REACT](https://img.shields.io/badge/-REACT-090909?style=for-the-badge&logo=REACT&logoColor=00648B) -->
