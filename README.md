@@ -155,6 +155,18 @@
 </table>
 <br />
 
+
+# <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
+
+
+<img align="right" src="https://github.com/kah3vich/kah3vich/blob/main/assets/tools.gif" width="75%" height="100%">
+
+| <a width="35%"><img src="assets/codepen.svg" width="100" height="50" alt="CSS" /></a> |
+| ----------- |  
+| <a width="35%"><img src="assets/trello.svg" width="100" height="50" alt="CSS" /></a> |
+| <a width="35%"><img src="assets/miro.svg" width="100" height="50" alt="CSS" /></a> |
+
+   
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⚡ Stats ⚡</h2>
 <br>
 <p align=center>
