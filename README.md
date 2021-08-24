@@ -155,9 +155,7 @@
 </table>
 <br />
 
-
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
-
 
 <img align="right" src="https://github.com/kah3vich/kah3vich/blob/main/assets/tools.gif">
 
@@ -167,7 +165,7 @@
 | <a href="https://miro.com" width="35%"><img src="assets/miro.svg" width="100" height="50" alt="miro" /></a> |
 | <a href="https://todo.microsoft.com" width="35%"><img src="assets/todo.svg" width="100" height="50" alt="todo" /></a> |
 
-   
+
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⚡ Stats ⚡</h2>
 <br>
 <p align=center>
