@@ -155,7 +155,7 @@
 </table>
 <br />
 
-<!-- powershell nodejs docker linux (базы данных nodejs) laravel -->
+<!-- powershell nodejs docker linux (базы данных nodejs) laravel wordpress -->
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
