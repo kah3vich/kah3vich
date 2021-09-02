@@ -36,7 +36,7 @@
       </a>
       <br>
       <p>CSS</p>
-    </td>
+    </td> 
     <td align="center" width="96">
       <a href="#">
         <img src="assets/scss.svg" width="48" height="48" alt="SCSS" />
@@ -67,10 +67,10 @@
     </td>
     <td align="center" width="96">
       <a href="#" >
-        <img src="assets/vue.svg" width="48" height="48" alt="Vue" />
+        <img src="assets/nodejs.svg" width="48" height="48" alt="Vue" />
       </a>
       <br>
-      <p>Vue</p>
+      <p>NodeJS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
@@ -155,7 +155,7 @@
 </table>
 <br />
 
-<!-- powershell nodejs docker linux (базы данных nodejs) laravel wordpress --> 
+<!-- powershell nodejs docker linux (базы данных nodejs) laravel wordpress materializecss kali(linux) mongobd-js --> 
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
