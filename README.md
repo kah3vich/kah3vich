@@ -155,66 +155,66 @@
   <!-- <tr>
     <td align="center" width="96"> 
       <a href="#" >
-        <img src="assets/git.svg" width="48" height="48" alt="Git" />
+        <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
       </a>
       <br>
-      <p>powershell</p>
+      <p>Powershell</p>
     </td>
     <td align="center" width="96">
       <a href="#" >
-        <img src="assets/python.svg" width="48" height="48" alt="Python" />
+        <img src="assets/docker.svg" width="48" height="48" alt="Python" />
       </a>
       <br>
-      <p>docker</p>
+      <p>Docker</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/php.svg" width="48" height="48" alt="PHP" />
+        <img src="assets/linux.svg" width="48" height="48" alt="PHP" />
       </a>
       <br>
-      <p>linux</p>
+      <p>Linux</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/mysql.svg" width="48" height="48" alt="MySQL" />
+        <img src="assets/kali.svg" width="48" height="48" alt="MySQL" />
       </a>
       <br>
-      <p>kali</p>
+      <p>Kali</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/jquery.svg" width="48" height="48" alt="Jquery" />
+        <img src="assets/mongobd.svg" width="48" height="48" alt="Jquery" />
       </a>
       <br>
-      <p>mongobd</p>
+      <p>MongoBD</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/three.js.svg" width="48" height="48" alt="Three.js" />
+        <img src="assets/wordpress.svg" width="48" height="48" alt="Three.js" />
       </a>
       <br>
-      <p>wordpress</p>
+      <p>Wordpress</p>
     </td>
     <td align="center" width="96">
       <a href="#" >
-        <img src="assets/gsap.svg" width="48" height="48" alt="GSAP" />
+        <img src="assets/laravel.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br>
-      <p>laravel</p>
+      <p>Laravel</p>
     </td>
     <td align="center" width="96">
       <a href="#" >
-        <img src="assets/webpack.svg" width="48" height="48" alt="Webpack" />
+        <img src="assets/materializecss.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br>
-      <p>materializecss</p>
+      <p>MaterializeCSS</p>
     </td>
     <td align="center" width="96">
       <a href="#" >
-        <img src="assets/figma.svg" width="48" height="48" alt="Figma" />
+        <img src="assets/handlebars.svg" width="48" height="48" alt="Figma" />
       </a>
       <br>
-      <p>handlebars</p>
+      <p>Handlebars</p>
     </td>
   </tr> -->
 </table>
