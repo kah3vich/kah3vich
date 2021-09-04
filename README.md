@@ -152,10 +152,74 @@
       <p>Figma</p>
     </td>
   </tr>
+  <!-- <tr>
+    <td align="center" width="96"> 
+      <a href="#" >
+        <img src="assets/git.svg" width="48" height="48" alt="Git" />
+      </a>
+      <br>
+      <p>powershell</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/python.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br>
+      <p>docker</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/php.svg" width="48" height="48" alt="PHP" />
+      </a>
+      <br>
+      <p>linux</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/mysql.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>
+      <p>kali</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/jquery.svg" width="48" height="48" alt="Jquery" />
+      </a>
+      <br>
+      <p>mongobd</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/three.js.svg" width="48" height="48" alt="Three.js" />
+      </a>
+      <br>
+      <p>wordpress</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/gsap.svg" width="48" height="48" alt="GSAP" />
+      </a>
+      <br>
+      <p>laravel</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/webpack.svg" width="48" height="48" alt="Webpack" />
+      </a>
+      <br>
+      <p>materializecss</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/figma.svg" width="48" height="48" alt="Figma" />
+      </a>
+      <br>
+      <p>handlebars</p>
+    </td>
+  </tr> -->
 </table>
 <br />
 
-<!-- powershell nodejs docker linux (базы данных nodejs) laravel wordpress materializecss kali(linux) mongobd-js --> 
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
