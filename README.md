@@ -152,7 +152,7 @@
       <p>Figma</p>
     </td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td align="center" width="96"> 
       <a href="#" >
         <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
@@ -216,7 +216,7 @@
       <br>
       <p>Handlebars</p>
     </td>
-  </tr>
+  </tr> -->
 </table>
 <br />
 
