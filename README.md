@@ -153,7 +153,7 @@
     </td>
   </tr>
   <tr>
-    <td align="center" width="96"> 
+    <!-- <td align="center" width="96"> 
       <a href="#" >
         <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
       </a>
@@ -216,7 +216,7 @@
       <br>
       <p>Handlebars</p>
     </td>
-  </tr>
+  </tr> -->
 </table>
 <br />
 
