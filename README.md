@@ -152,8 +152,8 @@
       <p>Figma</p>
     </td>
   </tr>
-  <tr>
-    <!-- <td align="center" width="96"> 
+  <!-- <tr>
+    <td align="center" width="96"> 
       <a href="#" >
         <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
       </a>
