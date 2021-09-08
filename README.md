@@ -42,7 +42,7 @@
         <img src="assets/scss.svg" width="48" height="48" alt="SCSS" />
       </a>
       <br>
-      <p>Sass</p>
+      <p>Sass</p> 
     </td>
     <td align="center" width="96">
       <a href="#">
@@ -69,7 +69,7 @@
       <a href="#" >
         <img src="assets/nodejs.svg" width="48" height="48" alt="Vue" />
       </a>
-      <br>
+      <br> 
       <p>NodeJS</p>
     </td>
     <td align="center" width="96">
@@ -217,10 +217,75 @@
       <p>Handlebars</p>
     </td>
   </tr> -->
+  <!-- <tr>
+    <td align="center" width="96"> 
+      <a href="#" >
+        <img src="assets/redux.svg" width="48" height="48" alt="Git" />
+      </a>
+      <br>
+      <p>Redux</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/typescript.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br>
+      <p>TypeScript</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/twig.svg" width="48" height="48" alt="PHP" />
+      </a>
+      <br> 
+      <p>Twig</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/jabe.svg" width="88" height="48" alt="MySQL" />
+      </a>
+      <br>
+      <p>Jade</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/coffeescript.svg" width="48" height="48" alt="Jquery" />
+      </a>
+      <br>
+      <p>CoffeeScript</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/less.svg" width="48" height="48" alt="Three.js" />
+      </a>
+      <br>
+      <p>lESS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/vscode.svg" width="48" height="48" alt="GSAP" />
+      </a>
+      <br>
+      <p>VScode</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/postgresql.svg" width="48" height="48" alt="Webpack" />
+      </a>
+      <br>
+      <p>PostgreSQL</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/nextjs.svg" width="48" height="48" alt="Figma" />
+      </a>
+      <br>
+      <p>Next.js</p>
+    </td>
+  </tr> -->
 </table>
 <br />
 
-<!-- next.js PostgreSQL vscode less coffeejs jade-preprocessor Twig-preprocessor typescript redux -->
+<!--  -->
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
