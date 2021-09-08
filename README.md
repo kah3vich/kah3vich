@@ -220,7 +220,7 @@
 </table>
 <br />
 
-<!-- next.js PostgreSQL vscode less coffeejs jade-preprocessor Twig-preprocessor typescript -->
+<!-- next.js PostgreSQL vscode less coffeejs jade-preprocessor Twig-preprocessor typescript redux -->
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
