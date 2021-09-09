@@ -241,10 +241,10 @@
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/jabe.svg" width="88" height="48" alt="MySQL" />
+        <img src="assets/tails.svg" width="88" height="48" alt="MySQL" />
       </a>
       <br>
-      <p>Jade</p>
+      <p>Tails</p>
     </td>
     <td align="center" width="96">
       <a href="#">
