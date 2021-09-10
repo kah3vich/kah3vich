@@ -285,7 +285,7 @@
 </table>
 <br />
 
-<!--  -->
+<!-- -->
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
