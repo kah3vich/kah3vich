@@ -27,7 +27,7 @@
       <a href="#">
         <img src="assets/html5.svg" width="48" height="48" alt="HTML" />
       </a>
-      <br>
+      <br> 
       <p>HTML</p>
     </td>
     <td align="center" width="96">
@@ -216,8 +216,8 @@
       <br>
       <p>Handlebars</p>
     </td>
-  </tr> -->
-  <!-- <tr>
+  </tr>
+  <tr>
     <td align="center" width="96"> 
       <a href="#" >
         <img src="assets/redux.svg" width="48" height="48" alt="Git" />
@@ -293,7 +293,7 @@
 
 | <a href="https://codepen.io/kah3vich" width="35%"><img src="assets/codepen.svg" width="100" height="50" alt="codepen" /></a> |
 | ----------- |  
-| <a href="https://trello.com" width="35%"><img src="assets/trello.svg" width="100" height="50" alt="trello" /></a> |
+| <a href="https://trello.com" width="35%"><img src="assets/trello.svg" width="100" height="26" alt="trello" /></a> |
 | <a href="https://miro.com" width="35%"><img src="assets/miro.svg" width="100" height="50" alt="miro" /></a> |
 | <a href="https://todo.microsoft.com" width="35%"><img src="assets/todo.svg" width="100" height="50" alt="todo" /></a> |
 
