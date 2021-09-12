@@ -287,7 +287,7 @@
 
 <!-- | -->
 
-# <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
+# <p align="left"><img src="https://komarev.com/ghpvc/?username=kah3vich&label=Profile%20views&color=blue&style=flat-square" alt="kah3vich" /></p> <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
 <img align="right" src="https://github.com/kah3vich/kah3vich/blob/main/assets/tools.gif">
 
