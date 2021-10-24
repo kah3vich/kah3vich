@@ -152,14 +152,7 @@
       <p>Figma</p>
     </td>
   </tr>
-  <!-- <tr>
-    <td align="center" width="96"> 
-      <a href="#" >
-        <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
-      </a>
-      <br>
-      <p>Powershell</p>
-    </td>
+  <tr>
     <td align="center" width="96">
       <a href="#" >
         <img src="assets/docker.svg" width="48" height="48" alt="Python" />
@@ -174,6 +167,13 @@
       <br>
       <p>Linux</p>
     </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/typescript.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br>
+      <p>TypeScript</p>
+    </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="assets/kali.svg" width="48" height="48" alt="MySQL" />
@@ -181,26 +181,19 @@
       <br>
       <p>Kali</p>
     </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/mongobd.svg" width="48" height="48" alt="Jquery" />
-      </a>
-      <br>
-      <p>MongoBD</p>
-    </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/wordpress.svg" width="48" height="48" alt="Three.js" />
+        <img src="assets/less.svg" width="48" height="48" alt="Three.js" />
       </a>
       <br>
-      <p>Wordpress</p>
+      <p>LESS</p>
     </td>
     <td align="center" width="96">
       <a href="#" >
-        <img src="assets/laravel.svg" width="48" height="48" alt="GSAP" />
+        <img src="assets/vscode.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br>
-      <p>Laravel</p>
+      <p>VScode</p>
     </td>
     <td align="center" width="96">
       <a href="#" >
@@ -216,6 +209,36 @@
       <br>
       <p>Handlebars</p>
     </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/wordpress.svg" width="48" height="48" alt="Three.js" />
+      </a>
+      <br>
+      <p>Wordpress</p>
+    </td>
+  </tr>
+  <!-- <tr>
+    <td align="center" width="96"> 
+      <a href="#" >
+        <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
+      </a>
+      <br>
+      <p>Powershell</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/mongobd.svg" width="48" height="48" alt="Jquery" />
+      </a>
+      <br>
+      <p>MongoBD</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#" >
+        <img src="assets/laravel.svg" width="48" height="48" alt="GSAP" />
+      </a>
+      <br>
+      <p>Laravel</p>
+    </td>
   </tr>
   <tr>
     <td align="center" width="96"> 
@@ -224,13 +247,6 @@
       </a>
       <br>
       <p>Redux</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#" >
-        <img src="assets/typescript.svg" width="48" height="48" alt="Python" />
-      </a>
-      <br>
-      <p>TypeScript</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
@@ -252,20 +268,6 @@
       </a>
       <br>
       <p>CoffeeScript</p>
-    </td>
-    <td align="center"  width="96">
-      <a href="#">
-        <img src="assets/less.svg" width="48" height="48" alt="Three.js" />
-      </a>
-      <br>
-      <p>lESS</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#" >
-        <img src="assets/vscode.svg" width="48" height="48" alt="GSAP" />
-      </a>
-      <br>
-      <p>VScode</p>
     </td>
     <td align="center" width="96">
       <a href="#" >
@@ -314,3 +316,8 @@
   <br>
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
+
+
+
+
+
