@@ -6,8 +6,6 @@
 
 <div align="center">
 <a href="https://t.me/kah3vich"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
-<a href="https://www.instagram.com/kah3vich_"><img src="https://img.shields.io/badge/-Instagram-090909?style=for-the-badge&logo=instagram&logoColor=B4068E"></a>
-<a href="https://vk.com/kah3vich"><img src="https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=Vk&logoColor=4F7DB3"></a>
 <a href="https://soundcloud.com/kah3vich"><img src="https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30"></a>
 </div>
 
@@ -316,7 +314,3 @@
   <br>
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
-
-
-
-
