@@ -9,7 +9,7 @@
 <a href="https://soundcloud.com/kah3vich"><img src="https://img.shields.io/badge/-Soundcloud-090909?style=for-the-badge&logo=Soundcloud&logoColor=f30"></a>
 </div>
 
-<h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Nik Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.
+<h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.
 <br />
 <br />
 🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.</h2>
