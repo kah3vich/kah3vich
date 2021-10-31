@@ -291,7 +291,7 @@
 
 <img align="right" src="https://github.com/kah3vich/kah3vich/blob/main/assets/tools.gif">
 
-| <a href="https://codepen.io/kah3vich" width="35%"><img src="assets/codepen.svg" width="100" height="50" alt="codepen" /></a> |
+| <a href="https://codepen.io" width="35%"><img src="assets/codepen.svg" width="100" height="50" alt="codepen" /></a> |
 | ----------- |  
 | <a href="https://trello.com" width="35%"><img src="assets/trello.svg" width="100" height="26" alt="trello" /></a> |
 | <a href="https://miro.com" width="35%"><img src="assets/miro.svg" width="100" height="50" alt="miro" /></a> |
