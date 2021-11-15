@@ -206,12 +206,12 @@
       <br>
       <p>Handlebars</p>
     </td>
-    <td align="center"  width="96">
+    <td align="center" width="96">
       <a href="#">
-        <img src="assets/wordpress.svg" width="48" height="48" alt="Three.js" />
+        <img src="assets/coffeescript.svg" width="48" height="48" alt="Jquery" />
       </a>
       <br>
-      <p>Wordpress</p>
+      <p>CoffeeScript</p>
     </td>
   </tr>
   <!-- <tr>
@@ -260,13 +260,6 @@
       <p>Tails</p>
     </td>
     <td align="center" width="96">
-      <a href="#">
-        <img src="assets/coffeescript.svg" width="48" height="48" alt="Jquery" />
-      </a>
-      <br>
-      <p>CoffeeScript</p>
-    </td>
-    <td align="center" width="96">
       <a href="#" >
         <img src="assets/postgresql.svg" width="48" height="48" alt="Webpack" />
       </a>
@@ -279,6 +272,13 @@
       </a>
       <br>
       <p>Next.js</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/wordpress.svg" width="48" height="48" alt="Three.js" />
+      </a>
+      <br>
+      <p>Wordpress</p>
     </td>
   </tr> -->
 </table>
