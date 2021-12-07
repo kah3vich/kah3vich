@@ -20,7 +20,7 @@
 
 <table align="center" style="font-family: Montserrat; font-weight: 500; font-size: 15px">
   <tr>
-    <td align="center" width="96">
+    <td align="center" width="96" style="padding: 25px 0 13px 0">
       <a href="#">
         <img src="assets/html5.svg" width="48" height="48" alt="HTML" />
       </a>
