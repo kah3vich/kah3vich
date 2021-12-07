@@ -20,7 +20,7 @@
 
 <table align="center" style="font-family: Montserrat; font-weight: 500; font-size: 15px">
   <tr>
-    <td align="center" width="96" style="padding: 25px 0 13px 0">
+    <td align="center" width="96">
       <a href="#">
         <img src="assets/html5.svg" width="48" height="48" alt="HTML" />
       </a>
@@ -77,14 +77,7 @@
       <p>Linux</p>
     </td>
   </tr>
-  <!-- <tr>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/scss.svg" width="48" height="48" alt="SCSS" />
-      </a>
-      <br>
-      <p>Sass</p> 
-    </td>
+  <tr>
     <td align="center" width="96">
       <a href="#">
         <img src="assets/pug.svg" width="48" height="48" alt="Pug" />
@@ -94,48 +87,55 @@
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/gulp.svg" width="48" height="48" alt="Gulp" />
-      </a>
-      <br>
-      <p>Gulp</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/nodejs.svg" width="48" height="48" alt="Vue" />
-      </a>
-      <br> 
-      <p>NodeJS</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/react.svg" width="48" height="48" alt="React" />
-      </a>
-      <br>
-      <p>React</p>
-    </td> 
-    <td align="center" width="96">
-      <a href="#">
         <img src="assets/bootstrap.svg" width="58" height="48" alt="Bootstrap" />
       </a>
       <br>
       <p>Bootstrap</p>
-    </td> 
-  </tr>
-  <tr>
-    <td align="center" width="96"> 
+    </td>
+    <td align="center" width="96">
       <a href="#">
-        <img src="assets/git.svg" width="48" height="48" alt="Git" />
+        <img src="assets/materializecss.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br>
-      <p>Git</p>
+      <p>MaterializeCSS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/handlebars.svg" width="48" height="48" alt="Figma" />
+      </a>
+      <br>
+      <p>Handlebars</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/mysql.svg" width="48" height="48" alt="MySQL" />
+        <img src="assets/twig.svg" width="48" height="48" alt="PHP" />
+      </a>
+      <br> 
+      <p>Twig</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/scss.svg" width="48" height="48" alt="SCSS" />
       </a>
       <br>
-      <p>MySQL</p>
+      <p>Sass</p> 
     </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/less.svg" width="48" height="48" alt="Three.js" />
+      </a>
+      <br>
+      <p>LESS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/vscode.svg" width="48" height="48" alt="GSAP" />
+      </a>
+      <br>
+      <p>VScode</p>
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="96">
       <a href="#">
         <img src="assets/jquery.svg" width="48" height="48" alt="Jquery" />
@@ -166,26 +166,119 @@
     </td>
     <td align="center" width="96">
       <a href="#">
+        <img src="assets/typescript.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br>
+      <p>TypeScript</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/gulp.svg" width="48" height="48" alt="Gulp" />
+      </a>
+      <br>
+      <p>Gulp</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/nodejs.svg" width="48" height="48" alt="Vue" />
+      </a>
+      <br> 
+      <p>NodeJS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/react.svg" width="48" height="48" alt="React" />
+      </a>
+      <br>
+      <p>React</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/coffeescript.svg" width="48" height="48" alt="Jquery" />
+      </a>
+      <br>
+      <p>CoffeeScript</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/mongobd.svg" width="48" height="48" alt="Jquery" />
+      </a>
+      <br>
+      <p>MongoBD</p>
+    </td>
+    <td align="center" width="96"> 
+      <a href="#">
+        <img src="assets/redux.svg" width="48" height="48" alt="Git" />
+      </a>
+      <br>
+      <p>Redux</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/nextjs.svg" width="48" height="48" alt="Next.js" />
+      </a>
+      <br>
+      <p>Next.js</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/mo.svg" width="48" height="48" alt="Mo.js" />
+      </a>
+      <br>
+      <p>Mo.js</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/mysql.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>
+      <p>MySQL</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/laravel.svg" width="48" height="48" alt="GSAP" />
+      </a>
+      <br>
+      <p>Laravel</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/postgresql.svg" width="48" height="48" alt="Webpack" />
+      </a>
+      <br>
+      <p>PostgreSQL</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/wordpress.svg" width="48" height="48" alt="Three.js" />
+      </a>
+      <br>
+      <p>Wordpress</p>
+    </td>
+    <td align="center" width="96"> 
+      <a href="#">
+        <img src="assets/git.svg" width="48" height="48" alt="Git" />
+      </a>
+      <br>
+      <p>Git</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
         <img src="assets/figma.svg" width="48" height="48" alt="Figma" />
       </a>
       <br>
       <p>Figma</p>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
       <a href="#">
         <img src="assets/docker.svg" width="48" height="48" alt="Python" />
       </a>
       <br>
       <p>Docker</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/typescript.svg" width="48" height="48" alt="Python" />
-      </a>
-      <br>
-      <p>TypeScript</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
@@ -196,107 +289,12 @@
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/less.svg" width="48" height="48" alt="Three.js" />
+        <img src="assets/unity.svg" width="48" height="48" alt="Unity" />
       </a>
       <br>
-      <p>LESS</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/vscode.svg" width="48" height="48" alt="GSAP" />
-      </a>
-      <br>
-      <p>VScode</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/materializecss.svg" width="48" height="48" alt="Webpack" />
-      </a>
-      <br>
-      <p>MaterializeCSS</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/handlebars.svg" width="48" height="48" alt="Figma" />
-      </a>
-      <br>
-      <p>Handlebars</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/coffeescript.svg" width="48" height="48" alt="Jquery" />
-      </a>
-      <br>
-      <p>CoffeeScript</p>
-    </td>
-  </tr> -->
-  <!-- <tr>
-    <td align="center" width="96"> 
-      <a href="#">
-        <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
-      </a>
-      <br>
-      <p>Powershell</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/mongobd.svg" width="48" height="48" alt="Jquery" />
-      </a>
-      <br>
-      <p>MongoBD</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/laravel.svg" width="48" height="48" alt="GSAP" />
-      </a>
-      <br>
-      <p>Laravel</p>
+      <p>Unity</p>
     </td>
   </tr>
-  <tr>
-    <td align="center" width="96"> 
-      <a href="#">
-        <img src="assets/redux.svg" width="48" height="48" alt="Git" />
-      </a>
-      <br>
-      <p>Redux</p>
-    </td>
-    <td align="center"  width="96">
-      <a href="#">
-        <img src="assets/twig.svg" width="48" height="48" alt="PHP" />
-      </a>
-      <br> 
-      <p>Twig</p>
-    </td>
-    <td align="center"  width="96">
-      <a href="#">
-        <img src="assets/tails.svg" width="88" height="48" alt="MySQL" />
-      </a>
-      <br>
-      <p>Tails</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/postgresql.svg" width="48" height="48" alt="Webpack" />
-      </a>
-      <br>
-      <p>PostgreSQL</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#">
-        <img src="assets/nextjs.svg" width="48" height="48" alt="Figma" />
-      </a>
-      <br>
-      <p>Next.js</p>
-    </td>
-    <td align="center"  width="96">
-      <a href="#">
-        <img src="assets/wordpress.svg" width="48" height="48" alt="Three.js" />
-      </a>
-      <br>
-      <p>Wordpress</p>
-    </td>
-  </tr> -->
 </table>
 <br />
 
