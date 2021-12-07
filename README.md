@@ -33,7 +33,44 @@
       </a>
       <br>
       <p>CSS</p>
-    </td> 
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/javascript.svg" width="48" height="48" alt="JavaScript" />
+      </a>
+      <br>
+      <p>JavaScript</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/php.svg" width="48" height="48" alt="PHP" />
+      </a>
+      <br>
+      <p>PHP</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/python.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br>
+      <p>Python</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/c++.svg" width="48" height="48" alt="С++" />
+      </a>
+      <br>
+      <p>С++</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/c++++.svg" width="48" height="48" alt="С#" />
+      </a>
+      <br>
+      <p>С#</p>
+    </td>
+  </tr>
+  <!-- <tr>
     <td align="center" width="96">
       <a href="#">
         <img src="assets/scss.svg" width="48" height="48" alt="SCSS" />
@@ -57,13 +94,6 @@
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/javascript.svg" width="48" height="48" alt="JavaScript" />
-      </a>
-      <br>
-      <p>JavaScript</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#" >
         <img src="assets/nodejs.svg" width="48" height="48" alt="Vue" />
       </a>
       <br> 
@@ -86,25 +116,11 @@
   </tr>
   <tr>
     <td align="center" width="96"> 
-      <a href="#" >
+      <a href="#">
         <img src="assets/git.svg" width="48" height="48" alt="Git" />
       </a>
       <br>
       <p>Git</p>
-    </td>
-    <td align="center" width="96">
-      <a href="#" >
-        <img src="assets/python.svg" width="48" height="48" alt="Python" />
-      </a>
-      <br>
-      <p>Python</p>
-    </td>
-    <td align="center"  width="96">
-      <a href="#">
-        <img src="assets/php.svg" width="48" height="48" alt="PHP" />
-      </a>
-      <br>
-      <p>PHP</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
@@ -128,21 +144,21 @@
       <p>Three.js</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/gsap.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br>
       <p>GSAP</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/webpack.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br>
       <p>Webpack</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/figma.svg" width="48" height="48" alt="Figma" />
       </a>
       <br>
@@ -151,7 +167,7 @@
   </tr>
   <tr>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/docker.svg" width="48" height="48" alt="Python" />
       </a>
       <br>
@@ -165,7 +181,7 @@
       <p>Linux</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/typescript.svg" width="48" height="48" alt="Python" />
       </a>
       <br>
@@ -186,21 +202,21 @@
       <p>LESS</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/vscode.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br>
       <p>VScode</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/materializecss.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br>
       <p>MaterializeCSS</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/handlebars.svg" width="48" height="48" alt="Figma" />
       </a>
       <br>
@@ -213,10 +229,10 @@
       <br>
       <p>CoffeeScript</p>
     </td>
-  </tr>
+  </tr> -->
   <!-- <tr>
     <td align="center" width="96"> 
-      <a href="#" >
+      <a href="#">
         <img src="assets/powershell.svg" width="48" height="48" alt="Git" />
       </a>
       <br>
@@ -230,7 +246,7 @@
       <p>MongoBD</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/laravel.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br>
@@ -239,7 +255,7 @@
   </tr>
   <tr>
     <td align="center" width="96"> 
-      <a href="#" >
+      <a href="#">
         <img src="assets/redux.svg" width="48" height="48" alt="Git" />
       </a>
       <br>
@@ -260,14 +276,14 @@
       <p>Tails</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/postgresql.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br>
       <p>PostgreSQL</p>
     </td>
     <td align="center" width="96">
-      <a href="#" >
+      <a href="#">
         <img src="assets/nextjs.svg" width="48" height="48" alt="Figma" />
       </a>
       <br>
@@ -284,8 +300,7 @@
 </table>
 <br />
 
-<!-- composer npm -->
-
+<!-- 
 # <p align="left"><img src="https://komarev.com/ghpvc/?username=kah3vich&label=Profile%20views&color=blue&style=flat-square" alt="kah3vich" /></p> <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
 <img align="right" src="https://github.com/kah3vich/kah3vich/blob/main/assets/tools.gif">
@@ -295,7 +310,7 @@
 | <a href="https://trello.com" width="35%"><img src="assets/trello.svg" width="100" height="26" alt="trello" /></a> |
 | <a href="https://miro.com" width="35%"><img src="assets/miro.svg" width="100" height="50" alt="miro" /></a> |
 | <a href="https://todo.microsoft.com" width="35%"><img src="assets/todo.svg" width="100" height="50" alt="todo" /></a> |
-
+ -->
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⚡ Stats ⚡</h2>
 <br>
@@ -315,3 +330,4 @@
 </p>
 
 <!-- с++ babel nunjucks  -->
+<!-- composer npm -->
