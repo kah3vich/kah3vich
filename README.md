@@ -331,11 +331,4 @@
 
 
 <!-- с++ babel nunjucks  -->
-<!-- composer npm -->
-
-
-
-
-
-
-
+<!-- composer npm -->1
