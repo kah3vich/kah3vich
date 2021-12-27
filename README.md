@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="css/style.css">
-
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/p.jpg)](https://github.com/kah3vich)
 
 <h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2> 
@@ -294,6 +292,20 @@
       <br>
       <p>Unity</p>
     </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/npm.svg" width="48" height="48" alt="Unity" />
+      </a>
+      <br>
+      <p>NPM</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/nj.svg" width="48" height="48" alt="Unity" />
+      </a>
+      <br>
+      <p>Nunjucks</p>
+    </td>
   </tr>
 </table>
 <br />
@@ -327,5 +339,11 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<!-- с++ babel nunjucks  -->
-<!-- composer npm -->
+<!-- babel composer -->
+
+
+
+
+
+
+
