@@ -340,8 +340,3 @@
 </p>
 
 <!-- babel composer -->
-
-
-
-
-
