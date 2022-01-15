@@ -1,6 +1,6 @@
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/p.jpg)](https://github.com/kah3vich)
 
-<h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2> 
+<h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
 
 <div align="center">
 <a href="https://t.me/kah3vich"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
@@ -310,19 +310,20 @@
 </table>
 <br />
 
-<!-- 
+<!--
 # <p align="left"><img src="https://komarev.com/ghpvc/?username=kah3vich&label=Profile%20views&color=blue&style=flat-square" alt="kah3vich" /></p> <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⌛ Additional tools for work ⏳</h2>
 
 <img align="right" src="https://github.com/kah3vich/kah3vich/blob/main/assets/tools.gif">
 
 | <a href="https://codepen.io" width="35%"><img src="assets/codepen.svg" width="100" height="50" alt="codepen" /></a> |
-| ----------- |  
+| ----------- |
 | <a href="https://trello.com" width="35%"><img src="assets/trello.svg" width="100" height="26" alt="trello" /></a> |
 | <a href="https://miro.com" width="35%"><img src="assets/miro.svg" width="100" height="50" alt="miro" /></a> |
 | <a href="https://todo.microsoft.com" width="35%"><img src="assets/todo.svg" width="100" height="50" alt="todo" /></a> |
  -->
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⚡ Stats ⚡</h2>
+
 <br>
 <p align=center>
   <div align=center>
@@ -339,4 +340,4 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<!-- babel composer -->
+<!-- babel composer 1 2 -->
