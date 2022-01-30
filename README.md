@@ -201,10 +201,10 @@
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/mongobd.svg" width="48" height="48" alt="MongoBD" />
+        <img src="assets/postcss.svg" width="48" height="48" alt="PostCSS" />
       </a>
       <br>
-      <p>MongoBD</p>
+      <p>PostCSS</p>
     </td>
     <td align="center" width="96"> 
       <a href="#">
@@ -243,10 +243,10 @@
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/postgresql.svg" width="48" height="48" alt="PostgreSQL" />
+        <img src="assets/stylus.svg" width="48" height="48" alt="Stylus" />
       </a>
       <br>
-      <p>PostgreSQL</p>
+      <p>Stylus</p>
     </td>
   </tr>
   <tr>
