@@ -341,5 +341,5 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<!-- babel composer Zeplin tailwind jest 1 2 3 4 5 6 7 8 9 10 11 12 git commit --amend --date="Wed Aug 3 14:00 2021 +0100" --no-edit
+<!-- babel composer Zeplin tailwind jest styled 1 2 3 4 5 6 7 8 9 10 11 12 13 git commit --amend --date="Wed Aug 3 14:00 2021 +0100" --no-edit
  -->
