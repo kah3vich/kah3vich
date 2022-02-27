@@ -341,5 +341,5 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<!-- babel composer Zeplin tailwind jest styled 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 git commit --amend --date="Wed Aug 3 14:00 2021 +0100" --no-edit  git commit --date="10 day ago" -m "Your commit message"
+<!-- babel composer Zeplin tailwind jest styled 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 git commit --amend --date="Wed Aug 3 14:00 2021 +0100" --no-edit  git commit --date="10 day ago" -m "Your commit message"
  -->
