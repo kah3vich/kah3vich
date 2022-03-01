@@ -308,6 +308,64 @@
       <p>Nunjucks</p>
     </td>
   </tr>
+  <tr>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/composer.svg" width="48" height="48" alt="Composer" />
+      </a>
+      <br>
+      <p>Composer</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/graphql.svg" width="48" height="48" alt="GraphQL" />
+      </a>
+      <br>
+      <p>GraphQL</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/jest.svg" width="48" height="48" alt="Jest" />
+      </a>
+      <br>
+      <p>Jest</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/styled-components.svg" width="48" height="48" alt="Styled" />
+      </a>
+      <br>
+      <p>Styled</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/tailwind.svg" width="48" height="48" alt="Tailwind" />
+      </a>
+      <br>
+      <p>Tailwind</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/zeplin.svg" width="48" height="48" alt="Zeplin" />
+      </a>
+      <br>
+      <p>Zeplin</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/babel.svg" width="48" height="48" alt="Babel" />
+      </a>
+      <br>
+      <p>Babel</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/airbnb.svg" width="48" height="48" alt="Airbnb" />
+      </a>
+      <br>
+      <p>Airbnb</p>
+    </td>
+  </tr>
 </table>
 <br />
 
@@ -341,5 +399,5 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<!-- babel composer Zeplin tailwind jest styled 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 git commit --amend --date="Wed Aug 3 14:00 2021 +0100" --no-edit  git commit --date="10 day ago" -m "Your commit message"
+<!-- babel composer Zeplin tailwind jest styled GraphQL 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 git commit --amend --date="Wed Aug 3 14:00 2021 +0100" --no-edit  git commit --date="10 day ago" -m "Your commit message"
  -->
