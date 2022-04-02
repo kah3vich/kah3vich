@@ -17,6 +17,10 @@
 <div align="center"><img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true"></div>
 <br />
 
+<a href="https://www.codewars.com/users/kah3vich"><img src="https://www.codewars.com/users/kah3vich/badges/large" /></a>
+<br />
+<br />
+
 # <p align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">🔥 Languages & Frameworks & Tools & Abilities 🔥</p>
 
 <table align="center" style="font-family: Montserrat; font-weight: 500; font-size: 15px">
@@ -393,14 +397,13 @@
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue" alt="watching_count" />
 </p> -->
 
-<!-- 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 git commit --amend --date="Wed Aug 3 14:00 2021 +0100" --no-edit  git commit --date="10 day ago" -m "Your commit message" rm -f .git/index.lock
- -->
+<!-- 1 -->
 
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/p.jpg)](https://github.com/kah3vich)
 
 <h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2><div align="center"><a href="https://t.me/jzgduhbg"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
 <a href="https://codepen.io/kah3vich"><img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff"></a>
-<a href="https://www.codewars.com/users/kah3vich"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a></div><h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.<br /><br />🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.</h2><br /><div align="center"><img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true"></div><br />
+<a href="https://www.codewars.com/users/kah3vich"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a></div><h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.<br /><br />🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.</h2><br /><div align="center"><img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true"></div><br /><a href="https://www.codewars.com/users/kah3vich"><img src="https://www.codewars.com/users/kah3vich/badges/large" /></a><br /><br />
 
 # <p align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">🔥 Languages & Frameworks & Tools & Abilities 🔥</p>
 
