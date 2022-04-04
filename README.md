@@ -397,7 +397,7 @@
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue" alt="watching_count" />
 </p> -->
 
-<!-- 1 -->
+<!-- 2 -->
 
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/p.jpg)](https://github.com/kah3vich)
 
