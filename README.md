@@ -335,9 +335,14 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=flat-square" alt="watching_count" />
-</p> -->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <p align="left">
+    <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
+  </p>
+  <p align='right'>
+    <img src='https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?style=for-the-badge'>
+  </p>
+</div> -->
 
 <!-- 15 -->
 
@@ -353,4 +358,4 @@
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⚡ Stats ⚡</h2>
 
-<br><p align=center><div align=center><a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source"><img align="left" width=50% src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="kah3vich" /></a></div><div align=right><a href="https://github.com/anuraghazra/github-readme-stats"><img width=45% align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" /></a></div><br><img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/></p><p align="left"><img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" /></p>
+<br><p align=center><div align=center><a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source"><img align="left" width=50% src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="kah3vich" /></a></div><div align=right><a href="https://github.com/anuraghazra/github-readme-stats"><img width=45% align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" /></a></div><br><img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/></p><div style="display: flex; align-items: center; justify-content: space-between;"><p align="left"><img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" /></p><p align='right'><img src='https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?style=for-the-badge'></p></div>
