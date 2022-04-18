@@ -6,6 +6,7 @@
 <a href="https://t.me/jzgduhbg"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
 <a href="https://codepen.io/kah3vich"><img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff"></a>
 <a href="https://www.codewars.com/users/kah3vich"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a>
+<a href="https://wakatime.com/@kah3vich"><img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white"></a>
 
 </div>
 
@@ -335,13 +336,9 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <p align="left">
-    <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
-  </p>
-  <p align='right'>
-
-[![wakatime](https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?style=for-the-badge)](https://wakatime.com/@bce86a87-7891-4b44-ab58-a5b64ee23b9b)</p></div> -->
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
+</p> -->
 
 <!-- 15 -->
 
@@ -349,7 +346,7 @@
 
 <h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2><div align="center"><a href="https://t.me/jzgduhbg"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
 <a href="https://codepen.io/kah3vich"><img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff"></a>
-<a href="https://www.codewars.com/users/kah3vich"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a></div><h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.<br /><br />🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.</h2><br /><br /><div align="center"><img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true"></div><br /><div align="center"><a href="https://www.codewars.com/users/kah3vich"><img src="https://www.codewars.com/users/kah3vich/badges/large" /></a></div><br /><br />
+<a href="https://www.codewars.com/users/kah3vich"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a> <a href="https://wakatime.com/@kah3vich"><img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white"></a></div><h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.<br /><br />🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.</h2><br /><br /><div align="center"><img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true"></div><br /><div align="center"><a href="https://www.codewars.com/users/kah3vich"><img src="https://www.codewars.com/users/kah3vich/badges/large" /></a></div><br /><br />
 
 # <p align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">🔥 Languages & Frameworks & Tools & Abilities 🔥</p>
 
@@ -357,6 +354,4 @@
 
 # <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⚡ Stats ⚡</h2>
 
-<br><p align=center><div align=center><a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source"><img align="left" width=50% src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="kah3vich" /></a></div><div align=right><a href="https://github.com/anuraghazra/github-readme-stats"><img width=45% align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" /></a></div><br><img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/></p><div style="display: flex; align-items: center; justify-content: space-between;"><p align="left"><img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" /></p><p align='right'>
-
-[![wakatime](https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?style=for-the-badge)](https://wakatime.com/@bce86a87-7891-4b44-ab58-a5b64ee23b9b)</p></div>
+<br><p align=center><div align=center><a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source"><img align="left" width=50% src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="kah3vich" /></a></div><div align=right><a href="https://github.com/anuraghazra/github-readme-stats"><img width=45% align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" /></a></div><br><img src="https://activity-graph.herokuapp.com/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/></p><p align="left"><img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" /></p><p align='right'></p>
