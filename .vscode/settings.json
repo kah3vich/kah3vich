@@ -1,0 +1,216 @@
+{
+	"window.openFilesInNewWindow": "off",
+	"workbench.activityBar.visible": true,
+
+	// Main editor setting
+
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"editor.folding": true,
+	"editor.insertSpaces": true,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": true,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": true,
+	"editor.snippetSuggestions": "top",
+	"editor.multiCursorModifier": "alt",
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": true,
+
+	// Appearance
+
+	"editor.cursorBlinking": "expand",
+	"editor.bracketPairColorization.enabled": false,
+
+	// Font
+
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "500",
+	"editor.fontSize": 16,
+	"editor.lineHeight": 24,
+	"editor.fontFamily": "JetBrains Mono, MonoLisa, monospace",
+
+	// Explorer
+
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": true,
+
+	// Emmet
+
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showExpandedAbbreviation": "never",
+	"emmet.excludeLanguages": ["html", "css", "markdown"],
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"html": "html",
+		"php": "html",
+		"blade": "html",
+		"postcss": "css"
+	},
+
+	// Workbench
+
+	"workbench.colorTheme": "Shades of Purple",
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.iconTheme": "material-icon-theme",
+
+	// Debug
+
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+	"editor.glyphMargin": false,
+
+	// Format
+
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"prettier.semi": true, // правило устанавливает в конце выражений добавляется точка с запятой
+	"prettier.useTabs": true, // Делайте отступы с помощью табуляции вместо пробелов.
+	"prettier.jsxBracketSameLine": false, // благодаря этому правилу символ > в многострочных JSX-элементах будет помещён в последней строке.
+	"prettier.bracketSpacing": true, // отвечает за вставку пробелов между телом объекта и фигурными скобками в объектных литералах.
+	"prettier.trailingComma": "all", // обеспечивает наличие запятой после последнего свойства объекта
+	"prettier.singleQuote": true, // все двойные кавычки будут преобразованы в одинарные
+	"prettier.jsxSingleQuote": true, // все двойные кавычки будут преобразованы в одинарные ( jsx format file )
+	"prettier.arrowParens": "avoid", // Включите круглые скобки вокруг единственного параметра функции стрелки.
+	"prettier.tabWidth": 2, // задаёт количество пробелов на один уровень выравнивания.
+	"prettier.printWidth": 100, // длина строки не должна превышать 100 символов
+	"editor.formatOnType": false,
+	"editor.formatOnSaveMode": "file",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// Terminal
+
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontWeight": "600",
+	"terminal.integrated.fontFamily": "JetBrains Mono, MonoLisa, monospace",
+
+	// Breadcrumbs
+
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	// JS & TS
+
+	"javascript.suggestionActions.enabled": false,
+	"typescript.suggestionActions.enabled": false,
+	"javascript.suggest.autoImports": true, // позволяет включать и выключать предложения по автоматическому импорту
+	"typescript.suggest.autoImports": true, // позволяет включать и выключать предложения по автоматическому импорту.
+	"javascript.updateImportsOnFileMove.enabled": "always", // позволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в VS Code.
+	"typescript.updateImportsOnFileMove.enabled": "always", // озволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в VS Code.
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	}, // использование приводит к удалению неиспользуемых инструкций импорта и к размещению команд импорта таким образом, чтобы сначала шли бы команды, в которых используются абсолютные пути
+
+	// Spell checker
+
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": ["jsx", "js", "css", "scss", "pug", "html", "php"],
+
+	// LiveSass
+
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"autoprefix": "last 5 versions",
+			"extensionName": ".css",
+			"savePath": "css"
+		}
+	],
+
+	// Better
+
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "|",
+			"color": "#0FFD00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+
+	// Add
+
+	"sync.gist": "",
+	"terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\git-bash.exe",
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"workbench.startupEditor": "newUntitledFile",
+	"better-comments.highlightPlainText": true,
+	"terminal.integrated.automationShell.linux": "",
+	"git.confirmSync": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.suggestSelection": "first",
+	"window.zoomLevel": -1,
+	"google-translate.firstLanguage": "ru"
+}

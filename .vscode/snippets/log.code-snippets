@@ -1,0 +1,7 @@
+{
+	"✅Snippet: console.log": {
+		"prefix": "log",
+		"body": ["console.log('${1:elementName}    ', ${1:elementName})"],
+		"description": "✅Snippet: console.log"
+	}
+}

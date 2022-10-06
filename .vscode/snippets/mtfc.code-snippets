@@ -1,0 +1,20 @@
+{
+	"✅Snippet: Memo TypeScript Functional Component": {
+		"prefix": "mtfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"export interface I${1:ComponentName}Props {",
+			"\tchildren: React.ReactNode;",
+			"}",
+			"",
+			"const _${1:ComponentName}: React.FC<I${1:ComponentName}Props> = props => {",
+			"\tconst { children } = props",
+			"",
+			"\treturn <>{children}</>",
+			"}",
+			"export const ${1:ComponentName} = React.memo(_${1:ComponentName})"
+		],
+		"description": "✅Snippet: Memo TypeScript Functional Component"
+	}
+}

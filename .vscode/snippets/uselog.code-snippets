@@ -1,0 +1,11 @@
+{
+	"✅Snippet: useEffect -> console.log": {
+		"prefix": "uselog",
+		"body": [
+			"useEffect(() => {",
+			"\tconsole.log('${1:elementName}    ', ${1:elementName})",
+			"}, [${1:elementName}])"
+		],
+		"description": "✅Snippet: useEffect -> console.log"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"✅Snippet: Memo Functional Component": {
+		"prefix": "mfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const _${1:ComponentName} = props => {",
+			"\tconst { children } = props",
+			"",
+			"\treturn <>{children}</>",
+			"}",
+			"export const ${1:ComponentName} = React.memo(_${1:ComponentName})"
+		],
+		"description": "✅Snippet: Memo Functional Component"
+	}
+}

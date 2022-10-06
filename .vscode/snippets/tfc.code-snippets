@@ -1,0 +1,20 @@
+{
+	"✅Snippet: TypeScript Functional Component": {
+		"prefix": "tfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"export interface I${1:ComponentName}Props {",
+			"\tchildren: React.ReactNode;",
+			"}",
+			"",
+			"const ${1:ComponentName}: React.FC<I${1:ComponentName}Props> = props => {",
+			"\tconst { children } = props",
+			"",
+			"\treturn <>{children}</>",
+			"}",
+			"export default ${1:ComponentName}"
+		],
+		"description": "✅Snippet: TypeScript Functional Component"
+	}
+}

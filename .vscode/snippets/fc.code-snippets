@@ -1,0 +1,16 @@
+{
+	"✅Snippet: Functional component": {
+		"prefix": "fc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const ${1:ComponentName} = props => {",
+			"\tconst { children } = props",
+			"",
+			"\treturn <>{children}</>",
+			"}",
+			"export default ${1:ComponentName}"
+		],
+		"description": "✅Snippet: Functional Component"
+	}
+}
