@@ -4,7 +4,8 @@
 		"body": [
 			"useEffect(() => {",
 			"\tconsole.log('${1:elementName}    ', ${1:elementName})",
-			"}, [${1:elementName}])"
+			"}, [${1:elementName}])",
+			"$0"
 		],
 		"description": "✅Snippet: useEffect -> console.log"
 	}

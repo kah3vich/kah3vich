@@ -1,8 +1,5 @@
 {
-	"window.openFilesInNewWindow": "off",
-	"workbench.activityBar.visible": true,
-
-	// Main editor setting
+	// Editor
 
 	"editor.tabSize": 4,
 	"editor.wordWrap": "on",
@@ -17,19 +14,23 @@
 	"editor.multiCursorModifier": "alt",
 	"editor.renderControlCharacters": false,
 	"editor.unicodeHighlight.ambiguousCharacters": true,
-
-	// Appearance
-
+	"editor.tabCompletion": "on", // Переключение по snippet`y кнопкой Tab.
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+	"editor.formatOnSaveMode": "file",
+	"editor.defaultFormatter": "esbenp.prettier-vscode", // Установка дефолтного расширения для vscode.
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	}, // Использование приводит к удалению неиспользуемых инструкций импорта и к размещению команд импорта таким образом, чтобы сначала шли бы команды, в которых используются абсолютные пути.
+	"editor.suggestSelection": "first",
 	"editor.cursorBlinking": "expand",
 	"editor.bracketPairColorization.enabled": false,
-
-	// Font
-
 	"editor.fontLigatures": true,
 	"editor.fontWeight": "500",
 	"editor.fontSize": 16,
 	"editor.lineHeight": 24,
-	"editor.fontFamily": "JetBrains Mono, MonoLisa, monospace",
+	"editor.fontFamily": "JetBrains Mono, monospace",
 
 	// Explorer
 
@@ -50,11 +51,21 @@
 		"postcss": "css"
 	},
 
+	// Window
+
+	"window.openFilesInNewWindow": "off",
+	"window.zoomLevel": -1,
+
 	// Workbench
 
 	"workbench.colorTheme": "Shades of Purple",
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.iconTheme": "material-icon-theme",
+	"workbench.activityBar.visible": true,
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
 
 	// Debug
 
@@ -64,29 +75,29 @@
 	"debug.showBreakpointsInOverviewRuler": false,
 	"editor.glyphMargin": false,
 
-	// Format
+	//! Format
+	//? Info - https://prettier.io/docs/en/options.html
 
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": false,
-	"prettier.semi": true, // правило устанавливает в конце выражений добавляется точка с запятой
+	"prettier.semi": true, // Правило устанавливает в конце выражений добавляется точка с запятой.
 	"prettier.useTabs": true, // Делайте отступы с помощью табуляции вместо пробелов.
-	"prettier.jsxBracketSameLine": false, // благодаря этому правилу символ > в многострочных JSX-элементах будет помещён в последней строке.
-	"prettier.bracketSpacing": true, // отвечает за вставку пробелов между телом объекта и фигурными скобками в объектных литералах.
-	"prettier.trailingComma": "all", // обеспечивает наличие запятой после последнего свойства объекта
-	"prettier.singleQuote": true, // все двойные кавычки будут преобразованы в одинарные
-	"prettier.jsxSingleQuote": true, // все двойные кавычки будут преобразованы в одинарные ( jsx format file )
+	"prettier.jsxBracketSameLine": false, // Это правило для символа ">" в многострочных JSX-элементах будет помещён в последней строке.
+	"prettier.bracketSpacing": true, // Отвечает за вставку пробелов между телом объекта и фигурными скобками в объектных литералах.
+	"prettier.trailingComma": "all", // Обеспечивает наличие запятой после последнего свойства объекта.
+	"prettier.singleQuote": true, // Все двойные кавычки будут преобразованы в одинарные.
+	"prettier.jsxSingleQuote": true, // Все двойные кавычки будут преобразованы в одинарные для формата файлов jsx.
 	"prettier.arrowParens": "avoid", // Включите круглые скобки вокруг единственного параметра функции стрелки.
-	"prettier.tabWidth": 2, // задаёт количество пробелов на один уровень выравнивания.
-	"prettier.printWidth": 100, // длина строки не должна превышать 100 символов
-	"editor.formatOnType": false,
-	"editor.formatOnSaveMode": "file",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.tabWidth": 2, // Задаёт количество пробелов на один уровень выравнивания.
+	"prettier.printWidth": 100, // Длина строки не должна превышать 100 символов.
 
 	// Terminal
 
 	"terminal.integrated.fontSize": 16,
 	"terminal.integrated.fontWeight": "600",
-	"terminal.integrated.fontFamily": "JetBrains Mono, MonoLisa, monospace",
+	"terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\git-bash.exe",
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"terminal.integrated.automationShell.linux": "",
 
 	// Breadcrumbs
 
@@ -108,16 +119,14 @@
 	// JS & TS
 
 	"javascript.suggestionActions.enabled": false,
-	"typescript.suggestionActions.enabled": false,
-	"javascript.suggest.autoImports": true, // позволяет включать и выключать предложения по автоматическому импорту
-	"typescript.suggest.autoImports": true, // позволяет включать и выключать предложения по автоматическому импорту.
-	"javascript.updateImportsOnFileMove.enabled": "always", // позволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в VS Code.
-	"typescript.updateImportsOnFileMove.enabled": "always", // озволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в VS Code.
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": true
-	}, // использование приводит к удалению неиспользуемых инструкций импорта и к размещению команд импорта таким образом, чтобы сначала шли бы команды, в которых используются абсолютные пути
+	"javascript.suggest.autoImports": true, // Позволяет включать и выключать предложения по автоматическому импорту.
+	"javascript.updateImportsOnFileMove.enabled": "always", // Позволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в vscode.
 
-	// Spell checker
+	"typescript.suggestionActions.enabled": false,
+	"typescript.suggest.autoImports": true, // Позволяет включать и выключать предложения по автоматическому импорту.
+	"typescript.updateImportsOnFileMove.enabled": "always", // Позволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в vscode.
+
+	// Сhecker Spell
 
 	"cSpell.language": "en,ru",
 	"cSpell.userWords": [],
@@ -194,23 +203,25 @@
 			"italic": false
 		}
 	],
+	"better-comments.highlightPlainText": true,
 
-	// Add
+	// Sync
 
 	"sync.gist": "",
-	"terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\git-bash.exe",
-	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-	"workbench.startupEditor": "newUntitledFile",
-	"better-comments.highlightPlainText": true,
-	"terminal.integrated.automationShell.linux": "",
+
+	// Git
+
 	"git.confirmSync": false,
-	"workbench.editorAssociations": {
-		"*.ipynb": "jupyter.notebook.ipynb"
-	},
+
+	// Security
+
 	"security.workspace.trust.untrustedFiles": "open",
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
+
+	// VS Intelli Code
+
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"editor.suggestSelection": "first",
-	"window.zoomLevel": -1,
+
+	// Google Translate
+
 	"google-translate.firstLanguage": "ru"
 }

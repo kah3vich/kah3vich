@@ -1,0 +1,14 @@
+{
+	"✅Snippet: HTML Video": {
+		"prefix": "html-video",
+		"body": [
+			"<video poster=\"${1:image}\" autoplay=\"autoplay\" loop=\"loop\" controls=\"controls\" tabindex=\"0\">",
+			"\t<source src=\"${2:path}.webm\" type='video/webm; codecs=\"vp8, vorbis\"' />",
+			"\t<!-- <source src=\"movie.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"' /> -->",
+			"\t<!-- <source src=\"movie.ogv\" type='video/ogg; codecs=\"theora, vorbis\"' /> -->",
+			"</video>",
+			"$0"
+		],
+		"description": "✅Snippet: HTML Video"
+	}
+}

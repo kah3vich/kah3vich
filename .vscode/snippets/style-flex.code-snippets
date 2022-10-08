@@ -1,0 +1,14 @@
+{
+	"✅Snippet: Style Flex Scheme": {
+		"prefix": "style-flex",
+		"body": [
+			"display: flex;",
+			"flex-direction: ${1:row};",
+			"align-items: ${2:flex-start};",
+			"justify-content: ${3:flex-start};",
+			"gap: ${4:0px};",
+			"$0"
+		],
+		"description": "✅Snippet: Style Flex Scheme"
+	}
+}

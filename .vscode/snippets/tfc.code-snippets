@@ -13,7 +13,8 @@
 			"",
 			"\treturn <>{children}</>",
 			"}",
-			"export default ${1:ComponentName}"
+			"export default ${1:ComponentName}",
+			"$0"
 		],
 		"description": "✅Snippet: TypeScript Functional Component"
 	}

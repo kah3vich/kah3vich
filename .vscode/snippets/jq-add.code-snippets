@@ -1,0 +1,7 @@
+{
+	"✅Snippet: Jquery Add Class": {
+		"prefix": "jq-add",
+		"body": ["$('${1:name}').addClass('${2:class}');", "$0"],
+		"description": "✅Snippet: Jquery Add Class"
+	}
+}
