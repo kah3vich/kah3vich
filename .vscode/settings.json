@@ -223,23 +223,23 @@
 	],
 	"better-comments.highlightPlainText": true, // Этот параметр определяет, оформляются ли комментарии в текстовом файле с использованием тегов аннотаций. При значении true теги (по умолчанию: ! * ? //) будут обнаружены, если они являются первым символом в строке.
 
-	// Sync
+	//! Sync
 
 	"sync.gist": "", // ID key.
 
-	// Git
+	//! Git
 
 	"git.confirmSync": false, // Подтвердите перед синхронизацией репозиториев git.
 
-	// Security
+	//! Security
 
 	"security.workspace.trust.untrustedFiles": "open", // Проверка на надежность открываемых файлов.
 
-	// VS Intelli Code
+	//! VS Intelli Code
 
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // Управляет предварительным выбором предложений при отображении списка предложений
 
-	// Google Translate
+	//! Google Translate
 
 	"google-translate.firstLanguage": "ru" // Язык для перевода.
 }
