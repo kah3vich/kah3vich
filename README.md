@@ -344,7 +344,7 @@ git add .; git commit --amend --date="Wed Aug 6 14:00 2022 +0100" --no-edit; git
 
 -->
 
-<!-- 172 Framer-Motion barba.js nunjucks react-query apollo стич emotion/styled -->
+<!-- 172 | Framer-Motion |  barba.js | nunjucks | react-query | rtk | effector | apollo | стич | emotion/styled | chacra ui | Redux Saga | Gatsby JS | storybook | preactjs | Rematch | selenium python -->
 
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/beloved.jpg)](https://github.com/kah3vich)
 
