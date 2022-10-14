@@ -1,1 +1,3 @@
 //| Generate Snippets - https://snippet-generator.app
+
+add: pug version, settimeout, swiper 
