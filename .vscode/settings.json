@@ -241,5 +241,16 @@
 
 	//! Google Translate
 
-	"google-translate.firstLanguage": "ru" // Язык для перевода.
+	"google-translate.firstLanguage": "ru", // Язык для перевода.
+
+	//! Inline Fold
+
+	"inlineFold.after": "",
+	"inlineFold.maskChar": "◦◦◦",
+	"inlineFold.maskColor": "#FF0000",
+	"inlineFold.regex": "class=\"([a-zA-Z0-9-_-\\s]+)(?=\")",
+	"inlineFold.regexFlags": "gi",
+	"inlineFold.regexGroup": "1",
+	"inlineFold.supportedLanguages": ["html"],
+	"inlineFold.unfoldedOpacity": 1
 }
