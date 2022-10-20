@@ -1,7 +1,14 @@
 {
 	"✅Snippet: Try Catch": {
-		"prefix": "html-video",
-		"body": ["try {", "\t${1:code}", "} catch (e) {", "\tconsole.log('Error', e)", "}", "$0"],
+		"prefix": "try",
+		"body": [
+			"try {",
+			"\t${1:code}",
+			"} catch (e) {",
+			"\tconsole.log('Error', e)",
+			"}",
+			"$0"
+		],
 		"description": "✅Snippet: Try Catch"
 	}
 }
