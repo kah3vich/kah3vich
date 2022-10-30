@@ -1,0 +1,13 @@
+{
+	"✅Snippet: Pug Video": {
+		"prefix": "pug-video",
+		"body": [
+			"video(poster=\"${1:image}\" autoplay=\"autoplay\" loop=\"loop\" controls=\"controls\" tabindex=\"0\")",
+			"\tsource(src=\"${2:path}.webm\" type='video/webm; codecs=\"vp8, vorbis\"')",
+			"\t//- source(src=\"${2:path}.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"')",
+			"\t//- source(src=\"${2:path}.ogv\" type='video/ogg; codecs=\"theora, vorbis\"') ",
+			"$0"
+		],
+		"description": "✅Snippet: Pug Video"
+	}
+}

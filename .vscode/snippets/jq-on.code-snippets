@@ -1,7 +1,12 @@
 {
 	"✅Snippet: Jquery On": {
 		"prefix": "jq-on",
-		"body": ["$('${1:name}').on('', function (e) {", "     ${2:code}", "});", "$0"],
+		"body": [
+			"$('${1:name}').on('${2:params}', function (e) {",
+			"     ${3:code}",
+			"});",
+			"$0"
+		],
 		"description": "✅Snippet: Jquery On"
 	}
 }

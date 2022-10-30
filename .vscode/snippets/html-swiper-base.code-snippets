@@ -1,0 +1,19 @@
+{
+	"✅Snippet: HTML Swiper Base": {
+		"prefix": "html-swiper-base",
+		"body": [
+			"<div class=\"swiper ${1:nameSlider}\">",
+			"\t<div class=\"swiper-wrapper\">",
+			"\t\t<div class=\"swiper-slide\">Slide</div>",
+			"\t</div>",
+			"\t<div class=\"swiper-controls\">",
+			"\t\t<div class=\"swiper-button-next\"></div>",
+			"\t\t<div class=\"swiper-button-prev\"></div>",
+			"\t\t<div class=\"swiper-pagination\"></div>",
+			"\t</div>",
+			"</div>",
+			"$0"
+		],
+		"description": "✅Snippet: HTML Swiper Base"
+	}
+}
