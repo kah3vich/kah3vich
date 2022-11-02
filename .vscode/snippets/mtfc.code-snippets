@@ -13,6 +13,7 @@
 			"",
 			"\treturn <>{children}</>",
 			"}",
+			"",
 			"export const ${1:ComponentName} = React.memo(_${1:ComponentName})",
 			"$0"
 		],

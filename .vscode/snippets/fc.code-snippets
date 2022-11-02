@@ -9,6 +9,7 @@
 			"",
 			"\treturn <>{children}</>",
 			"}",
+			"",
 			"export default ${1:ComponentName}",
 			"$0"
 		],
