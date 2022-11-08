@@ -1,4 +1,4 @@
-<!-- [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/beloved.jpg)](https://github.com/kah3vich)
+[![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/img/beloved.jpg)](https://github.com/kah3vich)
 
 <h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
 
@@ -28,56 +28,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/html5.svg" width="48" height="48" alt="HTML" />
+        <img src="assets/icon/html5.svg" width="48" height="48" alt="HTML" />
       </a>
       <br>
       <p>HTML</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/css3.svg" width="48" height="48" alt="CSS" />
+        <img src="assets/icon/css3.svg" width="48" height="48" alt="CSS" />
       </a>
       <br>
       <p>CSS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/javascript.svg" width="48" height="48" alt="JavaScript" />
+        <img src="assets/icon/javascript.svg" width="48" height="48" alt="JavaScript" />
       </a>
       <br>
       <p>JavaScript</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/php.svg" width="48" height="48" alt="PHP" />
+        <img src="assets/icon/php.svg" width="48" height="48" alt="PHP" />
       </a>
       <br>
       <p>PHP</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/python.svg" width="48" height="48" alt="Python" />
+        <img src="assets/icon/python.svg" width="48" height="48" alt="Python" />
       </a>
       <br>
       <p>Python</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/c++.svg" width="48" height="48" alt="С++" />
+        <img src="assets/icon/c++.svg" width="48" height="48" alt="С++" />
       </a>
       <br>
       <p>С++</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/c++++.svg" width="48" height="48" alt="С#" />
+        <img src="assets/icon/c++++.svg" width="48" height="48" alt="С#" />
       </a>
       <br>
       <p>С#</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/linux.svg" width="48" height="48" alt="Linux" />
+        <img src="assets/icon/linux.svg" width="48" height="48" alt="Linux" />
       </a>
       <br>
       <p>Linux</p>
@@ -86,56 +86,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/pug.svg" width="48" height="48" alt="Pug" />
+        <img src="assets/icon/pug.svg" width="48" height="48" alt="Pug" />
       </a>
       <br>
       <p>Pug</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/bootstrap.svg" width="58" height="48" alt="Bootstrap" />
+        <img src="assets/icon/bootstrap.svg" width="58" height="48" alt="Bootstrap" />
       </a>
       <br>
       <p>Bootstrap</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/zeplin.svg" width="48" height="48" alt="Zeplin" />
+        <img src="assets/icon/motion.svg" width="48" height="48" alt="Motion" />
       </a>
       <br>
-      <p>Zeplin</p>
+      <p>Motion</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/blender.svg" width="48" height="48" alt="blender" />
+        <img src="assets/icon/blender.svg" width="48" height="48" alt="blender" />
       </a>
       <br>
       <p>Blender</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/tailwind.svg" width="48" height="48" alt="Tailwind" />
+        <img src="assets/icon/tailwind.svg" width="48" height="48" alt="Tailwind" />
       </a>
       <br>
       <p>Tailwind</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/scss.svg" width="48" height="48" alt="SCSS" />
+        <img src="assets/icon/scss.svg" width="48" height="48" alt="SCSS" />
       </a>
       <br>
       <p>Sass</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/less.svg" width="48" height="48" alt="LESS" />
+        <img src="assets/icon/less.svg" width="48" height="48" alt="LESS" />
       </a>
       <br>
       <p>LESS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/vscode.svg" width="48" height="48" alt="VScode" />
+        <img src="assets/icon/vscode.svg" width="48" height="48" alt="VScode" />
       </a>
       <br>
       <p>VScode</p>
@@ -144,56 +144,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/jquery.svg" width="48" height="48" alt="Jquery" />
+        <img src="assets/icon/jquery.svg" width="48" height="48" alt="Jquery" />
       </a>
       <br>
       <p>Jquery</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/threejs.svg" width="48" height="48" alt="Three.js" />
+        <img src="assets/icon/threejs.svg" width="48" height="48" alt="Three.js" />
       </a>
       <br>
       <p>Three.js</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/gsap.svg" width="48" height="48" alt="GSAP" />
+        <img src="assets/icon/gsap.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br>
       <p>GSAP</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/webpack.svg" width="48" height="48" alt="Webpack" />
+        <img src="assets/icon/webpack.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br>
       <p>Webpack</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/typescript.svg" width="48" height="48" alt="TypeScript" />
+        <img src="assets/icon/typescript.svg" width="48" height="48" alt="TypeScript" />
       </a>
       <br>
       <p>TypeScript</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/gulp.svg" width="48" height="48" alt="Gulp" />
+        <img src="assets/icon/gulp.svg" width="48" height="48" alt="Gulp" />
       </a>
       <br>
       <p>Gulp</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/nodejs.svg" width="48" height="48" alt="NodeJS" />
+        <img src="assets/icon/nodejs.svg" width="48" height="48" alt="NodeJS" />
       </a>
       <br>
       <p>NodeJS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/react.svg" width="48" height="48" alt="React" />
+        <img src="assets/icon/react.svg" width="48" height="48" alt="React" />
       </a>
       <br>
       <p>React</p>
@@ -202,56 +202,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/coffeescript.svg" width="48" height="48" alt="CoffeeScript" />
+        <img src="assets/icon/coffeescript.svg" width="48" height="48" alt="CoffeeScript" />
       </a>
       <br>
       <p>CoffeeScript</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/postcss.svg" width="48" height="48" alt="PostCSS" />
+        <img src="assets/icon/postcss.svg" width="48" height="48" alt="PostCSS" />
       </a>
       <br>
       <p>PostCSS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/redux.svg" width="48" height="48" alt="Redux" />
+        <img src="assets/icon/redux.svg" width="48" height="48" alt="Redux" />
       </a>
       <br>
       <p>Redux</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/nextjs.svg" width="48" height="48" alt="Next.js" />
+        <img src="assets/icon/nextjs.svg" width="48" height="48" alt="Next.js" />
       </a>
       <br>
       <p>Next.js</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/styled-components.svg" width="48" height="48" alt="Styled" />
+        <img src="assets/icon/styled-components.svg" width="48" height="48" alt="Styled" />
       </a>
       <br>
       <p>Styled</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/mysql.svg" width="48" height="48" alt="MySQL" />
+        <img src="assets/icon/mysql.svg" width="48" height="48" alt="MySQL" />
       </a>
       <br>
       <p>MySQL</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/jest.svg" width="48" height="48" alt="Jest" />
+        <img src="assets/icon/jest.svg" width="48" height="48" alt="Jest" />
       </a>
       <br>
       <p>Jest</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/stylus.svg" width="48" height="48" alt="Stylus" />
+        <img src="assets/icon/stylus.svg" width="48" height="48" alt="Stylus" />
       </a>
       <br>
       <p>Stylus</p>
@@ -260,59 +260,155 @@
   <tr>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/wordpress.svg" width="48" height="48" alt="Wordpress" />
+        <img src="assets/icon/wordpress.svg" width="48" height="48" alt="Wordpress" />
       </a>
       <br>
       <p>Wordpress</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/git.svg" width="48" height="48" alt="Git" />
+        <img src="assets/icon/git.svg" width="48" height="48" alt="Git" />
       </a>
       <br>
       <p>Git</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/figma.svg" width="48" height="48" alt="Figma" />
+        <img src="assets/icon/figma.svg" width="48" height="48" alt="Figma" />
       </a>
       <br>
       <p>Figma</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/docker.svg" width="48" height="48" alt="Docker" />
+        <img src="assets/icon/docker.svg" width="48" height="48" alt="Docker" />
       </a>
       <br>
       <p>Docker</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/kali.svg" width="48" height="48" alt="Kali" />
+        <img src="assets/icon/kali.svg" width="48" height="48" alt="Kali" />
       </a>
       <br>
       <p>Kali</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/unity.svg" width="48" height="48" alt="Unity" />
+        <img src="assets/icon/eslint.svg" width="48" height="48" alt="ESlint" />
       </a>
       <br>
-      <p>Unity</p>
+      <p>ESlint</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/npm.svg" width="48" height="48" alt="Unity" />
+        <img src="assets/icon/npm.svg" width="48" height="48" alt="Unity" />
       </a>
       <br>
       <p>NPM</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/graphql.svg" width="48" height="48" alt="GraphQL" />
+        <img src="assets/icon/graphql.svg" width="48" height="48" alt="GraphQL" />
       </a>
       <br>
       <p>GraphQL</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/icon/barba.svg" width="48" height="48" alt="BarbaJS" />
+      </a>
+      <br>
+      <p>BarbaJS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/react-query.svg" width="48" height="48" alt="RQuery" />
+      </a>
+      <br>
+      <p>RQuery</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/rtk-query.svg" width="48" height="48" alt="RTK" />
+      </a>
+      <br>
+      <p>RTK</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/effector.svg" width="48" height="48" alt="Effector" />
+      </a>
+      <br>
+      <p>Effector</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/icon/apollo.svg" width="48" height="48" alt="Apollo" />
+      </a>
+      <br>
+      <p>Apollo</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/icon/stitches.svg" width="48" height="48" alt="Stitches" />
+      </a>
+      <br>
+      <p>Stitches</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/icon/emotion.svg" width="48" height="48" alt="Emotion" />
+      </a>
+      <br>
+      <p>Emotion</p>
+    </td>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/icon/redux-saga.svg" width="48" height="48" alt="Redux Saga" />
+      </a>
+      <br>
+      <p>Redux Saga</p>
+    </td>
+  </tr>
+    <tr>
+    <td align="center"  width="96">
+      <a href="#">
+        <img src="assets/icon/gatsby.svg" width="48" height="48" alt="Gatsby JS" />
+      </a>
+      <br>
+      <p>Gatsby JS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/storybook.svg" width="48" height="48" alt="Storybook" />
+      </a>
+      <br>
+      <p>Storybook</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/preact.svg" width="48" height="48" alt="PreactJS" />
+      </a>
+      <br>
+      <p>PreactJS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/selenium.svg" width="48" height="48" alt="Selenium" />
+      </a>
+      <br>
+      <p>Selenium</p>
+    </td>
+    <td align="center"  width="96">
+    </td>
+    <td align="center"  width="96">
+    </td>
+    <td align="center"  width="96">
+    </td>
+    <td align="center"  width="96">
     </td>
   </tr>
 </table>
@@ -339,12 +435,12 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
 </p>
+<--
 
 git add .; git commit --amend --date="Wed Aug 6 14:00 2022 +0100" --no-edit; git push -f
-
 -->
 
-<!-- 172 | Framer-Motion |  barba.js | nunjucks | react-query | rtk | effector | apollo | стич | emotion/styled | chacra ui | Redux Saga | Gatsby JS | storybook | preactjs | Rematch | selenium python -->
+172 | Framer-Motion | barba.js | react-query | rtk | effector | apollo | stitches | emotion/styled | eslint | Redux Saga | Gatsby JS | storybook | preactjs | | selenium python
 
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/beloved.jpg)](https://github.com/kah3vich)
 
