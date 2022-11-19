@@ -15,7 +15,7 @@
 	"editor.detectIndentation": true, // Удаление всего Таба.
 	"editor.suggestSelection": "first", // Управляет предварительным выбором предложений при отображении списка предложений
 	"editor.scrollBeyondLastLine": true, // Позволяет прокручивать редактор дальше последний строки.
-	"editor.snippetSuggestions": "top", // Отображение кастомным сниппетов в самом верху.
+	"editor.snippetSuggestions": "bottom", // Отображение кастомным сниппетов в самом верху.
 	"editor.multiCursorModifier": "alt", // Включение мультикурсора на кнопке Фдею
 	"editor.renderControlCharacters": false, // Определяет, должен ли редактор отображать управляющие символы.
 	"editor.unicodeHighlight.ambiguousCharacters": true, // Определяет, выделяются ли символы, которые можно спутать с основными символами ASCII, за исключением тех, которые распространены в текущем языковом стандарте пользователя.
@@ -65,7 +65,7 @@
 	//? Config - https://code.visualstudio.com/docs/getstarted/settings
 
 	"window.openFilesInNewWindow": "off", // Определяет, должны ли файлы открываться в новом окне при использовании командной строки или файлового диалога.
-	"window.zoomLevel": -1, // Отрегулируйте уровень масштабирования окна.
+	"window.zoomLevel": -2, // Отрегулируйте уровень масштабирования окна.
 
 	//! Workbench
 	//? Config - https://code.visualstudio.com/docs/getstarted/settings
@@ -243,14 +243,10 @@
 
 	"google-translate.firstLanguage": "ru", // Язык для перевода.
 
-	//! Inline Fold
+	//! VS Code Pets
 
-	"inlineFold.after": "",
-	"inlineFold.maskChar": "◦◦◦",
-	"inlineFold.maskColor": "#FF0000",
-	"inlineFold.regex": "class=\"([a-zA-Z0-9-_-\\s]+)(?=\")",
-	"inlineFold.regexFlags": "gi",
-	"inlineFold.regexGroup": "1",
-	"inlineFold.supportedLanguages": ["html"],
-	"inlineFold.unfoldedOpacity": 1
+	"vscode-pets.theme": "forest", // тема заднего фона
+	"vscode-pets.position": "explorer", // расположение анимации
+	"vscode-pets.petType": "totoro", // тип персонажа
+	"vscode-pets.petSize": "nano" // размер персонажа
 }
