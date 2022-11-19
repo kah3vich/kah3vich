@@ -3,10 +3,10 @@
 <h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
 
 <div align="center">
-<a href="https://t.me/+xXSthKatXLtiNDBi"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
-<a href="https://codepen.io/kah3vich"><img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff"></a>
-<a href="https://www.codewars.com/users/kah3vich"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a>
-<a href="https://wakatime.com/@kah3vich"><img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white"></a>
+<a href="https://t.me/+xXSthKatXLtiNDBi" target="_blank"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
+<a href="https://codepen.io/kah3vich" target="_blank"><img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff"></a>
+<a href="https://www.codewars.com/users/kah3vich" target="_blank"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a>
+<a href="https://wakatime.com/@kah3vich" target="_blank"><img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white"></a>
 
 </div>
 
