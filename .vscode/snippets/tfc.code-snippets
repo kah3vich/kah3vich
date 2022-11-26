@@ -4,17 +4,17 @@
 		"body": [
 			"import React from 'react'",
 			"",
-			"export interface I${1:ComponentName}Props {",
+			"export interface I${1:$TM_FILENAME_BASE}Props {",
 			"\tchildren: React.ReactNode;",
 			"}",
 			"",
-			"const ${1:ComponentName}: React.FC<I${1:ComponentName}Props> = props => {",
+			"const ${1:$TM_FILENAME_BASE}: React.FC<I${1:$TM_FILENAME_BASE}Props> = props => {",
 			"\tconst { children } = props",
 			"",
 			"\treturn <>{children}</>",
 			"}",
 			"",
-			"export default ${1:ComponentName}",
+			"export default ${1:$TM_FILENAME_BASE}",
 			"$0"
 		],
 		"description": "✅Snippet: TypeScript Functional Component"

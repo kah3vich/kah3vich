@@ -4,13 +4,13 @@
 		"body": [
 			"import React from 'react'",
 			"",
-			"const ${1:ComponentName} = props => {",
+			"const ${1:$TM_FILENAME_BASE} = props => {",
 			"\tconst { children } = props",
 			"",
 			"\treturn <>{children}</>",
 			"}",
 			"",
-			"export default ${1:ComponentName}",
+			"export default ${1:$TM_FILENAME_BASE}",
 			"$0"
 		],
 		"description": "✅Snippet: Functional Component"

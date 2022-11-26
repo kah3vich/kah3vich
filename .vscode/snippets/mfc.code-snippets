@@ -4,13 +4,13 @@
 		"body": [
 			"import React from 'react'",
 			"",
-			"const _${1:ComponentName} = props => {",
+			"const _${1:$TM_FILENAME_BASE} = props => {",
 			"\tconst { children } = props",
 			"",
 			"\treturn <>{children}</>",
 			"}",
 			"",
-			"export const ${1:ComponentName} = React.memo(_${1:ComponentName})",
+			"export const ${1:$TM_FILENAME_BASE} = React.memo(_${1:$TM_FILENAME_BASE})",
 			"$0"
 		],
 		"description": "✅Snippet: Memo Functional Component"
