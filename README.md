@@ -437,4 +437,4 @@
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
 </p>
 
-<!-- sed -i '1s/^/ text \n/' ./readme.md; git add .; git commit --amend --date='Wed  Nov 1 14:00 2022 +0100' --no-edit; git push -f; -->
+<!-- sed -i '1s/^/text\n/' ./readme.md; git add .; git commit --amend --date='Wed  Nov 1 14:00 2022 +0100' --no-edit; git push -f; -->
