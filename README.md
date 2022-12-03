@@ -1,48 +1,60 @@
-30
-30
-30
-30
-30
-29
-28
-27
-26
-25
-24
-23
-22
-21
-20
-19
-18
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/img/beloved.jpg)](https://github.com/kah3vich)
 
-<h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
+<!--|||-->
+
+<h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px">
+  <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+</h2>
+
+<!--|||-->
 
 <div align="center">
-<a href="https://t.me/+xXSthKatXLtiNDBi" target="_blank"><img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9"></a>
-<a href="https://codepen.io/kah3vich" target="_blank"><img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff"></a>
-<a href="https://www.codewars.com/users/kah3vich" target="_blank"><img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red"></a>
-<a href="https://wakatime.com/@kah3vich" target="_blank"><img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white"></a>
-
+  <a href="https://t.me/+xXSthKatXLtiNDBi" target="_blank">
+    <img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9">
+  </a>
+  <a href="https://codepen.io/kah3vich" target="_blank">
+    <img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff">
+  </a>
+  <a href="https://www.codewars.com/users/kah3vich" target="_blank">
+    <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red">
+  </a>
+  <a href="https://wakatime.com/@kah3vich" target="_blank">
+    <img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white">
+  </a>
 </div>
 
-<h2 style="font-family: Montserrat;"> 🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.
+<!--|||-->
+
+<h2>
+  🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.
+  <br />
+  <br />
+  🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
+</h2>
+
+<!--|||-->
+
 <br />
-<br />
-🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.</h2>
-<br />
+
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true"></div>
+  <img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true">
+</div>
+
 <br />
 
-<div align="center"><a href="https://www.codewars.com/users/kah3vich"><img src="https://www.codewars.com/users/kah3vich/badges/large" /></a></div>
-<br />
+<div align="center">
+<a href="https://www.codewars.com/users/kah3vich">
+  <img src="https://www.codewars.com/users/kah3vich/badges/large"/></a>
+</div>
+
 <br />
 
-# <p align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">🔥 Languages & Frameworks & Tools & Abilities 🔥</p>
+<!--|||-->
 
-<table align="center" style="font-family: Montserrat; font-weight: 500; font-size: 15px">
+# <p align="center">🔥 Languages & Frameworks & Tools & Abilities 🔥</p>
+
+<table align="center">
   <tr>
     <td align="center" width="96">
       <a href="#">
@@ -65,7 +77,7 @@
       <br>
       <p>JavaScript</p>
     </td>
-    <td align="center"  width="96">
+    <td align="center" width="96">
       <a href="#">
         <img src="assets/icon/php.svg" width="48" height="48" alt="PHP" />
       </a>
@@ -392,7 +404,7 @@
     </td>
   </tr>
     <tr>
-    <td align="center"  width="96">
+    <td align="center" width="96">
       <a href="#">
         <img src="assets/icon/gatsby.svg" width="48" height="48" alt="Gatsby JS" />
       </a>
@@ -420,28 +432,30 @@
       <br>
       <p>Selenium</p>
     </td>
-    <td align="center"  width="96">
-    </td>
-    <td align="center"  width="96">
-    </td>
-    <td align="center"  width="96">
-    </td>
-    <td align="center"  width="96">
-    </td>
+    <td align="center"  width="96"></td>
+    <td align="center"  width="96"></td>
+    <td align="center"  width="96"></td>
+    <td align="center"  width="96"></td>
   </tr>
 </table>
+
 <br />
 
-# <h2 align="center" style="font-family: Montserrat; font-weight: 500; font-size: 24px">⚡ Stats ⚡</h2>
+<!--|||-->
+
+# <h2 align="center">⚡ Stats ⚡</h2>
+
+<!--|||-->
 
 <br>
-<p align=center>
-  <div align=center>
+
+<p align="center">
+  <div align="center">
     <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
       <img align="left" width=50% src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="kah3vich" />
     </a>
   </div>
-  <div align=right>
+  <div align="right">
     <a href="https://github.com/anuraghazra/github-readme-stats">
       <img width=45% align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
     </a>
@@ -454,4 +468,6 @@
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
 </p>
 
-<!-- sed -i '1s/^/text\n/' ./readme.md; git add .; git commit --amend --date='Wed  Nov 1 14:00 2022 +0100' --no-edit; git push -f; -->
+<!--|||-->
+
+<!-- for (let i = 1; i <= 1; i++) console.log(`sed -i '1s/^/${i}\\n/' ./readme.md; git add .; git commit --amend --date='Wed Dec ${i} 14:00 2022 +0100' --no-edit; git push -f;`) -->
