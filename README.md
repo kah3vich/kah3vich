@@ -1,3 +1,20 @@
+30
+30
+30
+30
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
 [![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/img/beloved.jpg)](https://github.com/kah3vich)
 
 <h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px"><img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
@@ -437,4 +454,4 @@
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
 </p>
 
-<!-- sed -i '1s/^/ text \n/' ./readme.md; git add .; git commit --amend --date='Wed  Nov 1 14:00 2022 +0100' --no-edit; git push -f; -->
+<!-- sed -i '1s/^/text\n/' ./readme.md; git add .; git commit --amend --date='Wed  Nov 1 14:00 2022 +0100' --no-edit; git push -f; -->
