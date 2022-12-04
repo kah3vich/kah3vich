@@ -4,17 +4,17 @@
 		"body": [
 			"import React from 'react'",
 			"",
-			"export interface I${1:$TM_FILENAME_BASE}Props {",
+			"export interface I${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}Props {",
 			"\tchildren: React.ReactNode;",
 			"}",
 			"",
-			"const _${1:$TM_FILENAME_BASE}: React.FC<I${1:$TM_FILENAME_BASE}Props> = props => {",
+			"const _${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}: React.FC<I${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}Props> = props => {",
 			"\tconst { children } = props",
 			"",
 			"\treturn <>{children}</>",
 			"}",
 			"",
-			"export const ${1:$TM_FILENAME_BASE} = React.memo(_${1:$TM_FILENAME_BASE})",
+			"export const ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}})",
 			"$0"
 		],
 		"description": "✅Snippet: Memo TypeScript Functional Component"

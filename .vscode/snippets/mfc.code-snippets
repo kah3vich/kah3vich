@@ -4,13 +4,13 @@
 		"body": [
 			"import React from 'react'",
 			"",
-			"const _${1:$TM_FILENAME_BASE} = props => {",
+			"const _${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} = props => {",
 			"\tconst { children } = props",
 			"",
 			"\treturn <>{children}</>",
 			"}",
 			"",
-			"export const ${1:$TM_FILENAME_BASE} = React.memo(_${1:$TM_FILENAME_BASE})",
+			"export const ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}})",
 			"$0"
 		],
 		"description": "✅Snippet: Memo Functional Component"
