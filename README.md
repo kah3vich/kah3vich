@@ -432,8 +432,20 @@
       <br>
       <p>Selenium</p>
     </td>
-    <td align="center"  width="96"></td>
-    <td align="center"  width="96"></td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/remix.svg" width="48" height="48" alt="RemixJS" />
+      </a>
+      <br>
+      <p>RemixJS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/grps.svg" width="48" height="48" alt="gRPS" />
+      </a>
+      <br>
+      <p>gRPS</p>
+    </td>
     <td align="center"  width="96"></td>
     <td align="center"  width="96"></td>
   </tr>
