@@ -479,7 +479,3 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
 </p>
-
-<!--|||-->
-
-<!-- for (let i = 1; i <= 1; i++) console.log(`sed -i '1s/^/${i}\\n/' ./readme.md; git add .; git commit --amend --date='Wed Dec ${i} 14:00 2022 +0100' --no-edit; git push -f;`) -->
