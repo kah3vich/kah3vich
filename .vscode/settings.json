@@ -13,7 +13,6 @@
 	"editor.minimap.enabled": true, // Мини-карта кода.
 	"editor.minimap.size": "fill", // Тип размера мини-карты.
 	"editor.detectIndentation": true, // Удаление всего Таба.
-	"editor.suggestSelection": "first", // Управляет предварительным выбором предложений при отображении списка предложений
 	"editor.scrollBeyondLastLine": true, // Позволяет прокручивать редактор дальше последний строки.
 	"editor.snippetSuggestions": "bottom", // Отображение кастомным сниппетов в самом верху.
 	"editor.multiCursorModifier": "alt", // Включение мультикурсора на кнопке Фдею
@@ -25,6 +24,7 @@
 	"editor.formatOnType": false, // Определяет, должен ли редактор автоматически форматировать строку после ввода.
 	"editor.formatOnSaveMode": "file", // Определяет, форматирует ли формат при сохранении весь файл или только его модификации. Применяется только тогда, когда включен `editor.formatOnSave`.
 	"editor.defaultFormatter": "esbenp.prettier-vscode", // Установка дефолтного расширения для vscode.
+	"vetur.format.defaultFormatter.js": "prettier-eslint", // размер персонажа
 	"editor.codeActionsOnSave": {
 		// Действия при сохранение файла.
 
@@ -149,19 +149,6 @@
 	"cSpell.enabled": true, // Включить в определенных языка.
 	"cSpell.enableFiletypes": ["jsx", "js", "css", "scss", "pug", "html", "php"], // Список типов языков.
 
-	//! LiveSass
-
-	"liveSassCompile.settings.generateMap": false, // Генерация карты.
-	"liveSassCompile.settings.formats": [
-		// Настройки форматирования.
-		{
-			"format": "expanded", // Тип форматирования.
-			"autoprefix": "last 5 versions", // Версии браузеров.
-			"extensionName": ".css", // Название файлов генерации.
-			"savePath": "css" // Название папки для генерации.
-		}
-	],
-
 	//! Better
 
 	"better-comments.tags": [
@@ -248,5 +235,6 @@
 	"vscode-pets.theme": "forest", // тема заднего фона
 	"vscode-pets.position": "explorer", // расположение анимации
 	"vscode-pets.petType": "totoro", // тип персонажа
-	"vscode-pets.petSize": "nano" // размер персонажа
+	"vscode-pets.petSize": "nano",
+	"eslint.format.enable": true
 }
