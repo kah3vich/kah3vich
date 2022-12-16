@@ -446,7 +446,13 @@
       <br>
       <p>gRPS</p>
     </td>
-    <td align="center"  width="96"></td>
+      <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/nanostore.svg" width="48" height="48" alt="NanoStore" />
+      </a>
+      <br>
+      <p>NanoStore</p>
+    </td>
     <td align="center"  width="96"></td>
   </tr>
 </table>
