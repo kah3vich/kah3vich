@@ -4,10 +4,8 @@
 		"body": [
 			"import React from 'react'",
 			"",
-			"const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = props => {",
-			"\tconst { children } = props",
-			"",
-			"\treturn <>{children}</>",
+			"const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ title }) => {",
+			"\treturn <>{title}</>",
 			"}",
 			"",
 			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}})",

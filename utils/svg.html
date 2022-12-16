@@ -1,0 +1,11 @@
+<div is="svg"></div>
+<script>
+	console.log(
+		document
+			.getElementById('svg')
+			.outerHTML.replace(/[\r\n\t]+| ^ +| +$|( ) +/g, '')
+			.replace('<div id="svg">', '')
+			.replace('</div>', '')
+			.trim(),
+	);
+</script>
