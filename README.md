@@ -1,8 +1,8 @@
 <br />
 
-<div class="image__container">
-  <img class="image__main" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
-  <img class="image__hover" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/hover.jpg"/>
+<div id=image__container>
+  <img id=image__main src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
+  <img id=image__hover src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/hover.jpg"/>
 </div>
 
 <br />
@@ -494,13 +494,13 @@
 
 <style>
 
-.image__container {
+#image__container {
   width: 100%; 
   height: 250px; 
   position: relative;
 }
 
-.image__main {
+#image__main {
   width: 100%; 
   height: 100%; 
   object-fit: cover; 
@@ -511,12 +511,12 @@
   transition: all 0.5s ease;
 }
 
-.image__main:hover {
+#image__main:hover {
   opacity: 0;
   transition: all 0.5s ease;
 }
 
-.image__hover {
+#image__hover {
   width: 100%; 
   height: 100%; 
   object-fit: cover; 
