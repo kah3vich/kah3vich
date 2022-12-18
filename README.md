@@ -1,6 +1,6 @@
 <br />
 
-<img style="width: 100%; height: 100%" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/_.svg"/>
+<img style="width: 100%; height: 250px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
 
 <br />
 <!--|||-->
@@ -488,39 +488,3 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
 </p>
-
-<style>
-
-#image__container {
-  width: 100%; 
-  height: 250px; 
-  position: relative;
-}
-
-#image__main {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
-  position: absolute; 
-  z-index: 2; 
-  top: 0; 
-  left: 0; 
-  transition: all 0.5s ease;
-}
-
-#image__main:hover {
-  opacity: 0;
-  transition: all 0.5s ease;
-}
-
-#image__hover {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
-  position: absolute; 
-  z-index: 1; 
-  top: 0; 
-  left: 0; 
-}
-
-</style>
