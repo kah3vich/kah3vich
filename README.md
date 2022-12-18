@@ -1,4 +1,47 @@
-[![Header](https://github.com/kah3vich/kah3vich/blob/main/assets/img/beloved.jpg)](https://github.com/kah3vich)
+<style>
+
+.image__container {
+  width: 100%; 
+  height: 250px; 
+  position: relative;
+}
+
+.image__main {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  position: absolute; 
+  z-index: 2; 
+  top: 0; 
+  left: 0; 
+  transition: all 0.5s ease;
+}
+
+.image__main:hover {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.image__hover {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  position: absolute; 
+  z-index: 1; 
+  top: 0; 
+  left: 0; 
+}
+
+</style>
+
+<br />
+
+<div class="image__container">
+  <img class="image__main" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
+  <img class="image__hover" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/hover.jpg"/>
+</div>
+
+<br />
 
 <!--|||-->
 
