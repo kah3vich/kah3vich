@@ -1,6 +1,6 @@
 <br />
 
-<img style="width: 100%; height: 230px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
+<img style="width: 100%; height: 210px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
 
 <br />
 <!--|||-->
