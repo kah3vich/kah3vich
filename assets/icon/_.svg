@@ -34,10 +34,10 @@
 </style>
     <defs>
         <pattern class="image__size" id="image" patternUnits="userSpaceOnUse" width="100%" height="290px">
-            <image  class="image__size" href="../img/hover.png" width="100%" height="290px" />
+            <image  class="image__size" href="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/hover.png" width="100%" height="290px" />
         </pattern>
         <pattern class="image__size" id="image__hover" patternUnits="userSpaceOnUse" width="100%" height="290px">
-            <image class="image__size" href="../img/beloved.jpg" width="100%" height="290px" />
+            <image class="image__size" href="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg" width="100%" height="290px" />
         </pattern>
     </defs>
     <g class="image__container">
