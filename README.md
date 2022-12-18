@@ -1,8 +1,21 @@
 <br />
 
-<div id=image__container>
-  <img id=image__main src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
-  <img id=image__hover src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/hover.jpg"/>
+<div style="width: 100%; height: 250px; position: relative;">
+  <img style="  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  position: absolute; 
+  z-index: 2; 
+  top: 0; 
+  left: 0; 
+  transition: all 0.5s ease;" onmouseover="this.style.opacity='0'" onmouseout="this.style.opacity='1'" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
+  <img style="  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  position: absolute; 
+  z-index: 1; 
+  top: 0; 
+  left: 0; " src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/hover.jpg"/>
 </div>
 
 <br />
