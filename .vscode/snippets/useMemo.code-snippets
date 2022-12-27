@@ -1,7 +1,0 @@
-{
-	"✅Snippet: React Hook useMemo - memosations of meaning": {
-		"prefix": "useMemo",
-		"body": ["useMemo(() => ${1:code}, [${2:addiction}])", "$0"],
-		"description": "✅Snippet: React Hook useMemo - memosations of meaning"
-	}
-}

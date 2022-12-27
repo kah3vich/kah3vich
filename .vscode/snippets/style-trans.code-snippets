@@ -1,7 +1,0 @@
-{
-	"✅Snippet: Style Transition": {
-		"prefix": "style-trans",
-		"body": ["transition: all 0.5s ease;", "$0"],
-		"description": "✅Snippet: Style Transition"
-	}
-}

@@ -1,7 +1,0 @@
-{
-	"✅Snippet: setTimeout": {
-		"prefix": "settime",
-		"body": ["setTimeout(() => {", "\t${2:code}", "}, ${1:timeout});", "$0"],
-		"description": "✅Snippet: setTimeout"
-	}
-}
