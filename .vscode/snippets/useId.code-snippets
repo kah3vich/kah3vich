@@ -1,7 +1,0 @@
-{
-	"✅Snippet: React Hook useId": {
-		"prefix": "useId",
-		"body": ["const id${1:Name} = useId()", "$0"],
-		"description": "✅Snippet: React Hook useId"
-	}
-}
