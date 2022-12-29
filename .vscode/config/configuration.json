@@ -1,0 +1,144 @@
+{
+	//! ✅ Default Configuration Overrides
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the csharp language.
+	"[csharp]": {
+		"editor.maxTokenizationLineLength": 2500
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the css language.
+	"[css]": {
+		"editor.suggest.insertMode": "replace"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the dockercompose language.
+	"[dockercompose]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "advanced"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the dockerfile language.
+	"[dockerfile]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		}
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the git-commit language.
+	"[git-commit]": {
+		"editor.rulers": [72],
+		"workbench.editor.restoreViewState": false
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the git-rebase language.
+	"[git-rebase]": {
+		"workbench.editor.restoreViewState": false
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the go language.
+	"[go]": {
+		"editor.insertSpaces": false
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the handlebars language.
+	"[handlebars]": {
+		"editor.suggest.insertMode": "replace"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the html language.
+	"[html]": {
+		"editor.suggest.insertMode": "replace"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the javascript language.
+	"[javascript]": {
+		"editor.maxTokenizationLineLength": 2500
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the json language.
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the jsonc language.
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the less language.
+	"[less]": {
+		"editor.suggest.insertMode": "replace"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the makefile language.
+	"[makefile]": {
+		"editor.insertSpaces": false
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the markdown language.
+	"[markdown]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		}
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the plaintext language.
+	"[plaintext]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the scss language.
+	"[scss]": {
+		"editor.suggest.insertMode": "replace"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the search-result language.
+	"[search-result]": {
+		"editor.lineNumbers": "off"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the shellscript language.
+	"[shellscript]": {
+		"files.eol": "\n"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure settings to be overridden for the yaml language.
+	"[yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "advanced"
+	}
+}

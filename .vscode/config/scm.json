@@ -1,0 +1,78 @@
+{
+	//! ✅ SCM
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether inline actions are always visible in the Source Control view.
+	"scm.alwaysShowActions": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether repositories should always be visible in the Source Control view.
+	"scm.alwaysShowRepositories": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Source Control view should automatically reveal and select files when opening them.
+	"scm.autoReveal": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the count badge on the Source Control icon on the Activity Bar.
+	"scm.countBadge": "all",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the default Source Control repository view mode.
+	"scm.defaultViewMode": "list",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the default Source Control repository changes sort order when viewed as a list.
+	"scm.defaultViewSortKey": "path",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls diff decorations in the editor.
+	"scm.diffDecorations": "all",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the behavior of Source Control diff gutter decorations.
+	"scm.diffDecorationsGutterAction": "diff",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a pattern is used for the diff decorations in gutter.
+	"scm.diffDecorationsGutterPattern": {
+		"added": false,
+		"modified": true
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the visibility of the Source Control diff decorator in the gutter.
+	"scm.diffDecorationsGutterVisibility": "always",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the width(px) of diff decorations in gutter (added & modified).
+	"scm.diffDecorationsGutterWidth": 3,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether leading and trailing whitespace is ignored in Source Control diff gutter decorations.
+	"scm.diffDecorationsIgnoreTrimWhitespace": "false",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the font for the input message. Use `default` for the workbench user interface font family, `editor` for the `editor.fontFamily`'s value, or a custom font family.
+	"scm.inputFontFamily": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the font size for the input message in pixels.
+	"scm.inputFontSize": 13,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the count badges on Source Control Provider headers. These headers only appear when there is more than one provider.
+	"scm.providerCountBadge": "hidden",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the sort order of the repositories in the source control repositories view.
+	"scm.repositories.sortOrder": "discovery time",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how many repositories are visible in the Source Control Repositories section. Set to 0, to be able to manually resize the view.
+	"scm.repositories.visible": 10,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether an action button can be shown in the Source Control view.
+	"scm.showActionButton": true
+}

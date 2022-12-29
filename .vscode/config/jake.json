@@ -1,0 +1,7 @@
+{
+	//! ✅ Jake
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls enablement of Jake task detection. Jake task detection can cause files in any open workspace to be executed.
+	"jake.autoDetect": "off"
+}

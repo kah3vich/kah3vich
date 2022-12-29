@@ -1,0 +1,337 @@
+{
+	//! ✅ Git
+
+	//* 💡 ru - Подтвердите перед синхронизацией репозиториев git.
+	//* 💡 en - Confirm before syncing git repositories.
+	"git.confirmSync": false,
+
+	//Git
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether force push (with or without lease) is enabled.
+	"git.allowForcePush": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether commits without running pre-commit and commit-msg hooks are allowed.
+	"git.allowNoVerifyCommit": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Always show the Staged Changes resource group.
+	"git.alwaysShowStagedChangesResourceGroup": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the signoff flag for all commits.
+	"git.alwaysSignOff": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - When set to true, commits will automatically be fetched from the default remote of the current Git repository. Setting to `all` will fetch from all remotes.
+	"git.autofetch": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Duration in seconds between each automatic git fetch, when `git.autofetch` is enabled.
+	"git.autofetchPeriod": 180,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether auto refreshing is enabled.
+	"git.autorefresh": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configures when repositories should be automatically detected.
+	"git.autoRepositoryDetection": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Stash any changes before pulling and restore them after successful pull.
+	"git.autoStash": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Prefix used when creating a new branch.
+	"git.branchPrefix": "",
+
+	//* 💡 ru - бета
+	//* 💡 en - List of protected branches. By default, a prompt is shown before changes are committed to a protected branch. The prompt can be controlled using the `git.branchProtectionPrompt`  setting.
+	"git.branchProtection": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a prompt is being shown before changes are committed to a protected branch.
+	"git.branchProtectionPrompt": "alwaysPrompt",
+
+	//* 💡 ru - бета
+	//* 💡 en - List of dictionaries used for the randomly generated branch name. Each value represents the dictionary used to generate the segment of the branch name. Supported dictionaries: `adjectives`, `animals`, `colors` and `numbers`.
+	"git.branchRandomName.dictionary": ["adjectives", "animals"],
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a random name is generated when creating a new branch.
+	"git.branchRandomName.enable": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the sort order for branches.
+	"git.branchSortOrder": "committerdate",
+
+	//* 💡 ru - бета
+	//* 💡 en - A regular expression to validate new branch names.
+	"git.branchValidationRegex": "",
+
+	//* 💡 ru - бета
+	//* 💡 en - The character to replace whitespace in new branch names, and to separate segments of a randomly generated branch name.
+	"git.branchWhitespaceChar": "-",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls what type of git refs are listed when running `Checkout to...`.
+	"git.checkoutType": ["local", "remote", "tags"],
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the diff editor should be automatically closed when changes are stashed, committed, discarded, staged, or unstaged.
+	"git.closeDiffOnOperation": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - List of git commands (ex: commit, push) that would have their `stdout` logged to the git output. If the git command has a client-side hook configured, the client-side hook's `stdout` will also be logged to the git output.
+	"git.commandsToLog": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Always confirm the creation of empty commits for the 'Git: Commit Empty' command.
+	"git.confirmEmptyCommits": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to ask for confirmation before force-pushing.
+	"git.confirmForcePush": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to ask for confirmation before committing without verification.
+	"git.confirmNoVerifyCommit": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the Git count badge.
+	"git.countBadge": "all",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether Git contributes colors and badges to the Explorer and the Open Editors view.
+	"git.decorations.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - The default location to clone a git repository.
+	"git.defaultCloneDirectory": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to automatically detect git submodules.
+	"git.detectSubmodules": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the limit of git submodules detected.
+	"git.detectSubmodulesLimit": 10,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enables commit signing with GPG or X.509.
+	"git.enableCommitSigning": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether git is enabled.
+	"git.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Commit all changes when there are no staged changes.
+	"git.enableSmartCommit": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Git Sync command appears in the status bar.
+	"git.enableStatusBarSync": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, fetch all branches when pulling. Otherwise, fetch just the current one.
+	"git.fetchOnPull": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Follow push all tags when running the sync command.
+	"git.followTagsWhenSync": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - List of git repositories to ignore.
+	"git.ignoredRepositories": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Ignores the legacy Git warning.
+	"git.ignoreLegacyWarning": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Ignores the warning when there are too many changes in a repository.
+	"git.ignoreLimitWarning": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Ignores the warning when Git is missing.
+	"git.ignoreMissingGitWarning": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Ignores the warning when it looks like the branch might have been rebased when pulling.
+	"git.ignoreRebaseWarning": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Ignore modifications to submodules in the file tree.
+	"git.ignoreSubmodules": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Ignores the warning when Git 2.25 - 2.26 is installed on Windows.
+	"git.ignoreWindowsGit27Warning": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls when to show commit message input validation.
+	"git.inputValidation": "warn",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the commit message length threshold for showing a warning.
+	"git.inputValidationLength": 72,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the commit message subject length threshold for showing a warning. Unset it to inherit the value of `config.inputValidationLength`.
+	"git.inputValidationSubjectLength": 50,
+
+	//* 💡 ru - бета
+	//* 💡 en - Open the merge editor for files that are currently under conflict.
+	"git.mergeEditor": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to open a repository automatically after cloning.
+	"git.openAfterClone": "prompt",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the diff editor should be opened when clicking a change. Otherwise the regular editor will be opened.
+	"git.openDiffOnClick": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to optimistically update the state of the Source Control view after running git commands.
+	"git.optimisticUpdate": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Path and filename of the git executable, e.g. `C:\Program Files\Git\bin\git.exe` (Windows). This can also be an array of string values containing multiple paths to look up.
+	"git.path": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Run a git command after a successful commit.
+	"git.postCommitCommand": "none",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether Git should check for unsaved files before committing.
+	"git.promptToSaveFilesBeforeCommit": "always",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether Git should check for unsaved files before stashing changes.
+	"git.promptToSaveFilesBeforeStash": "always",
+
+	//* 💡 ru - бета
+	//* 💡 en - Prune when fetching.
+	"git.pruneOnFetch": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a branch that does not have outgoing commits is fast-forwarded before it is checked out.
+	"git.pullBeforeCheckout": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Fetch all tags when pulling.
+	"git.pullTags": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Force git to use rebase when running the sync command.
+	"git.rebaseWhenSync": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Remember the last git command that ran after a commit.
+	"git.rememberPostCommitCommand": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - List of folders that are ignored while scanning for Git repositories when `git.autoRepositoryDetection` is set to `true` or `subFolders`.
+	"git.repositoryScanIgnoredFolders": ["node_modules"],
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the depth used when scanning workspace folders for Git repositories when `git.autoRepositoryDetection` is set to `true` or `subFolders`. Can be set to `-1` for no limit.
+	"git.repositoryScanMaxDepth": 1,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to require explicit Git user configuration or allow Git to guess if missing.
+	"git.requireGitUserConfig": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - List of paths to search for git repositories in.
+	"git.scanRepositories": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether an action button is shown in the Source Control view.
+	"git.showActionButton": {
+		"commit": true,
+		"publish": true,
+		"sync": true
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show the commit input in the Git source control panel.
+	"git.showCommitInput": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show an inline Open File action in the Git changes view.
+	"git.showInlineOpenFileAction": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether git actions should show progress.
+	"git.showProgress": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show a notification when a push is successful.
+	"git.showPushSuccessNotification": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Control which changes are automatically staged by Smart Commit.
+	"git.smartCommitChanges": "all",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how to limit the number of changes that can be parsed from Git status command. Can be set to 0 for no limit.
+	"git.statusLimit": 10000,
+
+	//* 💡 ru - бета
+	//* 💡 en - Suggests to enable smart commit (commit all changes when there are no staged changes).
+	"git.suggestSmartCommit": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a notification comes up when running the Sync action, which allows the user to cancel the operation.
+	"git.supportCancellation": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to enable VS Code to be the authentication handler for Git processes spawned in the Integrated Terminal. Note: Terminals need to be restarted to pick up a change in this setting.
+	"git.terminalAuthentication": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to enable VS Code to be the Git editor for Git processes spawned in the integrated terminal. Note: Terminals need to be restarted to pick up a change in this setting.
+	"git.terminalGitEditor": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls which date to use for items in the Timeline view.
+	"git.timeline.date": "committed",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show the commit author in the Timeline view.
+	"git.timeline.showAuthor": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show uncommitted changes in the Timeline view.
+	"git.timeline.showUncommitted": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how untracked changes behave.
+	"git.untrackedChanges": "mixed",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to use the message from the commit input box as the default stash message.
+	"git.useCommitInputAsStashMessage": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a full text editor will be used to author commit messages, whenever no message is provided in the commit input box.
+	"git.useEditorAsCommitInput": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether force pushing uses the safer force-with-lease variant.
+	"git.useForcePushWithLease": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether GIT_ASKPASS should be overwritten to use the integrated version.
+	"git.useIntegratedAskPass": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable verbose output when `git.useEditorAsCommitInput` is enabled.
+	"git.verboseCommit": false
+}

@@ -1,0 +1,31 @@
+{
+	//! ✅ Extensions
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, automatically checks extensions for updates. If an extension has an update, it is marked as outdated in the Extensions view. The updates are fetched from a Microsoft online service.
+	"extensions.autoCheckUpdates": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the automatic update behavior of extensions. The updates are fetched from a Microsoft online service.
+	"extensions.autoUpdate": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, editors with extension details will be automatically closed upon navigating away from the Extensions View.
+	"extensions.closeExtensionDetailsOnViewChange": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - When an extension is listed here, a confirmation prompt will not be shown when that extension handles a URI.
+	"extensions.confirmedUriHandlerExtensionIds": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, the notifications for extension recommendations will not be shown.
+	"extensions.ignoreRecommendations": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Override the untrusted workspace support of an extension. Extensions using `true` will always be enabled. Extensions using `limited` will always be enabled, and the extension will hide functionality that requires trust. Extensions using `false` will only be enabled only when the workspace is trusted.
+	"extensions.supportUntrustedWorkspaces": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Override the virtual workspaces support of an extension.
+	"extensions.supportVirtualWorkspaces": {}
+}

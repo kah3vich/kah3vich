@@ -1,0 +1,7 @@
+{
+	//! ✅ Gulp
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls enablement of Gulp task detection. Gulp task detection can cause files in any open workspace to be executed.
+	"gulp.autoDetect": "off"
+}

@@ -1,0 +1,95 @@
+{
+	//! ✅ HTML
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable autoclosing of HTML tags.
+	"html.autoClosingTags": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable auto creation of quotes for HTML attribute assignment. The type of quotes can be configured by `html.completion.attributeDefaultValue`.
+	"html.autoCreateQuotes": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the default value for attributes when completion is accepted.
+	"html.completion.attributeDefaultValue": "doublequotes",
+
+	//* 💡 ru - бета
+	//* 💡 en - A list of relative file paths pointing to JSON files following the custom data format.
+	"html.customData": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - List of tags, comma separated, where the content shouldn't be reformatted. `null` defaults to the `pre` tag.
+	"html.format.contentUnformatted": "pre,code,textarea",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable default HTML formatter.
+	"html.format.enable": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - List of tags, comma separated, that should have an extra newline before them. `null` defaults to `"head, body, /html"`.
+	"html.format.extraLiners": "head, body, /html",
+
+	//* 💡 ru - бета
+	//* 💡 en - Format and indent ``.
+	"html.format.indentHandlebars": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Indent `<head>` and `<body>` sections.
+	"html.format.indentInnerHtml": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Maximum number of line breaks to be preserved in one chunk. Use `null` for unlimited.
+	"html.format.maxPreserveNewLines": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether existing line breaks before elements should be preserved. Only works before elements, not inside tags or for text.
+	"html.format.preserveNewLines": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Honor django, erb, handlebars and php templating language tags.
+	"html.format.templating": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - List of tags, comma separated, that shouldn't be reformatted.
+	"html.format.unformatted": "wbr",
+
+	//* 💡 ru - бета
+	//* 💡 en - Keep text content together between this string.
+	"html.format.unformattedContentDelimiter": "",
+
+	//* 💡 ru - бета
+	//* 💡 en - Wrap attributes.
+	"html.format.wrapAttributes": "auto",
+
+	//* 💡 ru - бета
+	//* 💡 en - Indent wrapped attributes to after N characters. Use `null` to use the default indent size. Ignored if `html.format.wrapAttributes` is set to 'aligned'.
+	"html.format.wrapAttributesIndentSize": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Maximum amount of characters per line (0 = disable).
+	"html.format.wrapLineLength": 120,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show tag and attribute documentation in hover.
+	"html.hover.documentation": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show references to MDN in hover.
+	"html.hover.references": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the built-in HTML language support suggests HTML5 tags, properties and values.
+	"html.suggest.html5": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Traces the communication between VS Code and the HTML language server.
+	"html.trace.server": "off",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the built-in HTML language support validates embedded scripts.
+	"html.validate.scripts": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the built-in HTML language support validates embedded styles.
+	"html.validate.styles": true
+}

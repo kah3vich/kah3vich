@@ -1,0 +1,31 @@
+{
+	//! ✅ JSON
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable default JSON formatter
+	"json.format.enable": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Keep all existing new lines when formatting.
+	"json.format.keepLines": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - The maximum number of outline symbols and folding regions computed (limited for performance reasons).
+	"json.maxItemsComputed": 5000,
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, JSON schemas can be fetched from http and https locations.
+	"json.schemaDownload.enable": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Associate schemas to JSON files in the current project.
+	"json.schemas": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Traces the communication between VS Code and the JSON language server.
+	"json.trace.server": "off",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable JSON validation.
+	"json.validate.enable": true
+}

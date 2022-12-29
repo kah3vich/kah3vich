@@ -1,0 +1,43 @@
+{
+	//! ✅ Testing
+
+	//* 💡 ru - бета
+	//* 💡 en - Always reveal the executed test when `testing.followRunningTest` is on. If this setting is turned off, only failed tests will be revealed.
+	"testing.alwaysRevealTestOnStateChange": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configures when the error Peek view is automatically opened.
+	"testing.automaticallyOpenPeekView": "failureInVisibleDocument",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to automatically open the Peek view during auto-run mode.
+	"testing.automaticallyOpenPeekViewDuringAutoRun": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - How long to wait, in milliseconds, after a test is marked as outdated and starting a new run.
+	"testing.autoRun.delay": 1000,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls which tests are automatically run.
+	"testing.autoRun.mode": "all",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the action to take when left-clicking on a test decoration in the gutter.
+	"testing.defaultGutterClickAction": "run",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the running test should be followed in the Test Explorer view.
+	"testing.followRunningTest": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether test decorations are shown in the editor gutter.
+	"testing.gutterEnabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls when the testing view should open.
+	"testing.openTesting": "openOnTestStart",
+
+	//* 💡 ru - бета
+	//* 💡 en - Control whether save all dirty editors before running a test.
+	"testing.saveBeforeTest": true
+}

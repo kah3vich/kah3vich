@@ -1,0 +1,7 @@
+{
+	//! ✅ References Search View
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether 'Peek References' or 'Find References' is invoked when selecting CodeLens references.
+	"references.preferredLocation": "peek"
+}

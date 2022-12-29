@@ -1,0 +1,131 @@
+{
+	//! ✅ SCSS (Sass)
+
+	//* 💡 ru - бета
+	//* 💡 en - Insert semicolon at end of line when completing CSS properties.
+	"scss.completion.completePropertyWithSemicolon": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
+	"scss.completion.triggerPropertyValueCompletion": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
+	"scss.format.braceStyle": "collapse",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable default SCSS formatter.
+	"scss.format.enable": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Maximum number of line breaks to be preserved in one chunk, when `scss.format.preserveNewLines` is enabled.
+	"scss.format.maxPreserveNewLines": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Separate rulesets by a blank line.
+	"scss.format.newlineBetweenRules": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Separate selectors with a new line.
+	"scss.format.newlineBetweenSelectors": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether existing line breaks before elements should be preserved.
+	"scss.format.preserveNewLines": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
+	"scss.format.spaceAroundSelectorSeparator": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show tag and attribute documentation in SCSS hovers.
+	"scss.hover.documentation": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show references to MDN in SCSS hovers.
+	"scss.hover.references": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Invalid number of parameters.
+	"scss.lint.argumentsInColorFunction": "error",
+
+	//* 💡 ru - бета
+	//* 💡 en - Do not use `width` or `height` when using `padding` or `border`.
+	"scss.lint.boxModel": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
+	"scss.lint.compatibleVendorPrefixes": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Do not use duplicate style definitions.
+	"scss.lint.duplicateProperties": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Do not use empty rulesets.
+	"scss.lint.emptyRules": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+	"scss.lint.float": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - `@font-face` rule must define `src` and `font-family` properties.
+	"scss.lint.fontFaceProperties": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Hex colors must consist of three or six hex numbers.
+	"scss.lint.hexColorLength": "error",
+
+	//* 💡 ru - бета
+	//* 💡 en - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+	"scss.lint.idSelector": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - IE hacks are only necessary when supporting IE7 and older.
+	"scss.lint.ieHack": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+	"scss.lint.important": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Import statements do not load in parallel.
+	"scss.lint.importStatement": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
+	"scss.lint.propertyIgnoredDueToDisplay": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - The universal selector (`*`) is known to be slow.
+	"scss.lint.universalSelector": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Unknown at-rule.
+	"scss.lint.unknownAtRules": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Unknown property.
+	"scss.lint.unknownProperties": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Unknown vendor specific property.
+	"scss.lint.unknownVendorSpecificProperties": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - A list of properties that are not validated against the `unknownProperties` rule.
+	"scss.lint.validProperties": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - When using a vendor-specific prefix, also include the standard property.
+	"scss.lint.vendorPrefix": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - No unit for zero needed.
+	"scss.lint.zeroUnits": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enables or disables all validations.
+	"scss.validate": true
+}

@@ -1,0 +1,41 @@
+{
+	//! ✅ Remote
+
+	//* 💡 ru - бета
+	//* 💡 en - The name under which the remote tunnel access is registered. If not set, the host name is used.
+	"remote.tunnels.access.hostNameOverride": "",
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, new running processes are detected and ports that they listen on are automatically forwarded. Disabling this setting will not prevent all ports from being forwarded. Even when disabled, extensions will still be able to cause ports to be forwarded, and opening some URLs will still cause ports to forwarded.
+	"remote.autoForwardPorts": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Sets the source from which ports are automatically forwarded when `remote.autoForwardPorts` is true. On Windows and Mac remotes, the `process` option has no effect and `output` will be used. Requires a reload to take effect.
+	"remote.autoForwardPortsSource": "process",
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled extensions are downloaded locally and installed on remote.
+	"remote.downloadExtensionsLocally": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Override the kind of an extension. `ui` extensions are installed and run on the local machine while `workspace` extensions are run on the remote. By overriding an extension's default kind using this setting, you specify if that extension should be installed and enabled locally or remotely.
+	"remote.extensionKind": {
+		"pub.name": ["ui"]
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Specifies the local host name that will be used for port forwarding.
+	"remote.localPortHost": "localhost",
+
+	//* 💡 ru - бета
+	//* 💡 en - Set default properties that are applied to all ports that don't get properties from the setting `remote.portsAttributes`.
+	"remote.otherPortsAttributes": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Set properties that are applied when a specific port number is forwarded.
+	"remote.portsAttributes": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Restores the ports you forwarded in a workspace.
+	"remote.restoreForwardedPorts": true
+}

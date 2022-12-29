@@ -1,0 +1,31 @@
+{
+	//! ✅ Screencast Mode
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the font size (in pixels) of the screencast mode keyboard.
+	"screencastMode.fontSize": 56,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how long (in milliseconds) the keyboard overlay is shown in screencast mode.
+	"screencastMode.keyboardOverlayTimeout": 800,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls what is displayed in the keyboard overlay when showing shortcuts.
+	"screencastMode.keyboardShortcutsFormat": "commandAndKeys",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the color in hex (#_RGB, #RGBA, #RRGGBB or #RRGGBBAA) of the mouse indicator in screencast mode.
+	"screencastMode.mouseIndicatorColor": "#FF0000",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the size (in pixels) of the mouse indicator in screencast mode.
+	"screencastMode.mouseIndicatorSize": 20,
+
+	//* 💡 ru - бета
+	//* 💡 en - Only show keyboard shortcuts in screencast mode.
+	"screencastMode.onlyKeyboardShortcuts": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the vertical offset of the screencast mode overlay from the bottom as a percentage of the workbench height.
+	"screencastMode.verticalOffset": 20
+}

@@ -1,0 +1,35 @@
+{
+	//! ✅ Zen Mode
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether turning on Zen Mode also centers the layout.
+	"zenMode.centerLayout": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether turning on Zen Mode also puts the workbench into full screen mode.
+	"zenMode.fullScreen": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether turning on Zen Mode also hides the activity bar either at the left or right of the workbench.
+	"zenMode.hideActivityBar": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether turning on Zen Mode also hides the editor line numbers.
+	"zenMode.hideLineNumbers": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether turning on Zen Mode also hides the status bar at the bottom of the workbench.
+	"zenMode.hideStatusBar": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether turning on Zen Mode also hides workbench tabs.
+	"zenMode.hideTabs": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a window should restore to Zen Mode if it was exited in Zen Mode.
+	"zenMode.restore": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether notifications do not disturb mode should be enabled while in Zen Mode. If true, only error notifications will pop out.
+	"zenMode.silentNotifications": true
+}

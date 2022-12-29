@@ -1,0 +1,15 @@
+{
+	//! ✅ Update
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable to download and install new VS Code versions in the background on Windows.
+	"update.enableWindowsBackgroundUpdates": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.
+	"update.mode": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Show Release Notes after an update. The Release Notes are fetched from a Microsoft online service.
+	"update.showReleaseNotes": true
+}

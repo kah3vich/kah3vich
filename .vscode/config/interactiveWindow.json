@@ -1,0 +1,11 @@
+{
+	//! ✅ Interactive Window
+
+	//* 💡 ru - бета
+	//* 💡 en - Automatically scroll the interactive window to show the output of the last statement executed. If this value is false, the window will only scroll if the last cell was already the one scrolled to.
+	"interactiveWindow.alwaysScrollOnNewCell": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Interactive Window sessions/history should be restored across window reloads.
+	"interactiveWindow.restore": false
+}

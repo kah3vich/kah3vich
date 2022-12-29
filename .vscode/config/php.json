@@ -1,0 +1,19 @@
+{
+	//! ✅ PHP
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the built-in PHP language suggestions are enabled. The support suggests PHP globals and variables.
+	"php.suggest.basic": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable built-in PHP validation.
+	"php.validate.enable": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Points to the PHP executable.
+	"php.validate.executablePath": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether the linter is run on save or on type.
+	"php.validate.run": "onSave"
+}

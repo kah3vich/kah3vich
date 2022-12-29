@@ -1,0 +1,19 @@
+{
+	//! ✅ Сhecker Spell
+
+	//* 💡 ru - Виды языков.
+	//* 💡 en - Types of languages.
+	"cSpell.language": "en,ru",
+
+	//* 💡 ru - Список слов исключения.
+	//* 💡 en - Exception word list.
+	"cSpell.userWords": [],
+
+	//* 💡 ru - Включить в определенных языка.
+	//* 💡 en - Enable in certain languages.
+	"cSpell.enabled": true,
+
+	//* 💡 ru - Список расширений файлов, в которых будет работать cSpell.
+	//* 💡 en - List of file extensions in which cSpell.
+	"cSpell.enableFiletypes": ["jsx", "js", "css", "scss", "pug", "html", "php"]
+}

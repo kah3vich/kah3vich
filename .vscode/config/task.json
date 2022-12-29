@@ -1,0 +1,47 @@
+{
+	//! ✅ Tasks
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable automatic tasks.
+	"task.allowAutomaticTasks": "on",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls enablement of `provideTasks` for all task provider extension. If the Tasks: Run Task command is slow, disabling auto detect for task providers may help. Individual extensions may also provide settings that disable auto detection.
+	"task.autoDetect": "on",
+
+	//* 💡 ru - бета
+	//* 💡 en - Configures whether to show the problem matcher prompt when running a task. Set to `true` to never prompt, or use a dictionary of task types to turn off prompting only for specific task types.
+	"task.problemMatchers.neverPrompt": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show the task detail for tasks that have a detail in task quick picks, such as Run Task.
+	"task.quickOpen.detail": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the number of recent items tracked in task quick open dialog.
+	"task.quickOpen.history": 30,
+
+	//* 💡 ru - бета
+	//* 💡 en - Causes the Tasks: Run Task command to use the slower "show all" behavior instead of the faster two level picker where tasks are grouped by provider.
+	"task.quickOpen.showAll": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the task quick pick is skipped when there is only one task to pick from.
+	"task.quickOpen.skip": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - On window reload, reconnect to tasks that have problem matchers.
+	"task.reconnection": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Save all dirty editors before running a task.
+	"task.saveBeforeRun": "always",
+
+	//* 💡 ru - бета
+	//* 💡 en - Shows decorations at points of interest in the terminal buffer such as the first problem found via a watch task.
+	"task.showDecorations": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configures whether a warning is shown when a provider is slow
+	"task.slowProviderWarning": true
+}

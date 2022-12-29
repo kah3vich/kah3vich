@@ -1,0 +1,139 @@
+{
+	//! ✅ CSS
+
+	//* 💡 ru - бета
+	//* 💡 en - Insert semicolon at end of line when completing CSS properties.
+	"css.completion.completePropertyWithSemicolon": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
+	"css.completion.triggerPropertyValueCompletion": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - A list of relative file paths pointing to JSON files following the custom data format.
+	"css.customData": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
+	"css.format.braceStyle": "collapse",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable/disable default CSS formatter.
+	"css.format.enable": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Maximum number of line breaks to be preserved in one chunk, when `css.format.preserveNewLines` is enabled.
+	"css.format.maxPreserveNewLines": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Separate rulesets by a blank line.
+	"css.format.newlineBetweenRules": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Separate selectors with a new line.
+	"css.format.newlineBetweenSelectors": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether existing line breaks before elements should be preserved.
+	"css.format.preserveNewLines": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
+	"css.format.spaceAroundSelectorSeparator": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show tag and attribute documentation in CSS hovers.
+	"css.hover.documentation": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show references to MDN in CSS hovers.
+	"css.hover.references": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Invalid number of parameters.
+	"css.lint.argumentsInColorFunction": "error",
+
+	//* 💡 ru - бета
+	//* 💡 en - Do not use `width` or `height` when using `padding` or `border`.
+	"css.lint.boxModel": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
+	"css.lint.compatibleVendorPrefixes": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Do not use duplicate style definitions.
+	"css.lint.duplicateProperties": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Do not use empty rulesets.
+	"css.lint.emptyRules": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+	"css.lint.float": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - `@font-face` rule must define `src` and `font-family` properties.
+	"css.lint.fontFaceProperties": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Hex colors must consist of three or six hex numbers.
+	"css.lint.hexColorLength": "error",
+
+	//* 💡 ru - бета
+	//* 💡 en - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+	"css.lint.idSelector": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - IE hacks are only necessary when supporting IE7 and older.
+	"css.lint.ieHack": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+	"css.lint.important": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Import statements do not load in parallel.
+	"css.lint.importStatement": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
+	"css.lint.propertyIgnoredDueToDisplay": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - The universal selector (`*`) is known to be slow.
+	"css.lint.universalSelector": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Unknown at-rule.
+	"css.lint.unknownAtRules": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Unknown property.
+	"css.lint.unknownProperties": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Unknown vendor specific property.
+	"css.lint.unknownVendorSpecificProperties": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - A list of properties that are not validated against the `unknownProperties` rule.
+	"css.lint.validProperties": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - When using a vendor-specific prefix, also include the standard property.
+	"css.lint.vendorPrefix": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - No unit for zero needed.
+	"css.lint.zeroUnits": "ignore",
+
+	//* 💡 ru - бета
+	//* 💡 en - Traces the communication between VS Code and the CSS language server.
+	"css.trace.server": "off",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enables or disables all validations.
+	"css.validate": true
+}

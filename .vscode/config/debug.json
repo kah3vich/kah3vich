@@ -1,0 +1,166 @@
+{
+	//! ✅ Debug
+
+	//* 💡 ru - Управляет расположением панели инструментов отладки. Либо «плавающий» во всех представлениях, либо «закрепленный» в представлении отладки, либо «скрытый».
+	//* 💡 en - Controls the location of the debug toolbar. Either "floating" in all views, or "pinned" in debug view, or "hidden".
+	"debug.toolBarLocation": "hidden",
+
+	//* 💡 ru - Определяет, должно ли окно рабочей среды быть сфокусировано при остановке отладчика.
+	//* 💡 en - Specifies whether the workbench window should be focused when the debugger is stopped.
+	"debug.focusWindowOnBreak": false,
+
+	//* 💡 ru - Определяет, следует ли отображать в редакторе украшения-кандидаты встроенных точек останова во время отладки.
+	//* 💡 en - Controls whether to display inline breakpoint decoration candidates in the editor during debugging.
+	"debug.showInlineBreakpointCandidates": false,
+
+	//* 💡 ru - Определяет, должны ли точки останова отображаться на обзорной линейке.
+	//* 💡 en - Specifies whether breakpoints should be displayed on the overview ruler.
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Allow setting breakpoints in any file.
+	"debug.allowBreakpointsEverywhere": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Automatically show values for variables that are lazily resolved by the debugger, such as getters.
+	"debug.autoExpandLazyVariables": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to confirm when the window closes if there are active debug sessions.
+	"debug.confirmOnExit": "never",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether suggestions should be accepted on Enter in the Debug Console. Enter is also used to evaluate whatever is typed in the Debug Console.
+	"debug.console.acceptSuggestionOnEnter": "off",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the Debug Console should be automatically closed when the debug session ends.
+	"debug.console.closeOnEnd": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the Debug Console should collapse identical lines and show a number of occurrences with a badge.
+	"debug.console.collapseIdenticalLines": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the font family in the Debug Console.
+	"debug.console.fontFamily": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the font size in pixels in the Debug Console.
+	"debug.console.fontSize": 14,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the Debug Console should suggest previously typed input.
+	"debug.console.historySuggestions": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the line height in pixels in the Debug Console. Use 0 to compute the line height from the font size.
+	"debug.console.lineHeight": 0,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the lines should wrap in the Debug Console.
+	"debug.console.wordWrap": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show Source Code in Disassembly View.
+	"debug.disassemblyView.showSourceCode": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the editor should be focused when the debugger breaks.
+	"debug.focusEditorOnBreak": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show variable values inline in editor while debugging.
+	"debug.inlineValues": "auto",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls when the internal Debug Console should open.
+	"debug.internalConsoleOptions": "openOnFirstSessionStart",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls what to do when errors are encountered after running a preLaunchTask.
+	"debug.onTaskErrors": "prompt",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls when the debug view should open.
+	"debug.openDebug": "openOnDebugBreak",
+
+	//* 💡 ru - бета
+	//* 💡 en - Automatically open the explorer view at the end of a debug session.
+	"debug.openExplorerOnEnd": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls what editors to save before starting a debug session.
+	"debug.saveBeforeStart": "allEditorsInActiveGroup",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls when the debug Status bar should be visible.
+	"debug.showInStatusBar": "onFirstSessionStart",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the debug sub-sessions are shown in the debug tool bar. When this setting is false the stop command on a sub-session will also stop the parent session.
+	"debug.showSubSessionsInToolBar": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Before starting a new debug session in an integrated or external terminal, clear the terminal.
+	"debug.terminal.clearBeforeReusing": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Global debug launch configuration. Should be used as an alternative to 'launch.json' that is shared across workspaces.
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configures which processes to automatically attach and debug when `debug.node.autoAttach` is on. A Node process launched with the `--inspect` flag will always be attached to, regardless of this setting.
+	"debug.javascript.autoAttachFilter": "disabled",
+
+	//* 💡 ru - бета
+	//* 💡 en - Configures glob patterns for determining when to attach in "smart" `debug.javascript.autoAttachFilter` mode. `$KNOWN_TOOLS$` is replaced with a list of names of common test and code runners.
+	"debug.javascript.autoAttachSmartPattern": [
+		"${workspaceFolder}/**",
+		"!**/node_modules/**",
+		"**/$KNOWN_TOOLS$/**"
+	],
+
+	//* 💡 ru - бета
+	//* 💡 en - When debugging a remote web app, configures whether to automatically tunnel the remote server to your local machine.
+	"debug.javascript.automaticallyTunnelRemoteServer": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to stop when conditional breakpoints throw an error.
+	"debug.javascript.breakOnConditionalError": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Where a "Run" and "Debug" code lens should be shown in your npm scripts. It may be on "all", scripts, on "top" of the script section, or "never".
+	"debug.javascript.codelens.npmScripts": "top",
+
+	//* 💡 ru - бета
+	//* 💡 en - Options used when debugging open links clicked from inside the JavaScript Debug Terminal. Can be set to "off" to disable this behavior, or "always" to enable debugging in all terminals.
+	"debug.javascript.debugByLinkOptions": "on",
+
+	//* 💡 ru - бета
+	//* 💡 en - The default `runtimeExecutable` used for launch configurations, if unspecified. This can be used to config custom paths to Node.js or browser installations.
+	"debug.javascript.defaultRuntimeExecutable": {
+		"pwa-node": "node"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Default options used when debugging a process through the `Debug: Attach to Node.js Process` command.
+	"debug.javascript.pickAndAttachOptions": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Request options to use when loading resources, such as source maps, in the debugger. You may need to configure this if your sourcemaps require authentication or use a self-signed certificate, for instance. Options are used to create a request using the `got` library.
+	//* 💡 ru - бета
+	//* 💡 en - A common case to disable certificate verification can be done by passing `{ "https": { "rejectUnauthorized": false } }`.
+	"debug.javascript.resourceRequestOptions": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Default launch options for the JavaScript debug terminal and npm scripts.
+	"debug.javascript.terminalOptions": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Configures whether sourcemapped file where the original file can't be read will automatically be unmapped. If this is false (default), a prompt is shown.
+	"debug.javascript.unmapMissingSources": false
+}

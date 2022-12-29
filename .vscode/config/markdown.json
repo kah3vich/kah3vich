@@ -1,0 +1,118 @@
+{
+	//! ✅ Markdown
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable dropping files into a Markdown editor while holding Shift. Requires enabling `editor.dropIntoEditor.enabled`.
+	"markdown.editor.drop.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls where links in Markdown files should be opened.
+	"markdown.links.openLocation": "currentGroup",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable highlighting link occurrences in the current document.
+	"markdown.occurrencesHighlight.enabled": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Sets how line-breaks are rendered in the Markdown preview. Setting it to 'true' creates a <br> for newlines inside paragraphs.
+	"markdown.preview.breaks": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Double click in the Markdown preview to switch to the editor.
+	"markdown.preview.doubleClickToSwitchToEditor": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the font family used in the Markdown preview.
+	"markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the font size in pixels used in the Markdown preview.
+	"markdown.preview.fontSize": 14,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the line height used in the Markdown preview. This number is relative to the font size.
+	"markdown.preview.lineHeight": 1.6,
+
+	//* 💡 ru - бета
+	//* 💡 en - Convert URL-like text to links in the Markdown preview.
+	"markdown.preview.linkify": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Mark the current editor selection in the Markdown preview.
+	"markdown.preview.markEditorSelection": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how links to other Markdown files in the Markdown preview should be opened.
+	"markdown.preview.openMarkdownLinks": "inPreview",
+
+	//* 💡 ru - бета
+	//* 💡 en - When a Markdown preview is scrolled, update the view of the editor.
+	"markdown.preview.scrollEditorWithPreview": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - When a Markdown editor is scrolled, update the view of the preview.
+	"markdown.preview.scrollPreviewWithEditor": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable some language-neutral replacement and quotes beautification in the Markdown preview.
+	"markdown.preview.typographer": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - A list of URLs or local paths to CSS style sheets to use from the Markdown preview. Relative paths are interpreted relative to the folder open in the Explorer. If there is no open folder, they are interpreted relative to the location of the Markdown file. All '\' need to be written as '\\'.
+	"markdown.styles": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable path suggestions while writing links in Markdown files.
+	"markdown.suggest.paths.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable debug logging for the Markdown extension.
+	"markdown.trace.extension": "off",
+
+	//* 💡 ru - бета
+	//* 💡 en - Try to update links in Markdown files when a file is renamed/moved in the workspace. Use `markdown.updateLinksOnFileMove.include` to configure which files trigger link updates.
+	"markdown.updateLinksOnFileMove.enabled": "never",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable updating links when a directory is moved or renamed in the workspace.
+	"markdown.updateLinksOnFileMove.enableForDirectories": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Glob patterns that specifies files that trigger automatic link updates. See `markdown.updateLinksOnFileMove.enabled` for details about this feature.
+	"markdown.updateLinksOnFileMove.include": [
+		"**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
+		"**/*.{jpg,jpe,jpeg,png,bmp,gif,ico,webp,avif,tiff,svg,mp4}"
+	],
+
+	//* 💡 ru - бета
+	//* 💡 en - Validate duplicated definitions in the current file.
+	"markdown.validate.duplicateLinkDefinitions.enabled": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable all error reporting in Markdown files.
+	"markdown.validate.enabled": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Validate links to other files in Markdown files, for example `[link](/path/to/file.md)`. This checks that the target files exists. Requires enabling `markdown.validate.enabled`.
+	"markdown.validate.fileLinks.enabled": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Validate the fragment part of links to headers in other files in Markdown files, for example `[link](/path/to/file.md#header)`. Inherits the setting value from `markdown.validate.fragmentLinks.enabled` by default.
+	"markdown.validate.fileLinks.markdownFragmentLinks": "inherit",
+
+	//* 💡 ru - бета
+	//* 💡 en - Validate fragment links to headers in the current Markdown file, for example `[link](#_header)`. Requires enabling `markdown.validate.enabled`.
+	"markdown.validate.fragmentLinks.enabled": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure links that should not be validated. For example adding `/about` would not validate the link `[about](/about)`, while the glob `/assets/**/*.svg` would let you skip validation for any link to `.svg` files under the `assets` directory.
+	"markdown.validate.ignoredLinks": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Validate reference links in Markdown files, for example `[link][ref]`. Requires enabling `markdown.validate.enabled`.
+	"markdown.validate.referenceLinks.enabled": "warning",
+
+	//* 💡 ru - бета
+	//* 💡 en - Validate link definitions that are unused in the current file.
+	"markdown.validate.unusedLinkDefinitions.enabled": "hint"
+}

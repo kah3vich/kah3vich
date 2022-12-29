@@ -1,0 +1,7 @@
+{
+	//! ✅ ESLint
+
+	//* 💡 ru - Включение eslint форматор.
+	//* 💡 en - Enable eslint formatter.
+	"eslint.format.enable": true
+}

@@ -1,0 +1,101 @@
+{
+	//! ✅ Explorer
+
+	//* 💡 ru - Убираем алерты с предупреждениями при удалении и перетаскивании файлов и директорий.
+	//* 💡 en - We remove alerts with warnings when deleting and dragging files and directories.
+	"explorer.confirmDelete": false,
+
+	//* 💡 ru - Отображение дочерних папок в компактной форме.
+	//* 💡 en - Display child folders in a compact form.
+	"explorer.compactFolders": false,
+
+	//* 💡 ru - Убираем алерты с предупреждениями при удалении и перетаскивании файлов и директорий.
+	//* 💡 en - We remove alerts with warnings when deleting and dragging files and directories.
+	"explorer.confirmDragAndDrop": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Explorer should automatically reveal and select files when opening them.
+	"explorer.autoReveal": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure glob patterns for excluding files and folders from being revealed and selected in the Explorer when they are opened.
+	"explorer.autoRevealExclude": {
+		"**/node_modules": true,
+		"**/bower_components": true
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Explorer should ask for confirmation when undoing.
+	"explorer.confirmUndo": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - The path separation character used when copying relative file paths.
+	"explorer.copyRelativePathSeparator": "auto",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether file decorations should use badges.
+	"explorer.decorations.badges": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether file decorations should use colors.
+	"explorer.decorations.colors": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Explorer should allow to move files and folders via drag and drop. This setting only effects drag and drop from inside the Explorer.
+	"explorer.enableDragAndDrop": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Explorer should support undoing file and folder operations.
+	"explorer.enableUndo": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether entries in .gitignore should be parsed and excluded from the Explorer. Similar to `files.exclude`.
+	"explorer.excludeGitIgnore": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the Explorer should expand multi-root workspaces containing only one folder during initialization
+	"explorer.expandSingleFolderWorkspaces": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether file nesting is enabled in the Explorer. File nesting allows for related files in a directory to be visually grouped together under a single parent file.
+	"explorer.fileNesting.enabled": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether file nests are automatically expanded. `explorer.fileNesting.enabled` must be set for this to take effect.
+	"explorer.fileNesting.expand": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls nesting of files in the Explorer. `explorer.fileNesting.enabled` must be set for this to take effect. Each __Item__ represents a parent pattern and may contain a single `*` character that matches any string. Each __Value__ represents a comma separated list of the child patterns that should be shown nested under a given parent. Child patterns may contain several special tokens:
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls what naming strategy to use when a giving a new name to a duplicated Explorer item on paste.
+	"explorer.incrementalNaming": "simple",
+
+	//* 💡 ru - бета
+	//* 💡 en - The minimum number of editor slots shown in the Open Editors pane. If set to 0 the Open Editors pane will dynamically resize based on the number of editors.
+	"explorer.openEditors.minVisible": 0,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the sorting order of editors in the Open Editors pane.
+	"explorer.openEditors.sortOrder": "editorOrder",
+
+	//* 💡 ru - бета
+	//* 💡 en - The maximum number of editors shown in the Open Editors pane. Setting this to 0 hides the Open Editors pane.
+	"explorer.openEditors.visible": 9,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the property-based sorting of files and folders in the Explorer.
+	"explorer.sortOrder": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the lexicographic sorting of file and folder names in the Explorer.
+	"explorer.sortOrderLexicographicOptions": "default"
+}

@@ -1,0 +1,7 @@
+{
+	//! ✅ Merge Editor
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if deletions in base or one of the inputs should be indicated by a vertical bar.
+	"mergeEditor.showDeletionMarkers": true
+}

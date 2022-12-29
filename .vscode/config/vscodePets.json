@@ -1,0 +1,19 @@
+{
+	//! ✅ VS Code Pets
+
+	//* 💡 ru - Tема заднего фона.
+	//* 💡 en - Background theme.
+	"vscode-pets.theme": "forest",
+
+	//* 💡 ru - Расположение анимации.
+	//* 💡 en - Animation location.
+	"vscode-pets.position": "explorer",
+
+	//* 💡 ru - Тип персонажа.
+	//* 💡 en - Character type.
+	"vscode-pets.petType": "totoro",
+
+	//* 💡 ru - Размер персонажа.
+	//* 💡 en - Character size.
+	"vscode-pets.petSize": "nano"
+}

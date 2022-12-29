@@ -1,0 +1,23 @@
+{
+	//! ✅ Problems
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether Problems view should automatically reveal files when opening them.
+	"problems.autoReveal": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show Errors & Warnings on files and folder.
+	"problems.decorations.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the default view mode of the Problems view.
+	"problems.defaultViewMode": "tree",
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled shows the current problem in the status bar.
+	"problems.showCurrentInStatus": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the order in which problems are navigated.
+	"problems.sortOrder": "severity"
+}

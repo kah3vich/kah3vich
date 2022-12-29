@@ -1,0 +1,404 @@
+{
+	//! ✅ Workbench
+
+	//* 💡 ru - Указывает цветовую тему, используемую в рабочей среде.
+	//* 💡 en - Specifies the color theme used in the working environment.
+	"workbench.colorTheme": "Shades of Purple",
+
+	//* 💡 ru - Управляет размером вкладок редактора.
+	//* 💡 en - Controls the size of the editor tabs.
+	"workbench.editor.tabSizing": "shrink",
+
+	//* 💡 ru - Указывает тему значков файлов, используемую в рабочей среде, или значение null, чтобы значки файлов не отображались.
+	//* 💡 en - Specifies the file icon theme to use in the workbench, or null to not display file icons.
+	"workbench.iconTheme": "material-icon-theme",
+
+	//* 💡 ru - Управляет видимостью панели действий в рабочей среде.
+	//* 💡 en - Controls the visibility of the action bar in the workbench.
+	"workbench.activityBar.visible": true,
+
+	//* 💡 ru - Управляет тем, какой редактор отображается при запуске, если ни один из них не был восстановлен из предыдущего сеанса.
+	//* 💡 en - Controls which editor is displayed at startup if none of them have been restored from a previous session.
+	"workbench.startupEditor": "newUntitledFile",
+
+	//* 💡 ru - Настройте шаблоны шаблонов для редакторов (например, `'*.hex': 'hexEditor.hexEdit'`). Они имеют приоритет над поведением по умолчанию.
+	//* 💡 en - Set up template templates for editors (eg `'*.hex': 'hexEditor.hexEdit'`). They take precedence over the default behavior.
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the behavior of clicking an activity bar icon in the workbench.
+	"workbench.activityBar.iconClickBehavior": "toggle",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to automatically resume available working changes stored in the cloud for the current workspace.
+	"workbench.cloudChanges.autoResume": "onReload",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to prompt the user to store working changes in the cloud when using Continue Working On.
+	"workbench.cloudChanges.continueOn": "prompt",
+
+	//* 💡 ru - бета
+	//* 💡 en - Overrides colors from the currently selected color theme.
+	"workbench.colorCustomizations": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the number of recently used commands to keep in history for the command palette. Set to 0 to disable command history.
+	"workbench.commandPalette.history": 50,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the last typed input to the command palette should be restored when opening it the next time.
+	"workbench.commandPalette.preserveInput": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - If an editor matching one of the listed types is opened as the first in an editor group and more than one group is open, the group is automatically locked. Locked groups will only be used for opening editors when explicitly chosen by a user gesture (for example drag and drop), but not by default. Consequently, the active editor in a locked group is less likely to be replaced accidentally with a different editor.
+	"workbench.editor.autoLockGroups": {
+		"default": false,
+		"workbench.editorinputs.searchEditorInput": false,
+		"jupyter-notebook": false,
+		"imagePreview.previewEditor": false,
+		"vscode.audioPreview": false,
+		"vscode.videoPreview": false,
+		"jsProfileVisualizer.cpuprofile.table": false,
+		"jsProfileVisualizer.heapprofile.table": false,
+		"terminalEditor": true,
+		"workbench.input.interactive": false,
+		"mainThreadWebview-markdown.preview": false
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the centered layout should automatically resize to maximum width when more than one group is open. Once only one group is open it will resize back to the original centered width.
+	"workbench.editor.centeredLayoutAutoResize": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the behavior of empty editor groups when the last tab in the group is closed. When enabled, empty groups will automatically close. When disabled, empty groups will remain part of the grid.
+	"workbench.editor.closeEmptyGroups": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether editors showing a file that was opened during the session should close automatically when getting deleted or renamed by some other process. Disabling this will keep the editor open  on such an event. Note that deleting from within the application will always close the editor and that editors with unsaved changes will never close to preserve your data.
+	"workbench.editor.closeOnFileDelete": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether editor file decorations should use badges.
+	"workbench.editor.decorations.badges": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether editor file decorations should use colors.
+	"workbench.editor.decorations.colors": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - The default editor for files detected as binary. If undefined, the user will be presented with a picker.
+	"workbench.editor.defaultBinaryEditor": "",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether opened editors show as preview editors. Preview editors do not stay open, are reused until explicitly set to be kept open (via double click or editing), and show file names in italics.
+	"workbench.editor.enablePreview": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether editors remain in preview when a code navigation is started from them. Preview editors do not stay open, and are reused until explicitly set to be kept open (via double click or editing). This value is ignored when `workbench.editor.enablePreview` is disabled.
+	"workbench.editor.enablePreviewFromCodeNavigation": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether editors opened from Quick Open show as preview editors. Preview editors do not stay open, and are reused until explicitly set to be kept open (via double click or editing). This value is ignored when `workbench.editor.enablePreview` is disabled.
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether tabs are closed in most recently used order or from left to right.
+	"workbench.editor.focusRecentEditorAfterClose": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a top border is drawn on tabs for editors that have unsaved changes. This value is ignored when `workbench.editor.showTabs` is disabled.
+	"workbench.editor.highlightModifiedTabs": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enables use of editor history in language detection. This causes automatic language detection to favor languages that have been recently opened and allows for automatic language detection to operate with smaller inputs.
+	"workbench.editor.historyBasedLanguageDetection": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the format of the label for an editor.
+	"workbench.editor.labelFormat": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the language in a text editor is automatically detected unless the language has been explicitly set by the language picker. This can also be scoped by language so you can specify which languages you do not want to be switched off of. This is useful for languages like Markdown that often contain other languages that might trick language detection into thinking it's the embedded language and not Markdown.
+	"workbench.editor.languageDetection": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, shows a Status bar Quick Fix when the editor language doesn't match detected content language.
+	"workbench.editor.languageDetectionHints": {
+		"untitledEditors": true,
+		"notebookEditors": true
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the number of opened editors should be limited or not. When enabled, less recently used editors will close to make space for newly opening editors.
+	"workbench.editor.limit.enabled": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the maximum number of opened editors should exclude dirty editors for counting towards the configured limit.
+	"workbench.editor.limit.excludeDirty": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the limit of maximum opened editors should apply per editor group or across all editor groups.
+	"workbench.editor.limit.perEditorGroup": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the maximum number of opened editors. Use the `workbench.editor.limit.perEditorGroup` setting to control this limit per editor group or across all groups.
+	"workbench.editor.limit.value": 10,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enables the use of mouse buttons four and five for commands 'Go Back' and 'Go Forward'.
+	"workbench.editor.mouseBackForwardToNavigate": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the scope of history navigation in editors for commands such as 'Go Back' and 'Go Forward'.
+	"workbench.editor.navigationScope": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls where editors open. Select `left` or `right` to open editors to the left or right of the currently active one. Select `first` or `last` to open editors independently from the currently active one.
+	"workbench.editor.openPositioning": "right",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the default direction of editors that are opened side by side (for example, from the Explorer). By default, editors will open on the right hand side of the currently active one. If changed to `down`, the editors will open below the currently active one.
+	"workbench.editor.openSideBySideDirection": "right",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the sizing of pinned editor tabs. Pinned tabs are sorted to the beginning of all opened tabs and typically do not close until unpinned. This value is ignored when `workbench.editor.showTabs` is disabled.
+	"workbench.editor.pinnedTabSizing": "normal",
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, a language detection model that takes into account editor history will be given higher precedence.
+	"workbench.editor.preferHistoryBasedLanguageDetection": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Restores the last editor view state (such as scroll position) when re-opening editors after they have been closed. Editor view state is stored per editor group and discarded when a group closes. Use the `workbench.editor.sharedViewState` setting to use the last known view state across all editor groups in case no previous view state was found for a editor group.
+	"workbench.editor.restoreViewState": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether an editor is revealed in any of the visible groups if opened. If disabled, an editor will prefer to open in the currently active editor group. If enabled, an already opened editor will be revealed instead of opened again in the currently active editor group. Note that there are some cases where this setting is ignored, such as when forcing an editor to open in a specific group or to the side of the currently active group.
+	"workbench.editor.revealIfOpen": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether scrolling over tabs will open them or not. By default tabs will only reveal upon scrolling, but not open. You can press and hold the Shift-key while scrolling to change this behavior for that duration. This value is ignored when `workbench.editor.showTabs` is disabled.
+	"workbench.editor.scrollToSwitchTabs": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Preserves the most recent editor view state (such as scroll position) across all editor groups and restores that if no specific editor view state is found for the editor group.
+	"workbench.editor.sharedViewState": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether opened editors should show with an icon or not. This requires a file icon theme to be enabled as well.
+	"workbench.editor.showIcons": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether opened editors should show in tabs or not.
+	"workbench.editor.showTabs": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the layout for when an editor is split in an editor group to be either vertical or horizontal.
+	"workbench.editor.splitInGroupLayout": "horizontal",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if editor groups can be split from drag and drop operations by dropping an editor or file on the edges of the editor area.
+	"workbench.editor.splitOnDragAndDrop": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the sizing of editor groups when splitting them.
+	"workbench.editor.splitSizing": "distribute",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the position of the editor's tabs close buttons, or disables them when set to 'off'. This value is ignored when `workbench.editor.showTabs` is disabled.
+	"workbench.editor.tabCloseButton": "right",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the height of the scrollbars used for tabs and breadcrumbs in the editor title area.
+	"workbench.editor.titleScrollbarSizing": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if the untitled text hint should be visible in the editor.
+	"workbench.editor.untitled.hint": "text",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the format of the label for an untitled editor.
+	"workbench.editor.untitled.labelFormat": "content",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether tabs should be wrapped over multiple lines when exceeding available space or whether a scrollbar should appear instead. This value is ignored when `workbench.editor.showTabs` is disabled.
+	"workbench.editor.wrapTabs": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure the opener to use for external URIs (http, https).
+	"workbench.externalUriOpeners": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls font aliasing method in the workbench.
+	"workbench.fontAliasing": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the delay in milliseconds after which the hover is shown for workbench items (ex. some extension provided tree view items). Already visible items may require a refresh before reflecting this setting change.
+	"workbench.hover.delay": 500,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the layout control is shown in the custom title bar. This setting only has an effect when `window.titleBarStyle` is set to `custom`.
+	"workbench.layoutControl.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the layout control in the custom title bar is displayed as a single menu button or with multiple UI toggles.
+	"workbench.layoutControl.type": "both",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the default find mode for lists and trees in the workbench.
+	"workbench.list.defaultFindMode": "highlight",
+
+	//* 💡 ru - бета
+	//* 💡 en - Scrolling speed multiplier when pressing `Alt`.
+	"workbench.list.fastScrollSensitivity": 5,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether lists and trees support horizontal scrolling in the workbench. Warning: turning on this setting has a performance implication.
+	"workbench.list.horizontalScrolling": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events.
+	"workbench.list.mouseWheelScrollSensitivity": 1,
+
+	//* 💡 ru - бета
+	//* 💡 en - The modifier to be used to add an item in trees and lists to a multi-selection with the mouse (for example in the explorer, open editors and scm view). The 'Open to Side' mouse gestures - if supported - will adapt such that they do not conflict with the multiselect modifier.
+	"workbench.list.multiSelectModifier": "ctrlCmd",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how to open items in trees and lists using the mouse (if supported). Note that some trees and lists might choose to ignore this setting if it is not applicable.
+	"workbench.list.openMode": "singleClick",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether lists and trees have smooth scrolling.
+	"workbench.list.smoothScrolling": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether local file history is enabled. When enabled, the file contents of an editor that is saved will be stored to a backup location to be able to restore or review the contents later. Changing this setting has no effect on existing local file history entries.
+	"workbench.localHistory.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure glob patterns for excluding files from the local file history. Changing this setting has no effect on existing local file history entries.
+	"workbench.localHistory.exclude": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the maximum number of local file history entries per file. When the number of local file history entries exceeds this number for a file, the oldest entries will be discarded.
+	"workbench.localHistory.maxFileEntries": 50,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the maximum size of a file (in KB) to be considered for local file history. Files that are larger will not be added to the local file history. Changing this setting has no effect on existing local file history entries.
+	"workbench.localHistory.maxFileSize": 256,
+
+	//* 💡 ru - бета
+	//* 💡 en - Configure an interval in seconds during which the last entry in local file history is replaced with the entry that is being added. This helps reduce the overall number of entries that are added, for example when auto save is enabled. This setting is only applied to entries that have the same source of origin. Changing this setting has no effect on existing local file history entries.
+	"workbench.localHistory.mergeWindow": 10,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the default location of the panel (Terminal, Debug Console, Output, Problems) in a new workspace. It can either show at the bottom, right, or left of the editor area.
+	"workbench.panel.defaultLocation": "bottom",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the panel opens maximized. It can either always open maximized, never open maximized, or open to the last state it was in before being closed.
+	"workbench.panel.opensMaximized": "preserve",
+
+	//* 💡 ru - бета
+	//* 💡 en - Specifies the preferred color theme for dark OS appearance when `window.autoDetectColorScheme` is enabled.
+	"workbench.preferredDarkColorTheme": "Default Dark+",
+
+	//* 💡 ru - бета
+	//* 💡 en - Specifies the preferred color theme used in high contrast dark mode when `window.autoDetectHighContrast` is enabled.
+	"workbench.preferredHighContrastColorTheme": "Default High Contrast",
+
+	//* 💡 ru - бета
+	//* 💡 en - Specifies the preferred color theme used in high contrast light mode when `window.autoDetectHighContrast` is enabled.
+	"workbench.preferredHighContrastLightColorTheme": "Default High Contrast Light",
+
+	//* 💡 ru - бета
+	//* 💡 en - Specifies the preferred color theme for light OS appearance when `window.autoDetectColorScheme` is enabled.
+	"workbench.preferredLightColorTheme": "Default Light+",
+
+	//* 💡 ru - бета
+	//* 💡 en - Specifies the product icon theme used.
+	"workbench.productIconTheme": "Default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether Quick Open should close automatically once it loses focus.
+	"workbench.quickOpen.closeOnFocusLost": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the last typed input to Quick Open should be restored when opening it the next time.
+	"workbench.quickOpen.preserveInput": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the workbench should render with fewer animations.
+	"workbench.reduceMotion": "auto",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the hover feedback delay in milliseconds of the dragging area in between views/editors.
+	"workbench.sash.hoverDelay": 300,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the feedback area size in pixels of the dragging area in between views/editors. Set it to a larger value if you feel it's hard to resize views using the mouse.
+	"workbench.sash.size": 4,
+
+	//* 💡 ru - бета
+	//* 💡 en - Determines which settings editor to use by default.
+	"workbench.settings.editor": "ui",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to enable the natural language search mode for settings. The natural language search is provided by a Microsoft online service.
+	"workbench.settings.enableNaturalLanguageSearch": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether opening keybinding settings also opens an editor showing all default keybindings.
+	"workbench.settings.openDefaultKeybindings": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether opening settings also opens an editor showing all default settings.
+	"workbench.settings.openDefaultSettings": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the behavior of the settings editor Table of Contents while searching.
+	"workbench.settings.settingsSearchTocBehavior": "filter",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to use the split JSON editor when editing settings as JSON.
+	"workbench.settings.useSplitJSON": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the location of the primary side bar and activity bar. They can either show on the left or right of the workbench. The secondary side bar will show on the opposite side of the workbench.
+	"workbench.sideBar.location": "left",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the visibility of the status bar at the bottom of the workbench.
+	"workbench.statusBar.visible": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, will show the watermark tips when no editor is open.
+	"workbench.tips.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how tree folders are expanded when clicking the folder names. Note that some trees and lists might choose to ignore this setting if it is not applicable.
+	"workbench.tree.expandMode": "singleClick",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls tree indentation in pixels.
+	"workbench.tree.indent": 8,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the tree should render indent guides.
+	"workbench.tree.renderIndentGuides": "onHover",
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, trusted domain prompts will appear when opening links in trusted workspaces.
+	"workbench.trustedDomains.promptInTrustedWorkspace": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the visibility of view header actions. View header actions may either be always visible, or only visible when that view is focused or hovered over.
+	"workbench.view.alwaysShowHeaderActions": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - When enabled, an extension's walkthrough will open upon install of the extension.
+	"workbench.welcomePage.walkthroughs.openOnInstall": true
+}

@@ -1,0 +1,44 @@
+{
+	//! ✅ Prettier
+	//? 🧨 Info - https://prettier.io/docs/en/options.html
+
+	//* 💡 ru - Правило устанавливает в конце выражений добавляется точка с запятой.
+	//* 💡 en - The rule sets a semicolon is added at the end of expressions.
+	"prettier.semi": true,
+
+	//* 💡 ru - Делайте отступы с помощью табуляции вместо пробелов.
+	//* 💡 en - Indent with tabs instead of spaces.
+	"prettier.useTabs": true,
+
+	//* 💡 ru - Это правило для символа ">" в многострочных JSX-элементах будет помещён в последней строке.
+	//* 💡 en - This rule for the ">" character in multiline JSX elements will be placed on the last line.
+	"prettier.jsxBracketSameLine": false,
+
+	//* 💡 ru - Отвечает за вставку пробелов между телом объекта и фигурными скобками в объектных литералах.
+	//* 💡 en - Responsible for inserting spaces between the object body and curly braces in object literals.
+	"prettier.bracketSpacing": true,
+
+	//* 💡 ru - Обеспечивает наличие запятой после последнего свойства объекта.
+	//* 💡 en - Ensures that there is a comma after the last object property.
+	"prettier.trailingComma": "all",
+
+	//* 💡 ru - Все двойные кавычки будут преобразованы в одинарные.
+	//* 💡 en - All double quotes will be converted to single quotes.
+	"prettier.singleQuote": true,
+
+	//* 💡 ru - Все двойные кавычки будут преобразованы в одинарные для формата файлов jsx.
+	//* 💡 en - All double quotes will be converted to single quotes for the jsx file format.
+	"prettier.jsxSingleQuote": true,
+
+	//* 💡 ru - Включите круглые скобки вокруг единственного параметра функции стрелки.
+	//* 💡 en - Include parentheses around the single parameter of the arrow function.
+	"prettier.arrowParens": "avoid",
+
+	//* 💡 ru - Задаёт количество пробелов на один уровень выравнивания.
+	//* 💡 en - Specifies the number of spaces per alignment level.
+	"prettier.tabWidth": 2,
+
+	//* 💡 ru - Длина строки не должна превышать 100 символов.
+	//* 💡 en - The string length must not exceed 100 characters.
+	"prettier.printWidth": 100
+}

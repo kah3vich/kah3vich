@@ -1,0 +1,15 @@
+{
+	//! ✅ Keyboard
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the dispatching logic for key presses to use either `code` (recommended) or `keyCode`.
+	"keyboard.dispatch": "code",
+
+	//* 💡 ru - бета
+	//* 💡 en - Enables the macOS touchbar buttons on the keyboard if available.
+	"keyboard.touchbar.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - A set of identifiers for entries in the touchbar that should not show up (for example `workbench.action.navigateBack`).
+	"keyboard.touchbar.ignored": []
+}

@@ -1,0 +1,352 @@
+{
+	//! ✅ Terminal
+
+	//* 💡 ru - Размер шрифта.
+	//* 💡 en - Font size.
+	"terminal.integrated.fontSize": 16,
+
+	//* 💡 ru - Начертание шрифта.
+	//* 💡 en - Font style.
+	"terminal.integrated.fontWeight": "600",
+
+	//* 💡 ru - Установка шрифта - https://github.com/kah3vich/Gulp-RS/tree/font/fonts/JetBrainsMono.
+	//* 💡 en - Installing the font - https://github.com/kah3vich/Gulp-RS/tree/font/fonts/JetBrainsMono.
+	"terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+
+	//* 💡 ru - Стартовая командная строка.
+	//* 💡 en - Start command line.
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+
+	//* 💡 ru - Путь для командной строки git-bash.
+	//* 💡 en - Path for git-bash command line.
+	"terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\git-bash.exe",
+
+	//* 💡 ru - бета
+	//* 💡 en - When opening a file from the Explorer in a terminal, determines what kind of terminal will be launched
+	"terminal.explorerKind": "integrated",
+
+	//* 💡 ru - бета
+	//* 💡 en - External Terminal
+
+	//* 💡 ru - бета
+	//* 💡 en - Customizes which terminal to run on Linux.
+	"terminal.external.linuxExec": "xterm",
+
+	//* 💡 ru - бета
+	//* 💡 en - Customizes which terminal application to run on macOS.
+	"terminal.external.osxExec": "Terminal.app",
+
+	//* 💡 ru - бета
+	//* 💡 en - Customizes which terminal to run on Windows.
+	"terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass `terminal.integrated.commandsToSkipShell`, setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code).
+	"terminal.integrated.allowChords": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to allow menubar mnemonics (for example Alt+F) to trigger the open of the menubar. Note that this will cause all alt keystrokes to skip the shell when true. This does nothing on macOS.
+	"terminal.integrated.allowMnemonics": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - If enabled, alt/option + click will reposition the prompt cursor to underneath the mouse when `editor.multiCursorModifier` is set to `'alt'` (the default value). This may not work reliably depending on your shell.
+	"terminal.integrated.altClickMovesCursor": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - The terminal profile to use on Linux for automation-related terminal usage like tasks and debug.
+	"terminal.integrated.automationProfile.linux": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - The terminal profile to use on macOS for automation-related terminal usage like tasks and debug.
+	"terminal.integrated.automationProfile.osx": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - The terminal profile to use for automation-related terminal usage like tasks and debug.
+	"terminal.integrated.automationProfile.windows": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - A set of messages that when encountered in the terminal will be automatically responded to. Provided the message is specific enough, this can help automate away common responses.
+	"terminal.integrated.autoReplies": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - The number of milliseconds to show the bell within a terminal tab when triggered.
+	"terminal.integrated.bellDuration": 1000,
+
+	//* 💡 ru - бета
+	//* 💡 en - A set of command IDs whose keybindings will not be sent to the shell but instead always be handled by VS Code. This allows keybindings that would normally be consumed by the shell to act instead the same as when the terminal is not focused, for example `Ctrl+P` to launch Quick Open.
+	"terminal.integrated.commandsToSkipShell": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to confirm when the window closes if there are active terminal sessions.
+	"terminal.integrated.confirmOnExit": "never",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to confirm killing terminals when they have child processes. When set to editor, terminals in the editor area will be marked as changed when they have child processes. Note that child process detection may not work well for shells like Git Bash which don't run their processes as child processes of the shell.
+	"terminal.integrated.confirmOnKill": "editor",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether text selected in the terminal will be copied to the clipboard.
+	"terminal.integrated.copyOnSelection": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the terminal cursor blinks.
+	"terminal.integrated.cursorBlinking": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the style of terminal cursor.
+	"terminal.integrated.cursorStyle": "block",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the width of the cursor when `terminal.integrated.cursorStyle` is set to `line`.
+	"terminal.integrated.cursorWidth": 1,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to draw custom glyphs for block element and box drawing characters instead of using the font, which typically yields better rendering with continuous lines. Note that this doesn't work with the DOM renderer.
+	"terminal.integrated.customGlyphs": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - An explicit start path where the terminal will be launched, this is used as the current working directory (cwd) for the shell process. This may be particularly useful in workspace settings if the root directory is not a convenient cwd.
+	"terminal.integrated.cwd": "",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls where newly created terminals will appear.
+	"terminal.integrated.defaultLocation": "view",
+
+	//* 💡 ru - бета
+	//* 💡 en - The default profile used on Linux. This setting will currently be ignored if either `terminal.integrated.shell.linux` or `terminal.integrated.shellArgs.linux` are set.
+	"terminal.integrated.defaultProfile.linux": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - The default profile used on macOS. This setting will currently be ignored if either `terminal.integrated.shell.osx` or `terminal.integrated.shellArgs.osx` are set.
+	"terminal.integrated.defaultProfile.osx": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to detect and set the `$LANG` environment variable to a UTF-8 compliant option since VS Code's terminal only supports UTF-8 encoded data coming from the shell.
+	"terminal.integrated.detectLocale": "auto",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether bold text in the terminal will always use the "bright" ANSI color variant.
+	"terminal.integrated.drawBoldTextInBrightColors": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the terminal bell is enabled. This shows up as a visual bell next to the terminal's name.
+	"terminal.integrated.enableBell": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to enable file links in the terminal. Links can be slow when working on a network drive in particular because each file link is verified against the file system. Changing this will take effect only in new terminals.
+	"terminal.integrated.enableFileLinks": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show a warning dialog when pasting multiple lines into the terminal. The dialog does not show when:
+	"terminal.integrated.enableMultiLinePasteWarning": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Persist terminal sessions/history for the workspace across window reloads.
+	"terminal.integrated.enablePersistentSessions": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Object with environment variables that will be added to the VS Code process to be used by the terminal on Linux. Set to `null` to delete the environment variable.
+	"terminal.integrated.env.linux": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Object with environment variables that will be added to the VS Code process to be used by the terminal on macOS. Set to `null` to delete the environment variable.
+	"terminal.integrated.env.osx": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Object with environment variables that will be added to the VS Code process to be used by the terminal on Windows. Set to `null` to delete the environment variable.
+	"terminal.integrated.env.windows": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to display the environment changes indicator on each terminal which explains whether extensions have made, or want to make changes to the terminal's environment.
+	"terminal.integrated.environmentChangesIndicator": "warnonly",
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to relaunch terminals automatically if extension want to contribute to their environment and have not been interacted with yet.
+	"terminal.integrated.environmentChangesRelaunch": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Scrolling speed multiplier when pressing `Alt`.
+	"terminal.integrated.fastScrollSensitivity": 5,
+
+	//* 💡 ru - бета
+	//* 💡 en - The font weight to use within the terminal for bold text. Accepts "normal" and "bold" keywords or numbers between 1 and 1000.
+	"terminal.integrated.fontWeightBold": "bold",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the terminal will leverage the GPU to do its rendering.
+	"terminal.integrated.gpuAcceleration": "auto",
+
+	//* 💡 ru - бета
+	//* 💡 en - A set of process names to ignore when using the `terminal.integrated.confirmOnKill` setting.
+	"terminal.integrated.ignoreProcessNames": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether new shells should inherit their environment from VS Code, which may source a login shell to ensure $PATH and other development variables are initialized. This has no effect on Windows.
+	"terminal.integrated.inheritEnv": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the letter spacing of the terminal. This is an integer value which represents the number of additional pixels to add between characters.
+	"terminal.integrated.letterSpacing": 0,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the line height of the terminal. This number is multiplied by the terminal font size to get the actual line-height in pixels.
+	"terminal.integrated.lineHeight": 1,
+
+	//* 💡 ru - бета
+	//* 💡 en - When local echo should be enabled. This will override `terminal.integrated.localEchoLatencyThreshold`
+	"terminal.integrated.localEchoEnabled": "auto",
+
+	//* 💡 ru - бета
+	//* 💡 en - Local echo will be disabled when any of these program names are found in the terminal title.
+	"terminal.integrated.localEchoExcludePrograms": ["vim", "vi", "nano", "tmux"],
+
+	//* 💡 ru - бета
+	//* 💡 en - Length of network delay, in milliseconds, where local edits will be echoed on the terminal without waiting for server acknowledgement. If '0', local echo will always be on, and if '-1' it will be disabled.
+	"terminal.integrated.localEchoLatencyThreshold": 30,
+
+	//* 💡 ru - бета
+	//* 💡 en - Terminal style of locally echoed text; either a font style or an RGB color.
+	"terminal.integrated.localEchoStyle": "dim",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to force selection when using Option+click on macOS. This will force a regular (line) selection and disallow the use of column selection mode. This enables copying and pasting using the regular terminal selection, for example, when mouse mode is enabled in tmux.
+	"terminal.integrated.macOptionClickForcesSelection": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to treat the option key as the meta key in the terminal on macOS.
+	"terminal.integrated.macOptionIsMeta": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - When set, the foreground color of each cell will change to try meet the contrast ratio specified. Example values:
+	"terminal.integrated.minimumContrastRatio": 4.5,
+
+	//* 💡 ru - бета
+	//* 💡 en - A multiplier to be used on the `deltaY` of mouse wheel scroll events.
+	"terminal.integrated.mouseWheelScrollSensitivity": 1,
+
+	//* 💡 ru - бета
+	//* 💡 en - When the terminal process must be shut down (for example on window or application close), this determines when the previous terminal session contents/history should be restored and processes be recreated when the workspace is next opened.
+	"terminal.integrated.persistentSessionReviveProcess": "onExit",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the maximum amount of lines that will be restored when reconnecting to a persistent terminal session. Increasing this will restore more lines of scrollback at the cost of more memory and increase the time it takes to connect to terminals on start up. This setting requires a restart to take effect and should be set to a value less than or equal to `terminal.integrated.scrollback`.
+	"terminal.integrated.persistentSessionScrollback": 100,
+
+	//* 💡 ru - бета
+	//* 💡 en - The Linux profiles to present when creating a new terminal via the terminal dropdown. Set the `path` property manually with an optional `args`.
+	//* 💡 ru - бета
+	//* 💡 en - Set an existing profile to `null` to hide the profile from the list, for example: `"bash": null`.
+	"terminal.integrated.profiles.linux": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - The macOS profiles to present when creating a new terminal via the terminal dropdown.
+	"terminal.integrated.profiles.osx": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - The Windows profiles to present when creating a new terminal via the terminal dropdown.
+	"terminal.integrated.profiles.windows": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how terminal reacts to right click.
+	"terminal.integrated.rightClickBehavior": "copyPaste",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the maximum number of lines the terminal keeps in its buffer.
+	"terminal.integrated.scrollback": 1000,
+
+	//* 💡 ru - бета
+	//* 💡 en - Dispatches most keybindings to the terminal instead of the workbench, overriding `terminal.integrated.commandsToSkipShell`, which can be used alternatively for fine tuning.
+	"terminal.integrated.sendKeybindingsToShell": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - When shell integration is enabled, adds a decoration for each command.
+	"terminal.integrated.shellIntegration.decorationsEnabled": "both",
+
+	//* 💡 ru - бета
+	//* 💡 en - Determines whether or not shell integration is auto-injected to support features like enhanced command tracking and current working directory detection.
+	"terminal.integrated.shellIntegration.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the number of recently used commands to keep in the terminal command history. Set to 0 to disable terminal command history.
+	"terminal.integrated.shellIntegration.history": 100,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show the alert "The terminal process terminated with exit code" when exit code is non-zero.
+	"terminal.integrated.showExitAlert": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to show hovers for links in the terminal output.
+	"terminal.integrated.showLinkHover": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the terminal will scroll using an animation.
+	"terminal.integrated.smoothScrolling": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the working directory a split terminal starts with.
+	"terminal.integrated.splitCwd": "inherited",
+
+	//* 💡 ru - бета
+	//* 💡 en - A theme color ID to associate with terminal icons by default.
+	"terminal.integrated.tabs.defaultColor": null,
+
+	//* 💡 ru - бета
+	//* 💡 en - A codicon ID to associate with terminal icons by default.
+	"terminal.integrated.tabs.defaultIcon": "terminal",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the terminal description, which appears to the right of the title. Variables are substituted based on the context:
+	"terminal.integrated.tabs.description": "${task}${separator}${local}${separator}${cwdFolder}",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether terminal tab statuses support animation (eg. in progress tasks).
+	"terminal.integrated.tabs.enableAnimation": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether terminal tabs display as a list to the side of the terminal. When this is disabled a dropdown will display instead.
+	"terminal.integrated.tabs.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether focusing the terminal of a tab happens on double or single click.
+	"terminal.integrated.tabs.focusMode": "doubleClick",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the terminal tabs view will hide under certain conditions.
+	"terminal.integrated.tabs.hideCondition": "singleTerminal",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the location of the terminal tabs, either to the left or right of the actual terminal(s).
+	"terminal.integrated.tabs.location": "right",
+
+	//* 💡 ru - бета
+	//* 💡 en - Separator used by `terminal.integrated.tabs.title` and `terminal.integrated.tabs.title`.
+	"terminal.integrated.tabs.separator": " - ",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether terminal split and kill buttons are displays next to the new terminal button.
+	"terminal.integrated.tabs.showActions": "singleTerminalOrNarrow",
+
+	//* 💡 ru - бета
+	//* 💡 en - Shows the active terminal information in the view.
+	"terminal.integrated.tabs.showActiveTerminal": "singleTerminalOrNarrow",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the terminal title. Variables are substituted based on the context:
+	"terminal.integrated.tabs.title": "${process}",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls what version of Unicode to use when evaluating the width of characters in the terminal. If you experience emoji or other wide characters not taking up the right amount of space or backspace either deleting too much or too little then you may want to try tweaking this setting.
+	"terminal.integrated.unicodeVersion": "11",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether or not WSL distros are shown in the terminal dropdown
+	"terminal.integrated.useWslProfiles": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to use ConPTY for Windows terminal process communication (requires Windows 10 build number 18309+). Winpty will be used if this is false.
+	"terminal.integrated.windowsEnableConpty": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - A string containing all characters to be considered word separators by the double click to select word feature.
+	"terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’"
+}

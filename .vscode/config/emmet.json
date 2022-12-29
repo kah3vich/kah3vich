@@ -1,0 +1,71 @@
+{
+	//! ✅ Emmet
+	//? 🧨 Info - https://code.visualstudio.com/docs/editor/emmet
+
+	//* 💡 ru - Укажите местоположение каталога, в котором находится snippets.json файл, который, в свою очередь, содержит ваши пользовательские фрагменты.
+	//* 💡 en - Specify the directory location that contains the snippets.json file, which in turn contains your custom snippets.
+	"emmet.triggerExpansionOnTab": true,
+
+	//* 💡 ru - Если вы вообще не хотите видеть аббревиатуры Emmet в предложениях.
+	//* 💡 en - If you don't want to see Emmet abbreviations in sentences at all.
+	"emmet.showExpandedAbbreviation": "never",
+
+	//* 💡 ru - Если есть язык, для которого вы не хотите видеть расширения Emmet, добавьте его в этот параметр, который принимает массив строк идентификатора языка.
+	//* 💡 en - If there is a language for which you don't want to see Emmet extensions, add it to this parameter, which takes an array of language ID strings.
+	"emmet.excludeLanguages": ["html", "css", "markdown", "javascript"],
+
+	//* 💡 ru - Чтобы включить расширение аббревиатуры Emmet в типах файлов, где оно недоступно по умолчанию.
+	//* 💡 en - To enable the Emmet abbreviation extension in file types where it is not available by default.
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"html": "html",
+		"php": "html",
+		"blade": "html",
+		"postcss": "css"
+	},
+
+	//* 💡 ru - бета
+	//* 💡 en - An array of languages where Emmet abbreviations should not be expanded.
+	"emmet.excludeLanguages": ["markdown"],
+
+	//* 💡 ru - бета
+	//* 💡 en - An array of paths, where each path can contain Emmet syntaxProfiles and/or snippet files. In case of conflicts, the profiles/snippets of later paths will override those of earlier paths.
+	"emmet.extensionsPath": [],
+
+	//* 💡 ru - бета
+	//* 💡 en - Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.
+	"emmet.includeLanguages": {},
+	// For example: `{"vue-html": "html", "javascript": "javascriptreact"}`
+
+	//* 💡 ru - бета
+	//* 💡 en - When set to `false`, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to `true`, only the content around the current position in CSS/SCSS/Less files is parsed.
+	"emmet.optimizeStylesheetParsing": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Preferences used to modify behavior of some actions and resolvers of Emmet.
+	"emmet.preferences": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - Shows possible Emmet abbreviations as suggestions. Not applicable in stylesheets or when emmet.showExpandedAbbreviation is set to `"never"`.
+	"emmet.showAbbreviationSuggestions": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Shows expanded Emmet abbreviations as suggestions.
+	"emmet.showExpandedAbbreviation": "always",
+
+	//* 💡 ru - бета
+	//* 💡 en - If `true`, then Emmet suggestions will show up as snippets allowing you to order them as per `editor.snippetSuggestions` setting.
+	"emmet.showSuggestionsAsSnippets": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Define profile for specified syntax or use your own profile with specific rules.
+	"emmet.syntaxProfiles": {},
+
+	//* 💡 ru - бета
+	//* 💡 en - If `true`, Emmet will use inline completions to suggest expansions.
+	"emmet.useInlineCompletions": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Variables to be used in Emmet snippets.
+	"emmet.variables": {}
+}

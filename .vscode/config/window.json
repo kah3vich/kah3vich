@@ -1,0 +1,95 @@
+{
+	//! ✅ Window
+
+	//* 💡 ru - Определяет, должны ли файлы открываться в новом окне при использовании командной строки или файлового диалога.
+	//* 💡 en - Specifies whether files should open in a new window when using the command line or file dialog.
+	"window.openFilesInNewWindow": "off",
+
+	//* 💡 ru - Отрегулируйте уровень масштабирования окна.
+	//* 💡 en - Adjust the zoom level of the window.
+	"window.zoomLevel": -1,
+
+	//* 💡 ru - бета
+	//* 💡 en - If set, automatically switch to the preferred color theme based on the OS appearance. If the OS appearance is dark, the theme specified at `workbench.preferredDarkColorTheme` is used, for light `workbench.preferredLightColorTheme`.
+	"window.autoDetectColorScheme": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - If enabled, will automatically change to high contrast theme if the OS is using a high contrast theme. The high contrast theme to use is specified by `workbench.preferredHighContrastColorTheme` and `workbench.preferredHighContrastLightColorTheme`.
+	"window.autoDetectHighContrast": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - If enabled, clicking on an inactive window will both activate the window and trigger the element under the mouse if it is clickable. If disabled, clicking anywhere on an inactive window will activate it only and a second click is required on the element.
+	"window.clickThroughInactive": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether closing the last editor should also close the window. This setting only applies for windows that do not show folders.
+	"window.closeWhenEmpty": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Show command launcher together with the window title.
+	"window.commandCenter": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether to show a confirmation dialog before closing the window or quitting the application.
+	"window.confirmBeforeClose": "never",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the menu bar will be focused by pressing the Alt-key. This setting has no effect on toggling the menu bar with the Alt-key.
+	"window.customMenuBarAltFocus": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Adjust the appearance of dialog windows.
+	"window.dialogStyle": "native",
+
+	//* 💡 ru - бета
+	//* 💡 en - If enabled, double clicking the application icon in the title bar will close the window and the window cannot be dragged by the icon. This setting only has an effect when `window.titleBarStyle` is set to `custom`.
+	"window.doubleClickIconToClose": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls if native full-screen should be used on macOS. Disable this option to prevent macOS from creating a new space when going full-screen.
+	"window.nativeFullScreen": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured.
+	"window.nativeTabs": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether the main menus can be opened via Alt-key shortcuts. Disabling mnemonics allows to bind these Alt-key shortcuts to editor commands instead.
+	"window.enableMenuBarMnemonics": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Control the visibility of the menu bar. A setting of 'toggle' means that the menu bar is hidden and a single press of the Alt key will show it. A setting of 'compact' will move the menu into the side bar.
+	"window.menuBarVisibility": "classic",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the dimensions of opening a new window when at least one window is already opened. Note that this setting does not have an impact on the first window that is opened. The first window will always restore the size and location as you left it before closing.
+	"window.newWindowDimensions": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether folders should open in a new window or replace the last active window.
+	"window.openFoldersInNewWindow": "default",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a new empty window should open when starting a second instance without arguments or if the last running instance should get focus.
+	"window.openWithoutArgumentsInNewWindow": "on",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls whether a window should restore to full screen mode if it was exited in full screen mode.
+	"window.restoreFullscreen": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls how windows are being reopened after starting for the first time. This setting has no effect when the application is already running.
+	"window.restoreWindows": "all",
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls the window title based on the active editor.
+	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+
+	//* 💡 ru - бета
+	//* 💡 en - Adjust the appearance of the window title bar. On Linux and Windows, this setting also affects the application and context menu appearances. Changes require a full restart to apply.
+	"window.titleBarStyle": "custom",
+
+	//* 💡 ru - бета
+	//* 💡 en - Separator used by `window.title`.
+	"window.titleSeparator": " - "
+}

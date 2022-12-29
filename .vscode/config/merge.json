@@ -1,0 +1,19 @@
+{
+	//! ✅ Merge Conflict
+
+	//* 💡 ru - бета
+	//* 💡 en - Whether to automatically navigate to the next merge conflict after resolving a merge conflict.
+	"merge-conflict.autoNavigateNextConflict.enabled": false,
+
+	//* 💡 ru - бета
+	//* 💡 en - Create a CodeLens for merge conflict blocks within editor.
+	"merge-conflict.codeLens.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Create decorators for merge conflict blocks within editor.
+	"merge-conflict.decorators.enabled": true,
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls where the diff view should be opened when comparing changes in merge conflicts.
+	"merge-conflict.diffViewPosition": "Current"
+}

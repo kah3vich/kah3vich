@@ -1,0 +1,7 @@
+{
+	//! ✅ Grunt
+
+	//* 💡 ru - бета
+	//* 💡 en - Controls enablement of Grunt task detection. Grunt task detection can cause files in any open workspace to be executed.
+	"grunt.autoDetect": "off"
+}
