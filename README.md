@@ -1,11 +1,14 @@
-<img style="width: 100%; height: 180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
+<!--! by kah3vich !-->
+
+<img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
 
 <!--|||-->
 
-<h2 align="center" style="font-family: Montserrat; font-weight: 900; font-size: 24px">
-  <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Welcome to my profile 
+<div align="center">
+  <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> 
+  <b>Welcome to my profile</b>
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-</h2>
+</div>
 
 <!--|||-->
 
@@ -55,6 +58,7 @@
 </div>
 
 &nbsp;<div align="center">
+
 [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d20232a&border_color=0de4e2e2)](https://open.spotify.com/user/omnitenebris)
 
 </div>
@@ -505,33 +509,4 @@
   <a align="left" href="https://github.com/kah3vich/Gulp-RS" title="Gulp-RS"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Gulp-RS&theme=react&border_color=61dafb&border_radius=10"></a><a align="right" href="https://github.com/kah3vich/Portfolio_" title="Data Structures"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Portfolio_&theme=react&border_color=61dafb&border_radius=10"></a>
 </div>
 
-<br />
-
-<a href="https://cultofthepartyparrot.com">
-  <div align="center">
-    <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/flags/hd/indiaparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/exceptionallyfastparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30"/>
-  </div>
-</a>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
