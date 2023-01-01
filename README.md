@@ -22,7 +22,13 @@
   <a href="https://wakatime.com/@kah3vich" target="_blank">
     <img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white">
   </a>
+  <div align="center">
+    <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
+    <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="GitHub badge" />
+  </div>
 </div>
+
+<br />
 
 <!--|||-->
 
@@ -46,6 +52,11 @@
 <div align="center">
 <a href="https://www.codewars.com/users/kah3vich">
   <img src="https://www.codewars.com/users/kah3vich/badges/large"/></a>
+</div>
+
+&nbsp;<div align="center">
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d20232a&border_color=0de4e2e2)](https://open.spotify.com/user/omnitenebris)
+
 </div>
 
 <br />
@@ -485,6 +496,37 @@
   -->
 </p>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
-</p>
+<div width="100%">
+  <img src="./utils/table.svg" />
+</div>
+
+<br />
+
+<a href="https://cultofthepartyparrot.com">
+  <div align="center">
+    <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/flags/hd/indiaparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/exceptionallyfastparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30"/>
+    <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30"/>
+  </div>
+</a>
