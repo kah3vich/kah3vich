@@ -498,10 +498,48 @@
 
 <div id="icon-wrapper" style="width:100%;
   display: flex;
-  flex-wrap: wrap;">
-<svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg>
-<svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg>
-<svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg>
+  flex-wrap: wrap; gap: 10px;">
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div><div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
+<div style="width: 70px; height: 70px; background: red;">2</div>
 
 </div>
 
