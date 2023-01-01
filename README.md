@@ -499,47 +499,54 @@
 <div id="icon-wrapper" style="width:100%;
   display: flex;
   flex-wrap: wrap; gap: 10px;">
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div><div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
-<div style="width: 70px; height: 70px; background: red;">2</div>
+  <style>
+  .item {
+    width: 70px; 
+  height: 70px; 
+  background: red;
+  }
+</style>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div><div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
+<div class="item">2</div>
 
 </div>
 
