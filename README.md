@@ -496,8 +496,13 @@
   -->
 </p>
 
-<div width="100%">
-  <img src="./utils/table.svg" />
+<div id="icon-wrapper" style="width:100%;
+  display: flex;
+  flex-wrap: wrap;">
+<svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg><svg xmlns="http://www.w3.org/2000/svg" height="70px" width="70px" fill="red"></svg>
+
 </div>
 
 <br />
