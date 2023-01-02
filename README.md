@@ -5,8 +5,8 @@
 <!--|||-->
 
 <p align="center">
-  <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> 
-  <b>Welcome to my profile</b>
+  <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30px" /> 
+  <img src="./assets/other/title.svg" width="290px" height="29px">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 </p>
 
