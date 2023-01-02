@@ -64,11 +64,7 @@
 
 <img src="./assets/other/titleStack.svg" width="100%" height="29px">
 
-<br />
-
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<br />
 
 <table align="center">
   <tr>
@@ -479,11 +475,7 @@
 
 <img src="./assets/other/titleStats.svg" width="100%" height="29px">
 
-<br />
-
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<br />
 
 <!--|||-->
 
@@ -510,13 +502,9 @@
 
 <br />
 
-<img src="./assets/other/titleRepositories.svg" width="290px" height="29px">
-
-<br />
+<img src="./assets/other/titleRepositories.svg" width="100%" height="29px">
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<br />
 
 <div width="100%" align="center">
   <a align="left" href="https://github.com/kah3vich/Gulp-RS" title="Gulp-RS"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Gulp-RS&theme=react&border_color=61dafb&border_radius=10"></a><a align="right" href="https://github.com/kah3vich/Portfolio_" title="Data Structures"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Portfolio_&theme=react&border_color=61dafb&border_radius=10"></a>
