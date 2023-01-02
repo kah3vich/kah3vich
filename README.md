@@ -35,7 +35,7 @@
 
 <!--|||-->
 
-<img src="./assets/other/description.svg" width="100%">
+  <img src="./assets/other/description.svg" width="100%" height="200px">
 
 <!--|||-->
 
