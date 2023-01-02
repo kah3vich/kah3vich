@@ -35,12 +35,7 @@
 
 <!--|||-->
 
-<h2>
-  🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.
-  <br />
-  <br />
-  🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
-</h2>
+<img src="./assets/other/description.svg" width="100%">
 
 <!--|||-->
 

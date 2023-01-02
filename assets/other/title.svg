@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="30px" width="500px" fill="none" data-reactroot="">
-    <foreignObject width="500px" height="30px">
+<svg xmlns="http://www.w3.org/2000/svg" height="29px" width="290px" fill="none" data-reactroot="">
+    <foreignObject width="290px" height="29px">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&amp;display=swap')
 
                 * {
                     margin: 0;
                     box-sizing: content-box;
-                    font-family: 'Press Start 2P', cursive;
+                    font-family: 'Martian Mono', monospace;
                 }
             </style>
             <div id="title">
@@ -15,14 +15,14 @@
             </div>
             <style>
                 #title {
-                    font-family: 'Press Start 2P', cursive;
-                    width: 500px;
+                    font-family: 'Martian Mono', monospace;
+                    width: 290px;
                     color: gray;
                     font-size: 25px;
                     font-weight: 500;
                     line-height: 30px;
                 }
-            </style>
-        </div>
+        </style>
+    </div>
     </foreignObject>
 </svg>

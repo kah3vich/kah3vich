@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" fill="none" data-reactroot="">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&amp;display=swap')
+
+                * {
+                    margin: 0;
+                    box-sizing: content-box;
+                    font-family: 'Martian Mono', monospace;
+                }
+            </style>
+            <div id="description">
+                🌺 Hi, i'm Kahevich, a self-taught full stack web developer. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality.
+                <br />
+                🧠 I learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
+            </div>
+            <style>
+                #description {
+                    font-family: 'Martian Mono', monospace;
+                    width: 100%;
+                    color: gray;
+                    font-size: 25px;
+                    font-weight: 500;
+                    line-height: 30px;
+                }
+        </style>
+    </div>
+    </foreignObject>
+</svg>
