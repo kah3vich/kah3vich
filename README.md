@@ -509,3 +509,9 @@
 <div width="100%" align="center">
   <a align="left" href="https://github.com/kah3vich/Gulp-RS" title="Gulp-RS"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Gulp-RS&theme=react&border_color=61dafb&border_radius=10"></a><a align="right" href="https://github.com/kah3vich/Portfolio_" title="Data Structures"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Portfolio_&theme=react&border_color=61dafb&border_radius=10"></a>
 </div>
+
+<br /><br />
+<br /><br />
+<br /><br />
+
+<img src="https://readme-jokes.vercel.app/api?theme=react" alt="Error fetching resource, Refresh again to view Jokes Card" width="100%" />
