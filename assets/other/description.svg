@@ -19,7 +19,7 @@
                 #description {
                     font-family: 'Martian Mono', monospace;
                     width: 100%;
-                    color: gray;
+                    color: #61dafb;
                     font-size: 25px;
                     font-weight: 500;
                     line-height: 30px;
