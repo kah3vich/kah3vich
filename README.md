@@ -415,7 +415,7 @@
       <p>Redux Saga</p>
     </td>
   </tr>
-    <tr>
+  <tr>
     <td align="center" width="96">
       <a href="#">
         <img src="assets/icon/gatsby.svg" width="48" height="48" alt="Gatsby JS" />
@@ -458,14 +458,38 @@
       <br />
       <p>gRPS</p>
     </td>
-      <td align="center" width="96">
+    <td align="center" width="96">
       <a href="#">
         <img src="assets/icon/nanostore.svg" width="48" height="48" alt="NanoStore" />
       </a>
       <br />
       <p>NanoStore</p>
     </td>
-    <td align="center"  width="96"></td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/chakra.svg" width="48" height="48" alt="Chakra" />
+      </a>
+      <br />
+      <p>Chakra</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/mui.svg" width="48" height="48" alt="Mui" />
+      </a>
+      <br />
+      <p>Mui</p>
+    </td>
+    <td align="center" width="96"></td>
+    <td align="center" width="96"></td>
+    <td align="center" width="96"></td>
+    <td align="center" width="96"></td>
+    <td align="center" width="96"></td>
+    <td align="center" width="96"></td>
+    <td align="center" width="96"></td>
+    <td align="center" width="96"></td>
+
   </tr>
 </table>
 
@@ -515,3 +539,5 @@
 <br /><br />
 
 <img src="https://readme-jokes.vercel.app/api?theme=react" alt="Error fetching resource, Refresh again to view Jokes Card" width="100%" />
+
+<!-- https://cultofthepartyparrot.com tsss... -->
