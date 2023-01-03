@@ -35,7 +35,7 @@
 
 <!--|||-->
 
-  <img src="./assets/other/description.svg" width="100%" height="230px">
+  <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="230px">
 
 <!--|||-->
 
@@ -62,7 +62,7 @@
 
 <!--|||-->
 
-<img src="./assets/other/titleStack.svg" width="100%" height="29px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStack.svg" width="100%" height="29px">
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
@@ -473,7 +473,7 @@
 
 <!--|||-->
 
-<img src="./assets/other/titleStats.svg" width="100%" height="29px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStats.svg" width="100%" height="29px">
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
@@ -502,7 +502,7 @@
 
 <br />
 
-<img src="./assets/other/titleRepositories.svg" width="100%" height="29px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleRepositories.svg" width="100%" height="29px">
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
