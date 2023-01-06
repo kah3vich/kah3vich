@@ -1,3 +1,8 @@
+6
+5
+6
+6
+5
 <!--! by kah3vich !-->
 
 <img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
@@ -481,10 +486,34 @@
       <br />
       <p>Mui</p>
     </td>
-    <td align="center" width="96"></td>
-    <td align="center" width="96"></td>
-    <td align="center" width="96"></td>
-    <td align="center" width="96"></td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/mobx.svg" width="48" height="48" alt="MobX" />
+      </a>
+      <br />
+      <p>MobX</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/nestjs.svg" width="48" height="48" alt="NestJS" />
+      </a>
+      <br />
+      <p>NestJS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/rxjs.svg" width="48" height="48" alt="RxJS" />
+      </a>
+      <br />
+      <p>RxJS</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/roots.svg" width="48" height="48" alt="Roots" />
+      </a>
+      <br />
+      <p>Roots</p>
+    </td>
     <td align="center" width="96"></td>
     <td align="center" width="96"></td>
     <td align="center" width="96"></td>
