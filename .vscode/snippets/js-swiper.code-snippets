@@ -10,7 +10,8 @@
 			"\tpagination: {",
 			"\t\tel: \".${1:nameSlider}Swiper .swiper-controls .swiper-pagination\",",
 			"\t},",
-			"});"
+			"});",
+			"$0"
 		],
 		"description": "✅Snippet: JavaScript Swiper Base"
 	}
