@@ -1,0 +1,9 @@
+{
+	"✅Snippet: Pug Img": {
+		"prefix": "pug-img",
+		"body": ["img(src=\"${1:path}\" alt=\"${2:alt}\")"],
+		"description": "✅Snippet: Pug Img"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

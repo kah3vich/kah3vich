@@ -1,0 +1,9 @@
+{
+	"✅Snippet: HTML Img": {
+		"prefix": "html-img",
+		"body": ["<img src=\"${1:path}\" alt=\"${2:alt}\" />"],
+		"description": "✅Snippet: HTML Img"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

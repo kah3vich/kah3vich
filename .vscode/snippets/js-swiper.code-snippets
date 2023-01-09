@@ -1,0 +1,19 @@
+{
+	"✅Snippet: JavaScript Swiper Base": {
+		"prefix": "js-swiper",
+		"body": [
+			"const ${1:nameSlider}Swiper = new Swiper(\".${1:nameSlider}Swiper\", {",
+			"\tnavigation: {",
+			"\t\tnextEl: \".${1:nameSlider}Swiper .swiper-controls .swiper-button-next\",",
+			"\t\tprevEl: \".${1:nameSlider}Swiper .swiper-controls .swiper-button-prev\",",
+			"\t},",
+			"\tpagination: {",
+			"\t\tel: \".${1:nameSlider}Swiper .swiper-controls .swiper-pagination\",",
+			"\t},",
+			"});"
+		],
+		"description": "✅Snippet: JavaScript Swiper Base"
+	}
+}
+
+//| 🔥 by kah3vich 🔥
