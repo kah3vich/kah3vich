@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="29px" width="290px" fill="none" data-reactroot="">
-    <foreignObject width="290px" height="29px">
+<svg xmlns="http://www.w3.org/2000/svg" height="29px" width="330px" fill="none" data-reactroot="">
+    <foreignObject width="330px" height="29px">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&amp;display=swap')
@@ -16,7 +16,7 @@
             <style>
                 #title {
                     font-family: 'Martian Mono', monospace;
-                    width: 290px;
+                    width: 330px;
                     color: #61dafb;
                     font-size: 25px;
                     font-weight: 500;

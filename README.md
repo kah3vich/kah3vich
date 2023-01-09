@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30px" /> 
-  <img src="./assets/other/title.svg" width="290px" height="29px">
+  <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="280px" height="29px">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 </p>
 
@@ -35,7 +35,7 @@
 
 <!--|||-->
 
-  <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="230px">
+  <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="250px">
 
 <!--|||-->
 
