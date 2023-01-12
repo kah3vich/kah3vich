@@ -1,0 +1,7 @@
+[
+	{
+		"key": "CTRL+ALT+P",
+		"command": "source.organizeImports",
+		"when": ""
+	}
+]

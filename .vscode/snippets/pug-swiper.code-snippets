@@ -1,6 +1,6 @@
 {
-	"✅Snippet: Pug Swiper Base": {
-		"prefix": "pug-swiper-base",
+	"✅Snippet: Pug Swiper": {
+		"prefix": "pug-swiper",
 		"body": [
 			".swiper.${1:nameSlider}",
 			"\t.swiper-wrapper",
@@ -11,7 +11,7 @@
 			"\t\t.swiper-pagination",
 			"$0"
 		],
-		"description": "✅Snippet: Pug Swiper Base"
+		"description": "✅Snippet: Pug Swiper"
 	}
 }
 

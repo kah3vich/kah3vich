@@ -1,6 +1,6 @@
 {
-	"✅Snippet: HTML Swiper Base": {
-		"prefix": "html-swiper-base",
+	"✅Snippet: HTML Swiper": {
+		"prefix": "html-swiper",
 		"body": [
 			"<div class=\"swiper ${1:nameSlider}\">",
 			"\t<div class=\"swiper-wrapper\">",
@@ -14,7 +14,7 @@
 			"</div>",
 			"$0"
 		],
-		"description": "✅Snippet: HTML Swiper Base"
+		"description": "✅Snippet: HTML Swiper"
 	}
 }
 

@@ -1,63 +1,63 @@
 {
 	//! ✅ Audio Cues
 
-	//* 💡 ru - бета
-	//* 💡 en - Plays a sound when the focus moves to a deleted line in diff review mode
+	//* 💡 ru - Воспроизводит звук, когда фокус перемещается на удаленную строку в режиме просмотра различий.
+	//* 💡 en - Plays a sound when the focus moves to a deleted line in diff review mode.
 	"audioCues.diffLineDeleted": "auto",
 
-	//* 💡 ru - бета
-	//* 💡 en - Plays a sound when the focus moves to an inserted line in diff review mode
+	//* 💡 ru - Воспроизводит звук, когда фокус перемещается на вставленную строку в режиме просмотра различий.
+	//* 💡 en - Plays a sound when the focus moves to an inserted line in diff review mode.
 	"audioCues.diffLineInserted": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда в активной строке есть точка останова.
 	//* 💡 en - Plays a sound when the active line has a breakpoint.
 	"audioCues.lineHasBreakpoint": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда активная линия имеет ошибку.
 	//* 💡 en - Plays a sound when the active line has an error.
 	"audioCues.lineHasError": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда активная линия имеет свернутую область, которую можно развернуть.
 	//* 💡 en - Plays a sound when the active line has a folded area that can be unfolded.
 	"audioCues.lineHasFoldedArea": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда в активной строке есть встроенное предложение.
 	//* 💡 en - Plays a sound when the active line has an inline suggestion.
 	"audioCues.lineHasInlineSuggestion": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда на активной линии есть предупреждение.
 	//* 💡 en - Plays a sound when the active line has a warning.
 	"audioCues.lineHasWarning": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук при попытке прочитать строку с подсказками вкладки, которая не имеет подсказок вкладки.
 	//* 💡 en - Plays a sound when trying to read a line with inlay hints that has no inlay hints.
 	"audioCues.noInlayHints": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда выполнение ячейки блокнота успешно завершено.
 	//* 💡 en - Plays a sound when a notebook cell execution is successfully completed.
 	"audioCues.notebookCellCompleted": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук при сбое выполнения ячейки записной книжки.
 	//* 💡 en - Plays a sound when a notebook cell execution fails.
 	"audioCues.notebookCellFailed": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда отладчик остановился на точке останова.
 	//* 💡 en - Plays a sound when the debugger stopped on a breakpoint.
 	"audioCues.onDebugBreak": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда задача выполнена.
 	//* 💡 en - Plays a sound when a task is completed.
 	"audioCues.taskCompleted": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук при сбое задачи (ненулевой код выхода).
 	//* 💡 en - Plays a sound when a task fails (non-zero exit code).
 	"audioCues.taskFailed": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Воспроизводит звук, когда доступны быстрые исправления терминала.
 	//* 💡 en - Plays a sound when terminal Quick Fixes are available.
 	"audioCues.terminalQuickFix": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Громкость звуковых сигналов в процентах (0-100).
 	//* 💡 en - The volume of the audio cues in percent (0-100).
-	"audioCues.volume": 70
+	"audioCues.volume": 0
 }
