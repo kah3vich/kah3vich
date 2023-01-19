@@ -111,4 +111,4 @@ code --install-extension xdebug.php-debug
 code --install-extension xdebug.php-pack
 code --install-extension zobo.php-intellisense
 
-// code --list-extensions | % { "code --install-extension $_" }
+code --list-extensions | % { "code --install-extension $_" }
