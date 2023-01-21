@@ -1,0 +1,7 @@
+{
+    //! ✅ WakaTime
+
+    //* 💡 ru - бета
+    //* 💡 en - Controls the window title based on the active editor.
+    "wakatime.apiKey": ""
+}

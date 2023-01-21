@@ -1,0 +1,102 @@
+{
+    //! ✅ Files
+
+    //* 💡 ru - бета
+    //* 💡 en - Configure file associations to languages (for example `"*.extension": "html"`). These have precedence over the default associations of the languages installed.
+    "files.associations": {
+		"*.scss": "postcss",
+		"*.json": "jsonc"
+    },
+
+    //* 💡 ru - бета
+    //* 💡 en - When enabled, the editor will attempt to guess the character set encoding when opening files. This setting can also be configured per language. Note, this setting is not respected by text search. Only `files.encoding` is respected.
+    "files.autoGuessEncoding": false,
+
+    //* 💡 ru - бета
+    //* 💡 en - Controls auto save of editors that have unsaved changes.
+    "files.autoSave": "off",
+
+    //* 💡 ru - бета
+    //* 💡 en - Controls the delay in milliseconds after which an editor with unsaved changes is saved automatically. Only applies when `files.autoSave` is set to `afterDelay`.
+    "files.autoSaveDelay": 1000,
+
+    //* 💡 ru - бета
+    //* 💡 en - The default language identifier that is assigned to new files. If configured to `${activeEditorLanguage}`, will use the language identifier of the currently active text editor if any.
+    "files.defaultLanguage": "",
+
+    //* 💡 ru - бета
+    //* 💡 en - Moves files/folders to the OS trash (recycle bin on Windows) when deleting. Disabling this will delete files/folders permanently.
+    "files.enableTrash": true,
+
+    //* 💡 ru - бета
+    //* 💡 en - The default character set encoding to use when reading and writing files. This setting can also be configured per language.
+    "files.encoding": "utf8",
+
+    //* 💡 ru - бета
+    //* 💡 en - The default end of line character.
+    "files.eol": "auto",
+
+    //* 💡 ru - бета
+    //* 💡 en - Configure glob patterns for excluding files and folders. For example, the File Explorer decides which files and folders to show or hide based on this setting. Refer to the `search.exclude` setting to define search-specific excludes.
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+
+    //* 💡 ru - бета
+    //* 💡 en - Controls whether unsaved files are remembered between sessions, allowing the save prompt when exiting the editor to be skipped.
+    "files.hotExit": "onExit",
+
+    //* 💡 ru - бета
+    //* 💡 en - When enabled, insert a final new line at the end of the file when saving it.
+    "files.insertFinalNewline": false,
+
+    //* 💡 ru - бета
+    //* 💡 en - Controls the memory available to VS Code after restart when trying to open large files. Same effect as specifying `--max-memory=NEWSIZE` on the command line.
+    "files.maxMemoryForLargeFilesMB": 4096,
+
+    //* 💡 ru - бета
+    //* 💡 en - Timeout in milliseconds after which file participants for create, rename, and delete are cancelled. Use `0` to disable participants.
+    "files.participants.timeout": 60000,
+
+    //* 💡 ru - бета
+    //* 💡 en - Controls if files that were part of a refactoring are saved automatically
+    "files.refactoring.autoSave": true,
+
+    //* 💡 ru - бета
+    //* 💡 en - Restore the undo stack when a file is reopened.
+    "files.restoreUndoStack": true,
+
+    //* 💡 ru - бета
+    //* 💡 en - A save conflict can occur when a file is saved to disk that was changed by another program in the meantime. To prevent data loss, the user is asked to compare the changes in the editor with the version on disk. This setting should only be changed if you frequently encounter save conflict errors and may result in data loss if used without caution.
+    "files.saveConflictResolution": "askUser",
+
+    //* 💡 ru - бета
+    //* 💡 en - Enables the simple file dialog. The simple file dialog replaces the system file dialog when enabled.
+    "files.simpleDialog.enable": false,
+
+    //* 💡 ru - бета
+    //* 💡 en - When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+    "files.trimFinalNewlines": false,
+
+    //* 💡 ru - бета
+    //* 💡 en - When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": false,
+
+    //* 💡 ru - бета
+    //* 💡 en - Configure paths or glob patterns to exclude from file watching.
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true,
+      "**/.hg/store/**": true
+    },
+
+    //* 💡 ru - бета
+    //* 💡 en - Configure extra paths to watch for changes inside the workspace.
+    "files.watcherInclude": []
+}

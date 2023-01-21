@@ -1,7 +1,8 @@
 [
 	{
-		"key": "CTRL+ALT+P",
-		"command": "source.organizeImports",
-		"when": ""
+		"command": "import-at-top",
+		"key": "shift+i",
+		"when": "editorTextFocus",
+		"mac": "shift+i"
 	}
 ]

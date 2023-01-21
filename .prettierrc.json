@@ -1,0 +1,29 @@
+{
+    //* 💡 ru - Размер таба.
+    //* 💡 en - Size tabs.
+    "tabWidth": 4,
+
+    //* 💡 ru - Использовать одинарные кавычки вместо двойных кавычек.
+    //* 💡 en - Single quotes are used instead of double quotes.
+    "singleQuote": true,
+
+    //* 💡 ru - Использовать одинарные кавычки вместо двойных в JSX.
+    //* 💡 en - Single quotes are used instead of double quotes in JSX.
+    "jsxSingleQuote": true,
+
+    //* 💡 ru - Включить круглые скобки вокруг единственного параметра функции стрелки.
+    //* 💡 en - Includes parentheses around the single parameter of the arrow function.
+    "arrowParens": "avoid",
+
+    //* 💡 ru - Писать точки с запятой в конце операторов.
+    //* 💡 en - Writes semicolons at the end of statements.
+    "semi": true,
+
+    //* 💡 ru - Писать в конце запятые везде, где это возможно, в многострочных синтаксических структурах, разделенных запятыми.
+    //* 💡 en - Use trailing commas wherever possible, in comma-separated multi-line syntax structures.
+    "trailingComma": "none",
+
+    //* 💡 ru - Использовать отступы с помощью табуляции вместо пробелов.
+    //* 💡 en - Indent with tabs instead of spaces.
+    "useTabs": true
+}
