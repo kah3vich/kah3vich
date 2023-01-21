@@ -20,3 +20,10 @@ mkdir backup-config; mv settings.json keybindings.json snippets/ backup-config/;
 
 git clone -b config https://github.com/kah3vich/kah3vich.git; cd kah3vich/.vscode; mv settings.json keybindings.json snippets/ ../../; cd ../../; rm -rf kah3vich/
 ```
+
+
+// back paht - /Code/User
+
+```bash 
+rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; rm -rf backup-config/
+```
