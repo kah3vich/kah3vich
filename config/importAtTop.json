@@ -1,0 +1,36 @@
+{
+	//! ✅ Import At Top
+
+	//* 💡 ru - бета
+	//* 💡 en - beta.
+	"import-at-top": [
+        {
+            //* 💡 ru - бета
+	        //* 💡 en - beta.
+            "trigger": "useState",
+
+            //* 💡 ru - бета
+	        //* 💡 en - beta.
+            "packet": "react",
+
+            //* 💡 ru - бета
+	        //* 💡 en - beta.
+            "defaultType": false
+        },
+        {
+            "trigger": "useMemo",
+            "packet": "react",
+            "defaultType": false
+        },
+        {
+            "trigger": "useCallback",
+            "packet": "react",
+            "defaultType": false
+        },
+        {
+            "trigger": "useHook",
+            "packet": "...",
+            "defaultType": true
+        }
+    ]
+}

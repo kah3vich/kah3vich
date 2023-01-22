@@ -25,5 +25,21 @@
 
     //* 💡 ru - Использовать отступы с помощью табуляции вместо пробелов.
     //* 💡 en - Indent with tabs instead of spaces.
-    "useTabs": true
+    "useTabs": true,
+
+    //* 💡 ru - Используется, когда свойства в объектах заключены в кавычки.
+    //* 💡 en - beta.
+    "quoteProps": "as-needed",
+
+    //* 💡 ru - Печатать пробелы между скобками в литералах объекта. 
+    //* 💡 en - Печатать пробелы между скобками в литералах объекта. 
+    "bracketSpacing": true,
+
+    //* 💡 ru - Поместите >элемент многострочного HTML (HTML, JSX, Vue, Angular) в конец последней строки, а не в одиночку на следующей строке (не относится к самозакрывающимся элементам).
+    //* 💡 en - Put the multi-line HTML (HTML, JSX, Vue, Angular) element at the end of the last line, not alone on the next line (does not apply to self-closing elements).
+    "bracketSameLine": false,
+
+    //* 💡 ru - Используйте один атрибут в строке в HTML, Vue и JSX.
+    //* 💡 en - Use one attribute per line in HTML, Vue and JSX.
+    "singleAttributePerLine": true
 }

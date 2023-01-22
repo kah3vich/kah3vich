@@ -1,19 +1,19 @@
 {
 	//! ✅ Default Configuration Overrides
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры для переопределения языка csharp.
 	//* 💡 en - Configure settings to be overridden for the csharp language.
 	"[csharp]": {
 		"editor.maxTokenizationLineLength": 2500
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка css.
 	//* 💡 en - Configure settings to be overridden for the css language.
 	"[css]": {
 		"editor.suggest.insertMode": "replace"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка компоновки докеров.
 	//* 💡 en - Configure settings to be overridden for the dockercompose language.
 	"[dockercompose]": {
 		"editor.insertSpaces": true,
@@ -21,7 +21,7 @@
 		"editor.autoIndent": "advanced"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка dockerfile.
 	//* 💡 en - Configure settings to be overridden for the dockerfile language.
 	"[dockerfile]": {
 		"editor.quickSuggestions": {
@@ -29,44 +29,44 @@
 		}
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры для переопределения языка git-commit.
 	//* 💡 en - Configure settings to be overridden for the git-commit language.
 	"[git-commit]": {
 		"editor.rulers": [72],
 		"workbench.editor.restoreViewState": false
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры для переопределения языка git-rebase.
 	//* 💡 en - Configure settings to be overridden for the git-rebase language.
 	"[git-rebase]": {
 		"workbench.editor.restoreViewState": false
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка go.
 	//* 💡 en - Configure settings to be overridden for the go language.
 	"[go]": {
 		"editor.insertSpaces": false
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры для переопределения языка руля.
 	//* 💡 en - Configure settings to be overridden for the handlebars language.
 	"[handlebars]": {
 		"editor.suggest.insertMode": "replace"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка html.
 	//* 💡 en - Configure settings to be overridden for the html language.
 	"[html]": {
 		"editor.suggest.insertMode": "replace"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка javascript.
 	//* 💡 en - Configure settings to be overridden for the javascript language.
 	"[javascript]": {
 		"editor.maxTokenizationLineLength": 2500
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка json.
 	//* 💡 en - Configure settings to be overridden for the json language.
 	"[json]": {
 		"editor.quickSuggestions": {
@@ -75,7 +75,7 @@
 		"editor.suggest.insertMode": "replace"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка jsonc.
 	//* 💡 en - Configure settings to be overridden for the jsonc language.
 	"[jsonc]": {
 		"editor.quickSuggestions": {
@@ -84,19 +84,19 @@
 		"editor.suggest.insertMode": "replace"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для меньшего языка.
 	//* 💡 en - Configure settings to be overridden for the less language.
 	"[less]": {
 		"editor.suggest.insertMode": "replace"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры для переопределения языка make-файла.
 	//* 💡 en - Configure settings to be overridden for the makefile language.
 	"[makefile]": {
 		"editor.insertSpaces": false
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка уценки.
 	//* 💡 en - Configure settings to be overridden for the markdown language.
 	"[markdown]": {
 		"editor.unicodeHighlight.ambiguousCharacters": false,
@@ -109,32 +109,32 @@
 		}
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка открытого текста.
 	//* 💡 en - Configure settings to be overridden for the plaintext language.
 	"[plaintext]": {
 		"editor.unicodeHighlight.ambiguousCharacters": false,
 		"editor.unicodeHighlight.invisibleCharacters": false
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка scss.
 	//* 💡 en - Configure settings to be overridden for the scss language.
 	"[scss]": {
 		"editor.suggest.insertMode": "replace"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка результатов поиска.
 	//* 💡 en - Configure settings to be overridden for the search-result language.
 	"[search-result]": {
 		"editor.lineNumbers": "off"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка сценария оболочки.
 	//* 💡 en - Configure settings to be overridden for the shellscript language.
 	"[shellscript]": {
 		"files.eol": "\n"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут переопределены для языка yaml.
 	//* 💡 en - Configure settings to be overridden for the yaml language.
 	"[yaml]": {
 		"editor.insertSpaces": true,
