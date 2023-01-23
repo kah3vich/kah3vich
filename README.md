@@ -27,3 +27,9 @@ git clone -b config https://github.com/kah3vich/kah3vich.git; cd kah3vich/.vscod
 ```bash 
 rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; cd ../; rm -rf backup-config/
 ```
+
+
+
+snippets - task
+1. pug loop
+2. scss include 
