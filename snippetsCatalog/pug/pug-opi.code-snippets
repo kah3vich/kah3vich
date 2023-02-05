@@ -1,0 +1,51 @@
+{
+	"✅Snippet: Pug Optimization Image": {
+		"prefix": "pug-opi",
+		"body": [
+			"picture",
+			"\tsource(type=\"image/webp\" srcset=\"${1:path}.webp 1x, ${1:path}@2x.webp 2x\" media=\"(min-width: 1440px)\")",
+			"\tsource(srcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\" media=\"(min-width: 1440px)\")",
+			"\tsource(",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"${1:path}-medium.webp 1x, ${1:path}-medium@2x.webp 2x\"",
+			"\t\tmedia=\"(min-width: 1024px)\")",
+			"\tsource(",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-medium.png\t1x,",
+			"\t\t\t${1:path}-medium@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 1024px)\")",
+			"\tsource(",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-small.webp\t1x,",
+			"\t\t\t${1:path}-small@2x.webp 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 768px)\")",
+			"\tsource(",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-small.png\t1x,",
+			"\t\t\t${1:path}-small@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 768px)\")",
+			"\tsource(",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-xsmall.webp\t1x,",
+			"\t\t\t${1:path}-xsmall@2x.webp 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(max-width: 767px)\")",
+			"\tsource(",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-xsmall.png\t1x,",
+			"\t\t\t${1:path}-xsmall@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(max-width: 767px)\")",
+			"\timg(src=\"${1:path}.png\" srcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\" alt=\"image\")",
+			"$0"
+		],
+		"description": "✅Snippet: Pug Optimization Image"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

@@ -1,0 +1,12 @@
+{
+	"✅Snippet: SCSS Font Mixin": {
+		"prefix": "scss-font",
+		"body": [
+			"@include fontStyle(${1:16px}, ${2:400}, ${3:20px}, ${4:#ffffff});",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Font Mixin"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

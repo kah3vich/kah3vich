@@ -1,0 +1,9 @@
+{
+	"✅Snippet: Pug Loop": {
+		"prefix": "pug-loop",
+		"body": ["each _, i in Array(${1:count})", "$0"],
+		"description": "✅Snippet: Pug Loop"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

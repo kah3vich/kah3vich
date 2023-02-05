@@ -1,0 +1,9 @@
+{
+	"✅Snippet: Jquery Ready": {
+		"prefix": "jq-ready",
+		"body": ["$(document).ready(function () {", "\t${1:code}", "});", "$0"],
+		"description": "✅Snippet: Jquery Ready"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

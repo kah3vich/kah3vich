@@ -1,0 +1,14 @@
+{
+    "✅Snippet: setTimeout": {
+        "prefix": "settime",
+        "body": [
+            "setTimeout(() => {",
+            "\t${1:code}",
+            "}, ${2:timeout});",
+            "$0"
+        ],
+        "description": "✅Snippet: setTimeout"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

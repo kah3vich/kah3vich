@@ -1,0 +1,12 @@
+{
+	"✅Snippet: SCSS Grid Mixin": {
+		"prefix": "scss-grid",
+		"body": [
+			"@include gridStyle(${1:auto}, ${2:auto}, ${3:0px});",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Grid Mixin"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

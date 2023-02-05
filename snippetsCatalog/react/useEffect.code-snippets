@@ -1,0 +1,14 @@
+{
+    "✅Snippet: React Hook useEffect": {
+        "prefix": "useEffect",
+        "body": [ 
+            "useEffect(() => {",
+            "\t${1:code}",
+            "}, [${2:dependencies}]);",
+            "$0"
+        ],
+        "description": "✅Snippet: React Hook useEffect"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

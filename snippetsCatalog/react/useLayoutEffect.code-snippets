@@ -1,0 +1,14 @@
+{
+    "✅Snippet: React Hook useLayoutEffect": {
+        "prefix": "useLayoutEffect",
+        "body": [ 
+            "useLayoutEffect(() => {",
+            "\t${1:code}",
+            "}, [${2:dependencies}]);",
+            "$0"
+        ],
+        "description": "✅Snippet: React Hook useLayoutEffect"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

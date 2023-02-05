@@ -1,0 +1,9 @@
+{
+	"✅Snippet: Jquery Remove Class": {
+		"prefix": "jq-remove",
+		"body": ["$('${1:name}').removeClass('${2:class}');", "$0"],
+		"description": "✅Snippet: Jquery Remove Class"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

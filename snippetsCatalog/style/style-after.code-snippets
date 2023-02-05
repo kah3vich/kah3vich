@@ -1,0 +1,18 @@
+{
+    "✅Snippet: Style After": {
+        "prefix": "style-after",
+        "body": [
+            ":after {",
+            "\tcontent: '';",
+            "\tposition: absolute;",
+            "\ttop: ${1:top};",
+            "\tleft: ${2:left};",
+            "\t$0",
+            "}",
+            ""
+        ],
+        "description": "✅Snippet: Style After"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

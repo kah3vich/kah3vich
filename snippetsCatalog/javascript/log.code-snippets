@@ -1,0 +1,9 @@
+{
+    "✅Snippet: console.log": {
+        "prefix": "log",
+        "body": ["console.log('${1:element}    ', ${1:element})", "$0"],
+        "description": "✅Snippet: console.log"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

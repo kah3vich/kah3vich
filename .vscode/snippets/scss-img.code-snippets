@@ -1,0 +1,12 @@
+{
+	"✅Snippet: SCSS Img Mixin": {
+		"prefix": "scss-img",
+		"body": [
+			"@include imgFullSize();",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Img Mixin"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

@@ -121,95 +121,95 @@
 	//* 💡 en - Specifies whether the editor should display the glyph's vertical margin.
 	"editor.glyphMargin": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, показывает ли редактор CodeLens.
 	//* 💡 en - Controls whether the editor shows CodeLens.
 	"diffEditor.codeLens": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, редактор различий игнорирует изменения в начальных или конечных пробелах.
 	//* 💡 en - When enabled, the diff editor ignores changes in leading or trailing whitespace.
 	"diffEditor.ignoreTrimWhitespace": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Тайм-аут в миллисекундах, по истечении которого расчет различий отменяется. Используйте 0 для отсутствия тайм-аута.
 	//* 💡 en - Timeout in milliseconds after which diff computation is cancelled. Use 0 for no timeout.
 	"diffEditor.maxComputationTime": 5000,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет отображением в редакторе различий индикаторов +/- для добавленных/удаленных изменений.
 	//* 💡 en - Controls whether the diff editor shows +/- indicators for added/removed changes.
 	"diffEditor.renderIndicators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если этот параметр включен, редактор различий показывает стрелки на полях глифов, чтобы отменить изменения.
 	//* 💡 en - When enabled, the diff editor shows arrows in its glyph margin to revert changes.
 	"diffEditor.renderMarginRevertIcon": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будет ли редактор различий отображать различия рядом или в строке.
 	//* 💡 en - Controls whether the diff editor shows the diff side by side or inline.
 	"diffEditor.renderSideBySide": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Строки будут переноситься в соответствии с настройкой `editor.wordWrap`.
 	//* 💡 en - Lines will wrap according to the `editor.wordWrap` setting.
 	"diffEditor.wordWrap": "inherit",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли принимать предложения для символов фиксации. Например, в JavaScript точка с запятой (`; `) может быть символом фиксации, который принимает предложение и вводит этот символ.
 	//* 💡 en - Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`; `) can be a commit character that accepts a suggestion and types that character.
 	"editor.acceptSuggestionOnCommitCharacter": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли принимать предложения при нажатии клавиши «Enter» в дополнение к «Tab». Помогает избежать двусмысленности между вставкой новых строк или принятием предложений.
 	//* 💡 en - Controls whether suggestions should be accepted on `Enter`, in addition to `Tab`. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
 	"editor.acceptSuggestionOnEnter": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор работать в режиме, оптимизированном для чтения с экрана.
 	//* 💡 en - Controls whether the editor should run in a mode where it is optimized for screen readers.
 	"editor.accessibilitySupport": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор автоматически закрывать скобки после того, как пользователь добавляет открывающую скобку.
 	//* 💡 en - Controls whether the editor should automatically close brackets after the user adds an opening bracket.
 	"editor.autoClosingBrackets": "languageDefined",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор удалять соседние закрывающие кавычки или квадратные скобки при удалении.
 	//* 💡 en - Controls whether the editor should remove adjacent closing quotes or brackets when deleting.
 	"editor.autoClosingDelete": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор печатать с закрывающими кавычками или скобками.
 	//* 💡 en - Controls whether the editor should type over closing quotes or brackets.
 	"editor.autoClosingOvertype": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор автоматически закрывать кавычки после добавления пользователем открывающей кавычки.
 	//* 💡 en - Controls whether the editor should automatically close quotes after the user adds an opening quote.
 	"editor.autoClosingQuotes": "languageDefined",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор автоматически регулировать отступ, когда пользователи печатают, вставляют, перемещают или делают отступы строк.
 	//* 💡 en - Controls whether the editor should automatically adjust the indentation when users type, paste, move or indent lines.
 	"editor.autoIndent": "full",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор автоматически окружать выделение при вводе кавычек или квадратных скобок.
 	//* 💡 en - Controls whether the editor should automatically surround selections when typing quotes or brackets.
 	"editor.autoSurround": "languageDefined",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, имеет ли каждый тип скобки собственный независимый набор цветов.
 	//* 💡 en - Controls whether each bracket type has its own independent color pool.
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить отображение заголовков групп в меню «Действие кода».
 	//* 💡 en - Enable/disable showing group headers in the Code Action menu.
 	"editor.codeActionWidget.showHeaders": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, показывает ли редактор CodeLens.
 	//* 💡 en - Controls whether the editor shows CodeLens.
 	"editor.codeLens": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет семейством шрифтов для CodeLens.
 	//* 💡 en - Controls the font family for CodeLens.
 	"editor.codeLensFontFamily": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта в пикселях для CodeLens. При значении 0 используется 90% `editor.fontSize`.
 	//* 💡 en - Controls the font size in pixels for CodeLens. When set to 0, 90% of `editor.fontSize` is used.
 	"editor.codeLensFontSize": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор отображать встроенные декораторы цвета и палитру цветов.
 	//* 💡 en - Controls whether the editor should render the inline color decorators and color picker.
 	"editor.colorDecorators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите, чтобы выбор с помощью мыши и клавиш выполнял выбор столбца.
 	//* 💡 en - Enable that the selection with the mouse and keys is doing column selection.
 	"editor.columnSelection": false,
 

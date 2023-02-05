@@ -1,0 +1,9 @@
+{
+	"✅Snippet: TypeScript Enum": {
+		"prefix": "enum",
+		"body": ["export enum E${1:Name} {", "    ${2:code}", "}", "$0"],
+		"description": "✅Snippet: TypeScript Enum"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

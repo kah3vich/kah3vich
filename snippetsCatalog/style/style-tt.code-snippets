@@ -1,0 +1,13 @@
+{
+	"✅Snippet: Style Transparent Text": {
+		"prefix": "style-tt",
+		"body": [
+			"-webkit-text-fill-color: transparent;",
+			"-webkit-text-stroke: ${1:size}px ${2:color};",
+			"$0"
+		],
+		"description": "✅Snippet: Style Transparent Text"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

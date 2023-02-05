@@ -1,0 +1,18 @@
+{
+	"✅Snippet: Style Before": {
+		"prefix": "style-before",
+		"body": [
+			":before {",
+			"\tcontent: '';",
+			"\tposition: absolute;",
+			"\ttop: ${1:top};",
+			"\tleft: ${2:left};",
+			"\t$0",
+			"}",
+			""
+		],
+		"description": "✅Snippet: Style Before"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

@@ -1,0 +1,14 @@
+{
+    "✅Snippet: React Hook useImperativeHandle": {
+        "prefix": "useImperativeHandle",
+        "body": [ 
+            "useImperativeHandle(${1:ref}, () => ({",
+            "\t${2:code}",
+            "}));",
+            "$0"
+        ],
+        "description": "✅Snippet: React Hook useImperativeHandle"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

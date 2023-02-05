@@ -1,0 +1,12 @@
+{
+	"✅Snippet: SCSS Transition Mixin": {
+		"prefix": "scss-transition",
+		"body": [
+			"@include transitionStyle(${1:0.5s}, ${2:ease});",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Transition Mixin"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

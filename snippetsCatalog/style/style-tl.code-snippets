@@ -1,0 +1,16 @@
+{
+	"✅Snippet: Style Text Limit": {
+		"prefix": "style-tl",
+		"body": [
+			"overflow: hidden;",
+			"text-overflow: ellipsis;",
+			"display: -webkit-box;",
+			"-webkit-line-clamp: ${1:limit number};",
+			"-webkit-box-orient: vertical;",
+			"$0"
+		],
+		"description": "✅Snippet: Style Text Limit"
+	}
+}
+
+//| 🔥 by kah3vich 🔥
