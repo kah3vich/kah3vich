@@ -1,95 +1,95 @@
 {
 	//! ✅ HTML
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить автоматическое закрытие тегов HTML.
 	//* 💡 en - Enable/disable autoclosing of HTML tags.
 	"html.autoClosingTags": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/выключить автоматическое создание кавычек для присвоения атрибутов HTML. Тип кавычек можно настроить с помощью `html.completion.attribute Default Value`.
 	//* 💡 en - Enable/disable auto creation of quotes for HTML attribute assignment. The type of quotes can be configured by `html.completion.attributeDefaultValue`.
 	"html.autoCreateQuotes": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет значением по умолчанию для атрибутов, когда завершение принимается.
 	//* 💡 en - Controls the default value for attributes when completion is accepted.
 	"html.completion.attributeDefaultValue": "doublequotes",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список относительных путей к файлам, указывающих на файлы JSON в пользовательском формате данных.
 	//* 💡 en - A list of relative file paths pointing to JSON files following the custom data format.
 	"html.customData": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список тегов, разделенных запятыми, в которых содержимое не следует переформатировать. `null` по умолчанию равен тегу `pre`.
 	//* 💡 en - List of tags, comma separated, where the content shouldn't be reformatted. `null` defaults to the `pre` tag.
 	"html.format.contentUnformatted": "pre,code,textarea",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить средство форматирования HTML по умолчанию.
 	//* 💡 en - Enable/disable default HTML formatter.
 	"html.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список тегов, разделенных запятыми, перед которыми должен быть дополнительный символ новой строки. `null` по умолчанию имеет значение `"head, body, /html"`.
 	//* 💡 en - List of tags, comma separated, that should have an extra newline before them. `null` defaults to `"head, body, /html"`.
 	"html.format.extraLiners": "head, body, /html",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Формат и отступ ``.
 	//* 💡 en - Format and indent ``.
 	"html.format.indentHandlebars": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отступ разделов `<head>` и `<body>`.
 	//* 💡 en - Indent `<head>` and `<body>` sections.
 	"html.format.indentInnerHtml": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальное количество разрывов строк, которое должно быть сохранено в одном фрагменте. Используйте `null` для неограниченного количества.
 	//* 💡 en - Maximum number of line breaks to be preserved in one chunk. Use `null` for unlimited.
 	"html.format.maxPreserveNewLines": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли сохранять существующие разрывы строк перед сохранением элементов. Работает только перед элементами, а не внутри тегов или для текста.
 	//* 💡 en - Controls whether existing line breaks before elements should be preserved. Only works before elements, not inside tags or for text.
 	"html.format.preserveNewLines": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Уважайте теги языка шаблонов django, erb, handlebars и php.
 	//* 💡 en - Honor django, erb, handlebars and php templating language tags.
 	"html.format.templating": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список тегов, разделенных запятыми, которые не следует переформатировать.
 	//* 💡 en - List of tags, comma separated, that shouldn't be reformatted.
 	"html.format.unformatted": "wbr",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Держите текстовое содержимое вместе между этой строкой.
 	//* 💡 en - Keep text content together between this string.
 	"html.format.unformattedContentDelimiter": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Обернуть атрибуты.
 	//* 💡 en - Wrap attributes.
 	"html.format.wrapAttributes": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Сделайте отступ для атрибутов после N символов. Используйте `null`, чтобы использовать размер отступа по умолчанию. Игнорируется, если для `html.format.wrapAttributes` установлено значение 'aligned'.
 	//* 💡 en - Indent wrapped attributes to after N characters. Use `null` to use the default indent size. Ignored if `html.format.wrapAttributes` is set to 'aligned'.
 	"html.format.wrapAttributesIndentSize": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальное количество символов в строке (0 = отключить).
 	//* 💡 en - Maximum amount of characters per line (0 = disable).
 	"html.format.wrapLineLength": 120,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показать документацию по тегам и атрибутам при наведении.
 	//* 💡 en - Show tag and attribute documentation in hover.
 	"html.hover.documentation": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показывать ссылки на MDN при наведении.
 	//* 💡 en - Show references to MDN in hover.
 	"html.hover.references": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будет ли встроенная поддержка языка HTML предлагать теги, свойства и значения HTML5.
 	//* 💡 en - Controls whether the built-in HTML language support suggests HTML5 tags, properties and values.
 	"html.suggest.html5": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отслеживает связь между VS Code и языковым сервером HTML.
 	//* 💡 en - Traces the communication between VS Code and the HTML language server.
 	"html.trace.server": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, проверяет ли встроенная поддержка языка HTML встроенные скрипты.
 	//* 💡 en - Controls whether the built-in HTML language support validates embedded scripts.
 	"html.validate.scripts": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, проверяет ли встроенная поддержка языка HTML встроенные стили.
 	//* 💡 en - Controls whether the built-in HTML language support validates embedded styles.
 	"html.validate.styles": true
 }

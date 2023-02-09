@@ -1,7 +1,7 @@
 {
 	//! ✅ Grunt
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет включением обнаружения задач Grunt. Обнаружение задач Grunt может привести к выполнению файлов в любой открытой рабочей области.
 	//* 💡 en - Controls enablement of Grunt task detection. Grunt task detection can cause files in any open workspace to be executed.
 	"grunt.autoDetect": "off"
 }
