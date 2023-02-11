@@ -1,8 +1,12 @@
+11
+10
+9
+8
+7
 6
 5
-6
-6
-5
+4
+3
 <!--! by kah3vich !-->
 
 <img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
