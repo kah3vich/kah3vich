@@ -14,7 +14,7 @@
             "\t</head>",
             "\t<body>",
             "\t\t",
-            "\t\t<script src=\"js/main.js?_v=20230115201243\"></script>",
+            "\t\t<script src=\"js/main.js\"></script>",
             "\t</body>",
             "</html>",
 			"$0"
