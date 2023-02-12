@@ -1,15 +1,15 @@
 {
 	//! ✅ GitHub
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли включать автоматическую аутентификацию GitHub для команд git в VS Code.
 	//* 💡 en - Controls whether to enable automatic GitHub authentication for git commands within VS Code.
 	"github.gitAuthentication": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - Controls which protocol is used to clone a GitHub repository
+	//* 💡 ru - Определяет, какой протокол используется для клонирования репозитория GitHub.
+	//* 💡 en - Controls which protocol is used to clone a GitHub repository.
 	"github.gitProtocol": "https",
 
-	//* 💡 ru - бета
-	//* 💡 en - GitHub Enterprise Server URI
+	//* 💡 ru - URI корпоративного сервера GitHub.
+	//* 💡 en - GitHub Enterprise Server URI.
 	"github-enterprise.uri": ""
 }

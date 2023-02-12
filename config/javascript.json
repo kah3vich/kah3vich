@@ -1,11 +1,11 @@
 {
 	//! ✅ JavaScript & TypeScript
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить автоматическое закрытие тегов JSX.
 	//* 💡 en - Enable/disable automatic closing of JSX tags.
 	"javascript.autoClosingTags": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить средство форматирования JavaScript по умолчанию.
 	//* 💡 en - Enable/disable default JavaScript formatter.
 	"javascript.format.enable": true,
 

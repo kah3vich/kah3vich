@@ -213,127 +213,127 @@
 	//* 💡 en - Enable that the selection with the mouse and keys is doing column selection.
 	"editor.columnSelection": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли игнорировать пустые строки с помощью переключения, добавления или удаления действий для комментариев строки.
 	//* 💡 en - Controls if empty lines should be ignored with toggle, add or remove actions for line comments.
 	"editor.comments.ignoreEmptyLines": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, вставляется ли пробел при комментировании.
 	//* 💡 en - Controls whether a space character is inserted when commenting.
 	"editor.comments.insertSpace": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли копировать подсветку синтаксиса в буфер обмена.
 	//* 💡 en - Controls whether syntax highlighting should be copied into the clipboard.
 	"editor.copyWithSyntaxHighlighting": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должна ли быть включена плавная анимация курсора.
 	//* 💡 en - Controls whether the smooth caret animation should be enabled.
 	"editor.cursorSmoothCaretAnimation": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет стилем курсора.
 	//* 💡 en - Controls the cursor style.
 	"editor.cursorStyle": "line",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет минимальным количеством видимых начальных и конечных строк, окружающих курсор. В некоторых других редакторах известен как «scrollOff» или «scrollOffset».
 	//* 💡 en - Controls the minimal number of visible leading and trailing lines surrounding the cursor. Known as 'scrollOff' or 'scrollOffset' in some other editors.
 	"editor.cursorSurroundingLines": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролирует, когда должны применяться `cursorSurroundingLines`.
 	//* 💡 en - Controls when `cursorSurroundingLines` should be enforced.
 	"editor.cursorSurroundingLinesStyle": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет шириной курсора, когда для `editor.cursorStyle` установлено значение `line`.
 	//* 💡 en - Controls the width of the cursor when `editor.cursorStyle` is set to `line`.
 	"editor.cursorWidth": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет поставщика диапазона сворачивания по умолчанию, который имеет приоритет над всеми другими поставщиками диапазона сворачивания. Должен быть идентификатором расширения, вносящего поставщики диапазона свертки.
 	//* 💡 en - Defines a default folding range provider that takes precedence over all other folding range provider. Must be the identifier of an extension contributing a folding range providers.
 	"editor.defaultFoldingRangeProvider": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, всегда ли жест мыши «Переход к определению» открывает виджет просмотра.
 	//* 💡 en - Controls whether the Go to Definition mouse gesture always opens the peek widget.
 	"editor.definitionLinkOpensInPeek": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор разрешать перемещение выделения с помощью перетаскивания.
 	//* 💡 en - Controls whether the editor should allow moving selections via drag and drop.
 	"editor.dragAndDrop": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, можете ли вы перетаскивать файл в текстовый редактор, удерживая нажатой клавишу `shift` (вместо открытия файла в редакторе).
 	//* 💡 en - Controls whether you can drag and drop a file into a text editor by holding down `shift` (instead of opening the file in an editor).
 	"editor.dropIntoEditor.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, копирует ли копирование без выделения текущую строку.
 	//* 💡 en - Controls whether copying without a selection copies the current line.
 	"editor.emptySelectionClipboard": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Множитель скорости прокрутки при нажатии Alt.
 	//* 💡 en - Scrolling speed multiplier when pressing `Alt`.
 	"editor.fastScrollSensitivity": 5,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли виджет «Найти» добавлять дополнительные строки поверх редактора. Если установлено значение true, вы можете прокручивать дальше первой строки, когда отображается виджет «Найти».
 	//* 💡 en - Controls whether the Find Widget should add extra lines on top of the editor. When true, you can scroll beyond the first line when the Find Widget is visible.
 	"editor.find.addExtraSpaceOnTop": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет условием автоматического включения функции «Найти в выделенном».
 	//* 💡 en - Controls the condition for turning on Find in Selection automatically.
 	"editor.find.autoFindInSelection": "never",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли курсор прыгать, чтобы найти совпадения во время ввода.
 	//* 💡 en - Controls whether the cursor should jump to find matches while typing.
 	"editor.find.cursorMoveOnType": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли виджет «Найти» читать или изменять общий буфер поиска в macOS.
 	//* 💡 en - Controls whether the Find Widget should read or modify the shared find clipboard on macOS.
 	"editor.find.globalFindClipboard": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будет ли поиск автоматически перезапускаться с начала (или с конца), когда больше не будет найдено совпадений.
 	//* 💡 en - Controls whether the search automatically restarts from the beginning (or the end) when no further matches can be found.
 	"editor.find.loop": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, берется ли строка поиска в виджет поиска из выбора редактора.
 	//* 💡 en - Controls whether the search string in the Find Widget is seeded from the editor selection.
 	"editor.find.seedSearchStringFromSelection": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор выделять свернутые диапазоны.
 	//* 💡 en - Controls whether the editor should highlight folded ranges.
 	"editor.foldingHighlight": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будет ли редактор автоматически сворачивать диапазоны импорта.
 	//* 💡 en - Controls whether the editor automatically collapses import ranges.
 	"editor.foldingImportsByDefault": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет стратегией расчета диапазонов фолда.
 	//* 💡 en - Controls the strategy for computing folding ranges.
 	"editor.foldingStrategy": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настраивает варианты шрифта. Может быть либо логическим значением для включения/выключения перевода из font-weight в font-variation-settings, либо строкой для значения свойства CSS 'font-variation-settings'.
 	//* 💡 en - Configures font variations. Can be either a boolean to enable/disable the translation from font-weight to font-variation-settings or a string for the value of the CSS 'font-variation-settings' property.
 	"editor.fontVariations": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Идентификатор альтернативной команды, которая выполняется, когда результатом «Перейти к объявлению» является текущее местоположение.
 	//* 💡 en - Alternative command id that is being executed when the result of 'Go to Declaration' is the current location.
 	"editor.gotoLocation.alternativeDeclarationCommand": "editor.action.goToReferences",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Идентификатор альтернативной команды, которая выполняется, когда результатом «Перейти к определению» является текущее местоположение.
 	//* 💡 en - Alternative command id that is being executed when the result of 'Go to Definition' is the current location.
 	"editor.gotoLocation.alternativeDefinitionCommand": "editor.action.goToReferences",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Идентификатор альтернативной команды, которая выполняется, когда результатом «Перейти к реализации» является текущее местоположение.
 	//* 💡 en - Alternative command id that is being executed when the result of 'Go to Implementation' is the current location.
 	"editor.gotoLocation.alternativeImplementationCommand": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Идентификатор альтернативной команды, которая выполняется, когда результатом «Перейти к ссылке» является текущее местоположение.
 	//* 💡 en - Alternative command id that is being executed when the result of 'Go to Reference' is the current location.
 	"editor.gotoLocation.alternativeReferenceCommand": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Идентификатор альтернативной команды, которая выполняется, когда результатом «Перейти к определению типа» является текущее местоположение.
 	//* 💡 en - Alternative command id that is being executed when the result of 'Go to Type Definition' is the current location.
 	"editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.goToReferences",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поведением команды «Перейти к объявлению», когда существует несколько целевых местоположений.
 	//* 💡 en - Controls the behavior the 'Go to Declaration'-command when multiple target locations exist.
 	"editor.gotoLocation.multipleDeclarations": "peek",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поведением команды «Перейти к определению», когда существует несколько целевых местоположений.
 	//* 💡 en - Controls the behavior the 'Go to Definition'-command when multiple target locations exist.
 	"editor.gotoLocation.multipleDefinitions": "peek",
 
@@ -341,175 +341,175 @@
 	//* 💡 en - Controls the behavior the 'Go to Implementations'-command when multiple target locations exist.
 	"editor.gotoLocation.multipleImplementations": "peek",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Controls the behavior the 'Go to References'-command when multiple target locations exist.
 	//* 💡 en - Controls the behavior the 'Go to References'-command when multiple target locations exist.
 	"editor.gotoLocation.multipleReferences": "peek",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поведением команды «Перейти к определению типа», когда существует несколько целевых местоположений.
 	//* 💡 en - Controls the behavior the 'Go to Type Definition'-command when multiple target locations exist.
 	"editor.gotoLocation.multipleTypeDefinitions": "peek",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, включены ли направляющие пары скобок.
 	//* 💡 en - Controls whether bracket pair guides are enabled or not.
 	"editor.guides.bracketPairs": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, включены ли направляющие пар горизонтальных скобок или нет.
 	//* 💡 en - Controls whether horizontal bracket pair guides are enabled or not.
 	"editor.guides.bracketPairsHorizontal": "active",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор выделять активную пару скобок.
 	//* 💡 en - Controls whether the editor should highlight the active bracket pair.
 	"editor.guides.highlightActiveBracketPair": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор выделять активную направляющую отступа.
 	//* 💡 en - Controls whether the editor should highlight the active indent guide.
 	"editor.guides.highlightActiveIndentation": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор отображать направляющие отступов.
 	//* 💡 en - Controls whether the editor should render indent guides.
 	"editor.guides.indentation": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли курсор быть скрыт в обзорной линейке.
 	//* 💡 en - Controls whether the cursor should be hidden in the overview ruler.
 	"editor.hideCursorInOverviewRuler": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочитаю показывать ховеры над линией, если есть место.
 	//* 💡 en - Prefer showing hovers above the line, if there's space.
 	"editor.hover.above": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет задержкой в миллисекундах, после которой отображается наведение.
 	//* 💡 en - Controls the delay in milliseconds after which the hover is shown.
 	"editor.hover.delay": 300,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, отображается ли наведение.
 	//* 💡 en - Controls whether the hover is shown.
 	"editor.hover.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли наведение оставаться видимым при наведении на него мыши.
 	//* 💡 en - Controls whether the hover should remain visible when mouse is moved over it.
 	"editor.hover.sticky": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Количество пробелов, используемых для отступа или `"tabSize"`, чтобы использовать значение из `editor.tabSize#`. Этот параметр переопределяется на основе содержимого файла, когда включен параметр `#editor.detectIndentation`.
 	//* 💡 en - The number of spaces used for indentation or `"tabSize"` to use the value from `editor.tabSize#`. This setting is overridden based on the file contents when `#editor.detectIndentation` is on.
 	"editor.indentSize": "tabSize",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает подсказки вкладок в редакторе.
 	//* 💡 en - Enables the inlay hints in the editor.
 	"editor.inlayHints.enabled": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет семейством шрифтов подсказок вкладок в редакторе. Если установлено пустое, используется `editor.fontFamily`.
 	//* 💡 en - Controls font family of inlay hints in the editor. When set to empty, the `editor.fontFamily` is used.
 	"editor.inlayHints.fontFamily": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта подсказок вкладок в редакторе. По умолчанию `editor.fontSize` используется, когда настроенное значение меньше 5 или больше размера шрифта редактора.
 	//* 💡 en - Controls font size of inlay hints in the editor. As default the `editor.fontSize` is used when the configured value is less than `5` or greater than the editor font size.
 	"editor.inlayHints.fontSize": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает отступы вокруг подсказок вкладок в редакторе.
 	//* 💡 en - Enables the padding around the inlay hints in the editor.
 	"editor.inlayHints.padding": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает отступы вокруг подсказок вкладок в редакторе.
 	//* 💡 en - Controls whether to automatically show inline suggestions in the editor.
 	"editor.inlineSuggest.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет символы скобок, которые увеличивают или уменьшают отступ.
 	//* 💡 en - Defines the bracket symbols that increase or decrease the indentation.
 	"editor.language.brackets": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет пары скобок, которые окрашиваются в соответствии с их уровнем вложенности, если включено раскрашивание пар скобок.
 	//* 💡 en - Defines the bracket pairs that are colorized by their nesting level if bracket pair colorization is enabled.
 	"editor.language.colorizedBracketPairs": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет расстоянием между буквами в пикселях.
 	//* 💡 en - Controls the letter spacing in pixels.
 	"editor.letterSpacing": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает лампочку Code Action в редакторе.
 	//* 💡 en - Enables the Code Action lightbulb in the editor.
 	"editor.lightbulb.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет отображением номеров строк.
 	//* 💡 en - Controls the display of line numbers.
 	"editor.lineNumbers": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, включено ли в редакторе связанное редактирование. В зависимости от языка связанные символы, такие как теги HTML, обновляются при редактировании.
 	//* 💡 en - Controls whether the editor has linked editing enabled. Depending on the language, related symbols such as HTML tags, are updated while editing.
 	"editor.linkedEditing": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор обнаруживать ссылки и делать их активными.
 	//* 💡 en - Controls whether the editor should detect links and make them clickable.
 	"editor.links": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Выделите соответствующие скобки.
 	//* 💡 en - Highlight matching brackets.
 	"editor.matchBrackets": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, скрывается ли миникарта автоматически.
 	//* 💡 en - Controls whether the minimap is hidden automatically.
 	"editor.minimap.autohide": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Ограничьте ширину миникарты, чтобы отобразить не более определенного количества столбцов.
 	//* 💡 en - Limit the width of the minimap to render at most a certain number of columns.
 	"editor.minimap.maxColumn": 120,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Визуализируйте фактические символы в строке, а не цветные блоки.
 	//* 💡 en - Render the actual characters on a line as opposed to color blocks.
 	"editor.minimap.renderCharacters": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Масштаб отрисовываемого на миникарте контента: 1, 2 или 3.
 	//* 💡 en - Scale of content drawn in the minimap: 1, 2 or 3.
 	"editor.minimap.scale": 1,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет отображением ползунка миникарты.
 	//* 💡 en - Controls when the minimap slider is shown.
 	"editor.minimap.showSlider": "mouseover",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет стороной, на которой должна отображаться мини-карта.
 	//* 💡 en - Controls the side where to render the minimap.
 	"editor.minimap.side": "right",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Множитель, который будет использоваться для `deltaX` и `deltaY` событий прокрутки колеса мыши.
 	//* 💡 en - A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events.
 	"editor.mouseWheelScrollSensitivity": 1,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Масштабирование шрифта редактора при использовании колесика мыши и удерживании `Ctrl`.
 	//* 💡 en - Zoom the font of the editor when using mouse wheel and holding `Ctrl`.
 	"editor.mouseWheelZoom": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет вставкой, когда количество строк вставляемого текста совпадает с количеством строк курсора.
 	//* 💡 en - Controls pasting when the line count of the pasted text matches the cursor count.
 	"editor.multiCursorPaste": "spread",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор выделять вхождения семантических символов.
 	//* 💡 en - Controls whether the editor should highlight semantic symbol occurrences.
 	"editor.occurrencesHighlight": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли рисовать границу вокруг линейки обзора.
 	//* 💡 en - Controls whether a border should be drawn around the overview ruler.
 	"editor.overviewRulerBorder": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет расстоянием между нижним краем редактора и последней строкой.
 	//* 💡 en - Controls the amount of space between the bottom edge of the editor and the last line.
 	"editor.padding.bottom": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет расстоянием между верхним краем редактора и первой строкой.
 	//* 💡 en - Controls the amount of space between the top edge of the editor and the first line.
 	"editor.padding.top": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, намекает ли параметр на циклы меню или закрывается при достижении конца списка.
 	//* 💡 en - Controls whether the parameter hints menu cycles or closes when reaching the end of the list.
 	"editor.parameterHints.cycle": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает всплывающее окно, в котором отображается документация по параметрам и информация о типе по мере ввода.
 	//* 💡 en - Enables a pop-up that shows parameter documentation and type information as you type.
 	"editor.parameterHints.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли сфокусировать встроенный редактор или дерево в виджете просмотра.
 	//* 💡 en - Controls whether to focus the inline editor or the tree in the peek widget.
 	"editor.peekWidgetDefaultFocus": "tree",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли предложения автоматически отображаться при наборе текста.
 	//* 💡 en - Controls whether suggestions should automatically show up while typing.
 	"editor.quickSuggestions": {
 		"other": "on",
@@ -517,358 +517,358 @@
 		"strings": "off"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет задержкой в миллисекундах, после которой будут отображаться быстрые предложения.
 	//* 💡 en - Controls the delay in milliseconds after which quick suggestions will show up.
 	"editor.quickSuggestionsDelay": 10,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable the ability to preview changes before renaming
+	//* 💡 ru - Включить/отключить возможность предварительного просмотра изменений перед переименованием.
+	//* 💡 en - Enable/disable the ability to preview changes before renaming.
 	"editor.rename.enablePreview": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отображать номер последней строки, когда файл заканчивается новой строкой.
 	//* 💡 en - Render last line number when the file ends with a newline.
 	"editor.renderFinalNewline": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет тем, как редактор должен отображать текущую подсветку строки.
 	//* 💡 en - Controls how the editor should render the current line highlight.
 	"editor.renderLineHighlight": "line",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор отображать текущую подсветку строки только тогда, когда редактор находится в фокусе.
 	//* 💡 en - Controls if the editor should render the current line highlight only when the editor is focused.
 	"editor.renderLineHighlightOnlyWhenFocus": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет тем, как редактор должен отображать пробельные символы.
 	//* 💡 en - Controls how the editor should render whitespace characters.
 	"editor.renderWhitespace": "selection",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли выделенные области иметь закругленные углы.
 	//* 💡 en - Controls whether selections should have rounded corners.
 	"editor.roundedSelection": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отображать вертикальные линейки после определенного количества моноширинных символов. Используйте несколько значений для нескольких линеек. Если массив пуст, линейки не рисуются.
 	//* 💡 en - Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty.
 	"editor.rulers": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет видимостью горизонтальной полосы прокрутки.
 	//* 💡 en - Controls the visibility of the horizontal scrollbar.
 	"editor.scrollbar.horizontal": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Высота горизонтальной полосы прокрутки.
 	//* 💡 en - The height of the horizontal scrollbar.
 	"editor.scrollbar.horizontalScrollbarSize": 12,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли щелчки прокручиваться по странице или переходить к месту щелчка.
 	//* 💡 en - Controls whether clicks scroll by page or jump to click position.
 	"editor.scrollbar.scrollByPage": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет видимостью вертикальной полосы прокрутки.
 	//* 💡 en - Controls the visibility of the vertical scrollbar.
 	"editor.scrollbar.vertical": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Ширина вертикальной полосы прокрутки.
 	//* 💡 en - The width of the vertical scrollbar.
 	"editor.scrollbar.verticalScrollbarSize": 14,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет количеством дополнительных символов, после которых редактор будет прокручиваться по горизонтали.
 	//* 💡 en - Controls the number of extra characters beyond which the editor will scroll horizontally.
 	"editor.scrollBeyondLastColumn": 4,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли поддерживаться основной буфер обмена Linux.
 	//* 💡 en - Controls whether the Linux primary clipboard should be supported.
 	"editor.selectionClipboard": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Прокручивайте только вдоль преобладающей оси при одновременной прокрутке и по вертикали, и по горизонтали. Предотвращает смещение по горизонтали при вертикальной прокрутке на трекпаде.
 	//* 💡 en - Scroll only along the predominant axis when scrolling both vertically and horizontally at the same time. Prevents horizontal drift when scrolling vertically on a trackpad.
 	"editor.scrollPredominantAxis": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли редактор выделять совпадения, похожие на выделение.
 	//* 💡 en - Controls whether the editor should highlight matches similar to the selection.
 	"editor.selectionHighlight": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, отображается ли семантическая подсветка для языков, которые ее поддерживают.
 	//* 💡 en - Controls whether the semanticHighlighting is shown for the languages that support it.
 	"editor.semanticHighlighting.enabled": "configuredByTheme",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Переопределяет цвет и стили семантического маркера редактора из текущей выбранной цветовой темы.
 	//* 💡 en - Overrides editor semantic token color and styles from the currently selected color theme.
 	"editor.semanticTokenColorCustomizations": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет зачеркнутыми устаревшими переменными.
 	//* 💡 en - Controls strikethrough deprecated variables.
 	"editor.showDeprecated": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Элементы управления, когда отображаются элементы управления складыванием желоба.
 	//* 💡 en - Controls when the folding controls on the gutter are shown.
 	"editor.showFoldingControls": "mouseover",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролирует исчезновение неиспользуемого кода.
 	//* 💡 en - Controls fading out of unused code.
 	"editor.showUnused": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Следует ли всегда выбирать начальные и конечные пробелы.
 	//* 💡 en - Whether leading and trailing whitespace should always be selected.
 	"editor.smartSelect.selectLeadingAndTrailingWhitespace": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли фрагменты окружения фрагментами или фрагменты шаблонов файлов отображаться как действия кода.
 	//* 💡 en - Controls if surround-with-snippets or file template snippets show as Code Actions.
 	"editor.snippets.codeActions.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Держите редакторы просмотра открытыми, даже если дважды щелкнете по их содержимому или нажмете «Escape».
 	//* 💡 en - Keep peek editors open even when double clicking their content or when hitting `Escape`.
 	"editor.stablePeek": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показывает вложенные текущие области во время прокрутки в верхней части редактора.
 	//* 💡 en - Shows the nested current scopes during the scroll at the top of the editor.
 	"editor.stickyScroll.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет максимальное количество липких строк для отображения.
 	//* 💡 en - Defines the maximum number of sticky lines to show.
 	"editor.stickyScroll.maxLineCount": 5,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Эмулируйте поведение выбора символов табуляции при использовании пробелов для отступа. Выбор будет придерживаться позиций табуляции.
 	//* 💡 en - Emulate selection behavior of tab characters when using spaces for indentation. Selection will stick to tab stops.
 	"editor.stickyTabStops": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, учитывают ли предложения фильтрации и сортировки небольшие опечатки.
 	//* 💡 en - Controls whether filtering and sorting suggestions accounts for small typos.
 	"editor.suggest.filterGraceful": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет перезаписью слов при принятии завершения. Обратите внимание, что это зависит от расширений, использующих эту функцию.
 	//* 💡 en - Controls whether words are overwritten when accepting completions. Note that this depends on extensions opting into this feature.
 	"editor.suggest.insertMode": "insert",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли при сортировке отдавать предпочтение слова, расположенные рядом с курсором.
 	//* 💡 en - Controls whether sorting favors words that appear close to the cursor.
 	"editor.suggest.localityBonus": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включенной фильтрации IntelliSense требуется, чтобы первый символ совпадал с началом слова. Например, `c` в `Console` или `WebContext`, но не в `description`.
 	//* 💡 en - When enabled IntelliSense filtering requires that the first character matches on a word start. For example, `c` on `Console` or `WebContext` but not on `description`.
 	"editor.suggest.matchOnWordStartOnly": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли предварительно просмотреть результат предложения в редакторе.
 	//* 💡 en - Controls whether to preview the suggestion outcome in the editor.
 	"editor.suggest.preview": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, распределяются ли запомненные варианты выбора между несколькими рабочими пространствами и окнами (требуется `editor.suggestSelection`).
 	//* 💡 en - Controls whether remembered suggestion selections are shared between multiple workspaces and windows (needs `editor.suggestSelection`).
 	"editor.suggest.shareSuggestSelections": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает `классовые`-предложения.
 	//* 💡 en - When enabled IntelliSense shows `class`-suggestions.
 	"editor.suggest.showClasses": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «цветовые» предложения.
 	//* 💡 en - When enabled IntelliSense shows `color`-suggestions.
 	"editor.suggest.showColors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «постоянные» предложения.
 	//* 💡 en - When enabled IntelliSense shows `constant`-suggestions.
 	"editor.suggest.showConstants": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - When enabled IntelliSense shows `constructor`-suggestions.
+	//* 💡 ru - При включении IntelliSense показывает «постоянные» предложения.
+	//* 💡 en - При включении IntelliSense показывает «постоянные» предложения.
 	"editor.suggest.showConstructors": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - When enabled IntelliSense shows `customcolor`-suggestions.
+	//* 💡 ru - При включении IntelliSense показывает «постоянные» предложения.
+	//* 💡 en - При включении IntelliSense показывает «постоянные» предложения.
 	"editor.suggest.showCustomcolors": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - When enabled IntelliSense shows `deprecated`-suggestions.
+	//* 💡 ru - При включении IntelliSense показывает «постоянные» предложения.
+	//* 💡 en - При включении IntelliSense показывает «постоянные» предложения.
 	"editor.suggest.showDeprecated": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает `enumMember`-предложения.
 	//* 💡 en - When enabled IntelliSense shows `enumMember`-suggestions.
 	"editor.suggest.showEnumMembers": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает `enum`-предложения.
 	//* 💡 en - When enabled IntelliSense shows `enum`-suggestions.
 	"editor.suggest.showEnums": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает "события"-предложения.
 	//* 💡 en - When enabled IntelliSense shows `event`-suggestions.
 	"editor.suggest.showEvents": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «предложения полей».
 	//* 💡 en - When enabled IntelliSense shows `field`-suggestions.
 	"editor.suggest.showFields": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «файловые» предложения.
 	//* 💡 en - When enabled IntelliSense shows `file`-suggestions.
 	"editor.suggest.showFiles": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «папки»-предложения.
 	//* 💡 en - When enabled IntelliSense shows `folder`-suggestions.
 	"editor.suggest.showFolders": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает `функции`-предложения.
 	//* 💡 en - When enabled IntelliSense shows `function`-suggestions.
 	"editor.suggest.showFunctions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, показывать или скрывать значки в предложениях.
 	//* 💡 en - Controls whether to show or hide icons in suggestions.
 	"editor.suggest.showIcons": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли предлагаться подробные сведения вместе с меткой или только в виджете сведений.
 	//* 💡 en - Controls whether suggest details show inline with the label or only in the details widget.
 	"editor.suggest.showInlineDetails": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает предложения интерфейса.
 	//* 💡 en - When enabled IntelliSense shows `interface`-suggestions.
 	"editor.suggest.showInterfaces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает "проблемы"-предложения.
 	//* 💡 en - When enabled IntelliSense shows `issues`-suggestions.
 	"editor.suggest.showIssues": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает предложения по ключевым словам.
 	//* 💡 en - When enabled IntelliSense shows `keyword`-suggestions.
 	"editor.suggest.showKeywords": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «методы»-предложения.
 	//* 💡 en - When enabled IntelliSense shows `method`-suggestions.
 	"editor.suggest.showMethods": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «модульные» предложения.
 	//* 💡 en - When enabled IntelliSense shows `module`-suggestions.
 	"editor.suggest.showModules": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «предложения оператора».
 	//* 💡 en - When enabled IntelliSense shows `operator`-suggestions.
 	"editor.suggest.showOperators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «свойства»-предложения.
 	//* 💡 en - When enabled IntelliSense shows `property`-suggestions.
 	"editor.suggest.showProperties": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «справочные» предложения.
 	//* 💡 en - When enabled IntelliSense shows `reference`-suggestions.
 	"editor.suggest.showReferences": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «сниппеты»-предложения.
 	//* 💡 en - When enabled IntelliSense shows `snippet`-suggestions.
 	"editor.suggest.showSnippets": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет видимостью строки состояния в нижней части виджета предложения.
 	//* 💡 en - Controls the visibility of the status bar at the bottom of the suggest widget.
 	"editor.suggest.showStatusBar": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает предложения `struct`.
 	//* 💡 en - When enabled IntelliSense shows `struct`-suggestions.
 	"editor.suggest.showStructs": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «тип параметра» — предложения.
 	//* 💡 en - When enabled IntelliSense shows `typeParameter`-suggestions.
 	"editor.suggest.showTypeParameters": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, IntelliSense показывает «единицы»-предложения.
 	//* 💡 en - When enabled IntelliSense shows `unit`-suggestions.
 	"editor.suggest.showUnits": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает предложения пользователя.
 	//* 💡 en - When enabled IntelliSense shows `user`-suggestions.
 	"editor.suggest.showUsers": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «значения»-предложения.
 	//* 💡 en - When enabled IntelliSense shows `value`-suggestions.
 	"editor.suggest.showValues": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает `переменные`-предложения.
 	//* 💡 en - When enabled IntelliSense shows `variable`-suggestions.
 	"editor.suggest.showVariables": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении IntelliSense показывает «текстовые» предложения.
 	//* 💡 en - When enabled IntelliSense shows `text`-suggestions.
 	"editor.suggest.showWords": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, предотвращает ли активный фрагмент быстрые предложения.
 	//* 💡 en - Controls whether an active snippet prevents quick suggestions.
 	"editor.suggest.snippetsPreventQuickSuggestions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Размер шрифта для виджета предложений. Если установлено значение «0», используется значение «editor.fontSize».
 	//* 💡 en - Font size for the suggest widget. When set to `0`, the value of `editor.fontSize` is used.
 	"editor.suggestFontSize": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Высота строки для виджета предложения. Если установлено значение «0», используется значение «editor.lineHeight». Минимальное значение равно 8.
 	//* 💡 en - Line height for the suggest widget. When set to `0`, the value of `editor.lineHeight` is used. The minimum value is 8.
 	"editor.suggestLineHeight": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли автоматически появляться предложения при вводе триггерных символов.
 	//* 💡 en - Controls whether suggestions should automatically show up when typing trigger characters.
 	"editor.suggestOnTriggerCharacters": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Переопределяет цвета синтаксиса редактора и стиль шрифта из текущей выбранной цветовой темы.
 	//* 💡 en - Overrides editor syntax colors and font style from the currently selected color theme.
 	"editor.tokenColorCustomizations": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Удалить завершающие автоматически вставленные пробелы.
 	//* 💡 en - Remove trailing auto inserted whitespace.
 	"editor.trimAutoWhitespace": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будет ли щелчок по пустому содержимому после свернутой строки разворачивать строку.
 	//* 💡 en - Controls whether clicking on the empty content after a folded line will unfold the line.
 	"editor.unfoldOnClickAfterEndOfLine": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет разрешенные символы, которые не выделяются.
 	//* 💡 en - Defines allowed characters that are not being highlighted.
 	"editor.unicodeHighlight.allowedCharacters": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Символы Unicode, распространенные в разрешенных локалях, не выделяются.
 	//* 💡 en - Unicode characters that are common in allowed locales are not being highlighted.
 	"editor.unicodeHighlight.allowedLocales": {
 		"_os": true,
 		"_vscode": true
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли символы в комментариях также подсвечиваться Unicode.
 	//* 💡 en - Controls whether characters in comments should also be subject to Unicode highlighting.
 	"editor.unicodeHighlight.includeComments": "inUntrustedWorkspace",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли символы в строках также подсвечиваться Unicode.
 	//* 💡 en - Controls whether characters in strings should also be subject to Unicode highlighting.
 	"editor.unicodeHighlight.includeStrings": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, выделяются ли символы, которые просто резервируют пространство или вообще не имеют ширины.
 	//* 💡 en - Controls whether characters that just reserve space or have no width at all are highlighted.
 	"editor.unicodeHighlight.invisibleCharacters": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли выделены все неосновные символы ASCII. Только символы между U+0020 и U+007E, символы табуляции, перевода строки и возврата каретки считаются базовыми ASCII.
 	//* 💡 en - Controls whether all non-basic ASCII characters are highlighted. Only characters between U+0020 and U+007E, tab, line-feed and carriage-return are considered basic ASCII.
 	"editor.unicodeHighlight.nonBasicASCII": "inUntrustedWorkspace",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Удалите необычные разделители строк, которые могут вызвать проблемы.
 	//* 💡 en - Remove unusual line terminators that might cause problems.
 	"editor.unusualLineTerminators": "prompt",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Вставка и удаление пробелов следует за позициями табуляции.
 	//* 💡 en - Inserting and deleting whitespace follows tab stops.
 	"editor.useTabStops": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли завершения вычисляться на основе слов в документе.
 	//* 💡 en - Controls whether completions should be computed based on words in the document.
 	"editor.wordBasedSuggestions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, из каких документов вычисляются завершения на основе слов.
 	//* 💡 en - Controls from which documents word based completions are computed.
 	"editor.wordBasedSuggestionsMode": "matchingDocuments",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет правилами разрыва слов, используемыми для текста на китайском, японском и корейском языках (CJK).
 	//* 💡 en - Controls the word break rules used for Chinese/Japanese/Korean (CJK) text.
 	"editor.wordBreak": "normal",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Символы, которые будут использоваться в качестве разделителей слов при навигации или операциях, связанных со словами.
 	//* 💡 en - Characters that will be used as word separators when doing word related navigations or operations.
 	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет столбцом переноса редактора, когда `editor.wordWrap` имеет значение `wordWrapColumn` или `bounded`.
 	//* 💡 en - Controls the wrapping column of the editor when `editor.wordWrap` is `wordWrapColumn` or `bounded`.
 	"editor.wordWrapColumn": 80,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет отступом переносимых строк.
 	//* 💡 en - Controls the indentation of wrapped lines.
 	"editor.wrappingIndent": "same",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет алгоритмом, вычисляющим точки переноса.
 	//* 💡 en - Controls the algorithm that computes wrapping points.
 	"editor.wrappingStrategy": "simple"
 }

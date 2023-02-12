@@ -13,58 +13,58 @@
 	//* 💡 en - We remove alerts with warnings when deleting and dragging files and directories.
 	"explorer.confirmDragAndDrop": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли проводник автоматически отображать и выбирать файлы при их открытии.
 	//* 💡 en - Controls whether the Explorer should automatically reveal and select files when opening them.
 	"explorer.autoReveal": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте шаблоны глобусов для исключения файлов и папок из раскрытия и выбора в проводнике при их открытии.
 	//* 💡 en - Configure glob patterns for excluding files and folders from being revealed and selected in the Explorer when they are opened.
 	"explorer.autoRevealExclude": {
 		"**/node_modules": true,
 		"**/bower_components": true
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли проводник запрашивать подтверждение при отмене.
 	//* 💡 en - Controls whether the Explorer should ask for confirmation when undoing.
 	"explorer.confirmUndo": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Символ разделителя пути, используемый при копировании относительных путей к файлам.
 	//* 💡 en - The path separation character used when copying relative file paths.
 	"explorer.copyRelativePathSeparator": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли украшения файлов использовать значки.
 	//* 💡 en - Controls whether file decorations should use badges.
 	"explorer.decorations.badges": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли украшения файлов использовать цвета.
 	//* 💡 en - Controls whether file decorations should use colors.
 	"explorer.decorations.colors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли проводник разрешать перемещение файлов и папок с помощью перетаскивания. Этот параметр влияет только на перетаскивание внутри проводника.
 	//* 💡 en - Controls whether the Explorer should allow to move files and folders via drag and drop. This setting only effects drag and drop from inside the Explorer.
 	"explorer.enableDragAndDrop": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должен ли Проводник поддерживать отмену операций с файлами и папками.
 	//* 💡 en - Controls whether the Explorer should support undoing file and folder operations.
 	"explorer.enableUndo": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли анализировать записи в .gitignore и исключать их из проводника. Похоже на `files.exclude`.
 	//* 💡 en - Controls whether entries in .gitignore should be parsed and excluded from the Explorer. Similar to `files.exclude`.
 	"explorer.excludeGitIgnore": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Controls whether the Explorer should expand multi-root workspaces containing only one folder during initialization
+	//* 💡 ru - Определяет, должен ли Проводник расширять многокорневые рабочие пространства, содержащие только одну папку, во время инициализации.
+	//* 💡 en - Controls whether the Explorer should expand multi-root workspaces containing only one folder during initialization.
 	"explorer.expandSingleFolderWorkspaces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, включена ли вложенность файлов в проводнике. Вложенность файлов позволяет визуально сгруппировать связанные файлы в каталоге в одном родительском файле.
 	//* 💡 en - Controls whether file nesting is enabled in the Explorer. File nesting allows for related files in a directory to be visually grouped together under a single parent file.
 	"explorer.fileNesting.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет автоматическим развертыванием вложенных файлов. `explorer.file Nesting.enabled` должен быть установлен, чтобы это вступило в силу.
 	//* 💡 en - Controls whether file nests are automatically expanded. `explorer.fileNesting.enabled` must be set for this to take effect.
 	"explorer.fileNesting.expand": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет вложенностью файлов в проводнике. `explorer.fileNesting.enabled` должен быть установлен, чтобы это вступило в силу. Каждый __Item__ представляет родительский шаблон и может содержать один символ `*`, соответствующий любой строке. Каждое __Value__ представляет собой список разделенных запятыми дочерних шаблонов, которые должны отображаться вложенными под данным родителем. Дочерние шаблоны могут содержать несколько специальных токенов:
 	//* 💡 en - Controls nesting of files in the Explorer. `explorer.fileNesting.enabled` must be set for this to take effect. Each __Item__ represents a parent pattern and may contain a single `*` character that matches any string. Each __Value__ represents a comma separated list of the child patterns that should be shown nested under a given parent. Child patterns may contain several special tokens:
 	"explorer.fileNesting.patterns": {
 		"*.ts": "${capture}.js",
@@ -75,27 +75,27 @@
 		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, какую стратегию именования использовать при присвоении нового имени дублированному элементу проводника при вставке.
 	//* 💡 en - Controls what naming strategy to use when a giving a new name to a duplicated Explorer item on paste.
 	"explorer.incrementalNaming": "simple",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Минимальное количество слотов редактора, отображаемое на панели «Открыть редакторы». Если установлено значение 0, размер панели «Открыть редакторы» будет динамически изменяться в зависимости от количества редакторов.
 	//* 💡 en - The minimum number of editor slots shown in the Open Editors pane. If set to 0 the Open Editors pane will dynamically resize based on the number of editors.
 	"explorer.openEditors.minVisible": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком сортировки редакторов на панели «Открыть редакторы».
 	//* 💡 en - Controls the sorting order of editors in the Open Editors pane.
 	"explorer.openEditors.sortOrder": "editorOrder",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальное количество редакторов, отображаемых на панели «Открыть редакторы». Установка этого параметра на 0 скрывает панель «Открытые редакторы».
 	//* 💡 en - The maximum number of editors shown in the Open Editors pane. Setting this to 0 hides the Open Editors pane.
 	"explorer.openEditors.visible": 9,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет сортировкой файлов и папок в проводнике на основе свойств.
 	//* 💡 en - Controls the property-based sorting of files and folders in the Explorer.
 	"explorer.sortOrder": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет лексикографической сортировкой имен файлов и папок в Проводнике.
 	//* 💡 en - Controls the lexicographic sorting of file and folder names in the Explorer.
 	"explorer.sortOrderLexicographicOptions": "default"
 }
