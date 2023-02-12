@@ -1,12 +1,3 @@
-11
-10
-9
-8
-7
-6
-5
-4
-3
 <!--! by kah3vich !-->
 
 <img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
@@ -14,51 +5,52 @@
 <!--|||-->
 
 <p align="center">
-  <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30px" /> 
-  <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="280px" height="29px">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+    <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30px" /> 
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="280px" height="29px">
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 </p>
 
 <!--|||-->
 
 <div align="center">
-  <a href="https://t.me/+xXSthKatXLtiNDBi" target="_blank">
-    <img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9">
-  </a>
-  <a href="https://codepen.io/kah3vich" target="_blank">
-    <img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff">
-  </a>
-  <a href="https://www.codewars.com/users/kah3vich" target="_blank">
-    <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red">
-  </a>
-  <a href="https://wakatime.com/@kah3vich" target="_blank">
-    <img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white">
-  </a>
-  <div align="center">
-    <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
-    <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="GitHub badge" />
-  </div>
+    <a href="https://t.me/+xXSthKatXLtiNDBi" target="_blank">
+        <img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9">
+    </a>
+    <a href="https://codepen.io/kah3vich" target="_blank">
+        <img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff">
+    </a>
+    <a href="https://www.codewars.com/users/kah3vich" target="_blank">
+        <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red">
+    </a>
+    <a href="https://wakatime.com/@kah3vich" target="_blank">
+        <img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white">
+    </a>
+    <div align="center">
+        <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
+        <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="GitHub badge" />
+    </div>
 </div>
 
 <br />
 
 <!--|||-->
 
-  <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="250px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="250px">
 
 <!--|||-->
 
 <br />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true">
+    <img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true">
 </div>
 
 <br />
 
 <div align="center">
-<a href="https://www.codewars.com/users/kah3vich">
-  <img src="https://www.codewars.com/users/kah3vich/badges/large"/></a>
+    <a href="https://www.codewars.com/users/kah3vich">
+        <img src="https://www.codewars.com/users/kah3vich/badges/large"/>
+    </a>
 </div>
 
 &nbsp;<div align="center">
@@ -562,7 +554,12 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 <div width="100%" align="center">
-  <a align="left" href="https://github.com/kah3vich/Gulp-RS" title="Gulp-RS"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Gulp-RS&theme=react&border_color=61dafb&border_radius=10"></a><a align="right" href="https://github.com/kah3vich/Portfolio_" title="Data Structures"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Portfolio_&theme=react&border_color=61dafb&border_radius=10"></a>
+    <a align="left" href="https://github.com/kah3vich/Gulp-RS" title="Gulp-RS">
+        <img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Gulp-RS&theme=react&border_color=61dafb&border_radius=10">
+    </a>
+    <a align="right" href="https://github.com/kah3vich/Portfolio_" title="Data Structures">
+        <img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Portfolio_&theme=react&border_color=61dafb&border_radius=10">
+    </a>
 </div>
 
 <br /><br />
@@ -571,4 +568,4 @@
 
 <img src="https://readme-jokes.vercel.app/api?theme=react" alt="Error fetching resource, Refresh again to view Jokes Card" width="100%" />
 
-<!-- https://cultofthepartyparrot.com tsss... -->
+<!--| https://cultofthepartyparrot.com tsss... |-->
