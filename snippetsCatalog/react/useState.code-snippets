@@ -1,7 +1,7 @@
 {
     "✅Snippet: React Hook useState": {
         "prefix": "useState",
-        "body": ["const [${1:value}, set${2:change}] = useState(null);", "$0"],
+        "body": ["const [${1:value}, set${2:Change}] = useState(null);", "$0"],
         "description": "✅Snippet: React Hook useState"
     }
 }
