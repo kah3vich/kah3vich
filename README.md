@@ -39,3 +39,7 @@ cd ~/AppData/Roaming/Code/User; rm -rf settings.json keybindings.json snippets/;
 ```bash
 rm -rf .vscode/snippets/*.*; cd snippetsCatalog/; cp html/*.* ../.vscode/snippets/; cp javascript/*.* ../.vscode/snippets/; cp jquery/*.* ../.vscode/snippets/; cp pug/*.* ../.vscode/snippets/; cp react/*.* ../.vscode/snippets/; cp scss/*.* ../.vscode/snippets/; cp style/*.* ../.vscode/snippets/; cp typescript/*.* ../.vscode/snippets/; cd ../; echo 'Done ✅'
 ```
+
+Windows %USERPROFILE%\.vscode\extensions
+Mac $HOME/.vscode/extensions
+Linux $HOME/.vscode/extensions

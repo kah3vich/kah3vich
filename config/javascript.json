@@ -9,11 +9,11 @@
 	//* 💡 en - Enable/disable default JavaScript formatter.
 	"javascript.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после разделителя-запятой.
 	//* 💡 en - Defines space handling after a comma delimiter.
 	"javascript.format.insertSpaceAfterCommaDelimiter": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевого слова конструктора.
 	//* 💡 en - Defines space handling after the constructor keyword.
 	"javascript.format.insertSpaceAfterConstructor": false,
 
@@ -29,99 +29,99 @@
 	//* 💡 en - Allows you to choose how your module import paths are automatically updated when you rename or move files in vscode.
 	"javascript.updateImportsOnFileMove.enabled": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевого слова function для анонимных функций.
 	//* 💡 en - Defines space handling after function keyword for anonymous functions.
 	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевых слов в инструкции потока управления.
 	//* 💡 en - Defines space handling after keywords in a control flow statement.
 	"javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием пустых фигурных скобок.
 	//* 💡 en - Defines space handling after opening and before closing empty braces.
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием фигурных скобок выражения JSX.
 	//* 💡 en - Defines space handling after opening and before closing JSX expression braces.
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустых фигурных скобок.
 	//* 💡 en - Defines space handling after opening and before closing non-empty braces.
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустых скобок.
 	//* 💡 en - Defines space handling after opening and before closing non-empty brackets.
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустой скобки.
 	//* 💡 en - Defines space handling after opening and before closing non-empty parenthesis.
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием фигурных скобок строки шаблона.
 	//* 💡 en - Defines space handling after opening and before closing template string braces.
 	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после точки с запятой в операторе for.
 	//* 💡 en - Defines space handling after a semicolon in a for statement.
 	"javascript.format.insertSpaceAfterSemicolonInForStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после бинарного оператора.
 	//* 💡 en - Defines space handling after a binary operator.
 	"javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов перед скобками аргумента функции.
 	//* 💡 en - Defines space handling before function argument parentheses.
 	"javascript.format.insertSpaceBeforeFunctionParenthesis": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, ставится ли открывающая скобка на новую строку для управляющих блоков или нет.
 	//* 💡 en - Defines whether an open brace is put onto a new line for control blocks or not.
 	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, ставится ли открывающая скобка на новую строку для функций или нет.
 	//* 💡 en - Defines whether an open brace is put onto a new line for functions or not.
 	"javascript.format.placeOpenBraceOnNewLineForFunctions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку необязательных точек с запятой.
 	//* 💡 en - Defines handling of optional semicolons.
 	"javascript.format.semicolons": "ignore",
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for member values in enum declarations:
+	//* 💡 ru - Включить/отключить подсказки вкладок для значений элементов в объявлениях перечисления:
+	//* 💡 en - Enable/disable inlay hints for member values in enum declarations.
 	"javascript.inlayHints.enumMemberValues.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit return types on function signatures:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных возвращаемых типов в сигнатурах функций.
+	//* 💡 en - Enable/disable inlay hints for implicit return types on function signatures.
 	"javascript.inlayHints.functionLikeReturnTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for parameter names:
+	//* 💡 ru - Включить/отключить подсказки вкладок для имен параметров.
+	//* 💡 en - Enable/disable inlay hints for parameter names.
 	"javascript.inlayHints.parameterNames.enabled": "none",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Подавлять подсказки имени параметра для аргументов, текст которых идентичен имени параметра.
 	//* 💡 en - Suppress parameter name hints on arguments whose text is identical to the parameter name.
 	"javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit parameter types:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных типов параметров.
+	//* 💡 en - Enable/disable inlay hints for implicit parameter types.
 	"javascript.inlayHints.parameterTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit types on property declarations:
+	//* 💡 ru - Включить/отключить подсказки вкладки для неявных типов в объявлениях свойств.
+	//* 💡 en - Enable/disable inlay hints for implicit types on property declarations.
 	"javascript.inlayHints.propertyDeclarationTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit variable types:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных типов переменных.
+	//* 💡 en - Enable/disable inlay hints for implicit variable types.
 	"javascript.inlayHints.variableTypes.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Подавлять подсказки типа для переменных, имя которых идентично имени типа.
 	//* 💡 en - Suppress type hints on variables whose name is identical to the type name.
 	"javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Укажите общие шаблоны файлов для исключения из автоматического импорта.
 	//* 💡 en - Specify glob patterns of files to exclude from auto imports.
 	"javascript.preferences.autoImportFileExcludePatterns": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль пути для автоматического импорта.
 	//* 💡 en - Preferred path style for auto imports.
 	"javascript.preferences.importModuleSpecifier": "shortest",
 
