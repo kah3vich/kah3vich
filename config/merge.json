@@ -1,19 +1,19 @@
 {
 	//! ✅ Merge Conflict
 
-	//* 💡 ru - бета
+	//* 💡 ru - Следует ли автоматически переходить к следующему конфликту слияния после разрешения конфликта слияния.
 	//* 💡 en - Whether to automatically navigate to the next merge conflict after resolving a merge conflict.
 	"merge-conflict.autoNavigateNextConflict.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Создайте CodeLens для блоков конфликтов слияния в редакторе.
 	//* 💡 en - Create a CodeLens for merge conflict blocks within editor.
 	"merge-conflict.codeLens.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Создайте декораторы для блоков конфликтов слияния в редакторе.
 	//* 💡 en - Create decorators for merge conflict blocks within editor.
 	"merge-conflict.decorators.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, где должно открываться представление различий при сравнении изменений в конфликтах слияния.
 	//* 💡 en - Controls where the diff view should be opened when comparing changes in merge conflicts.
 	"merge-conflict.diffViewPosition": "Current"
 }

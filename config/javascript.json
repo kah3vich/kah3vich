@@ -125,91 +125,91 @@
 	//* 💡 en - Preferred path style for auto imports.
 	"javascript.preferences.importModuleSpecifier": "shortest",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительное окончание пути для автоматического импорта.
 	//* 💡 en - Preferred path ending for auto imports.
 	"javascript.preferences.importModuleSpecifierEnding": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль для завершения атрибутов JSX.
 	//* 💡 en - Preferred style for JSX attribute completions.
 	"javascript.preferences.jsxAttributeCompletionStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль кавычек для быстрых исправлений.
 	//* 💡 en - Preferred quote style to use for Quick Fixes.
 	"javascript.preferences.quoteStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Параметр typescript.preferences.renameShorthandProperties устарел и заменен на typescript.preferences.useAliasesForRenames. Включить/выключить ввод псевдонимов для сокращенных свойств объекта при переименовании.
 	//* 💡 en - The setting 'typescript.preferences.renameShorthandProperties' has been deprecated in favor of 'typescript.preferences.useAliasesForRenames'. Enable/disable introducing aliases for object shorthand properties during renames.
 	"javascript.preferences.renameShorthandProperties": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/выключить ввод псевдонимов для сокращенных свойств объекта при переименовании.
 	//* 💡 en - Enable/disable introducing aliases for object shorthand properties during renames.
 	"javascript.preferences.useAliasesForRenames": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens в файлах JavaScript.
 	//* 💡 en - Enable/disable references CodeLens in JavaScript files.
 	"javascript.referencesCodeLens.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens на все функции в файлах JavaScript.
 	//* 💡 en - Enable/disable references CodeLens on all functions in JavaScript files.
 	"javascript.referencesCodeLens.showOnAllFunctions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить заполнение сниппетов для участников класса.
 	//* 💡 en - Enable/disable snippet completions for class members.
 	"javascript.suggest.classMemberSnippets.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Завершите функции с их сигнатурой параметра.
 	//* 💡 en - Complete functions with their parameter signature.
 	"javascript.suggest.completeFunctionCalls": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить предложение завершить комментарии JSDoc.
 	//* 💡 en - Enable/disable suggestion to complete JSDoc comments.
 	"javascript.suggest.completeJSDocs": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включены/отключены предложения автозаполнения.
 	//* 💡 en - Enabled/disable autocomplete suggestions.
 	"javascript.suggest.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить показ завершений для потенциально неопределенных значений, которые вставляют необязательный цепной вызов. Требует включения строгих нулевых проверок.
 	//* 💡 en - Enable/disable showing completions on potentially undefined values that insert an optional chain call. Requires strict null checks to be enabled.
 	"javascript.suggest.includeAutomaticOptionalChainCompletions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение в стиле автоматического импорта для частично типизированных операторов импорта.
 	//* 💡 en - Enable/disable auto-import-style completions on partially-typed import statements.
 	"javascript.suggest.includeCompletionsForImportStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить создание аннотаций `@returns` для шаблонов JSDoc.
 	//* 💡 en - Enable/disable generating `@returns` annotations for JSDoc templates.
 	"javascript.suggest.jsdoc.generateReturns": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/выключить включение уникальных имен из файла в предложения JavaScript. Обратите внимание, что предложения имен всегда отключены в коде JavaScript, который семантически проверяется с помощью `@ts-check` или `checkJs`.
 	//* 💡 en - Enable/disable including unique names from the file in JavaScript suggestions. Note that name suggestions are always disabled in JavaScript code that is semantically checked using `@ts-check` or `checkJs`.
 	"javascript.suggest.names": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите/отключите предложения путей в операторах импорта и требуйте вызовов.
 	//* 💡 en - Enable/disable suggestions for paths in import statements and require calls.
 	"javascript.suggest.paths": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить проверку JavaScript.
 	//* 💡 en - Enable/disable JavaScript validation.
 	"javascript.validate.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить семантическую проверку файлов JavaScript. Существующие файлы `jsconfig.json` или `tsconfig.json` переопределяют этот параметр.
 	//* 💡 en - Enable/disable semantic checking of JavaScript files. Existing `jsconfig.json` or `tsconfig.json` files override this setting.
 	"js/ts.implicitProjectConfig.checkJs": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Устанавливает модульную систему для программы.
 	//* 💡 en - Sets the module system for the program.
 	"js/ts.implicitProjectConfig.module": "ESNext",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить строгие типы функций в файлах JavaScript и TypeScript, которые не являются частью проекта. Существующие файлы `jsconfig.json` или `tsconfig.json` переопределяют этот параметр.
 	//* 💡 en - Enable/disable strict function types in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.
 	"js/ts.implicitProjectConfig.strictFunctionTypes": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить строгие проверки нулей в файлах JavaScript и TypeScript, которые не являются частью проекта. Существующие файлы `jsconfig.json` или `tsconfig.json` переопределяют этот параметр.
 	//* 💡 en - Enable/disable strict null checks in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.
 	"js/ts.implicitProjectConfig.strictNullChecks": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Установите целевую языковую версию JavaScript для испускаемого JavaScript и включите объявления библиотек.
 	//* 💡 en - Set target JavaScript language version for emitted JavaScript and include library declarations.
 	"js/ts.implicitProjectConfig.target": "ES2020",
 
@@ -225,259 +225,259 @@
 	//* 💡 en - Allows you to choose how your module import paths are automatically updated when you rename or move files in vscode.
 	"typescript.updateImportsOnFileMove.enabled": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить автоматическое закрытие тегов JSX.
 	//* 💡 en - Enable/disable automatic closing of JSX tags.
 	"typescript.autoClosingTags": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверьте, установлен ли npm для автоматического получения типов.
 	//* 💡 en - Check if npm is installed for Automatic Type Acquisition.
 	"typescript.check.npmIsInstalled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отключает автоматическое получение типа. Автоматическое получение типов извлекает пакеты `@types` из npm для улучшения IntelliSense для внешних библиотек.
 	//* 💡 en - Disables automatic type acquisition. Automatic type acquisition fetches `@types` packages from npm to improve IntelliSense for external libraries.
 	"typescript.disableAutomaticTypeAcquisition": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает запрос пользователей на использование версии TypeScript, настроенной в рабочей области для Intellisense.
 	//* 💡 en - Enables prompting of users to use the TypeScript version configured in the workspace for Intellisense.
 	"typescript.enablePromptUseWorkspaceTsdk": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить средство форматирования TypeScript по умолчанию.
 	//* 💡 en - Enable/disable default TypeScript formatter.
 	"typescript.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после разделителя-запятой.
 	//* 💡 en - Defines space handling after a comma delimiter.
 	"typescript.format.insertSpaceAfterCommaDelimiter": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевого слова конструктора.
 	//* 💡 en - Defines space handling after the constructor keyword.
 	"typescript.format.insertSpaceAfterConstructor": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевого слова function для анонимных функций.
 	//* 💡 en - Defines space handling after function keyword for anonymous functions.
 	"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевых слов в инструкции потока управления.
 	//* 💡 en - Defines space handling after keywords in a control flow statement.
 	"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием пустых фигурных скобок.
 	//* 💡 en - Defines space handling after opening and before closing empty braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием фигурных скобок выражения JSX.
 	//* 💡 en - Defines space handling after opening and before closing JSX expression braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустых фигурных скобок.
 	//* 💡 en - Defines space handling after opening and before closing non-empty braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустых скобок.
 	//* 💡 en - Defines space handling after opening and before closing non-empty brackets.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустой скобки.
 	//* 💡 en - Defines space handling after opening and before closing non-empty parenthesis.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием фигурных скобок строки шаблона.
 	//* 💡 en - Defines space handling after opening and before closing template string braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после точки с запятой в операторе for.
 	//* 💡 en - Defines space handling after a semicolon in a for statement.
 	"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после утверждений типа в TypeScript.
 	//* 💡 en - Defines space handling after type assertions in TypeScript.
 	"typescript.format.insertSpaceAfterTypeAssertion": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после бинарного оператора.
 	//* 💡 en - Defines space handling after a binary operator.
 	"typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов перед скобками аргумента функции.
 	//* 💡 en - Defines space handling before function argument parentheses.
 	"typescript.format.insertSpaceBeforeFunctionParenthesis": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, ставится ли открывающая скобка на новую строку для управляющих блоков или нет.
 	//* 💡 en - Defines whether an open brace is put onto a new line for control blocks or not.
 	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, ставится ли открывающая скобка на новую строку для функций или нет.
 	//* 💡 en - Defines whether an open brace is put onto a new line for functions or not.
 	"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку необязательных точек с запятой.
 	//* 💡 en - Defines handling of optional semicolons.
 	"typescript.format.semicolons": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить реализации CodeLens. Этот CodeLens показывает разработчиков интерфейса.
 	//* 💡 en - Enable/disable implementations CodeLens. This CodeLens shows the implementers of an interface.
 	"typescript.implementationsCodeLens.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for member values in enum declarations:
+	//* 💡 ru - Включить/отключить подсказки вкладок для значений элементов в объявлениях перечисления.
+	//* 💡 en - Enable/disable inlay hints for member values in enum declarations.
 	"typescript.inlayHints.enumMemberValues.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit return types on function signatures:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных возвращаемых типов в сигнатурах функций.
+	//* 💡 en - Enable/disable inlay hints for implicit return types on function signatures.
 	"typescript.inlayHints.functionLikeReturnTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for parameter names:
+	//* 💡 ru - Включить/отключить подсказки вкладок для имен параметров.
+	//* 💡 en - Enable/disable inlay hints for parameter names.
 	"typescript.inlayHints.parameterNames.enabled": "none",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Подавлять подсказки имени параметра для аргументов, текст которых идентичен имени параметра.
 	//* 💡 en - Suppress parameter name hints on arguments whose text is identical to the parameter name.
 	"typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit parameter types:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных типов параметров.
+	//* 💡 en - Enable/disable inlay hints for implicit parameter types.
 	"typescript.inlayHints.parameterTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit types on property declarations:
+	//* 💡 ru - Включить/отключить подсказки вкладки для неявных типов в объявлениях свойств.
+	//* 💡 en - Enable/disable inlay hints for implicit types on property declarations.
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit variable types:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных типов переменных.
+	//* 💡 en - Enable/disable inlay hints for implicit variable types.
 	"typescript.inlayHints.variableTypes.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Подавлять подсказки типа для переменных, имя которых идентично имени типа.
 	//* 💡 en - Suppress type hints on variables whose name is identical to the type name.
 	"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Задает локаль, используемую для сообщения об ошибках JavaScript и TypeScript. По умолчанию используется локаль VS Code.
 	//* 💡 en - Sets the locale used to report JavaScript and TypeScript errors. Defaults to use VS Code's locale.
 	"typescript.locale": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает путь к исполняемому файлу npm, используемому для автоматического получения типа.
 	//* 💡 en - Specifies the path to the npm executable used for Automatic Type Acquisition.
 	"typescript.npm": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Укажите общие шаблоны файлов для исключения из автоматического импорта.
 	//* 💡 en - Specify glob patterns of files to exclude from auto imports.
 	"typescript.preferences.autoImportFileExcludePatterns": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль пути для автоматического импорта.
 	//* 💡 en - Preferred path style for auto imports.
 	"typescript.preferences.importModuleSpecifier": "shortest",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительное окончание пути для автоматического импорта.
 	//* 💡 en - Preferred path ending for auto imports.
 	"typescript.preferences.importModuleSpecifierEnding": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить поиск зависимостей `package.json` для доступных автоматических импортов.
 	//* 💡 en - Enable/disable searching `package.json` dependencies for available auto imports.
 	"typescript.preferences.includePackageJsonAutoImports": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль для завершения атрибутов JSX.
 	//* 💡 en - Preferred style for JSX attribute completions.
 	"typescript.preferences.jsxAttributeCompletionStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль кавычек для быстрых исправлений.
 	//* 💡 en - Preferred quote style to use for Quick Fixes.
 	"typescript.preferences.quoteStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/выключить ввод псевдонимов для сокращенных свойств объекта при переименовании.
 	//* 💡 en - Enable/disable introducing aliases for object shorthand properties during renames.
 	"typescript.preferences.useAliasesForRenames": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens в файлах TypeScript.
 	//* 💡 en - Enable/disable references CodeLens in TypeScript files.
 	"typescript.referencesCodeLens.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens на все функции в файлах TypeScript.
 	//* 💡 en - Enable/disable references CodeLens on all functions in TypeScript files.
 	"typescript.referencesCodeLens.showOnAllFunctions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Сообщайте о проверках стиля как о предупреждениях.
 	//* 💡 en - Report style checks as warnings.
 	"typescript.reportStyleChecksAsWarnings": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить заполнение сниппетов для участников класса.
 	//* 💡 en - Enable/disable snippet completions for class members.
 	"typescript.suggest.classMemberSnippets.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Завершите функции с их сигнатурой параметра.
 	//* 💡 en - Complete functions with their parameter signature.
 	"typescript.suggest.completeFunctionCalls": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить предложение завершить комментарии JSDoc.
 	//* 💡 en - Enable/disable suggestion to complete JSDoc comments.
 	"typescript.suggest.completeJSDocs": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включены/отключены предложения автозаполнения.
 	//* 💡 en - Enabled/disable autocomplete suggestions.
 	"typescript.suggest.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить показ завершений для потенциально неопределенных значений, которые вставляют необязательный цепной вызов. Требует включения строгих нулевых проверок.
 	//* 💡 en - Enable/disable showing completions on potentially undefined values that insert an optional chain call. Requires strict null checks to be enabled.
 	"typescript.suggest.includeAutomaticOptionalChainCompletions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение в стиле автоматического импорта для частично типизированных операторов импорта.
 	//* 💡 en - Enable/disable auto-import-style completions on partially-typed import statements.
 	"typescript.suggest.includeCompletionsForImportStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение сниппетов с TS Server.
 	//* 💡 en - Enable/disable snippet completions from TS Server.
 	"typescript.suggest.includeCompletionsWithSnippetText": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить создание аннотаций `@returns` для шаблонов JSDoc.
 	//* 💡 en - Enable/disable generating `@returns` annotations for JSDoc templates.
 	"typescript.suggest.jsdoc.generateReturns": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение фрагментов для методов в литералах объектов.
 	//* 💡 en - Enable/disable snippet completions for methods in object literals.
 	"typescript.suggest.objectLiteralMethodSnippets.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите/отключите предложения путей в операторах импорта и требуйте вызовов.
 	//* 💡 en - Enable/disable suggestions for paths in import statements and require calls.
 	"typescript.suggest.paths": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет автоматическим определением задач tsc.
 	//* 💡 en - Controls auto detection of tsc tasks.
 	"typescript.tsc.autoDetect": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает путь к папке с файлами tsserver и `lib*.d.ts` в установке TypeScript для использования в IntelliSense, например: `./node_modules/typescript/lib`.
 	//* 💡 en - Specifies the folder path to the tsserver and `lib*.d.ts` files under a TypeScript install to use for IntelliSense, for example: `./node_modules/typescript/lib`.
 	"typescript.tsdk": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает отслеживание производительности сервера TS в каталоге. Эти файлы трассировки можно использовать для диагностики проблем с производительностью TS Server. Журнал может содержать пути к файлам, исходный код и другую потенциально конфиденциальную информацию из вашего проекта.
 	//* 💡 en - Enables tracing TS server performance to a directory. These trace files can be used to diagnose TS Server performance issues. The log may contain file paths, source code, and other potentially sensitive information from your project.
 	"typescript.tsserver.enableTracing": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает запись сервера TS в файл. Этот журнал можно использовать для диагностики проблем с TS Server. Журнал может содержать пути к файлам, исходный код и другую потенциально конфиденциальную информацию из вашего проекта.
 	//* 💡 en - Enables logging of the TS server to a file. This log can be used to diagnose TS Server issues. The log may contain file paths, source code, and other potentially sensitive information from your project.
 	"typescript.tsserver.log": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальный объем памяти (в МБ), выделяемый серверному процессу TypeScript.
 	//* 💡 en - The maximum amount of memory (in MB) to allocate to the TypeScript server process.
 	"typescript.tsserver.maxTsServerMemory": 3072,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Дополнительные пути для обнаружения подключаемых модулей TypeScript Language Service.
 	//* 💡 en - Additional paths to discover TypeScript Language Service plugins.
 	"typescript.tsserver.pluginPaths": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает отслеживание сообщений, отправляемых на сервер TS. Эту трассировку можно использовать для диагностики проблем с TS Server. Трассировка может содержать пути к файлам, исходный код и другую потенциально конфиденциальную информацию из вашего проекта.
 	//* 💡 en - Enables tracing of messages sent to the TS server. This trace can be used to diagnose TS Server issues. The trace may contain file paths, source code, and other potentially sensitive information from your project.
 	"typescript.tsserver.trace": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, запускает ли TypeScript выделенный сервер для более быстрой обработки операций, связанных с синтаксисом, таких как свертывание вычислительного кода.
 	//* 💡 en - Controls if TypeScript launches a dedicated server to more quickly handle syntax related operations, such as computing code folding.
 	"typescript.tsserver.useSyntaxServer": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте, какие стратегии наблюдения следует использовать для отслеживания файлов и каталогов.
 	//* 💡 en - Configure which watching strategies should be used to keep track of files and directories.
 	"typescript.tsserver.watchOptions": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить проверку TypeScript.
 	//* 💡 en - Enable/disable TypeScript validation.
 	"typescript.validate.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поиском файлов при переходе к символу в рабочей области.
 	//* 💡 en - Controls which files are searched by Go to Symbol in Workspace.
 	"typescript.workspaceSymbols.scope": "allOpenProjects"
 }

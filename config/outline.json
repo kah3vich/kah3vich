@@ -1,127 +1,127 @@
 {
 	//! ✅ Outline
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли элементы Outline свернуты или развернуты.
 	//* 💡 en - Controls whether Outline items are collapsed or expanded.
 	"outline.collapseItems": "alwaysExpand",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Визуализировать элементы Outline с помощью значков.
 	//* 💡 en - Render Outline elements with icons.
 	"outline.icons": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Используйте значки для ошибок и предупреждений в элементах Outline.
 	//* 💡 en - Use badges for errors and warnings on Outline elements.
 	"outline.problems.badges": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Используйте цвета для ошибок и предупреждений в элементах Outline.
 	//* 💡 en - Use colors for errors and warnings on Outline elements.
 	"outline.problems.colors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показывать ошибки и предупреждения в элементах Outline.
 	//* 💡 en - Show errors and warnings on Outline elements.
 	"outline.problems.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `массив`-символов.
 	//* 💡 en - When enabled, Outline shows `array`-symbols.
 	"outline.showArrays": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `boolean`-символы.
 	//* 💡 en - When enabled, Outline shows `boolean`-symbols.
 	"outline.showBooleans": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `class`-символы.
 	//* 💡 en - When enabled, Outline shows `class`-symbols.
 	"outline.showClasses": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает «постоянные» символы.
 	//* 💡 en - When enabled, Outline shows `constant`-symbols.
 	"outline.showConstants": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы `конструктора`.
 	//* 💡 en - When enabled, Outline shows `constructor`-symbols.
 	"outline.showConstructors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `enumMember`-символы.
 	//* 💡 en - When enabled, Outline shows `enumMember`-symbols.
 	"outline.showEnumMembers": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `enum`-символы.
 	//* 💡 en - When enabled, Outline shows `enum`-symbols.
 	"outline.showEnums": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `события`-символы.
 	//* 💡 en - When enabled, Outline shows `event`-symbols.
 	"outline.showEvents": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы `поля`.
 	//* 💡 en - When enabled, Outline shows `field`-symbols.
 	"outline.showFields": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `file`-символы.
 	//* 💡 en - When enabled, Outline shows `file`-symbols.
 	"outline.showFiles": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `функциональные`-символы.
 	//* 💡 en - When enabled, Outline shows `function`-symbols.
 	"outline.showFunctions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `интерфейсные`-символы.
 	//* 💡 en - When enabled, Outline shows `interface`-symbols.
 	"outline.showInterfaces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `key`-символы.
 	//* 💡 en - When enabled, Outline shows `key`-symbols.
 	"outline.showKeys": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `метод`-символы.
 	//* 💡 en - When enabled, Outline shows `method`-symbols.
 	"outline.showMethods": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `module`-символы.
 	//* 💡 en - When enabled, Outline shows `module`-symbols.
 	"outline.showModules": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `namespace`-символы.
 	//* 💡 en - When enabled, Outline shows `namespace`-symbols.
 	"outline.showNamespaces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `null`-символы.
 	//* 💡 en - When enabled, Outline shows `null`-symbols.
 	"outline.showNull": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает «числовые» символы.
 	//* 💡 en - When enabled, Outline shows `number`-symbols.
 	"outline.showNumbers": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `object`-символы.
 	//* 💡 en - When enabled, Outline shows `object`-symbols.
 	"outline.showObjects": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы `оператора`.
 	//* 💡 en - When enabled, Outline shows `operator`-symbols.
 	"outline.showOperators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `package`-символы.
 	//* 💡 en - When enabled, Outline shows `package`-symbols.
 	"outline.showPackages": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `property`-символы.
 	//* 💡 en - When enabled, Outline shows `property`-symbols.
 	"outline.showProperties": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `string`-символы.
 	//* 💡 en - When enabled, Outline shows `string`-symbols.
 	"outline.showStrings": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `struct`-символы.
 	//* 💡 en - When enabled, Outline shows `struct`-symbols.
 	"outline.showStructs": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы типа Parameter.
 	//* 💡 en - When enabled, Outline shows `typeParameter`-symbols.
 	"outline.showTypeParameters": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `переменные`-символы.
 	//* 💡 en - When enabled, Outline shows `variable`-symbols.
 	"outline.showVariables": true
 }

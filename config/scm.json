@@ -1,78 +1,78 @@
 {
 	//! ✅ SCM
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, всегда ли отображаются встроенные действия в представлении системы управления версиями.
 	//* 💡 en - Controls whether inline actions are always visible in the Source Control view.
 	"scm.alwaysShowActions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли репозитории всегда отображаться в представлении системы управления версиями.
 	//* 💡 en - Controls whether repositories should always be visible in the Source Control view.
 	"scm.alwaysShowRepositories": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли представление системы управления версиями автоматически отображать и выбирать файлы при их открытии.
 	//* 💡 en - Controls whether the Source Control view should automatically reveal and select files when opening them.
 	"scm.autoReveal": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет значком счетчика на значке системы управления версиями на панели действий.
 	//* 💡 en - Controls the count badge on the Source Control icon on the Activity Bar.
 	"scm.countBadge": "all",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет режимом просмотра репозитория системы управления версиями по умолчанию.
 	//* 💡 en - Controls the default Source Control repository view mode.
 	"scm.defaultViewMode": "list",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком сортировки изменений репозитория системы управления версиями по умолчанию при просмотре в виде списка.
 	//* 💡 en - Controls the default Source Control repository changes sort order when viewed as a list.
 	"scm.defaultViewSortKey": "path",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет оформлением различий в редакторе.
 	//* 💡 en - Controls diff decorations in the editor.
 	"scm.diffDecorations": "all",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поведением декоративных элементов желоба различий в системе управления версиями.
 	//* 💡 en - Controls the behavior of Source Control diff gutter decorations.
 	"scm.diffDecorationsGutterAction": "diff",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, используется ли шаблон для оформления различий в желобе.
 	//* 💡 en - Controls whether a pattern is used for the diff decorations in gutter.
 	"scm.diffDecorationsGutterPattern": {
 		"added": false,
 		"modified": true
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет видимостью декоратора различий системы управления версиями в поле.
 	//* 💡 en - Controls the visibility of the Source Control diff decorator in the gutter.
 	"scm.diffDecorationsGutterVisibility": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролирует ширину (px) различных украшений в желобе (добавлено или изменено).
 	//* 💡 en - Controls the width(px) of diff decorations in gutter (added & modified).
 	"scm.diffDecorationsGutterWidth": 3,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, игнорируются ли начальные и конечные пробелы в оформлении различительных желобов системы управления версиями.
 	//* 💡 en - Controls whether leading and trailing whitespace is ignored in Source Control diff gutter decorations.
 	"scm.diffDecorationsIgnoreTrimWhitespace": "false",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет шрифтом входящего сообщения. Используйте `default` для семейства шрифтов пользовательского интерфейса рабочей среды, `editor` для значения `editor.fontFamily`, или пользовательское семейство шрифтов.
 	//* 💡 en - Controls the font for the input message. Use `default` for the workbench user interface font family, `editor` for the `editor.fontFamily`'s value, or a custom font family.
 	"scm.inputFontFamily": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта вводимого сообщения в пикселях.
 	//* 💡 en - Controls the font size for the input message in pixels.
 	"scm.inputFontSize": 13,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет значками счетчика в заголовках поставщика управления версиями. Эти заголовки появляются только при наличии нескольких поставщиков.
 	//* 💡 en - Controls the count badges on Source Control Provider headers. These headers only appear when there is more than one provider.
 	"scm.providerCountBadge": "hidden",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком сортировки репозиториев в представлении репозиториев системы управления версиями.
 	//* 💡 en - Controls the sort order of the repositories in the source control repositories view.
 	"scm.repositories.sortOrder": "discovery time",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет количеством репозиториев, видимых в разделе «Репозитории системы управления версиями». Установите значение 0, чтобы иметь возможность вручную изменять размер представления.
 	//* 💡 en - Controls how many repositories are visible in the Source Control Repositories section. Set to 0, to be able to manually resize the view.
 	"scm.repositories.visible": 10,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, может ли кнопка действия отображаться в представлении системы управления версиями.
 	//* 💡 en - Controls whether an action button can be shown in the Source Control view.
 	"scm.showActionButton": true
 }
