@@ -45,3 +45,6 @@ Mac $HOME/.vscode/extensions
 Linux $HOME/.vscode/extensions
 
 rm -rf .vscode/snippets/*; cp snippetsCatalog/**/*.code-snippets .vscode/snippets/
+
+
+cd ~/Library/Application\ Support/Code/User; | cd ~/AppData/Roaming/Code/User; -> rm -rf snippets/*.code-snippets
