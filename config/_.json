@@ -1,6 +1,5 @@
 {
 
-
 	//! ✅ Audio Cues
 
 	//* 💡 ru - Воспроизводит звук, когда фокус перемещается на удаленную строку в режиме просмотра различий.
@@ -62,7 +61,6 @@
 	//* 💡 ru - Громкость звуковых сигналов в процентах (0-100).
 	//* 💡 en - The volume of the audio cues in percent (0-100).,
 	"audioCues.volume": 0,
-
 
 	//! ✅ Better
 
@@ -148,7 +146,6 @@
 	//* 💡 ru - Этот параметр определяет, оформляются ли комментарии в текстовом файле с использованием тегов аннотаций. При значении true теги (по умолчанию: ! * ? //) будут обнаружены, если они являются первым символом в строке.
 	//* 💡 en - This setting determines whether comments in a text file are formatted using annotation tags. If set to true, tags (default: ! * ? //) will be detected if they are the first character in the string.,
 	"better-comments.highlightPlainText": true,
-
 
 	//! ✅ Breadcrumbs
 
@@ -275,7 +272,6 @@
 	//* 💡 ru - Управляет сортировкой символов в представлении схемы навигационных крошек.
 	//* 💡 en - Controls how symbols are sorted in the breadcrumbs outline view.,
 	"breadcrumbs.symbolSortOrder": "position",
-
 
 	//! ✅ Default Configuration Overrides
 
@@ -420,7 +416,6 @@
 		"editor.autoIndent": "advanced",
 	},
 
-
 	//! ✅ Сhecker Spell
 
 	//* 💡 ru - Виды языков.
@@ -438,7 +433,6 @@
 	//* 💡 ru - Список расширений файлов, в которых будет работать cSpell.
 	//* 💡 en - List of file extensions in which cSpell.,
 	"cSpell.enableFiletypes": ["jsx", "js", "css", "scss", "pug", "html", "php"],
-
 
 	//! ✅ CSS
 
@@ -577,7 +571,6 @@
 	//* 💡 ru - Включает или отключает все проверки.
 	//* 💡 en - Enables or disables all validations.,
 	"css.validate": true,
-
 
 	//! ✅ Debug
 
@@ -741,7 +734,6 @@
 	//* 💡 ru - Настраивает, будет ли файл с исходным сопоставлением, где исходный файл не может быть прочитан, автоматически удален. Если это значение равно false (по умолчанию), отображается подсказка.
 	//* 💡 en - Configures whether sourcemapped file where the original file can't be read will automatically be unmapped. If this is false (default), a prompt is shown.,
 	"debug.javascript.unmapMissingSources": false,
-
 
 	//! ✅ Editor
 
@@ -1616,7 +1608,6 @@
 	//* 💡 en - Controls the algorithm that computes wrapping points.,
 	"editor.wrappingStrategy": "simple",
 
-
 	//! ✅ Emmet
 	//? 🧨 Info - https://code.visualstudio.com/docs/editor/emmet
 
@@ -1687,13 +1678,11 @@
 	//* 💡 en - Variables to be used in Emmet snippets.,
 	"emmet.variables": {},
 
-
 	//! ✅ ESLint
 
 	//* 💡 ru - Включение eslint форматор.
 	//* 💡 en - Enable eslint formatter.,
 	"eslint.format.enable": true,
-
 
 	//! ✅ Explorer
 
@@ -1795,7 +1784,6 @@
 	//* 💡 en - Controls the lexicographic sorting of file and folder names in the Explorer.,
 	"explorer.sortOrderLexicographicOptions": "default",
 
-
 	//! ✅ Extensions
 
 	//* 💡 ru - Когда включено, автоматически проверяет расширения на наличие обновлений. Если расширение имеет обновление, оно помечается как устаревшее в представлении «Расширения». Обновления загружаются из онлайн-сервиса Microsoft.
@@ -1825,7 +1813,6 @@
 	//* 💡 ru - Переопределить поддержку виртуальных рабочих пространств расширения.
 	//* 💡 en - Override the virtual workspaces support of an extension.,
 	"extensions.supportVirtualWorkspaces": {},
-
 
     //! ✅ Files
 
@@ -1927,7 +1914,6 @@
     //* 💡 ru - Настройте дополнительные пути для отслеживания изменений внутри рабочей области.
     //* 💡 en - Configure extra paths to watch for changes inside the workspace.,
     "files.watcherInclude": [],
-
 
 	//! ✅ Git
 
@@ -2263,7 +2249,6 @@
 	//* 💡 en - Enable verbose output when `git.useEditorAsCommitInput` is enabled.,
 	"git.verboseCommit": false,
 
-
 	//! ✅ GitHub
 
 	//* 💡 ru - Определяет, следует ли включать автоматическую аутентификацию GitHub для команд git в VS Code.
@@ -2278,20 +2263,17 @@
 	//* 💡 en - GitHub Enterprise Server URI.,
 	"github-enterprise.uri": "",
 
-
 	//! ✅ Grunt
 
 	//* 💡 ru - Управляет включением обнаружения задач Grunt. Обнаружение задач Grunt может привести к выполнению файлов в любой открытой рабочей области.
 	//* 💡 en - Controls enablement of Grunt task detection. Grunt task detection can cause files in any open workspace to be executed.,
 	"grunt.autoDetect": "off",
 
-
 	//! ✅ Gulp
 
 	//* 💡 ru - Управляет включением обнаружения задач Gulp. Обнаружение задачи Gulp может привести к выполнению файлов в любой открытой рабочей области.
 	//* 💡 en - Controls enablement of Gulp task detection. Gulp task detection can cause files in any open workspace to be executed.,
 	"gulp.autoDetect": "off",
-
 
 	//! ✅ HTML
 
@@ -2387,7 +2369,6 @@
 	//* 💡 en - Controls whether the built-in HTML language support validates embedded styles.,
 	"html.validate.styles": true,
 
-
 	//! ✅ HTTP
 
 	//* 💡 ru - Используемый параметр прокси. Если не задано, будет унаследовано от переменных среды `http_proxy` и `https_proxy`.
@@ -2409,7 +2390,6 @@
 	//* 💡 ru - Определяет, следует ли загружать сертификаты ЦС из ОС. (В Windows и macOS после отключения этой функции требуется перезагрузка окна.)
 	//* 💡 en - Controls whether CA certificates should be loaded from the OS. (On Windows and macOS, a reload of the window is required after turning this off.),
 	"http.systemCertificates": true,
-
 
 	//! ✅ Import At Top
 
@@ -2440,7 +2420,6 @@
         },
     ],
 
-
 	//! ✅ Interactive Window
 
 	//* 💡 ru - Автоматически прокручивайте интерактивное окно, чтобы показать вывод последнего выполненного оператора. Если это значение равно false, окно будет прокручиваться только в том случае, если последняя ячейка уже была прокручена.
@@ -2451,13 +2430,11 @@
 	//* 💡 en - Controls whether the Interactive Window sessions/history should be restored across window reloads.,
 	"interactiveWindow.restore": false,
 
-
 	//! ✅ Jake
 
 	//* 💡 ru - Управляет включением обнаружения задач Jake. Обнаружение задачи Jake может привести к выполнению файлов в любой открытой рабочей области.
 	//* 💡 en - Controls enablement of Jake task detection. Jake task detection can cause files in any open workspace to be executed.,
 	"jake.autoDetect": "off",
-
 
 	//! ✅ JavaScript & TypeScript
 
@@ -2585,91 +2562,91 @@
 	//* 💡 en - Preferred path style for auto imports.
 	"javascript.preferences.importModuleSpecifier": "shortest",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительное окончание пути для автоматического импорта.
 	//* 💡 en - Preferred path ending for auto imports.
 	"javascript.preferences.importModuleSpecifierEnding": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль для завершения атрибутов JSX.
 	//* 💡 en - Preferred style for JSX attribute completions.
 	"javascript.preferences.jsxAttributeCompletionStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль кавычек для быстрых исправлений.
 	//* 💡 en - Preferred quote style to use for Quick Fixes.
 	"javascript.preferences.quoteStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Параметр typescript.preferences.renameShorthandProperties устарел и заменен на typescript.preferences.useAliasesForRenames. Включить/выключить ввод псевдонимов для сокращенных свойств объекта при переименовании.
 	//* 💡 en - The setting 'typescript.preferences.renameShorthandProperties' has been deprecated in favor of 'typescript.preferences.useAliasesForRenames'. Enable/disable introducing aliases for object shorthand properties during renames.
 	"javascript.preferences.renameShorthandProperties": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/выключить ввод псевдонимов для сокращенных свойств объекта при переименовании.
 	//* 💡 en - Enable/disable introducing aliases for object shorthand properties during renames.
 	"javascript.preferences.useAliasesForRenames": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens в файлах JavaScript.
 	//* 💡 en - Enable/disable references CodeLens in JavaScript files.
 	"javascript.referencesCodeLens.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens на все функции в файлах JavaScript.
 	//* 💡 en - Enable/disable references CodeLens on all functions in JavaScript files.
 	"javascript.referencesCodeLens.showOnAllFunctions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить заполнение сниппетов для участников класса.
 	//* 💡 en - Enable/disable snippet completions for class members.
 	"javascript.suggest.classMemberSnippets.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Завершите функции с их сигнатурой параметра.
 	//* 💡 en - Complete functions with their parameter signature.
 	"javascript.suggest.completeFunctionCalls": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить предложение завершить комментарии JSDoc.
 	//* 💡 en - Enable/disable suggestion to complete JSDoc comments.
 	"javascript.suggest.completeJSDocs": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включены/отключены предложения автозаполнения.
 	//* 💡 en - Enabled/disable autocomplete suggestions.
 	"javascript.suggest.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить показ завершений для потенциально неопределенных значений, которые вставляют необязательный цепной вызов. Требует включения строгих нулевых проверок.
 	//* 💡 en - Enable/disable showing completions on potentially undefined values that insert an optional chain call. Requires strict null checks to be enabled.
 	"javascript.suggest.includeAutomaticOptionalChainCompletions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение в стиле автоматического импорта для частично типизированных операторов импорта.
 	//* 💡 en - Enable/disable auto-import-style completions on partially-typed import statements.
 	"javascript.suggest.includeCompletionsForImportStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить создание аннотаций `@returns` для шаблонов JSDoc.
 	//* 💡 en - Enable/disable generating `@returns` annotations for JSDoc templates.
 	"javascript.suggest.jsdoc.generateReturns": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/выключить включение уникальных имен из файла в предложения JavaScript. Обратите внимание, что предложения имен всегда отключены в коде JavaScript, который семантически проверяется с помощью `@ts-check` или `checkJs`.
 	//* 💡 en - Enable/disable including unique names from the file in JavaScript suggestions. Note that name suggestions are always disabled in JavaScript code that is semantically checked using `@ts-check` or `checkJs`.
 	"javascript.suggest.names": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите/отключите предложения путей в операторах импорта и требуйте вызовов.
 	//* 💡 en - Enable/disable suggestions for paths in import statements and require calls.
 	"javascript.suggest.paths": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить проверку JavaScript.
 	//* 💡 en - Enable/disable JavaScript validation.
 	"javascript.validate.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить семантическую проверку файлов JavaScript. Существующие файлы `jsconfig.json` или `tsconfig.json` переопределяют этот параметр.
 	//* 💡 en - Enable/disable semantic checking of JavaScript files. Existing `jsconfig.json` or `tsconfig.json` files override this setting.
 	"js/ts.implicitProjectConfig.checkJs": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Устанавливает модульную систему для программы.
 	//* 💡 en - Sets the module system for the program.
 	"js/ts.implicitProjectConfig.module": "ESNext",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить строгие типы функций в файлах JavaScript и TypeScript, которые не являются частью проекта. Существующие файлы `jsconfig.json` или `tsconfig.json` переопределяют этот параметр.
 	//* 💡 en - Enable/disable strict function types in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.
 	"js/ts.implicitProjectConfig.strictFunctionTypes": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить строгие проверки нулей в файлах JavaScript и TypeScript, которые не являются частью проекта. Существующие файлы `jsconfig.json` или `tsconfig.json` переопределяют этот параметр.
 	//* 💡 en - Enable/disable strict null checks in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.
 	"js/ts.implicitProjectConfig.strictNullChecks": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Установите целевую языковую версию JavaScript для испускаемого JavaScript и включите объявления библиотек.
 	//* 💡 en - Set target JavaScript language version for emitted JavaScript and include library declarations.
 	"js/ts.implicitProjectConfig.target": "ES2020",
 
@@ -2685,896 +2662,884 @@
 	//* 💡 en - Allows you to choose how your module import paths are automatically updated when you rename or move files in vscode.
 	"typescript.updateImportsOnFileMove.enabled": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить автоматическое закрытие тегов JSX.
 	//* 💡 en - Enable/disable automatic closing of JSX tags.
 	"typescript.autoClosingTags": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверьте, установлен ли npm для автоматического получения типов.
 	//* 💡 en - Check if npm is installed for Automatic Type Acquisition.
 	"typescript.check.npmIsInstalled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отключает автоматическое получение типа. Автоматическое получение типов извлекает пакеты `@types` из npm для улучшения IntelliSense для внешних библиотек.
 	//* 💡 en - Disables automatic type acquisition. Automatic type acquisition fetches `@types` packages from npm to improve IntelliSense for external libraries.
 	"typescript.disableAutomaticTypeAcquisition": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает запрос пользователей на использование версии TypeScript, настроенной в рабочей области для Intellisense.
 	//* 💡 en - Enables prompting of users to use the TypeScript version configured in the workspace for Intellisense.
 	"typescript.enablePromptUseWorkspaceTsdk": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить средство форматирования TypeScript по умолчанию.
 	//* 💡 en - Enable/disable default TypeScript formatter.
 	"typescript.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после разделителя-запятой.
 	//* 💡 en - Defines space handling after a comma delimiter.
 	"typescript.format.insertSpaceAfterCommaDelimiter": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевого слова конструктора.
 	//* 💡 en - Defines space handling after the constructor keyword.
 	"typescript.format.insertSpaceAfterConstructor": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевого слова function для анонимных функций.
 	//* 💡 en - Defines space handling after function keyword for anonymous functions.
 	"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после ключевых слов в инструкции потока управления.
 	//* 💡 en - Defines space handling after keywords in a control flow statement.
 	"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием пустых фигурных скобок.
 	//* 💡 en - Defines space handling after opening and before closing empty braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием фигурных скобок выражения JSX.
 	//* 💡 en - Defines space handling after opening and before closing JSX expression braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустых фигурных скобок.
 	//* 💡 en - Defines space handling after opening and before closing non-empty braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустых скобок.
 	//* 💡 en - Defines space handling after opening and before closing non-empty brackets.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием непустой скобки.
 	//* 💡 en - Defines space handling after opening and before closing non-empty parenthesis.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после открытия и перед закрытием фигурных скобок строки шаблона.
 	//* 💡 en - Defines space handling after opening and before closing template string braces.
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после точки с запятой в операторе for.
 	//* 💡 en - Defines space handling after a semicolon in a for statement.
 	"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после утверждений типа в TypeScript.
 	//* 💡 en - Defines space handling after type assertions in TypeScript.
 	"typescript.format.insertSpaceAfterTypeAssertion": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов после бинарного оператора.
 	//* 💡 en - Defines space handling after a binary operator.
 	"typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку пробелов перед скобками аргумента функции.
 	//* 💡 en - Defines space handling before function argument parentheses.
 	"typescript.format.insertSpaceBeforeFunctionParenthesis": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, ставится ли открывающая скобка на новую строку для управляющих блоков или нет.
 	//* 💡 en - Defines whether an open brace is put onto a new line for control blocks or not.
 	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, ставится ли открывающая скобка на новую строку для функций или нет.
 	//* 💡 en - Defines whether an open brace is put onto a new line for functions or not.
 	"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет обработку необязательных точек с запятой.
 	//* 💡 en - Defines handling of optional semicolons.
 	"typescript.format.semicolons": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить реализации CodeLens. Этот CodeLens показывает разработчиков интерфейса.
 	//* 💡 en - Enable/disable implementations CodeLens. This CodeLens shows the implementers of an interface.
 	"typescript.implementationsCodeLens.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for member values in enum declarations:
+	//* 💡 ru - Включить/отключить подсказки вкладок для значений элементов в объявлениях перечисления.
+	//* 💡 en - Enable/disable inlay hints for member values in enum declarations.
 	"typescript.inlayHints.enumMemberValues.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit return types on function signatures:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных возвращаемых типов в сигнатурах функций.
+	//* 💡 en - Enable/disable inlay hints for implicit return types on function signatures.
 	"typescript.inlayHints.functionLikeReturnTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for parameter names:
+	//* 💡 ru - Включить/отключить подсказки вкладок для имен параметров.
+	//* 💡 en - Enable/disable inlay hints for parameter names.
 	"typescript.inlayHints.parameterNames.enabled": "none",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Подавлять подсказки имени параметра для аргументов, текст которых идентичен имени параметра.
 	//* 💡 en - Suppress parameter name hints on arguments whose text is identical to the parameter name.
 	"typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit parameter types:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных типов параметров.
+	//* 💡 en - Enable/disable inlay hints for implicit parameter types.
 	"typescript.inlayHints.parameterTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit types on property declarations:
+	//* 💡 ru - Включить/отключить подсказки вкладки для неявных типов в объявлениях свойств.
+	//* 💡 en - Enable/disable inlay hints for implicit types on property declarations.
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable inlay hints for implicit variable types:
+	//* 💡 ru - Включить/отключить подсказки вкладок для неявных типов переменных.
+	//* 💡 en - Enable/disable inlay hints for implicit variable types.
 	"typescript.inlayHints.variableTypes.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Подавлять подсказки типа для переменных, имя которых идентично имени типа.
 	//* 💡 en - Suppress type hints on variables whose name is identical to the type name.
 	"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Задает локаль, используемую для сообщения об ошибках JavaScript и TypeScript. По умолчанию используется локаль VS Code.
 	//* 💡 en - Sets the locale used to report JavaScript and TypeScript errors. Defaults to use VS Code's locale.
 	"typescript.locale": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает путь к исполняемому файлу npm, используемому для автоматического получения типа.
 	//* 💡 en - Specifies the path to the npm executable used for Automatic Type Acquisition.
 	"typescript.npm": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Укажите общие шаблоны файлов для исключения из автоматического импорта.
 	//* 💡 en - Specify glob patterns of files to exclude from auto imports.
 	"typescript.preferences.autoImportFileExcludePatterns": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль пути для автоматического импорта.
 	//* 💡 en - Preferred path style for auto imports.
 	"typescript.preferences.importModuleSpecifier": "shortest",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительное окончание пути для автоматического импорта.
 	//* 💡 en - Preferred path ending for auto imports.
 	"typescript.preferences.importModuleSpecifierEnding": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить поиск зависимостей `package.json` для доступных автоматических импортов.
 	//* 💡 en - Enable/disable searching `package.json` dependencies for available auto imports.
 	"typescript.preferences.includePackageJsonAutoImports": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль для завершения атрибутов JSX.
 	//* 💡 en - Preferred style for JSX attribute completions.
 	"typescript.preferences.jsxAttributeCompletionStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Предпочтительный стиль кавычек для быстрых исправлений.
 	//* 💡 en - Preferred quote style to use for Quick Fixes.
 	"typescript.preferences.quoteStyle": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/выключить ввод псевдонимов для сокращенных свойств объекта при переименовании.
 	//* 💡 en - Enable/disable introducing aliases for object shorthand properties during renames.
 	"typescript.preferences.useAliasesForRenames": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens в файлах TypeScript.
 	//* 💡 en - Enable/disable references CodeLens in TypeScript files.
 	"typescript.referencesCodeLens.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить ссылки CodeLens на все функции в файлах TypeScript.
 	//* 💡 en - Enable/disable references CodeLens on all functions in TypeScript files.
 	"typescript.referencesCodeLens.showOnAllFunctions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Сообщайте о проверках стиля как о предупреждениях.
 	//* 💡 en - Report style checks as warnings.
 	"typescript.reportStyleChecksAsWarnings": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить заполнение сниппетов для участников класса.
 	//* 💡 en - Enable/disable snippet completions for class members.
 	"typescript.suggest.classMemberSnippets.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Завершите функции с их сигнатурой параметра.
 	//* 💡 en - Complete functions with their parameter signature.
 	"typescript.suggest.completeFunctionCalls": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить предложение завершить комментарии JSDoc.
 	//* 💡 en - Enable/disable suggestion to complete JSDoc comments.
 	"typescript.suggest.completeJSDocs": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включены/отключены предложения автозаполнения.
 	//* 💡 en - Enabled/disable autocomplete suggestions.
 	"typescript.suggest.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить показ завершений для потенциально неопределенных значений, которые вставляют необязательный цепной вызов. Требует включения строгих нулевых проверок.
 	//* 💡 en - Enable/disable showing completions on potentially undefined values that insert an optional chain call. Requires strict null checks to be enabled.
 	"typescript.suggest.includeAutomaticOptionalChainCompletions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение в стиле автоматического импорта для частично типизированных операторов импорта.
 	//* 💡 en - Enable/disable auto-import-style completions on partially-typed import statements.
 	"typescript.suggest.includeCompletionsForImportStatements": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение сниппетов с TS Server.
 	//* 💡 en - Enable/disable snippet completions from TS Server.
 	"typescript.suggest.includeCompletionsWithSnippetText": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить создание аннотаций `@returns` для шаблонов JSDoc.
 	//* 💡 en - Enable/disable generating `@returns` annotations for JSDoc templates.
 	"typescript.suggest.jsdoc.generateReturns": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить завершение фрагментов для методов в литералах объектов.
 	//* 💡 en - Enable/disable snippet completions for methods in object literals.
 	"typescript.suggest.objectLiteralMethodSnippets.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите/отключите предложения путей в операторах импорта и требуйте вызовов.
 	//* 💡 en - Enable/disable suggestions for paths in import statements and require calls.
 	"typescript.suggest.paths": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет автоматическим определением задач tsc.
 	//* 💡 en - Controls auto detection of tsc tasks.
 	"typescript.tsc.autoDetect": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает путь к папке с файлами tsserver и `lib*.d.ts` в установке TypeScript для использования в IntelliSense, например: `./node_modules/typescript/lib`.
 	//* 💡 en - Specifies the folder path to the tsserver and `lib*.d.ts` files under a TypeScript install to use for IntelliSense, for example: `./node_modules/typescript/lib`.
 	"typescript.tsdk": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает отслеживание производительности сервера TS в каталоге. Эти файлы трассировки можно использовать для диагностики проблем с производительностью TS Server. Журнал может содержать пути к файлам, исходный код и другую потенциально конфиденциальную информацию из вашего проекта.
 	//* 💡 en - Enables tracing TS server performance to a directory. These trace files can be used to diagnose TS Server performance issues. The log may contain file paths, source code, and other potentially sensitive information from your project.
 	"typescript.tsserver.enableTracing": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает запись сервера TS в файл. Этот журнал можно использовать для диагностики проблем с TS Server. Журнал может содержать пути к файлам, исходный код и другую потенциально конфиденциальную информацию из вашего проекта.
 	//* 💡 en - Enables logging of the TS server to a file. This log can be used to diagnose TS Server issues. The log may contain file paths, source code, and other potentially sensitive information from your project.
 	"typescript.tsserver.log": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальный объем памяти (в МБ), выделяемый серверному процессу TypeScript.
 	//* 💡 en - The maximum amount of memory (in MB) to allocate to the TypeScript server process.
 	"typescript.tsserver.maxTsServerMemory": 3072,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Дополнительные пути для обнаружения подключаемых модулей TypeScript Language Service.
 	//* 💡 en - Additional paths to discover TypeScript Language Service plugins.
 	"typescript.tsserver.pluginPaths": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает отслеживание сообщений, отправляемых на сервер TS. Эту трассировку можно использовать для диагностики проблем с TS Server. Трассировка может содержать пути к файлам, исходный код и другую потенциально конфиденциальную информацию из вашего проекта.
 	//* 💡 en - Enables tracing of messages sent to the TS server. This trace can be used to diagnose TS Server issues. The trace may contain file paths, source code, and other potentially sensitive information from your project.
 	"typescript.tsserver.trace": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, запускает ли TypeScript выделенный сервер для более быстрой обработки операций, связанных с синтаксисом, таких как свертывание вычислительного кода.
 	//* 💡 en - Controls if TypeScript launches a dedicated server to more quickly handle syntax related operations, such as computing code folding.
 	"typescript.tsserver.useSyntaxServer": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте, какие стратегии наблюдения следует использовать для отслеживания файлов и каталогов.
 	//* 💡 en - Configure which watching strategies should be used to keep track of files and directories.
 	"typescript.tsserver.watchOptions": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить проверку TypeScript.
 	//* 💡 en - Enable/disable TypeScript validation.
 	"typescript.validate.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поиском файлов при переходе к символу в рабочей области.
 	//* 💡 en - Controls which files are searched by Go to Symbol in Workspace.,
 	"typescript.workspaceSymbols.scope": "allOpenProjects",
 
-
 	//! ✅ JSON
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable default JSON formatter
+	//* 💡 ru - Включить/отключить средство форматирования JSON по умолчанию.
+	//* 💡 en - Enable/disable default JSON formatter.
 	"json.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Сохраняйте все существующие новые строки при форматировании.
 	//* 💡 en - Keep all existing new lines when formatting.
 	"json.format.keepLines": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальное вычисленное количество контурных символов и областей сгиба (ограничено по соображениям производительности).
 	//* 💡 en - The maximum number of outline symbols and folding regions computed (limited for performance reasons).
 	"json.maxItemsComputed": 5000,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если этот параметр включен, схемы JSON можно получать из местоположений http и https.
 	//* 💡 en - When enabled, JSON schemas can be fetched from http and https locations.
 	"json.schemaDownload.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Свяжите схемы с файлами JSON в текущем проекте.
 	//* 💡 en - Associate schemas to JSON files in the current project.
 	"json.schemas": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отслеживает связь между VS Code и языковым сервером JSON.
 	//* 💡 en - Traces the communication between VS Code and the JSON language server.
 	"json.trace.server": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить проверку JSON.
 	//* 💡 en - Enable/disable JSON validation.,
 	"json.validate.enable": true,
 
-
 	//! ✅ Keyboard
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет логикой диспетчеризации для нажатий клавиш, чтобы использовать либо `code` (рекомендуется), либо `keyCode`.
 	//* 💡 en - Controls the dispatching logic for key presses to use either `code` (recommended) or `keyCode`.
 	"keyboard.dispatch": "code",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает кнопки сенсорной панели Mac на клавиатуре, если они доступны.
 	//* 💡 en - Enables the macOS touchbar buttons on the keyboard if available.
 	"keyboard.touchbar.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Набор идентификаторов для записей на сенсорной панели, которые не должны отображаться (например, `workbench.action.navigateBack`).
 	//* 💡 en - A set of identifiers for entries in the touchbar that should not show up (for example `workbench.action.navigateBack`).,
 	"keyboard.touchbar.ignored": [],
 
-
 	//! ✅ LESS
 
-	//* 💡 ru - бета
+	//* 💡 ru - Вставьте точку с запятой в конце строки при заполнении свойств CSS.
 	//* 💡 en - Insert semicolon at end of line when completing CSS properties.
 	"less.completion.completePropertyWithSemicolon": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - По умолчанию VS Code инициирует завершение значения свойства после выбора свойства CSS. Используйте этот параметр, чтобы отключить это поведение.
 	//* 💡 en - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
 	"less.completion.triggerPropertyValueCompletion": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Ставьте фигурные скобки на той же строке, что и правила (`collapse`), или ставьте фигурные скобки на отдельной строке (`expand`).
 	//* 💡 en - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
 	"less.format.braceStyle": "collapse",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить средство форматирования LESS по умолчанию.
 	//* 💡 en - Enable/disable default LESS formatter.
 	"less.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальное количество разрывов строк, которое должно быть сохранено в одном фрагменте, когда включен параметр `less.format.preserveNewLines`.
 	//* 💡 en - Maximum number of line breaks to be preserved in one chunk, when `less.format.preserveNewLines` is enabled.
 	"less.format.maxPreserveNewLines": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Разделяйте наборы правил пустой строкой.
 	//* 💡 en - Separate rulesets by a blank line.
 	"less.format.newlineBetweenRules": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Разделяйте селекторы новой строкой.
 	//* 💡 en - Separate selectors with a new line.
 	"less.format.newlineBetweenSelectors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Следует ли сохранять существующие разрывы строк перед элементами.
 	//* 💡 en - Whether existing line breaks before elements should be preserved.
 	"less.format.preserveNewLines": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Обеспечьте наличие пробела вокруг разделителей селекторов '>', '+', '~' (например, `a > b`).
 	//* 💡 en - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
 	"less.format.spaceAroundSelectorSeparator": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показать документацию по тегам и атрибутам при наведении МЕНЬШЕ.
 	//* 💡 en - Show tag and attribute documentation in LESS hovers.
 	"less.hover.documentation": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показывать ссылки на MDN при наведении LESS.
 	//* 💡 en - Show references to MDN in LESS hovers.
 	"less.hover.references": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Недопустимое количество параметров.
 	//* 💡 en - Invalid number of parameters.
 	"less.lint.argumentsInColorFunction": "error",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Не используйте `width` или `height` при использовании `padding` или `border`.
 	//* 💡 en - Do not use `width` or `height` when using `padding` or `border`.
 	"less.lint.boxModel": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - При использовании префикса, специфичного для поставщика, не забудьте также включить все другие свойства, зависящие от поставщика.
 	//* 💡 en - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
 	"less.lint.compatibleVendorPrefixes": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Не используйте повторяющиеся определения стилей.
 	//* 💡 en - Do not use duplicate style definitions.
 	"less.lint.duplicateProperties": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Не используйте пустые наборы правил.
 	//* 💡 en - Do not use empty rulesets.
 	"less.lint.emptyRules": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Избегайте использования `float`. Поплавки приводят к хрупкому CSS, который легко сломать, если изменится один аспект макета.
 	//* 💡 en - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
 	"less.lint.float": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Правило `@font-face` должно определять свойства `src` и `font-family`.
 	//* 💡 en - `@font-face` rule must define `src` and `font-family` properties.
 	"less.lint.fontFaceProperties": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Шестнадцатеричные цвета должны состоять из трех или шести шестнадцатеричных чисел.
 	//* 💡 en - Hex colors must consist of three or six hex numbers.
 	"less.lint.hexColorLength": "error",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Селекторы не должны содержать идентификаторы, потому что эти правила слишком тесно связаны с HTML.
 	//* 💡 en - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
 	"less.lint.idSelector": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Взломы IE необходимы только при поддержке IE7 и старше.
 	//* 💡 en - IE hacks are only necessary when supporting IE7 and older.
 	"less.lint.ieHack": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Избегайте использования `!important`. Это указывает на то, что специфика всего CSS вышла из-под контроля и нуждается в рефакторинге.
 	//* 💡 en - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
 	"less.lint.important": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Операторы импорта не загружаются параллельно.
 	//* 💡 en - Import statements do not load in parallel.
 	"less.lint.importStatement": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Свойство игнорируется из-за отображения. Например. с display: inline свойства width, height, margin-top, margin-bottom и float не действуют.
 	//* 💡 en - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
 	"less.lint.propertyIgnoredDueToDisplay": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Известно, что универсальный селектор (`*`) медленный.
 	//* 💡 en - The universal selector (`*`) is known to be slow.
 	"less.lint.universalSelector": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Неизвестное at-правило.
 	//* 💡 en - Unknown at-rule.
 	"less.lint.unknownAtRules": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Неизвестное свойство.
 	//* 💡 en - Unknown property.
 	"less.lint.unknownProperties": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Свойство неизвестного поставщика.
 	//* 💡 en - Unknown vendor specific property.
 	"less.lint.unknownVendorSpecificProperties": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список свойств, которые не проверяются на соответствие правилу `unknownProperties`.
 	//* 💡 en - A list of properties that are not validated against the `unknownProperties` rule.
 	"less.lint.validProperties": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - При использовании префикса, зависящего от поставщика, также включите стандартное свойство.
 	//* 💡 en - When using a vendor-specific prefix, also include the standard property.
 	"less.lint.vendorPrefix": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Единица для нуля не нужна.
 	//* 💡 en - No unit for zero needed.
 	"less.lint.zeroUnits": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает или отключает все проверки.
 	//* 💡 en - Enables or disables all validations.,
 	"less.validate": true,
 
-
 	//! ✅ Markdown
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите перетаскивание файлов в редактор Markdown, удерживая Shift. Требуется включить `editor.dropIntoEditor.enabled`.
 	//* 💡 en - Enable dropping files into a Markdown editor while holding Shift. Requires enabling `editor.dropIntoEditor.enabled`.
 	"markdown.editor.drop.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, где должны открываться ссылки в файлах Markdown.
 	//* 💡 en - Controls where links in Markdown files should be opened.
 	"markdown.links.openLocation": "currentGroup",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить выделение вхождений ссылок в текущем документе.
 	//* 💡 en - Enable highlighting link occurrences in the current document.
 	"markdown.occurrencesHighlight.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Устанавливает способ отображения разрывов строк в предварительном просмотре Markdown. Установка значения «true» создает <br> для новой строки внутри абзаца.
 	//* 💡 en - Sets how line-breaks are rendered in the Markdown preview. Setting it to 'true' creates a <br> for newlines inside paragraphs.
 	"markdown.preview.breaks": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Дважды щелкните в предварительном просмотре Markdown, чтобы переключиться в редактор.
 	//* 💡 en - Double click in the Markdown preview to switch to the editor.
 	"markdown.preview.doubleClickToSwitchToEditor": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет семейством шрифтов, используемым в предварительном просмотре Markdown.
 	//* 💡 en - Controls the font family used in the Markdown preview.
 	"markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта в пикселях, используемым в предварительном просмотре Markdown.
 	//* 💡 en - Controls the font size in pixels used in the Markdown preview.
 	"markdown.preview.fontSize": 14,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет высотой строки, используемой в предварительном просмотре Markdown. Это число зависит от размера шрифта.
 	//* 💡 en - Controls the line height used in the Markdown preview. This number is relative to the font size.
 	"markdown.preview.lineHeight": 1.6,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Преобразуйте текст, похожий на URL, в ссылки в предварительном просмотре Markdown.
 	//* 💡 en - Convert URL-like text to links in the Markdown preview.
 	"markdown.preview.linkify": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отметьте текущий выбор редактора в предварительном просмотре Markdown.
 	//* 💡 en - Mark the current editor selection in the Markdown preview.
 	"markdown.preview.markEditorSelection": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, как должны открываться ссылки на другие файлы Markdown в предварительном просмотре Markdown.
 	//* 💡 en - Controls how links to other Markdown files in the Markdown preview should be opened.
 	"markdown.preview.openMarkdownLinks": "inPreview",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда предварительный просмотр Markdown прокручивается, обновите вид редактора.
 	//* 💡 en - When a Markdown preview is scrolled, update the view of the editor.
 	"markdown.preview.scrollEditorWithPreview": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - При прокрутке редактора Markdown обновите представление предварительного просмотра.
 	//* 💡 en - When a Markdown editor is scrolled, update the view of the preview.
 	"markdown.preview.scrollPreviewWithEditor": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите некоторую независимую от языка замену и украшение кавычек в предварительном просмотре Markdown.
 	//* 💡 en - Enable some language-neutral replacement and quotes beautification in the Markdown preview.
 	"markdown.preview.typographer": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список URL-адресов или локальных путей к таблицам стилей CSS для использования в предварительном просмотре Markdown. Относительные пути интерпретируются относительно папки, открытой в Проводнике. Если нет открытой папки, они интерпретируются относительно местоположения файла Markdown. Все '\' нужно записывать как '\\'.
 	//* 💡 en - A list of URLs or local paths to CSS style sheets to use from the Markdown preview. Relative paths are interpreted relative to the folder open in the Explorer. If there is no open folder, they are interpreted relative to the location of the Markdown file. All '\' need to be written as '\\'.
 	"markdown.styles": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите предложения пути при написании ссылок в файлах Markdown.
 	//* 💡 en - Enable path suggestions while writing links in Markdown files.
 	"markdown.suggest.paths.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите ведение журнала отладки для расширения Markdown.
 	//* 💡 en - Enable debug logging for the Markdown extension.
 	"markdown.trace.extension": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Попробуйте обновить ссылки в файлах Markdown, когда файл переименовывается/перемещается в рабочей области. Используйте `markdown.updateLinksOnFileMove.include`, чтобы указать, какие файлы вызывают обновление ссылок.
 	//* 💡 en - Try to update links in Markdown files when a file is renamed/moved in the workspace. Use `markdown.updateLinksOnFileMove.include` to configure which files trigger link updates.
 	"markdown.updateLinksOnFileMove.enabled": "never",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите обновление ссылок при перемещении или переименовании каталога в рабочей области.
 	//* 💡 en - Enable updating links when a directory is moved or renamed in the workspace.
 	"markdown.updateLinksOnFileMove.enableForDirectories": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Шаблоны универсальных объектов, определяющие файлы, запускающие автоматическое обновление ссылок. См. `markdown.updateLinksOnFileMove.enabled` для получения подробной информации об этой функции.
 	//* 💡 en - Glob patterns that specifies files that trigger automatic link updates. See `markdown.updateLinksOnFileMove.enabled` for details about this feature.
 	"markdown.updateLinksOnFileMove.include": [
 		"**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
 		"**/*.{jpg,jpe,jpeg,png,bmp,gif,ico,webp,avif,tiff,svg,mp4}"
 	],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверить повторяющиеся определения в текущем файле.
 	//* 💡 en - Validate duplicated definitions in the current file.
 	"markdown.validate.duplicateLinkDefinitions.enabled": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите все отчеты об ошибках в файлах Markdown.
 	//* 💡 en - Enable all error reporting in Markdown files.
 	"markdown.validate.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверяйте ссылки на другие файлы в файлах Markdown, например `[link](/path/to/file.md)`. Это проверяет, что целевые файлы существуют. Требуется включить `markdown.validate.enabled`.
 	//* 💡 en - Validate links to other files in Markdown files, for example `[link](/path/to/file.md)`. This checks that the target files exists. Requires enabling `markdown.validate.enabled`.
 	"markdown.validate.fileLinks.enabled": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверяйте фрагментную часть ссылок на заголовки в других файлах в файлах Markdown, например `[ссылка](/путь/к/файлу.md#header)`. Наследует значение параметра от `markdown.validate.fragmentLinks.enabled` по умолчанию.
 	//* 💡 en - Validate the fragment part of links to headers in other files in Markdown files, for example `[link](/path/to/file.md#header)`. Inherits the setting value from `markdown.validate.fragmentLinks.enabled` by default.
 	"markdown.validate.fileLinks.markdownFragmentLinks": "inherit",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверить ссылки фрагментов на заголовки в текущем файле Markdown, например `[link](#_header)`. Требуется включить `markdown.validate.enabled`.
 	//* 💡 en - Validate fragment links to headers in the current Markdown file, for example `[link](#_header)`. Requires enabling `markdown.validate.enabled`.
 	"markdown.validate.fragmentLinks.enabled": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте ссылки, которые не должны проверяться. Например, добавление `/about` не будет проверять ссылку `[about](/about)`, в то время как glob `/assets/**/*.svg` позволит вам пропустить проверку любой ссылки на файлы `.svg` в каталоге `assets`.
 	//* 💡 en - Configure links that should not be validated. For example adding `/about` would not validate the link `[about](/about)`, while the glob `/assets/**/*.svg` would let you skip validation for any link to `.svg` files under the `assets` directory.
 	"markdown.validate.ignoredLinks": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверяйте справочные ссылки в файлах Markdown, например `[ссылка][ref]`. Требуется включить `markdown.validate.enabled`.
 	//* 💡 en - Validate reference links in Markdown files, for example `[link][ref]`. Requires enabling `markdown.validate.enabled`.
 	"markdown.validate.referenceLinks.enabled": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проверить определения ссылок, которые не используются в текущем файле.
 	//* 💡 en - Validate link definitions that are unused in the current file.,
 	"markdown.validate.unusedLinkDefinitions.enabled": "hint",
 
-
 	//! ✅ Merge Conflict
 
-	//* 💡 ru - бета
+	//* 💡 ru - Следует ли автоматически переходить к следующему конфликту слияния после разрешения конфликта слияния.
 	//* 💡 en - Whether to automatically navigate to the next merge conflict after resolving a merge conflict.
 	"merge-conflict.autoNavigateNextConflict.enabled": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Создайте CodeLens для блоков конфликтов слияния в редакторе.
 	//* 💡 en - Create a CodeLens for merge conflict blocks within editor.
 	"merge-conflict.codeLens.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Создайте декораторы для блоков конфликтов слияния в редакторе.
 	//* 💡 en - Create decorators for merge conflict blocks within editor.
 	"merge-conflict.decorators.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, где должно открываться представление различий при сравнении изменений в конфликтах слияния.
 	//* 💡 en - Controls where the diff view should be opened when comparing changes in merge conflicts.,
 	"merge-conflict.diffViewPosition": "Current",
 
-
 	//! ✅ Merge Editor
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролирует, должны ли удаления в базе или одном из входных данных обозначаться вертикальной чертой.
 	//* 💡 en - Controls if deletions in base or one of the inputs should be indicated by a vertical bar.,
 	"mergeEditor.showDeletionMarkers": true,
 
-
 	//! ✅ Notebooks
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, свернуты ли ячейки кода в интерактивном окне по умолчанию.
 	//* 💡 en - Controls whether code cells in the interactive window are collapsed by default.
 	"interactiveWindow.collapseCellInputCode": "fromEditor",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если включена навигационная цепочка записной книжки, она содержит ячейки с кодом.
 	//* 💡 en - When enabled notebook breadcrumbs contain code cells.
 	"notebook.breadcrumbs.showCodeCells": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, где отображается индикатор фокуса: вдоль границ ячейки или в левом поле.
 	//* 💡 en - Controls where the focus indicator is rendered, either along the cell borders or on the left gutter.
 	"notebook.cellFocusIndicator": "gutter",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Где должна отображаться панель инструментов ячейки или должна ли она быть скрыта.
 	//* 💡 en - Where the cell toolbar should be shown, or whether it should be hidden.
 	"notebook.cellToolbarLocation": {
 		"default": "right"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Должна ли панель инструментов ячейки появляться при наведении или щелчке.
 	//* 💡 en - Whether the cell toolbar should appear on hover or click.
 	"notebook.cellToolbarVisibility": "click",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должен ли редактор записной книжки отображаться в компактной форме. Например, при включении он уменьшит ширину левого поля.
 	//* 💡 en - Control whether the notebook editor should be rendered in a compact form. For example, when turned on, it will decrease the left margin width.
 	"notebook.compactView": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должно ли действие вывода отображаться на панели инструментов вывода.
 	//* 💡 en - Control whether outputs action should be rendered in the output toolbar.
 	"notebook.consolidatedOutputButton": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, отображаются ли дополнительные действия в раскрывающемся списке рядом с кнопкой запуска.
 	//* 💡 en - Control whether extra actions are shown in a dropdown next to the run button.
 	"notebook.consolidatedRunButton": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Использовать ли расширенный текстовый редактор для блокнота.
 	//* 💡 en - Whether to use the enhanced text diff editor for notebook.
 	"notebook.diff.enablePreview": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - Hide Metadata Differences
+	//* 💡 ru - Скрыть различия метаданных.
+	//* 💡 en - Hide Metadata Differences.
 	"notebook.diff.ignoreMetadata": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Hide Outputs Differences
+	//* 💡 ru - Скрыть различия выходов.
+	//* 💡 en - Hide Outputs Differences.
 	"notebook.diff.ignoreOutputs": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Priority list for output mime types
+	//* 💡 ru - Список приоритетов для выходных mime-типов.
+	//* 💡 en - Priority list for output mime types.
 	"notebook.displayOrder": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должен ли редактор блокнота разрешать перемещение ячеек с помощью перетаскивания.
 	//* 💡 en - Control whether the notebook editor should allow moving cells through drag and drop.
 	"notebook.dragAndDropEnabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройки редакторов кода, используемых в блокнотах. Это можно использовать для настройки большинства параметров editor.*.
 	//* 💡 en - Settings for code editors used in notebooks. This can be used to customize most editor.* settings.
 	"notebook.editorOptionsCustomizations": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, отображать ли глобальную панель инструментов в редакторе записной книжки.
 	//* 💡 en - Control whether to render a global toolbar inside the notebook editor.
 	"notebook.globalToolbar": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должны ли действия на панели инструментов блокнота отображать метку или нет.
 	//* 💡 en - Control whether the actions on the notebook toolbar should render label or not.
 	"notebook.globalToolbarShowLabel": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, где должны отображаться действия вставки ячеек.
 	//* 💡 en - Control where the insert cell actions should appear.
 	"notebook.insertToolbarLocation": "both",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет отображением номеров строк в редакторе ячеек.
 	//* 💡 en - Controls the display of line numbers in the cell editor.
 	"notebook.lineNumbers": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта в пикселях визуализируемой разметки в блокнотах. Если установлено значение «0», используется 120% размера «editor.fontSize».
 	//* 💡 en - Controls the font size in pixels of rendered markup in notebooks. When set to `0`, 120% of `editor.fontSize` is used.
 	"notebook.markup.fontSize": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, курсор может переходить к следующей/предыдущей ячейке, когда текущий курсор в редакторе ячеек находится в первой/последней строке.
 	//* 💡 en - When enabled cursor can navigate to the next/previous cell when the current cursor in the cell editor is at the first/last line.
 	"notebook.navigation.allowNavigateToSurroundingCells": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включена схема записной книжки, отображаются ячейки кода.
 	//* 💡 en - When enabled notebook outline shows code cells.
 	"notebook.outline.showCodeCells": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, сколько строк текста в текстовом выводе отображается.
 	//* 💡 en - Control how many lines of text in a text output is rendered.
 	"notebook.output.textLineLimit": 30,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Семейство шрифтов для вывода текста для ячеек записной книжки. Если установлено пустое, используется `editor.fontFamily`.
 	//* 💡 en - The font family for the output text for notebook cells. When set to empty, the `editor.fontFamily` is used.
 	"notebook.outputFontFamily": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Размер шрифта для вывода текста для ячеек блокнота. При значении 0 используется `editor.fontSize`.
 	//* 💡 en - Font size for the output text for notebook cells. When set to 0, `editor.fontSize` is used.
 	"notebook.outputFontSize": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Высота строки выходного текста для ячеек записной книжки.
 	//* 💡 en - Line height of the output text for notebook cells.
 	"notebook.outputLineHeight": 22,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Должна ли отображаться строка состояния ячейки.
 	//* 💡 en - Whether the cell status bar should be shown.
 	"notebook.showCellStatusBar": "visible",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, когда отображается стрелка сворачивания заголовка Markdown.
 	//* 💡 en - Controls when the Markdown header folding arrow is shown.
 	"notebook.showFoldingControls": "mouseover",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Использовать ли отдельный стек отмены/повтора для каждой ячейки.
 	//* 💡 en - Whether to use separate undo/redo stack for each cell.,
 	"notebook.undoRedoPerCell": true,
 
-
 	//! ✅ Npm
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли скрипты npm автоматически обнаруживаться.
 	//* 💡 en - Controls whether npm scripts should be automatically detected.
 	"npm.autoDetect": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите выполнение сценариев npm, содержащихся в папке, из контекстного меню Проводника.
 	//* 💡 en - Enable running npm scripts contained in a folder from the Explorer context menu.
 	"npm.enableRunFromFolder": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проводник сценариев NPM теперь доступен в меню «Виды» проводника во всех папках. Включите представление проводника для сценариев npm, если нет файла package.json верхнего уровня.
 	//* 💡 en - The NPM Script Explorer is now available in 'Views' menu in the Explorer in all folders. Enable an explorer view for npm scripts when there is no top-level 'package.json' file.
 	"npm.enableScriptExplorer": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте шаблоны универсальных объектов для папок, которые следует исключить из автоматического обнаружения сценариев.
 	//* 💡 en - Configure glob patterns for folders that should be excluded from automatic script detection.
 	"npm.exclude": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Получите данные с hregistry.npmjs.org и hregistry.bower.io, чтобы предоставить автозаполнение и информацию о функциях наведения на зависимости npm.
 	//* 💡 en - Fetch data from hregistry.npmjs.org and hregistry.bower.io to provide auto-completion and information on hover features on npm dependencies.
 	"npm.fetchOnlinePackageInfo": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Менеджер пакетов, используемый для запуска сценариев.
 	//* 💡 en - The package manager used to run scripts.
 	"npm.packageManager": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Запускайте команды npm с параметром --silent.
 	//* 💡 en - Run npm commands with the `--silent` option.
 	"npm.runSilent": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Действие щелчка по умолчанию, используемое в обозревателе сценариев NPM: «открыть» или «запустить», по умолчанию — «открыть».
 	//* 💡 en - The default click action used in the NPM Scripts Explorer: `open` or `run`, the default is `open`.
 	"npm.scriptExplorerAction": "open",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Массив регулярных выражений, указывающих, какие скрипты следует исключить из представления скриптов NPM.
 	//* 💡 en - An array of regular expressions that indicate which scripts should be excluded from the NPM Scripts view.
 	"npm.scriptExplorerExclude": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отображение наведения с командами «Выполнить» и «Отладка» для сценариев.
 	//* 💡 en - Display hover with 'Run' and 'Debug' commands for scripts.,
 	"npm.scriptHover": true,
 
-
 	//! ✅ Outline
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли элементы Outline свернуты или развернуты.
 	//* 💡 en - Controls whether Outline items are collapsed or expanded.
 	"outline.collapseItems": "alwaysExpand",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Визуализировать элементы Outline с помощью значков.
 	//* 💡 en - Render Outline elements with icons.
 	"outline.icons": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Используйте значки для ошибок и предупреждений в элементах Outline.
 	//* 💡 en - Use badges for errors and warnings on Outline elements.
 	"outline.problems.badges": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Используйте цвета для ошибок и предупреждений в элементах Outline.
 	//* 💡 en - Use colors for errors and warnings on Outline elements.
 	"outline.problems.colors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показывать ошибки и предупреждения в элементах Outline.
 	//* 💡 en - Show errors and warnings on Outline elements.
 	"outline.problems.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `массив`-символов.
 	//* 💡 en - When enabled, Outline shows `array`-symbols.
 	"outline.showArrays": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `boolean`-символы.
 	//* 💡 en - When enabled, Outline shows `boolean`-symbols.
 	"outline.showBooleans": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `class`-символы.
 	//* 💡 en - When enabled, Outline shows `class`-symbols.
 	"outline.showClasses": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает «постоянные» символы.
 	//* 💡 en - When enabled, Outline shows `constant`-symbols.
 	"outline.showConstants": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы `конструктора`.
 	//* 💡 en - When enabled, Outline shows `constructor`-symbols.
 	"outline.showConstructors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `enumMember`-символы.
 	//* 💡 en - When enabled, Outline shows `enumMember`-symbols.
 	"outline.showEnumMembers": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `enum`-символы.
 	//* 💡 en - When enabled, Outline shows `enum`-symbols.
 	"outline.showEnums": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `события`-символы.
 	//* 💡 en - When enabled, Outline shows `event`-symbols.
 	"outline.showEvents": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы `поля`.
 	//* 💡 en - When enabled, Outline shows `field`-symbols.
 	"outline.showFields": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `file`-символы.
 	//* 💡 en - When enabled, Outline shows `file`-symbols.
 	"outline.showFiles": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `функциональные`-символы.
 	//* 💡 en - When enabled, Outline shows `function`-symbols.
 	"outline.showFunctions": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `интерфейсные`-символы.
 	//* 💡 en - When enabled, Outline shows `interface`-symbols.
 	"outline.showInterfaces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `key`-символы.
 	//* 💡 en - When enabled, Outline shows `key`-symbols.
 	"outline.showKeys": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `метод`-символы.
 	//* 💡 en - When enabled, Outline shows `method`-symbols.
 	"outline.showMethods": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `module`-символы.
 	//* 💡 en - When enabled, Outline shows `module`-symbols.
 	"outline.showModules": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `namespace`-символы.
 	//* 💡 en - When enabled, Outline shows `namespace`-symbols.
 	"outline.showNamespaces": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `null`-символы.
 	//* 💡 en - When enabled, Outline shows `null`-symbols.
 	"outline.showNull": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает «числовые» символы.
 	//* 💡 en - When enabled, Outline shows `number`-symbols.
 	"outline.showNumbers": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `object`-символы.
 	//* 💡 en - When enabled, Outline shows `object`-symbols.
 	"outline.showObjects": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы `оператора`.
 	//* 💡 en - When enabled, Outline shows `operator`-symbols.
 	"outline.showOperators": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `package`-символы.
 	//* 💡 en - When enabled, Outline shows `package`-symbols.
 	"outline.showPackages": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `property`-символы.
 	//* 💡 en - When enabled, Outline shows `property`-symbols.
 	"outline.showProperties": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `string`-символы.
 	//* 💡 en - When enabled, Outline shows `string`-symbols.
 	"outline.showStrings": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `struct`-символы.
 	//* 💡 en - When enabled, Outline shows `struct`-symbols.
 	"outline.showStructs": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает символы типа Parameter.
 	//* 💡 en - When enabled, Outline shows `typeParameter`-symbols.
 	"outline.showTypeParameters": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, Outline показывает `переменные`-символы.
 	//* 💡 en - When enabled, Outline shows `variable`-symbols.,
 	"outline.showVariables": true,
 
-
 	//! ✅ Output
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить / отключить возможность интеллектуальной прокрутки в выходном представлении. Интеллектуальная прокрутка позволяет автоматически блокировать прокрутку, когда вы щелкаете в выходном представлении, и разблокирует, когда вы щелкаете в последней строке.
 	//* 💡 en - Enable/disable the ability of smart scrolling in the output view. Smart scrolling allows you to lock scrolling automatically when you click in the output view and unlocks when you click in the last line.,
 	"output.smartScroll.enabled": true,
 
-
 	//! ✅ PHP
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, включены ли встроенные языковые предложения PHP. Поддержка предлагает глобальные и переменные PHP.
 	//* 💡 en - Controls whether the built-in PHP language suggestions are enabled. The support suggests PHP globals and variables.
 	"php.suggest.basic": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить встроенную проверку PHP.
 	//* 💡 en - Enable/disable built-in PHP validation.
 	"php.validate.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает на исполняемый файл PHP.
 	//* 💡 en - Points to the PHP executable.
 	"php.validate.executablePath": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Запускается ли линтер при сохранении или при типе.
 	//* 💡 en - Whether the linter is run on save or on type.,
 	"php.validate.run": "onSave",
-
 
 	//! ✅ Prettier
 	//? 🧨 Info - https://prettier.io/docs/en/options.html
@@ -3619,186 +3584,180 @@
 	//* 💡 en - The string length must not exceed 100 characters.,
 	"prettier.printWidth": 100,
 
-
 	//! ✅ Problems
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли представление «Проблемы» автоматически отображать файлы при их открытии.
 	//* 💡 en - Controls whether Problems view should automatically reveal files when opening them.
 	"problems.autoReveal": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показать ошибки и предупреждения для файлов и папок.
 	//* 💡 en - Show Errors & Warnings on files and folder.
 	"problems.decorations.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет режимом просмотра по умолчанию для представления «Проблемы».
 	//* 💡 en - Controls the default view mode of the Problems view.
 	"problems.defaultViewMode": "tree",
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении показывает текущую проблему в строке состояния.
 	//* 💡 en - When enabled shows the current problem in the status bar.
 	"problems.showCurrentInStatus": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком, в котором перемещаются проблемы.
 	//* 💡 en - Controls the order in which problems are navigated.,
 	"problems.sortOrder": "severity",
 
-
 	//! ✅ References Search View
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли вызываться «Peek References» или «Find References» при выборе ссылок CodeLens.
 	//* 💡 en - Controls whether 'Peek References' or 'Find References' is invoked when selecting CodeLens references.,
 	"references.preferredLocation": "peek",
 
-
 	//! ✅ Remote
 
-	//* 💡 ru - бета
+	//* 💡 ru - Имя, под которым зарегистрирован доступ к удаленному туннелю. Если не задано, используется имя хоста.
 	//* 💡 en - The name under which the remote tunnel access is registered. If not set, the host name is used.
 	"remote.tunnels.access.hostNameOverride": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда этот параметр включен, обнаруживаются новые запущенные процессы, и порты, которые они прослушивают, автоматически перенаправляются. Отключение этого параметра не предотвратит переадресацию всех портов. Даже если расширения отключены, они по-прежнему могут вызывать переадресацию портов, а открытие некоторых URL-адресов по-прежнему вызывает переадресацию портов.
 	//* 💡 en - When enabled, new running processes are detected and ports that they listen on are automatically forwarded. Disabling this setting will not prevent all ports from being forwarded. Even when disabled, extensions will still be able to cause ports to be forwarded, and opening some URLs will still cause ports to forwarded.
 	"remote.autoForwardPorts": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Устанавливает источник, из которого автоматически перенаправляются порты, когда `remote.autoForwardPorts` имеет значение true. На удаленных устройствах Windows и Mac параметр «процесс» не действует, и будет использоваться «выход». Требуется перезагрузка для вступления в силу.
 	//* 💡 en - Sets the source from which ports are automatically forwarded when `remote.autoForwardPorts` is true. On Windows and Mac remotes, the `process` option has no effect and `output` will be used. Requires a reload to take effect.
 	"remote.autoForwardPortsSource": "process",
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении расширения загружаются локально и устанавливаются удаленно.
 	//* 💡 en - When enabled extensions are downloaded locally and installed on remote.
 	"remote.downloadExtensionsLocally": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Переопределить тип расширения. Расширения `ui` устанавливаются и запускаются на локальном компьютере, а расширения `workspace` запускаются на удаленном. Переопределяя вид расширения по умолчанию с помощью этого параметра, вы указываете, следует ли устанавливать и включать это расширение локально или удаленно.
 	//* 💡 en - Override the kind of an extension. `ui` extensions are installed and run on the local machine while `workspace` extensions are run on the remote. By overriding an extension's default kind using this setting, you specify if that extension should be installed and enabled locally or remotely.
 	"remote.extensionKind": {
 		"pub.name": ["ui"]
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает имя локального хоста, которое будет использоваться для переадресации портов.
 	//* 💡 en - Specifies the local host name that will be used for port forwarding.
 	"remote.localPortHost": "localhost",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Установите свойства по умолчанию, которые применяются ко всем портам, которые не получают свойства из настройки `remote.portsAttributes`.
 	//* 💡 en - Set default properties that are applied to all ports that don't get properties from the setting `remote.portsAttributes`.
 	"remote.otherPortsAttributes": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Задайте свойства, которые применяются при переадресации определенного номера порта.
 	//* 💡 en - Set properties that are applied when a specific port number is forwarded.
 	"remote.portsAttributes": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Восстанавливает порты, которые вы переадресовали в рабочей области.
 	//* 💡 en - Restores the ports you forwarded in a workspace.,
 	"remote.restoreForwardedPorts": true,
 
-
 	//! ✅ SCM
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, всегда ли отображаются встроенные действия в представлении системы управления версиями.
 	//* 💡 en - Controls whether inline actions are always visible in the Source Control view.
 	"scm.alwaysShowActions": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли репозитории всегда отображаться в представлении системы управления версиями.
 	//* 💡 en - Controls whether repositories should always be visible in the Source Control view.
 	"scm.alwaysShowRepositories": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли представление системы управления версиями автоматически отображать и выбирать файлы при их открытии.
 	//* 💡 en - Controls whether the Source Control view should automatically reveal and select files when opening them.
 	"scm.autoReveal": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет значком счетчика на значке системы управления версиями на панели действий.
 	//* 💡 en - Controls the count badge on the Source Control icon on the Activity Bar.
 	"scm.countBadge": "all",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет режимом просмотра репозитория системы управления версиями по умолчанию.
 	//* 💡 en - Controls the default Source Control repository view mode.
 	"scm.defaultViewMode": "list",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком сортировки изменений репозитория системы управления версиями по умолчанию при просмотре в виде списка.
 	//* 💡 en - Controls the default Source Control repository changes sort order when viewed as a list.
 	"scm.defaultViewSortKey": "path",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет оформлением различий в редакторе.
 	//* 💡 en - Controls diff decorations in the editor.
 	"scm.diffDecorations": "all",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поведением декоративных элементов желоба различий в системе управления версиями.
 	//* 💡 en - Controls the behavior of Source Control diff gutter decorations.
 	"scm.diffDecorationsGutterAction": "diff",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, используется ли шаблон для оформления различий в желобе.
 	//* 💡 en - Controls whether a pattern is used for the diff decorations in gutter.
 	"scm.diffDecorationsGutterPattern": {
 		"added": false,
 		"modified": true
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет видимостью декоратора различий системы управления версиями в поле.
 	//* 💡 en - Controls the visibility of the Source Control diff decorator in the gutter.
 	"scm.diffDecorationsGutterVisibility": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролирует ширину (px) различных украшений в желобе (добавлено или изменено).
 	//* 💡 en - Controls the width(px) of diff decorations in gutter (added & modified).
 	"scm.diffDecorationsGutterWidth": 3,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, игнорируются ли начальные и конечные пробелы в оформлении различительных желобов системы управления версиями.
 	//* 💡 en - Controls whether leading and trailing whitespace is ignored in Source Control diff gutter decorations.
 	"scm.diffDecorationsIgnoreTrimWhitespace": "false",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет шрифтом входящего сообщения. Используйте `default` для семейства шрифтов пользовательского интерфейса рабочей среды, `editor` для значения `editor.fontFamily`, или пользовательское семейство шрифтов.
 	//* 💡 en - Controls the font for the input message. Use `default` for the workbench user interface font family, `editor` for the `editor.fontFamily`'s value, or a custom font family.
 	"scm.inputFontFamily": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта вводимого сообщения в пикселях.
 	//* 💡 en - Controls the font size for the input message in pixels.
 	"scm.inputFontSize": 13,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет значками счетчика в заголовках поставщика управления версиями. Эти заголовки появляются только при наличии нескольких поставщиков.
 	//* 💡 en - Controls the count badges on Source Control Provider headers. These headers only appear when there is more than one provider.
 	"scm.providerCountBadge": "hidden",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком сортировки репозиториев в представлении репозиториев системы управления версиями.
 	//* 💡 en - Controls the sort order of the repositories in the source control repositories view.
 	"scm.repositories.sortOrder": "discovery time",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет количеством репозиториев, видимых в разделе «Репозитории системы управления версиями». Установите значение 0, чтобы иметь возможность вручную изменять размер представления.
 	//* 💡 en - Controls how many repositories are visible in the Source Control Repositories section. Set to 0, to be able to manually resize the view.
 	"scm.repositories.visible": 10,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, может ли кнопка действия отображаться в представлении системы управления версиями.
 	//* 💡 en - Controls whether an action button can be shown in the Source Control view.,
 	"scm.showActionButton": true,
 
-
 	//! ✅ Screencast Mode
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта (в пикселях) клавиатуры в режиме скринкаста.
 	//* 💡 en - Controls the font size (in pixels) of the screencast mode keyboard.
 	"screencastMode.fontSize": 56,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, как долго (в миллисекундах) отображается наложение клавиатуры в режиме скринкаста.
 	//* 💡 en - Controls how long (in milliseconds) the keyboard overlay is shown in screencast mode.
 	"screencastMode.keyboardOverlayTimeout": 800,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет тем, что отображается на клавиатуре при отображении ярлыков.
 	//* 💡 en - Controls what is displayed in the keyboard overlay when showing shortcuts.
 	"screencastMode.keyboardShortcutsFormat": "commandAndKeys",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет цветом в шестнадцатеричном формате (#_RGB, #RGBA, #RRGGBB или #RRGGBBAA) индикатора мыши в режиме скринкаста.
 	//* 💡 en - Controls the color in hex (#_RGB, #RGBA, #RRGGBB or #RRGGBBAA) of the mouse indicator in screencast mode.
 	"screencastMode.mouseIndicatorColor": "#FF0000",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером (в пикселях) индикатора мыши в режиме скринкаста.
 	//* 💡 en - Controls the size (in pixels) of the mouse indicator in screencast mode.
 	"screencastMode.mouseIndicatorSize": 20,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показывать сочетания клавиш только в режиме скринкаста.
 	//* 💡 en - Only show keyboard shortcuts in screencast mode.
 	"screencastMode.onlyKeyboardShortcuts": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет вертикальным смещением наложения режима скринкаста снизу в процентах от высоты рабочего места.
 	//* 💡 en - Controls the vertical offset of the screencast mode overlay from the bottom as a percentage of the workbench height.,
 	"screencastMode.verticalOffset": 20,
-
 
 	//! ✅ SCSS (Sass)
 
@@ -3930,7 +3889,6 @@
 	//* 💡 en - Enables or disables all validations.,
 	"scss.validate": true,
 
-
 	//! ✅ Search
 
 	//* 💡 ru - бета
@@ -4041,7 +3999,6 @@
 	//* 💡 en - Controls whether to open Replace Preview when selecting or replacing a match.,
 	"search.useReplacePreview": true,
 
-
 	//! ✅ Security
 
 	//* 💡 ru - бета
@@ -4064,7 +4021,6 @@
 	//* 💡 en - Controls how to handle opening untrusted files in a trusted workspace. This setting also applies to opening files in an empty window which is trusted via `security.workspace.trust.emptyWindow`.,
 	"security.workspace.trust.untrustedFiles": "prompt",
 
-
 	//! ✅ Settings Sync
 
 	//* 💡 ru - бета
@@ -4079,13 +4035,11 @@
 	//* 💡 en - Synchronize keybindings for each platform.,
 	"settingsSync.keybindingsPerPlatform": true,
 
-
 	//! ✅ Sync
 
 	//* 💡 ru - ID ключ sync
 	//* 💡 en - ID key sync,
 	"sync.gist": "",
-
 
 	//! ✅ Tasks
 
@@ -4133,7 +4087,6 @@
 	//* 💡 en - Configures whether a warning is shown when a provider is slow,
 	"task.slowProviderWarning": true,
 
-
 	//! ✅ Telemetry
 
 	//* 💡 ru - бета
@@ -4143,7 +4096,6 @@
 	//* 💡 ru - бета
 	//* 💡 en - Controls all core, first-party extension, and participating third-party extension telemetry.,
 	"telemetry.telemetryLevel": "all",
-
 
 	//! ✅ Terminal
 
@@ -4496,7 +4448,6 @@
 	//* 💡 en - A string containing all characters to be considered word separators by the double click to select word feature.,
 	"terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’",
 
-
 	//! ✅ Testing
 
 	//* 💡 ru - бета
@@ -4539,13 +4490,11 @@
 	//* 💡 en - Control whether save all dirty editors before running a test.,
 	"testing.saveBeforeTest": true,
 
-
 	//! ✅ Timeline
 
 	//* 💡 ru - бета
 	//* 💡 en - The number of items to show in the Timeline view by default and when loading more items. Setting to `null` (the default) will automatically choose a page size based on the visible area of the Timeline view.,
 	"timeline.pageSize": null,
-
 
 	//! ✅ Update
 
@@ -4560,7 +4509,6 @@
 	//* 💡 ru - бета
 	//* 💡 en - Show Release Notes after an update. The Release Notes are fetched from a Microsoft online service.,
 	"update.showReleaseNotes": true,
-
 
 	//! ✅ VS Code Pets
 
@@ -4580,20 +4528,17 @@
 	//* 💡 en - Character size.,
 	"vscode-pets.petSize": "nano",
 
-
 	//! ✅ VS Intelli Code
 
 	//* 💡 ru - Управляет предварительным выбором предложений при отображении списка предложений.
 	//* 💡 en - Controls the pre-selection of offers when displaying a list of offers.,
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
-
     //! ✅ WakaTime
 
     //* 💡 ru - бета
     //* 💡 en - Controls the window title based on the active editor.,
     "wakatime.apiKey": "",
-
 
 	//! ✅ Window
 
@@ -4688,7 +4633,6 @@
 	//* 💡 ru - бета
 	//* 💡 en - Separator used by `window.title`.,
 	"window.titleSeparator": " - ",
-
 
 	//! ✅ Workbench
 
@@ -5092,7 +5036,6 @@
 	//* 💡 ru - бета
 	//* 💡 en - When enabled, an extension's walkthrough will open upon install of the extension.,
 	"workbench.welcomePage.walkthroughs.openOnInstall": true,
-
 
 	//! ✅ Zen Mode
 
