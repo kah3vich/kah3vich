@@ -1,0 +1,253 @@
+{
+	"config": [
+		{
+			"title": "scss",
+			"snippets": [
+				{
+					"name": "scss-flex",
+					"description": "✅Snippet: SCSS Flex Mixin"
+				},
+				{
+					"name": "scss-font",
+					"description": "✅Snippet: SCSS Font Mixin"
+				},
+				{
+					"name": "scss-img",
+					"description": "✅Snippet: SCSS Img Mixin"
+				},
+				{
+					"name": "scss-grid",
+					"description": "✅Snippet: SCSS Grid Mixin"
+				},
+				{
+					"name": "scss-transition",
+					"description": "✅Snippet: SCSS Transition Mixin"
+				},
+			],
+		},
+		{
+			"title": "typescript",
+			"snippets": [
+				{
+					"name": "type",
+					"description": "✅Snippet: TypeScript Type"
+				},
+				{
+					"name": "interface",
+					"description": "✅Snippet: TypeScript Interface "
+				},
+				{
+					"name": "enum",
+					"description": "✅Snippet: TypeScript Enum"
+				},
+			],
+		},
+		{
+			"title": "jquery",
+			"snippets": [
+				{
+					"name": "jq-add",
+					"description": "✅Snippet: Jquery Add Class"
+				},
+				{
+					"name": "jq-ready",
+					"description": "✅Snippet: Jquery Ready"
+				},
+				{
+					"name": "jq-on",
+					"description": "✅Snippet: Jquery On"
+				},
+				{
+					"name": "jq-remove",
+					"description": "✅Snippet: Jquery Remove Class"
+				},
+			],
+		},
+		{
+			"title": "pug",
+			"snippets": [
+				{
+					"name": "pug-video",
+					"description": "✅Snippet: Pug Video"
+				},
+				{
+					"name": "pug-img",
+					"description": "✅Snippet: Pug Img"
+				},
+				{
+					"name": "pug-opi",
+					"description": "✅Snippet: Pug Optimization Image"
+				},
+				{
+					"name": "pug-swiper",
+					"description": "✅Snippet: Pug Swiper"
+				},
+				{
+					"name": "pug-loop",
+					"description": "✅Snippet: Pug Loop"
+				},
+			],
+		},
+		{
+			"title": "html",
+			"snippets": [
+				{
+					"name": "html-video",
+					"description": "✅Snippet: HTML Video"
+				},
+				{
+					"name": "html-opi",
+					"description": "✅Snippet: HTML Optimization Image"
+				},
+				{
+					"name": "html-swiper",
+					"description": "✅Snippet: HTML Swiper"
+				},
+				{
+					"name": "html-start",
+					"description": "✅Snippet: HTML Start"
+				},
+				{
+					"name": "html-img",
+					"description": "✅Snippet: HTML Img"
+				},
+			],
+		},
+		{
+			"title": "style",
+			"snippets": [
+				{
+					"name": "style-tl",
+					"description": "✅Snippet: Style Text Limit"
+				},
+				{
+					"name": "style-flex",
+					"description": "✅Snippet: Style Flex Scheme"
+				},
+				{
+					"name": "style-before",
+					"description": "✅Snippet: Style Before"
+				},
+				{
+					"name": "style-tt",
+					"description": "✅Snippet: Style Transparent Text"
+				},
+				{
+					"name": "style-tw",
+					"description": "✅Snippet: Style Text Wrap"
+				},
+				{
+					"name": "style-trans",
+					"description": "✅Snippet: Style Transition"
+				},
+				{
+					"name": "style-after",
+					"description": "✅Snippet: Style After"
+				},
+				{
+					"name": "style-base",
+					"description": "✅Snippet: Style Base"
+				},
+			],
+		},
+		{
+			"title": "javascript",
+			"snippets": [
+				{
+					"name": "log",
+					"description": "✅Snippet: console.log"
+				},
+				{
+					"name": "debugger",
+					"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'"
+				},
+				{
+					"name": "try",
+					"description": "✅Snippet: Try Catch"
+				},
+				{
+					"name": "js-swiper",
+					"description": "✅Snippet: JavaScript Swiper"
+				},
+				{
+					"name": "settime",
+					"description": "✅Snippet: setTimeout"
+				},
+			],
+		},
+		{
+			"title": "react",
+			"snippets": [
+				{
+					"name": "useCallback",
+					"description": "✅Snippet: React Hook useCallback - memosations of function"
+				},
+				{
+					"name": "useState",
+					"description": "✅Snippet: React Hook useState"
+				},
+				{
+					"name": "useId",
+					"description": "✅Snippet: React Hook useId"
+				},
+				{
+					"name": "mfc",
+					"description": "✅Snippet: Memo Functional Component"
+				},
+				{
+					"name": "useImperativeHandle",
+					"description": "✅Snippet: React Hook useImperativeHandle"
+				},
+				{
+					"name": "mtfc",
+					"description": "✅Snippet: Memo TypeScript Functional Component"
+				},
+				{
+					"name": "useEffect",
+					"description": "✅Snippet: React Hook useEffect"
+				},
+				{
+					"name": "useRef",
+					"description": "✅Snippet: React Hook useRef"
+				},
+				{
+					"name": "uselog",
+					"description": "✅Snippet: useEffect -> console.log"
+				},
+				{
+					"name": "tfc",
+					"description": "✅Snippet: TypeScript Functional Component"
+				},
+				{
+					"name": "useMemo",
+					"description": "✅Snippet: React Hook useMemo - memosations of meaning"
+				},
+				{
+					"name": "fc",
+					"description": "✅Snippet: Functional Component"
+				},
+				{
+					"name": "useLayoutEffect",
+					"description": "✅Snippet: React Hook useLayoutEffect"
+				},
+			],
+		},
+		{
+			"title": "jest",
+			"snippets": [
+				{
+					"name": "jest-expect",
+					"description": "✅Snippet: Jest-Test Expect"
+				},
+				{
+					"name": "jest-test",
+					"description": "✅Snippet: Jest-Test Base Test"
+				},
+				{
+					"name": "jest-expect",
+					"description": "✅Snippet: Jest-Test Describe"
+				},
+			],
+		},
+	]
+}

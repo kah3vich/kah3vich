@@ -1,6 +1,7 @@
 import os
 import re
 
+#| Function 
 
 def get_subfolder_files():
     current_dir = os.getcwd()
@@ -25,16 +26,18 @@ def remove_first_last_lines(text):
 
     return result
 
+#| Config 
+
 text = '{\n'
 
 for item in get_subfolder_files():
     name = item['name']
     list_files = item['files']
-    text += f'\n\n\t//| {name}'
+    text += f'\n\t//| {name}\n'
     
     for file in list_files:
         with open(f'./{name}/{file}', 'r', encoding="utf8") as input_file:
-                file_text = f'\n\n{remove_first_last_lines(input_file.read())}\n'
+                file_text = f'\n{remove_first_last_lines(input_file.read())}\n'
                 pattern = r"(.*)(\n[^\n]*)$"
                 replacement = r"\1,\2"
 
@@ -42,7 +45,35 @@ for item in get_subfolder_files():
 
 text += '\n}\n\n//| 🔥 by kah3vich 🔥\n'
 
-with open('./_.json', 'w', encoding="utf-8") as output_file:
+with open('./_config.json', 'w', encoding="utf-8") as output_file:
     output_file.write(text)
+
+#| Readme json
+
+config_text = '{\n\t"config": ['
+
+for item in get_subfolder_files():
+    name = item['name']
+    list_files = item['files']
+    config_text += '\n\t\t{'
+    config_text += f'\n\t\t\t"title": "{name}",\n\t\t\t"snippets": ['
+    for file in list_files:
+        config_text += '\n\t\t\t\t{'
+        with open(f'./{name}/{file}', 'r', encoding="utf8") as input_file:
+                input_file_text = input_file.read()
+
+                name_text = re.search(r'"prefix": "(.*?)"', input_file_text).group(1)
+                description_text = re.search(r'"description": "(.*?)"', input_file_text).group(1)
+                config_text += f'\n\t\t\t\t\t"name": "{name_text}",\n\t\t\t\t\t"description": "{description_text}"'
+        config_text += '\n\t\t\t\t},'
+    config_text += '\n\t\t\t],\n\t\t},'
+
+config_text += '\n\t]\n}'
+
+
+with open('./_readme.json', 'w', encoding="utf-8") as output_file:
+    output_file.write(config_text)
+
+#| Result
 
 print('Done ✅')

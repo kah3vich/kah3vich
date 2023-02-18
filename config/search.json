@@ -1,27 +1,27 @@
 {
 	//! ✅ Search
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет расположением панели действий в строках в представлении поиска.
 	//* 💡 en - Controls the positioning of the actionbar on rows in the search view.
 	"search.actionsPosition": "right",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, будут ли результаты поиска свернуты или развернуты.
 	//* 💡 en - Controls whether the search results will be collapsed or expanded.
 	"search.collapseResults": "alwaysExpand",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли декорации файлов поиска использовать значки.
 	//* 💡 en - Controls whether search file decorations should use badges.
 	"search.decorations.badges": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли украшения файла поиска использовать цвета.
 	//* 💡 en - Controls whether search file decorations should use colors.
 	"search.decorations.colors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет режимом просмотра результатов поиска по умолчанию.
 	//* 💡 en - Controls the default search result view mode.
 	"search.defaultViewMode": "list",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте шаблоны глобусов для исключения файлов и папок при полнотекстовом поиске и быстром открытии. Наследует все шаблоны глобусов из настройки `files.exclude`.
 	//* 💡 en - Configure glob patterns for excluding files and folders in fulltext searches and quick open. Inherits all glob patterns from the `files.exclude` setting.
 	"search.exclude": {
 		"**/node_modules": true,
@@ -29,83 +29,83 @@
 		"**/*.code-search": true
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли следовать символическим ссылкам во время поиска.
 	//* 💡 en - Controls whether to follow symlinks while searching.
 	"search.followSymlinks": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли представление поиска читать или изменять общий буфер поиска в macOS.
 	//* 💡 en - Controls whether the search view should read or modify the shared find clipboard on macOS.
 	"search.globalFindClipboard": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, где будут выполняться новые операции «Поиск: найти в файлах» и «Найти в папке»: либо в представлении поиска, либо в редакторе поиска.
 	//* 💡 en - Controls where new `Search: Find in Files` and `Find in Folder` operations occur: either in the search view, or in a search editor.
 	"search.mode": "view",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком сортировки истории редактора при быстром открытии при фильтрации.
 	//* 💡 en - Controls sorting order of editor history in quick open when filtering.
 	"search.quickOpen.history.filterSortOrder": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Следует ли включать результаты недавно открытых файлов в результаты файлов для быстрого открытия.
 	//* 💡 en - Whether to include results from recently opened files in the file results for Quick Open.
 	"search.quickOpen.includeHistory": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Следует ли включать результаты глобального поиска символов в результаты файлов для быстрого открытия.
 	//* 💡 en - Whether to include results from a global symbol search in the file results for Quick Open.
 	"search.quickOpen.includeSymbols": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Количество окружающих контекстных строк по умолчанию для использования при создании новых редакторов поиска. При использовании `search.searchEditor.reusePriorSearchConfiguration` можно установить значение `null` (пусто), чтобы использовать предыдущую конфигурацию редактора поиска.
 	//* 💡 en - The default number of surrounding context lines to use when creating new Search Editors. If using `search.searchEditor.reusePriorSearchConfiguration`, this can be set to `null` (empty) to use the prior Search Editor's configuration.
 	"search.searchEditor.defaultNumberOfContextLines": 1,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте эффект двойного щелчка по результату в поисковом редакторе.
 	//* 💡 en - Configure effect of double clicking a result in a search editor.
 	"search.searchEditor.doubleClickBehaviour": "goToLocation",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если этот параметр включен, новые редакторы поиска будут повторно использовать включения, исключения и флаги ранее открытого редактора поиска.
 	//* 💡 en - When enabled, new Search Editors will reuse the includes, excludes, and flags of the previously opened Search Editor.
 	"search.searchEditor.reusePriorSearchConfiguration": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Ищите все файлы по мере ввода.
 	//* 💡 en - Search all files as you type.
 	"search.searchOnType": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда `search.search Type` включен, контролирует время ожидания в миллисекундах между вводом символа и началом поиска. Не действует, если `search.search Type` отключен.
 	//* 💡 en - When `search.searchOnType` is enabled, controls the timeout in milliseconds between a character being typed and the search starting. Has no effect when `search.searchOnType` is disabled.
 	"search.searchOnTypeDebouncePeriod": 300,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Обновите поисковый запрос до выбранного редактором текста при фокусировке представления поиска. Это происходит либо по клику, либо при запуске команды workbench.views.search.focus.
 	//* 💡 en - Update the search query to the editor's selected text when focusing the search view. This happens either on click or when triggering the `workbench.views.search.focus` command.
 	"search.seedOnFocus": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить поиск с начальным значением от слова, ближайшего к курсору, когда в активном редакторе нет выбора.
 	//* 💡 en - Enable seeding search from the word nearest the cursor when the active editor has no selection.
 	"search.seedWithNearestWord": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, показывать ли номера строк для результатов поиска.
 	//* 💡 en - Controls whether to show line numbers for search results.
 	"search.showLineNumbers": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Поиск без учета регистра, если все шаблоны написаны строчными буквами, в противном случае поиск с учетом регистра.
 	//* 💡 en - Search case-insensitively if the pattern is all lowercase, otherwise, search case-sensitively.
 	"search.smartCase": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет порядком сортировки результатов поиска.
 	//* 💡 en - Controls sorting order of search results.
 	"search.sortOrder": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, использовать ли глобальные файлы `.gitignore` и `.ignore` при поиске файлов. Требуется включить `search.useIgnoreFiles`.
 	//* 💡 en - Controls whether to use global `.gitignore` and `.ignore` files when searching for files. Requires `search.useIgnoreFiles` to be enabled.
 	"search.useGlobalIgnoreFiles": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, использовать ли файлы `.gitignore` и `.ignore` при поиске файлов.
 	//* 💡 en - Controls whether to use `.gitignore` and `.ignore` files when searching for files.
 	"search.useIgnoreFiles": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, использовать ли файлы `.gitignore` и `.ignore` в родительских каталогах при поиске файлов. Требуется включить `search.useIgnoreFiles`.
 	//* 💡 en - Controls whether to use `.gitignore` and `.ignore` files in parent directories when searching for files. Requires `search.useIgnoreFiles` to be enabled.
 	"search.useParentIgnoreFiles": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли открывать «Заменить предварительный просмотр» при выборе или замене совпадения.
 	//* 💡 en - Controls whether to open Replace Preview when selecting or replacing a match.
 	"search.useReplacePreview": true
 }

@@ -1,7 +1,7 @@
 {
     //! ✅ WakaTime
 
-    //* 💡 ru - бета
-    //* 💡 en - Controls the window title based on the active editor.
+    //* 💡 ru - Ключ для доступа к системе фиксации времени работы - wakatime.
+    //* 💡 en - Key to access the system for fixing the time of work - wakatime.
     "wakatime.apiKey": ""
 }

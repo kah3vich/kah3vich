@@ -1,0 +1,14 @@
+{
+	"✅Snippet: Jest-Test Describe": {
+		"prefix": "jest-expect",
+		"body": [
+            "describe('${1:Name}', () => {",
+            "\t${2:tests}",
+            "});",
+			"$0"
+		],
+		"description": "✅Snippet: Jest-Test Describe"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

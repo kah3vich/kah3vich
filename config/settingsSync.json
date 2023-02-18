@@ -1,15 +1,15 @@
 {
 	//! ✅ Settings Sync
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список расширений, которые следует игнорировать при синхронизации. Идентификатор расширения всегда `${publisher}.${name}`. Например: `vscode.csharp`.
 	//* 💡 en - List of extensions to be ignored while synchronizing. The identifier of an extension is always `${publisher}.${name}`. For example: `vscode.csharp`.
 	"settingsSync.ignoredExtensions": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте параметры, которые будут игнорироваться при синхронизации.
 	//* 💡 en - Configure settings to be ignored while synchronizing.
 	"settingsSync.ignoredSettings": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Синхронизируйте привязки клавиш для каждой платформы.
 	//* 💡 en - Synchronize keybindings for each platform.
 	"settingsSync.keybindingsPerPlatform": true
 }

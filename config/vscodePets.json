@@ -1,7 +1,7 @@
 {
 	//! ✅ VS Code Pets
 
-	//* 💡 ru - Tема заднего фона.
+	//* 💡 ru - Фоновая тема.
 	//* 💡 en - Background theme.
 	"vscode-pets.theme": "forest",
 

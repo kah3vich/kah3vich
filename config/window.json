@@ -9,87 +9,87 @@
 	//* 💡 en - Adjust the zoom level of the window.
 	"window.zoomLevel": -1,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если установлено, автоматически переключаться на предпочтительную цветовую тему в зависимости от внешнего вида ОС. Если внешний вид ОС темный, используется тема, указанная в `workbench.preferredDarkColorTheme`, для светлой `workbench.preferredLightColorTheme`.
 	//* 💡 en - If set, automatically switch to the preferred color theme based on the OS appearance. If the OS appearance is dark, the theme specified at `workbench.preferredDarkColorTheme` is used, for light `workbench.preferredLightColorTheme`.
 	"window.autoDetectColorScheme": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если включено, будет автоматически переключаться на высококонтрастную тему, если ОС использует высококонтрастную тему. Используемая высококонтрастная тема определяется параметрами workbench.preferredHighContrastColorTheme и workbench.preferredHighContrastLightColorTheme.
 	//* 💡 en - If enabled, will automatically change to high contrast theme if the OS is using a high contrast theme. The high contrast theme to use is specified by `workbench.preferredHighContrastColorTheme` and `workbench.preferredHighContrastLightColorTheme`.
 	"window.autoDetectHighContrast": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если этот параметр включен, щелчок по неактивному окну одновременно активирует окно и запускает элемент под мышью, если на него можно щелкнуть. Если отключено, щелчок в любом месте неактивного окна активирует только его, и требуется второй щелчок по элементу.
 	//* 💡 en - If enabled, clicking on an inactive window will both activate the window and trigger the element under the mouse if it is clickable. If disabled, clicking anywhere on an inactive window will activate it only and a second click is required on the element.
 	"window.clickThroughInactive": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли закрытие последнего редактора также закрывать окно. Этот параметр применяется только к окнам, в которых не отображаются папки.
 	//* 💡 en - Controls whether closing the last editor should also close the window. This setting only applies for windows that do not show folders.
 	"window.closeWhenEmpty": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показать средство запуска команд вместе с заголовком окна.
 	//* 💡 en - Show command launcher together with the window title.
 	"window.commandCenter": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет отображением диалогового окна подтверждения перед закрытием окна или выходом из приложения.
 	//* 💡 en - Controls whether to show a confirmation dialog before closing the window or quitting the application.
 	"window.confirmBeforeClose": "never",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет тем, будет ли строка меню сфокусирована нажатием клавиши Alt. Этот параметр не влияет на переключение строки меню с помощью клавиши Alt.
 	//* 💡 en - Controls whether the menu bar will be focused by pressing the Alt-key. This setting has no effect on toggling the menu bar with the Alt-key.
 	"window.customMenuBarAltFocus": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройка внешнего вида диалоговых окон.
 	//* 💡 en - Adjust the appearance of dialog windows.
 	"window.dialogStyle": "native",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если этот параметр включен, двойной щелчок по значку приложения в строке заголовка закроет окно, и окно нельзя будет перетащить за значок. Этот параметр действует только тогда, когда для `window.titleBarStyle` установлено значение `custom`.
 	//* 💡 en - If enabled, double clicking the application icon in the title bar will close the window and the window cannot be dragged by the icon. This setting only has an effect when `window.titleBarStyle` is set to `custom`.
 	"window.doubleClickIconToClose": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, следует ли использовать собственный полноэкранный режим в macOS. Отключите этот параметр, чтобы macOS не создавала новое пространство при переходе в полноэкранный режим.
 	//* 💡 en - Controls if native full-screen should be used on macOS. Disable this option to prevent macOS from creating a new space when going full-screen.
 	"window.nativeFullScreen": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает вкладки окна macOS Sierra. Обратите внимание, что изменения требуют полной перезагрузки для применения, а собственные вкладки отключат пользовательский стиль строки заголовка, если он настроен.
 	//* 💡 en - Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured.
 	"window.nativeTabs": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, можно ли открывать главные меню с помощью сочетаний клавиш Alt. Отключение мнемоники позволяет вместо этого связать эти сочетания клавиш Alt с командами редактора.
 	//* 💡 en - Controls whether the main menus can be opened via Alt-key shortcuts. Disabling mnemonics allows to bind these Alt-key shortcuts to editor commands instead.
 	"window.enableMenuBarMnemonics": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управление видимостью строки меню. Настройка «переключатель» означает, что строка меню скрыта, и ее можно отобразить одним нажатием клавиши Alt. Настройка «Компактный» переместит меню на боковую панель.
 	//* 💡 en - Control the visibility of the menu bar. A setting of 'toggle' means that the menu bar is hidden and a single press of the Alt key will show it. A setting of 'compact' will move the menu into the side bar.
 	"window.menuBarVisibility": "classic",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размерами открытия нового окна, когда хотя бы одно окно уже открыто. Обратите внимание, что этот параметр не влияет на первое открытое окно. Первое окно всегда будет восстанавливать размер и расположение, которые вы оставили перед закрытием.
 	//* 💡 en - Controls the dimensions of opening a new window when at least one window is already opened. Note that this setting does not have an impact on the first window that is opened. The first window will always restore the size and location as you left it before closing.
 	"window.newWindowDimensions": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли папки открываться в новом окне или заменять последнее активное окно.
 	//* 💡 en - Controls whether folders should open in a new window or replace the last active window.
 	"window.openFoldersInNewWindow": "default",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли открываться новое пустое окно при запуске второго экземпляра без аргументов или фокус должен получить последний запущенный экземпляр.
 	//* 💡 en - Controls whether a new empty window should open when starting a second instance without arguments or if the last running instance should get focus.
 	"window.openWithoutArgumentsInNewWindow": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должно ли окно восстанавливаться в полноэкранный режим, если оно было закрыто в полноэкранном режиме.
 	//* 💡 en - Controls whether a window should restore to full screen mode if it was exited in full screen mode.
 	"window.restoreFullscreen": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет повторным открытием окон после первого запуска. Этот параметр не действует, если приложение уже запущено.
 	//* 💡 en - Controls how windows are being reopened after starting for the first time. This setting has no effect when the application is already running.
 	"window.restoreWindows": "all",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет заголовком окна на основе активного редактора.
 	//* 💡 en - Controls the window title based on the active editor.
 	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте внешний вид строки заголовка окна. В Linux и Windows этот параметр также влияет на внешний вид приложения и контекстного меню. Изменения требуют полной перезагрузки для применения.
 	//* 💡 en - Adjust the appearance of the window title bar. On Linux and Windows, this setting also affects the application and context menu appearances. Changes require a full restart to apply.
 	"window.titleBarStyle": "custom",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Разделитель, используемый `window.title`.
 	//* 💡 en - Separator used by `window.title`.
 	"window.titleSeparator": " - "
 }

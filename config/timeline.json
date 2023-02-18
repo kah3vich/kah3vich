@@ -1,7 +1,7 @@
 {
 	//! ✅ Timeline
 
-	//* 💡 ru - бета
+	//* 💡 ru - Количество элементов, отображаемых на временной шкале по умолчанию и при загрузке дополнительных элементов. Установка значения «null» (по умолчанию) автоматически выберет размер страницы на основе видимой области представления временной шкалы.
 	//* 💡 en - The number of items to show in the Timeline view by default and when loading more items. Setting to `null` (the default) will automatically choose a page size based on the visible area of the Timeline view.
 	"timeline.pageSize": null
 }

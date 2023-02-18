@@ -337,7 +337,7 @@
 	//* 💡 en - Controls the behavior the 'Go to Definition'-command when multiple target locations exist.
 	"editor.gotoLocation.multipleDefinitions": "peek",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет поведением команды «Перейти к реализациям», когда существует несколько целевых местоположений.
 	//* 💡 en - Controls the behavior the 'Go to Implementations'-command when multiple target locations exist.
 	"editor.gotoLocation.multipleImplementations": "peek",
 
