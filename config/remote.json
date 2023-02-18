@@ -1,41 +1,41 @@
 {
 	//! ✅ Remote
 
-	//* 💡 ru - бета
+	//* 💡 ru - Имя, под которым зарегистрирован доступ к удаленному туннелю. Если не задано, используется имя хоста.
 	//* 💡 en - The name under which the remote tunnel access is registered. If not set, the host name is used.
 	"remote.tunnels.access.hostNameOverride": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда этот параметр включен, обнаруживаются новые запущенные процессы, и порты, которые они прослушивают, автоматически перенаправляются. Отключение этого параметра не предотвратит переадресацию всех портов. Даже если расширения отключены, они по-прежнему могут вызывать переадресацию портов, а открытие некоторых URL-адресов по-прежнему вызывает переадресацию портов.
 	//* 💡 en - When enabled, new running processes are detected and ports that they listen on are automatically forwarded. Disabling this setting will not prevent all ports from being forwarded. Even when disabled, extensions will still be able to cause ports to be forwarded, and opening some URLs will still cause ports to forwarded.
 	"remote.autoForwardPorts": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Устанавливает источник, из которого автоматически перенаправляются порты, когда `remote.autoForwardPorts` имеет значение true. На удаленных устройствах Windows и Mac параметр «процесс» не действует, и будет использоваться «выход». Требуется перезагрузка для вступления в силу.
 	//* 💡 en - Sets the source from which ports are automatically forwarded when `remote.autoForwardPorts` is true. On Windows and Mac remotes, the `process` option has no effect and `output` will be used. Requires a reload to take effect.
 	"remote.autoForwardPortsSource": "process",
 
-	//* 💡 ru - бета
+	//* 💡 ru - При включении расширения загружаются локально и устанавливаются удаленно.
 	//* 💡 en - When enabled extensions are downloaded locally and installed on remote.
 	"remote.downloadExtensionsLocally": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Переопределить тип расширения. Расширения `ui` устанавливаются и запускаются на локальном компьютере, а расширения `workspace` запускаются на удаленном. Переопределяя вид расширения по умолчанию с помощью этого параметра, вы указываете, следует ли устанавливать и включать это расширение локально или удаленно.
 	//* 💡 en - Override the kind of an extension. `ui` extensions are installed and run on the local machine while `workspace` extensions are run on the remote. By overriding an extension's default kind using this setting, you specify if that extension should be installed and enabled locally or remotely.
 	"remote.extensionKind": {
 		"pub.name": ["ui"]
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает имя локального хоста, которое будет использоваться для переадресации портов.
 	//* 💡 en - Specifies the local host name that will be used for port forwarding.
 	"remote.localPortHost": "localhost",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Установите свойства по умолчанию, которые применяются ко всем портам, которые не получают свойства из настройки `remote.portsAttributes`.
 	//* 💡 en - Set default properties that are applied to all ports that don't get properties from the setting `remote.portsAttributes`.
 	"remote.otherPortsAttributes": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Задайте свойства, которые применяются при переадресации определенного номера порта.
 	//* 💡 en - Set properties that are applied when a specific port number is forwarded.
 	"remote.portsAttributes": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Восстанавливает порты, которые вы переадресовали в рабочей области.
 	//* 💡 en - Restores the ports you forwarded in a workspace.
 	"remote.restoreForwardedPorts": true
 }

@@ -1,19 +1,19 @@
 {
 	//! ✅ PHP
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, включены ли встроенные языковые предложения PHP. Поддержка предлагает глобальные и переменные PHP.
 	//* 💡 en - Controls whether the built-in PHP language suggestions are enabled. The support suggests PHP globals and variables.
 	"php.suggest.basic": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить встроенную проверку PHP.
 	//* 💡 en - Enable/disable built-in PHP validation.
 	"php.validate.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Указывает на исполняемый файл PHP.
 	//* 💡 en - Points to the PHP executable.
 	"php.validate.executablePath": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Запускается ли линтер при сохранении или при типе.
 	//* 💡 en - Whether the linter is run on save or on type.
 	"php.validate.run": "onSave"
 }

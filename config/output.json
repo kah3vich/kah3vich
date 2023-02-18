@@ -1,7 +1,7 @@
 {
 	//! ✅ Output
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить / отключить возможность интеллектуальной прокрутки в выходном представлении. Интеллектуальная прокрутка позволяет автоматически блокировать прокрутку, когда вы щелкаете в выходном представлении, и разблокирует, когда вы щелкаете в последней строке.
 	//* 💡 en - Enable/disable the ability of smart scrolling in the output view. Smart scrolling allows you to lock scrolling automatically when you click in the output view and unlocks when you click in the last line.
 	"output.smartScroll.enabled": true
 }

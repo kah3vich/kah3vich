@@ -1,43 +1,43 @@
 {
 	//! ✅ Npm
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, должны ли скрипты npm автоматически обнаруживаться.
 	//* 💡 en - Controls whether npm scripts should be automatically detected.
 	"npm.autoDetect": "on",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включите выполнение сценариев npm, содержащихся в папке, из контекстного меню Проводника.
 	//* 💡 en - Enable running npm scripts contained in a folder from the Explorer context menu.
 	"npm.enableRunFromFolder": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Проводник сценариев NPM теперь доступен в меню «Виды» проводника во всех папках. Включите представление проводника для сценариев npm, если нет файла package.json верхнего уровня.
 	//* 💡 en - The NPM Script Explorer is now available in 'Views' menu in the Explorer in all folders. Enable an explorer view for npm scripts when there is no top-level 'package.json' file.
 	"npm.enableScriptExplorer": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройте шаблоны универсальных объектов для папок, которые следует исключить из автоматического обнаружения сценариев.
 	//* 💡 en - Configure glob patterns for folders that should be excluded from automatic script detection.
 	"npm.exclude": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Получите данные с hregistry.npmjs.org и hregistry.bower.io, чтобы предоставить автозаполнение и информацию о функциях наведения на зависимости npm.
 	//* 💡 en - Fetch data from hregistry.npmjs.org and hregistry.bower.io to provide auto-completion and information on hover features on npm dependencies.
 	"npm.fetchOnlinePackageInfo": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Менеджер пакетов, используемый для запуска сценариев.
 	//* 💡 en - The package manager used to run scripts.
 	"npm.packageManager": "auto",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Запускайте команды npm с параметром --silent.
 	//* 💡 en - Run npm commands with the `--silent` option.
 	"npm.runSilent": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Действие щелчка по умолчанию, используемое в обозревателе сценариев NPM: «открыть» или «запустить», по умолчанию — «открыть».
 	//* 💡 en - The default click action used in the NPM Scripts Explorer: `open` or `run`, the default is `open`.
 	"npm.scriptExplorerAction": "open",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Массив регулярных выражений, указывающих, какие скрипты следует исключить из представления скриптов NPM.
 	//* 💡 en - An array of regular expressions that indicate which scripts should be excluded from the NPM Scripts view.
 	"npm.scriptExplorerExclude": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отображение наведения с командами «Выполнить» и «Отладка» для сценариев.
 	//* 💡 en - Display hover with 'Run' and 'Debug' commands for scripts.
 	"npm.scriptHover": true
 }

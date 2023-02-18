@@ -1,31 +1,31 @@
 {
 	//! ✅ JSON
 
-	//* 💡 ru - бета
-	//* 💡 en - Enable/disable default JSON formatter
+	//* 💡 ru - Включить/отключить средство форматирования JSON по умолчанию.
+	//* 💡 en - Enable/disable default JSON formatter.
 	"json.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Сохраняйте все существующие новые строки при форматировании.
 	//* 💡 en - Keep all existing new lines when formatting.
 	"json.format.keepLines": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальное вычисленное количество контурных символов и областей сгиба (ограничено по соображениям производительности).
 	//* 💡 en - The maximum number of outline symbols and folding regions computed (limited for performance reasons).
 	"json.maxItemsComputed": 5000,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если этот параметр включен, схемы JSON можно получать из местоположений http и https.
 	//* 💡 en - When enabled, JSON schemas can be fetched from http and https locations.
 	"json.schemaDownload.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Свяжите схемы с файлами JSON в текущем проекте.
 	//* 💡 en - Associate schemas to JSON files in the current project.
 	"json.schemas": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Отслеживает связь между VS Code и языковым сервером JSON.
 	//* 💡 en - Traces the communication between VS Code and the JSON language server.
 	"json.trace.server": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить проверку JSON.
 	//* 💡 en - Enable/disable JSON validation.
 	"json.validate.enable": true
 }

@@ -1,131 +1,131 @@
 {
 	//! ✅ LESS
 
-	//* 💡 ru - бета
+	//* 💡 ru - Вставьте точку с запятой в конце строки при заполнении свойств CSS.
 	//* 💡 en - Insert semicolon at end of line when completing CSS properties.
 	"less.completion.completePropertyWithSemicolon": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - По умолчанию VS Code инициирует завершение значения свойства после выбора свойства CSS. Используйте этот параметр, чтобы отключить это поведение.
 	//* 💡 en - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
 	"less.completion.triggerPropertyValueCompletion": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Ставьте фигурные скобки на той же строке, что и правила (`collapse`), или ставьте фигурные скобки на отдельной строке (`expand`).
 	//* 💡 en - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
 	"less.format.braceStyle": "collapse",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включить/отключить средство форматирования LESS по умолчанию.
 	//* 💡 en - Enable/disable default LESS formatter.
 	"less.format.enable": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Максимальное количество разрывов строк, которое должно быть сохранено в одном фрагменте, когда включен параметр `less.format.preserveNewLines`.
 	//* 💡 en - Maximum number of line breaks to be preserved in one chunk, when `less.format.preserveNewLines` is enabled.
 	"less.format.maxPreserveNewLines": null,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Разделяйте наборы правил пустой строкой.
 	//* 💡 en - Separate rulesets by a blank line.
 	"less.format.newlineBetweenRules": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Разделяйте селекторы новой строкой.
 	//* 💡 en - Separate selectors with a new line.
 	"less.format.newlineBetweenSelectors": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Следует ли сохранять существующие разрывы строк перед элементами.
 	//* 💡 en - Whether existing line breaks before elements should be preserved.
 	"less.format.preserveNewLines": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Обеспечьте наличие пробела вокруг разделителей селекторов '>', '+', '~' (например, `a > b`).
 	//* 💡 en - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
 	"less.format.spaceAroundSelectorSeparator": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показать документацию по тегам и атрибутам при наведении МЕНЬШЕ.
 	//* 💡 en - Show tag and attribute documentation in LESS hovers.
 	"less.hover.documentation": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Показывать ссылки на MDN при наведении LESS.
 	//* 💡 en - Show references to MDN in LESS hovers.
 	"less.hover.references": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Недопустимое количество параметров.
 	//* 💡 en - Invalid number of parameters.
 	"less.lint.argumentsInColorFunction": "error",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Не используйте `width` или `height` при использовании `padding` или `border`.
 	//* 💡 en - Do not use `width` or `height` when using `padding` or `border`.
 	"less.lint.boxModel": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - При использовании префикса, специфичного для поставщика, не забудьте также включить все другие свойства, зависящие от поставщика.
 	//* 💡 en - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
 	"less.lint.compatibleVendorPrefixes": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Не используйте повторяющиеся определения стилей.
 	//* 💡 en - Do not use duplicate style definitions.
 	"less.lint.duplicateProperties": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Не используйте пустые наборы правил.
 	//* 💡 en - Do not use empty rulesets.
 	"less.lint.emptyRules": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Избегайте использования `float`. Поплавки приводят к хрупкому CSS, который легко сломать, если изменится один аспект макета.
 	//* 💡 en - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
 	"less.lint.float": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Правило `@font-face` должно определять свойства `src` и `font-family`.
 	//* 💡 en - `@font-face` rule must define `src` and `font-family` properties.
 	"less.lint.fontFaceProperties": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Шестнадцатеричные цвета должны состоять из трех или шести шестнадцатеричных чисел.
 	//* 💡 en - Hex colors must consist of three or six hex numbers.
 	"less.lint.hexColorLength": "error",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Селекторы не должны содержать идентификаторы, потому что эти правила слишком тесно связаны с HTML.
 	//* 💡 en - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
 	"less.lint.idSelector": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Взломы IE необходимы только при поддержке IE7 и старше.
 	//* 💡 en - IE hacks are only necessary when supporting IE7 and older.
 	"less.lint.ieHack": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Избегайте использования `!important`. Это указывает на то, что специфика всего CSS вышла из-под контроля и нуждается в рефакторинге.
 	//* 💡 en - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
 	"less.lint.important": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Операторы импорта не загружаются параллельно.
 	//* 💡 en - Import statements do not load in parallel.
 	"less.lint.importStatement": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Свойство игнорируется из-за отображения. Например. с display: inline свойства width, height, margin-top, margin-bottom и float не действуют.
 	//* 💡 en - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
 	"less.lint.propertyIgnoredDueToDisplay": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Известно, что универсальный селектор (`*`) медленный.
 	//* 💡 en - The universal selector (`*`) is known to be slow.
 	"less.lint.universalSelector": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Неизвестное at-правило.
 	//* 💡 en - Unknown at-rule.
 	"less.lint.unknownAtRules": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Неизвестное свойство.
 	//* 💡 en - Unknown property.
 	"less.lint.unknownProperties": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Свойство неизвестного поставщика.
 	//* 💡 en - Unknown vendor specific property.
 	"less.lint.unknownVendorSpecificProperties": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Список свойств, которые не проверяются на соответствие правилу `unknownProperties`.
 	//* 💡 en - A list of properties that are not validated against the `unknownProperties` rule.
 	"less.lint.validProperties": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - При использовании префикса, зависящего от поставщика, также включите стандартное свойство.
 	//* 💡 en - When using a vendor-specific prefix, also include the standard property.
 	"less.lint.vendorPrefix": "warning",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Единица для нуля не нужна.
 	//* 💡 en - No unit for zero needed.
 	"less.lint.zeroUnits": "ignore",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает или отключает все проверки.
 	//* 💡 en - Enables or disables all validations.
 	"less.validate": true
 }

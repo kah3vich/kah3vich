@@ -1,117 +1,117 @@
 {
 	//! ✅ Notebooks
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, свернуты ли ячейки кода в интерактивном окне по умолчанию.
 	//* 💡 en - Controls whether code cells in the interactive window are collapsed by default.
 	"interactiveWindow.collapseCellInputCode": "fromEditor",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Если включена навигационная цепочка записной книжки, она содержит ячейки с кодом.
 	//* 💡 en - When enabled notebook breadcrumbs contain code cells.
 	"notebook.breadcrumbs.showCodeCells": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, где отображается индикатор фокуса: вдоль границ ячейки или в левом поле.
 	//* 💡 en - Controls where the focus indicator is rendered, either along the cell borders or on the left gutter.
 	"notebook.cellFocusIndicator": "gutter",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Где должна отображаться панель инструментов ячейки или должна ли она быть скрыта.
 	//* 💡 en - Where the cell toolbar should be shown, or whether it should be hidden.
 	"notebook.cellToolbarLocation": {
 		"default": "right"
 	},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Должна ли панель инструментов ячейки появляться при наведении или щелчке.
 	//* 💡 en - Whether the cell toolbar should appear on hover or click.
 	"notebook.cellToolbarVisibility": "click",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должен ли редактор записной книжки отображаться в компактной форме. Например, при включении он уменьшит ширину левого поля.
 	//* 💡 en - Control whether the notebook editor should be rendered in a compact form. For example, when turned on, it will decrease the left margin width.
 	"notebook.compactView": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должно ли действие вывода отображаться на панели инструментов вывода.
 	//* 💡 en - Control whether outputs action should be rendered in the output toolbar.
 	"notebook.consolidatedOutputButton": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, отображаются ли дополнительные действия в раскрывающемся списке рядом с кнопкой запуска.
 	//* 💡 en - Control whether extra actions are shown in a dropdown next to the run button.
 	"notebook.consolidatedRunButton": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Использовать ли расширенный текстовый редактор для блокнота.
 	//* 💡 en - Whether to use the enhanced text diff editor for notebook.
 	"notebook.diff.enablePreview": true,
 
-	//* 💡 ru - бета
-	//* 💡 en - Hide Metadata Differences
+	//* 💡 ru - Скрыть различия метаданных.
+	//* 💡 en - Hide Metadata Differences.
 	"notebook.diff.ignoreMetadata": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Hide Outputs Differences
+	//* 💡 ru - Скрыть различия выходов.
+	//* 💡 en - Hide Outputs Differences.
 	"notebook.diff.ignoreOutputs": false,
 
-	//* 💡 ru - бета
-	//* 💡 en - Priority list for output mime types
+	//* 💡 ru - Список приоритетов для выходных mime-типов.
+	//* 💡 en - Priority list for output mime types.
 	"notebook.displayOrder": [],
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должен ли редактор блокнота разрешать перемещение ячеек с помощью перетаскивания.
 	//* 💡 en - Control whether the notebook editor should allow moving cells through drag and drop.
 	"notebook.dragAndDropEnabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Настройки редакторов кода, используемых в блокнотах. Это можно использовать для настройки большинства параметров editor.*.
 	//* 💡 en - Settings for code editors used in notebooks. This can be used to customize most editor.* settings.
 	"notebook.editorOptionsCustomizations": {},
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, отображать ли глобальную панель инструментов в редакторе записной книжки.
 	//* 💡 en - Control whether to render a global toolbar inside the notebook editor.
 	"notebook.globalToolbar": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, должны ли действия на панели инструментов блокнота отображать метку или нет.
 	//* 💡 en - Control whether the actions on the notebook toolbar should render label or not.
 	"notebook.globalToolbarShowLabel": "always",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, где должны отображаться действия вставки ячеек.
 	//* 💡 en - Control where the insert cell actions should appear.
 	"notebook.insertToolbarLocation": "both",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет отображением номеров строк в редакторе ячеек.
 	//* 💡 en - Controls the display of line numbers in the cell editor.
 	"notebook.lineNumbers": "off",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет размером шрифта в пикселях визуализируемой разметки в блокнотах. Если установлено значение «0», используется 120% размера «editor.fontSize».
 	//* 💡 en - Controls the font size in pixels of rendered markup in notebooks. When set to `0`, 120% of `editor.fontSize` is used.
 	"notebook.markup.fontSize": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включено, курсор может переходить к следующей/предыдущей ячейке, когда текущий курсор в редакторе ячеек находится в первой/последней строке.
 	//* 💡 en - When enabled cursor can navigate to the next/previous cell when the current cursor in the cell editor is at the first/last line.
 	"notebook.navigation.allowNavigateToSurroundingCells": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Когда включена схема записной книжки, отображаются ячейки кода.
 	//* 💡 en - When enabled notebook outline shows code cells.
 	"notebook.outline.showCodeCells": false,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Контролируйте, сколько строк текста в текстовом выводе отображается.
 	//* 💡 en - Control how many lines of text in a text output is rendered.
 	"notebook.output.textLineLimit": 30,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Семейство шрифтов для вывода текста для ячеек записной книжки. Если установлено пустое, используется `editor.fontFamily`.
 	//* 💡 en - The font family for the output text for notebook cells. When set to empty, the `editor.fontFamily` is used.
 	"notebook.outputFontFamily": "",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Размер шрифта для вывода текста для ячеек блокнота. При значении 0 используется `editor.fontSize`.
 	//* 💡 en - Font size for the output text for notebook cells. When set to 0, `editor.fontSize` is used.
 	"notebook.outputFontSize": 0,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Высота строки выходного текста для ячеек записной книжки.
 	//* 💡 en - Line height of the output text for notebook cells.
 	"notebook.outputLineHeight": 22,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Должна ли отображаться строка состояния ячейки.
 	//* 💡 en - Whether the cell status bar should be shown.
 	"notebook.showCellStatusBar": "visible",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Определяет, когда отображается стрелка сворачивания заголовка Markdown.
 	//* 💡 en - Controls when the Markdown header folding arrow is shown.
 	"notebook.showFoldingControls": "mouseover",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Использовать ли отдельный стек отмены/повтора для каждой ячейки.
 	//* 💡 en - Whether to use separate undo/redo stack for each cell.
 	"notebook.undoRedoPerCell": true
 }

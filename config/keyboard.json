@@ -1,15 +1,15 @@
 {
 	//! ✅ Keyboard
 
-	//* 💡 ru - бета
+	//* 💡 ru - Управляет логикой диспетчеризации для нажатий клавиш, чтобы использовать либо `code` (рекомендуется), либо `keyCode`.
 	//* 💡 en - Controls the dispatching logic for key presses to use either `code` (recommended) or `keyCode`.
 	"keyboard.dispatch": "code",
 
-	//* 💡 ru - бета
+	//* 💡 ru - Включает кнопки сенсорной панели Mac на клавиатуре, если они доступны.
 	//* 💡 en - Enables the macOS touchbar buttons on the keyboard if available.
 	"keyboard.touchbar.enabled": true,
 
-	//* 💡 ru - бета
+	//* 💡 ru - Набор идентификаторов для записей на сенсорной панели, которые не должны отображаться (например, `workbench.action.navigateBack`).
 	//* 💡 en - A set of identifiers for entries in the touchbar that should not show up (for example `workbench.action.navigateBack`).
 	"keyboard.touchbar.ignored": []
 }
