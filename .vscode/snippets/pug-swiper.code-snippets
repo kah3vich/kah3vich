@@ -2,7 +2,7 @@
 	"✅Snippet: Pug Swiper": {
 		"prefix": "pug-swiper",
 		"body": [
-			".swiper.${1:nameSlider}",
+			".swiper.${1:nameSlider}Swiper",
 			"\t.swiper-wrapper",
 			"\t\t.swiper-slide Slide",
 			"\t.swiper-controls",

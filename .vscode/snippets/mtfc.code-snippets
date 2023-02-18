@@ -8,7 +8,7 @@
             "\tdata: string;",
             "}",
             "",
-            "const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ data }: I${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
+            "const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ data }: T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
             "\treturn <>{data}</>",
             "}",
             "",

@@ -43,3 +43,5 @@ rm -rf .vscode/snippets/*.*; cd snippetsCatalog/; cp html/*.* ../.vscode/snippet
 Windows %USERPROFILE%\.vscode\extensions
 Mac $HOME/.vscode/extensions
 Linux $HOME/.vscode/extensions
+
+rm -rf .vscode/snippets/*; cp snippetsCatalog/**/*.code-snippets .vscode/snippets/
