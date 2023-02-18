@@ -244,7 +244,7 @@
 					"description": "✅Snippet: Jest-Test Base Test"
 				},
 				{
-					"name": "jest-expect",
+					"name": "jest-describe",
 					"description": "✅Snippet: Jest-Test Describe"
 				},
 			],

@@ -720,7 +720,7 @@
 	},
 
 	"✅Snippet: Jest-Test Describe": {
-		"prefix": "jest-expect",
+		"prefix": "jest-describe",
 		"body": [
             "describe('${1:Name}', () => {",
             "\t${2:tests}",
