@@ -1,33 +1,33 @@
 <!--! by kah3vich !-->
 
-<img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg"/>
+<img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg" alt=""/>
 
 <!--|||-->
 
 <p align="center">
-    <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30px" /> 
-    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="280px" height="29px">
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+    <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30px" alt="" /> 
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="280px" height="30px" alt="">
+    <img src="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif" width="30px" alt="">
 </p>
 
 <!--|||-->
 
 <div align="center">
     <a href="https://t.me/+xXSthKatXLtiNDBi" target="_blank">
-        <img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9">
+        <img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9" alt="">
     </a>
     <a href="https://codepen.io/kah3vich" target="_blank">
-        <img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff">
+        <img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff" alt="">
     </a>
     <a href="https://www.codewars.com/users/kah3vich" target="_blank">
-        <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red">
+        <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red" alt="">
     </a>
     <a href="https://wakatime.com/@kah3vich" target="_blank">
-        <img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white">
+        <img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white" alt="">
     </a>
     <div align="center">
-        <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="watching_count" />
-        <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="GitHub badge" />
+        <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="" />
+        <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="" />
     </div>
 </div>
 
@@ -35,21 +35,21 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="250px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="250px" alt="">
 
 <!--|||-->
 
 <br />
 
 <div align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true">
+    <img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true" alt="">
 </div>
 
 <br />
 
 <div align="center">
     <a href="https://www.codewars.com/users/kah3vich">
-        <img src="https://www.codewars.com/users/kah3vich/badges/large"/>
+        <img src="https://www.codewars.com/users/kah3vich/badges/large" alt=""/>
     </a>
 </div>
 
@@ -63,9 +63,9 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStack.svg" width="100%" height="29px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStack.svg" width="100%" height="29px" alt="">
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%" alt="">
 
 <table align="center">
   <tr>
@@ -510,7 +510,13 @@
       <br />
       <p>Roots</p>
     </td>
-    <td align="center" width="96"></td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="assets/icon/postgresql.svg" width="48" height="48" alt="PostgreSQL" />
+      </a>
+      <br />
+      <p>PostgreSQL</p>
+    </td>
     <td align="center" width="96"></td>
     <td align="center" width="96"></td>
   </tr>
@@ -520,9 +526,9 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStats.svg" width="100%" height="29px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStats.svg" width="100%" height="29px" alt="">
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%" alt="">
 
 <!--|||-->
 
@@ -530,35 +536,35 @@
 
 <p align=center>
   <div align=center>
-      <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="kah3vich" />
-      <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=kah3vich&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
+      <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="" />
+      <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=kah3vich&show_icons=true&theme=react&border_color=61dafb&hide_border=true" alt="" />
   </div>
   <br /><br /><br /><br /><br /><br /><br /><br /><br />
   <div align=center>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
+      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" alt="" />
     </a>
   </div>
 
   <br/>
   
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%" alt=""/>
 </p>
 
 <hr>
 
 <br />
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleRepositories.svg" width="100%" height="29px">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleRepositories.svg" width="100%" height="29px" alt="">
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"  alt="">
 
 <div width="100%" align="center">
     <a align="left" href="https://github.com/kah3vich/Gulp-RS" title="Gulp-RS">
-        <img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Gulp-RS&theme=react&border_color=61dafb&border_radius=10">
+        <img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Gulp-RS&theme=react&border_color=61dafb&border_radius=10" alt="">
     </a>
     <a align="right" href="https://github.com/kah3vich/Portfolio_" title="Data Structures">
-        <img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Portfolio_&theme=react&border_color=61dafb&border_radius=10">
+        <img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=kah3vich&repo=Portfolio_&theme=react&border_color=61dafb&border_radius=10" alt="">
     </a>
 </div>
 
@@ -566,6 +572,6 @@
 <br /><br />
 <br /><br />
 
-<img src="https://readme-jokes.vercel.app/api?theme=react" alt="Error fetching resource, Refresh again to view Jokes Card" width="100%" />
+<img src="https://readme-jokes.vercel.app/api?theme=react" alt="" width="100%" />
 
 <!--| https://cultofthepartyparrot.com tsss... |-->
