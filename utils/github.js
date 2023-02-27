@@ -47,5 +47,5 @@ const arrRep = [
 ];
 
 for (const rep of arrRep) {
-	console.log(`https://github.com/kah3vich/${rep}.git;`);
+	console.log(`git clone https://github.com/kah3vich/${rep}.git;`);
 }
