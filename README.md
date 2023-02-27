@@ -5,9 +5,9 @@
 <!--|||-->
 
 <p align="center">
-    <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30px" alt="" /> 
-    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="280px" height="30px" alt="">
-    <img src="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif" width="30px" alt="">
+    <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="40px" alt="" /> 
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="360px" height="30px" alt="">
+    <img src="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif" width="40px" alt="">
 </p>
 
 <!--|||-->
