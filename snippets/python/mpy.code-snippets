@@ -1,0 +1,12 @@
+{
+    "✅Snippet: Python Message Print": {
+        "prefix": "mpy",
+        "body": [
+            "print('🌠 ${1:message}')",
+            "$0"
+        ],
+        "description": "✅Snippet: Python Message Print"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

@@ -1,6 +1,6 @@
 {
-    "✅Snippet: Style After": {
-        "prefix": "style-after",
+    "✅Snippet: CSS After": {
+        "prefix": "css-after",
         "body": [
             ":after {",
             "\tcontent: '';",
@@ -11,7 +11,7 @@
             "}",
             ""
         ],
-        "description": "✅Snippet: Style After"
+        "description": "✅Snippet: CSS After"
     }
 }
 

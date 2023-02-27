@@ -1,6 +1,6 @@
 {
-	"✅Snippet: Style Flex Scheme": {
-		"prefix": "style-flex",
+	"✅Snippet: CSS Flex Scheme": {
+		"prefix": "css-flex",
 		"body": [
 			"display: flex;",
 			"flex-direction: ${1:row};",
@@ -10,7 +10,7 @@
 			"flex-wrap: ${5:no-wrap};",
 			"$0"
 		],
-		"description": "✅Snippet: Style Flex Scheme"
+		"description": "✅Snippet: CSS Flex Scheme"
 	}
 }
 

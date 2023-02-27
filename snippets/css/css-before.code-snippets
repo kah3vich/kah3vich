@@ -1,6 +1,6 @@
 {
-	"✅Snippet: Style Before": {
-		"prefix": "style-before",
+	"✅Snippet: CSS Before": {
+		"prefix": "css-before",
 		"body": [
 			":before {",
 			"\tcontent: '';",
@@ -11,7 +11,7 @@
 			"}",
 			""
 		],
-		"description": "✅Snippet: Style Before"
+		"description": "✅Snippet: CSS Before"
 	}
 }
 

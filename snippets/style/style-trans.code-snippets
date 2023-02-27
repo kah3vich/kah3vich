@@ -1,9 +1,0 @@
-{
-	"✅Snippet: Style Transition": {
-		"prefix": "style-trans",
-		"body": ["transition: all ${1:time}s ${2:ease};", "$0"],
-		"description": "✅Snippet: Style Transition"
-	}
-}
-
-//| 🔥 by kah3vich 🔥

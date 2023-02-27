@@ -1,0 +1,12 @@
+{
+    "✅Snippet: Python Print": {
+        "prefix": "py",
+        "body": [
+            "print('✅ ${1:element}    ', ${1:element})",
+            "$0"
+        ],
+        "description": "✅Snippet: Python Print"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

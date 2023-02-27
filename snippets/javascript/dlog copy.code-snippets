@@ -1,0 +1,9 @@
+{
+    "✅Snippet: Debugger Console Log": {
+        "prefix": "mlog",
+        "body": ["debugger; // TODO: debugger", "console.log('⌛ ${1:debugger}')", "$0"],
+        "description": "✅Snippet: Debugger Console Log"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

@@ -1,6 +1,6 @@
 {
-	"✅Snippet: Style Text Wrap": {
-		"prefix": "style-tw",
+	"✅Snippet: CSS Text Wrap": {
+		"prefix": "css-tw",
 		"body": [
 			"overflow-wrap: break-word;",
 			"word-wrap: break-word;",
@@ -10,7 +10,7 @@
 			"hyphens: auto;",
 			"$0"
 		],
-		"description": "✅Snippet: Style Text Wrap"
+		"description": "✅Snippet: CSS Text Wrap"
 	}
 }
 

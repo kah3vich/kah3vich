@@ -1,0 +1,14 @@
+{
+    "✅Snippet: useMount - Custom hook": {
+        "prefix": "useMount",
+        "body": [
+            "useMount(() => {",
+            "\t${1:code}",
+            "})",
+            "$0"
+        ],
+        "description": "✅Snippet: useMount - Custom hook"
+    }
+}
+
+//| 🔥 by kah3vich 🔥

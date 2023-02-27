@@ -3,7 +3,7 @@
         "prefix": "uselog",
         "body": [
             "useEffect(() => {",
-            "\tconsole.log('${1:element}    ', ${1:element})",
+            "\tconsole.log('✅ ${1:element}    ', ${1:element})",
             "}, [${1:element}])",
             "$0"
         ],

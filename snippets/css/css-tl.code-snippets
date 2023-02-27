@@ -1,15 +1,15 @@
 {
-	"✅Snippet: Style Text Limit": {
-		"prefix": "style-tl",
+	"✅Snippet: CSS Text Limit": {
+		"prefix": "css-tl",
 		"body": [
 			"overflow: hidden;",
 			"text-overflow: ellipsis;",
 			"display: -webkit-box;",
-			"-webkit-line-clamp: ${1:limit number};",
+			"-webkit-line-clamp: ${1:number};",
 			"-webkit-box-orient: vertical;",
 			"$0"
 		],
-		"description": "✅Snippet: Style Text Limit"
+		"description": "✅Snippet: CSS Text Limit"
 	}
 }
 

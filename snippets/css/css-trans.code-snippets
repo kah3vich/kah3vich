@@ -1,0 +1,9 @@
+{
+	"✅Snippet: CSS Transition": {
+		"prefix": "css-trans",
+		"body": ["transition: all ${1:time}s ${2:ease};", "$0"],
+		"description": "✅Snippet: CSS Transition"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

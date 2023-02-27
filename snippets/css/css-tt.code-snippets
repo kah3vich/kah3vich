@@ -1,12 +1,12 @@
 {
-	"✅Snippet: Style Transparent Text": {
-		"prefix": "style-tt",
+	"✅Snippet: CSS Transparent Text": {
+		"prefix": "css-tt",
 		"body": [
 			"-webkit-text-fill-color: transparent;",
 			"-webkit-text-stroke: ${1:size}px ${2:color};",
 			"$0"
 		],
-		"description": "✅Snippet: Style Transparent Text"
+		"description": "✅Snippet: CSS Transparent Text"
 	}
 }
 

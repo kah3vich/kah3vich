@@ -1,6 +1,6 @@
 {
-	"✅Snippet: Style Base": {
-		"prefix": "style-base",
+	"✅Snippet: CSS Base": {
+		"prefix": "css-base",
 		"body": [
 			"*,",
 			"*::before,",
@@ -104,7 +104,7 @@
 			"",
 			"$0"
 		],
-		"description": "✅Snippet: Style Base"
+		"description": "✅Snippet: CSS Base"
 	}
 }
 
