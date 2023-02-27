@@ -48,4 +48,5 @@ const arrRep = [
 
 for (rep of arrRep) {
 	console.log(`git clone git@github.com:kah3vich/${rep}.git;`);
+	console.log('clear;');
 }
