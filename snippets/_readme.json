@@ -70,12 +70,20 @@
 					"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'"
 				},
 				{
+					"name": "mlog",
+					"description": "✅Snippet: Debugger Console Log"
+				},
+				{
 					"name": "js-swiper",
 					"description": "✅Snippet: JavaScript Swiper"
 				},
 				{
 					"name": "log",
-					"description": "✅Snippet: console.log"
+					"description": "✅Snippet: Console Log"
+				},
+				{
+					"name": "mlog",
+					"description": "✅Snippet: Message Console Log"
 				},
 				{
 					"name": "settime",
@@ -154,6 +162,10 @@
 			"title": "python",
 			"snippets": [
 				{
+					"name": "mpy",
+					"description": "✅Snippet: Python Message Print"
+				},
+				{
 					"name": "py",
 					"description": "✅Snippet: Python Print"
 				},
@@ -205,6 +217,10 @@
 				{
 					"name": "useMemo",
 					"description": "✅Snippet: React Hook useMemo - memosations of meaning"
+				},
+				{
+					"name": "useMount",
+					"description": "✅Snippet: useMount - Custom hook"
 				},
 				{
 					"name": "useRef",
