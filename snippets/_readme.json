@@ -70,7 +70,7 @@
 					"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'"
 				},
 				{
-					"name": "mlog",
+					"name": "dlog",
 					"description": "✅Snippet: Debugger Console Log"
 				},
 				{

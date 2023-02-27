@@ -1,6 +1,6 @@
 {
     "✅Snippet: Debugger Console Log": {
-        "prefix": "mlog",
+        "prefix": "dlog",
         "body": ["debugger; // TODO: debugger", "console.log('⌛ ${1:debugger}')", "$0"],
         "description": "✅Snippet: Debugger Console Log"
     }
