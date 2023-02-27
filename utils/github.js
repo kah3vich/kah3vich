@@ -46,6 +46,6 @@ const arrRep = [
 	'Project-Portfolio',
 ];
 
-for (rep of arrRep) {
-	console.log(`git clone git@github.com:kah3vich/${rep}.git;`);
+for (const rep of arrRep) {
+	console.log(`https://github.com/kah3vich/${rep}.git;`);
 }
