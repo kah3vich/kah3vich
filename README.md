@@ -5,9 +5,9 @@
 <!--|||-->
 
 <p align="center">
-    <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="40px" alt="" /> 
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/hyperkitty.gif" width="40px" alt="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" /> 
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="360px" height="30px" alt="">
-    <img src="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif" width="40px" alt="">
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif">
 </p>
 
 <!--|||-->
@@ -65,7 +65,7 @@
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStack.svg" width="100%" height="29px" alt="">
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
 <table align="center">
   <tr>
@@ -528,7 +528,7 @@
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStats.svg" width="100%" height="29px" alt="">
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
 <!--|||-->
 
@@ -557,7 +557,7 @@
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleRepositories.svg" width="100%" height="29px" alt="">
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"  alt="">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%"  alt="https://i.imgur.com/dBaSKWF.gif">
 
 <div width="100%" align="center">
     <a align="left" href="https://github.com/kah3vich/Gulp-RS" title="Gulp-RS">
