@@ -1,5 +1,4 @@
 code --install-extension aaron-bond.better-comments
-code --install-extension ahmadawais.shades-of-purple
 code --install-extension alefragnani.project-manager
 code --install-extension BeardedBear.beardedtheme
 code --install-extension bradlc.vscode-tailwindcss
@@ -26,6 +25,8 @@ code --install-extension ionutvmi.path-autocomplete
 code --install-extension jeff-hykin.polacode-2019
 code --install-extension kah3vich.import-at-top
 code --install-extension kah3vich.nanosnippets
+code --install-extension kah3vich.refactor
+code --install-extension kah3vich.holdesher
 code --install-extension kisstkondoros.vscode-gutter-preview
 code --install-extension mgmcdermott.vscode-language-babel
 code --install-extension mhutchie.git-graph
