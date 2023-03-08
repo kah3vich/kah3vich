@@ -181,7 +181,7 @@
 
 	//* 💡 ru - Указывает цветовую тему, используемую в рабочей среде.
 	//* 💡 en - Specifies the color theme used in the working environment.
-	"workbench.colorTheme": "Shades of Purple",
+	"workbench.colorTheme": "Holdesher Theme",
 
 	//* 💡 ru - Управляет размером вкладок редактора.
 	//* 💡 en - Controls the size of the editor tabs.
