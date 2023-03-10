@@ -2,7 +2,8 @@ console.log('rm -rf github/*; cd github/;');
 
 const arrRep = [
 	'kah3vich',
-	'Import-At-Top ',
+	'Import-At-Top',
+	'Nano-Refactor',
 	'Nano-Snippets',
 	'readme-project-base',
 	'Saturn',

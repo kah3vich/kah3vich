@@ -1,12 +1,12 @@
 <!--! by kah3vich !-->
 
-<img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/beloved.jpg" alt=""/>
+<img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/profile/beloved.jpg" alt=""/>
 
 <!--|||-->
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/hyperkitty.gif" width="40px" alt="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" /> 
-    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/title.svg" width="360px" height="30px" alt="">
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/title.svg" width="360px" height="30px" alt="">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif">
 </p>
 
@@ -36,7 +36,7 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/description.svg" width="100%" height="250px" alt="">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/description.svg" width="100%" height="250px" alt="">
 
 <!--|||-->
 
@@ -64,7 +64,7 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStack.svg" width="100%" height="29px" alt="">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/stack.svg" width="100%" height="29px" alt="">
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
@@ -72,56 +72,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/html5.svg" width="48" height="48" alt="HTML" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/html5.svg" width="48" height="48" alt="HTML" />
       </a>
       <br />
       <p>HTML</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/css3.svg" width="48" height="48" alt="CSS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/css3.svg" width="48" height="48" alt="CSS" />
       </a>
       <br />
       <p>CSS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/javascript.svg" width="48" height="48" alt="JavaScript" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/javascript.svg" width="48" height="48" alt="JavaScript" />
       </a>
       <br />
       <p>JavaScript</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/php.svg" width="48" height="48" alt="PHP" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/php.svg" width="48" height="48" alt="PHP" />
       </a>
       <br />
       <p>PHP</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/python.svg" width="48" height="48" alt="Python" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/python.svg" width="48" height="48" alt="Python" />
       </a>
       <br />
       <p>Python</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/c++.svg" width="48" height="48" alt="С++" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/c++.svg" width="48" height="48" alt="С++" />
       </a>
       <br />
       <p>С++</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/c++++.svg" width="48" height="48" alt="С#" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/c++++.svg" width="48" height="48" alt="С#" />
       </a>
       <br />
       <p>С#</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/linux.svg" width="48" height="48" alt="Linux" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/linux.svg" width="48" height="48" alt="Linux" />
       </a>
       <br />
       <p>Linux</p>
@@ -130,56 +130,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/pug.svg" width="48" height="48" alt="Pug" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/pug.svg" width="48" height="48" alt="Pug" />
       </a>
       <br />
       <p>Pug</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/bootstrap.svg" width="58" height="48" alt="Bootstrap" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/bootstrap.svg" width="58" height="48" alt="Bootstrap" />
       </a>
       <br />
       <p>Bootstrap</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/motion.svg" width="48" height="48" alt="Motion" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/motion.svg" width="48" height="48" alt="Motion" />
       </a>
       <br />
       <p>Motion</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/blender.svg" width="48" height="48" alt="blender" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/blender.svg" width="48" height="48" alt="blender" />
       </a>
       <br />
       <p>Blender</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/tailwind.svg" width="48" height="48" alt="Tailwind" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/tailwind.svg" width="48" height="48" alt="Tailwind" />
       </a>
       <br />
       <p>Tailwind</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/scss.svg" width="48" height="48" alt="SCSS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/scss.svg" width="48" height="48" alt="SCSS" />
       </a>
       <br />
       <p>Sass</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/less.svg" width="48" height="48" alt="LESS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/less.svg" width="48" height="48" alt="LESS" />
       </a>
       <br />
       <p>LESS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/vscode.svg" width="48" height="48" alt="VScode" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/vscode.svg" width="48" height="48" alt="VScode" />
       </a>
       <br />
       <p>VScode</p>
@@ -188,56 +188,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/jquery.svg" width="48" height="48" alt="Jquery" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/jquery.svg" width="48" height="48" alt="Jquery" />
       </a>
       <br />
       <p>Jquery</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/threejs.svg" width="48" height="48" alt="Three.js" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/threejs.svg" width="48" height="48" alt="Three.js" />
       </a>
       <br />
       <p>Three.js</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/gsap.svg" width="48" height="48" alt="GSAP" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/gsap.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br />
       <p>GSAP</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/webpack.svg" width="48" height="48" alt="Webpack" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/webpack.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br />
       <p>Webpack</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/typescript.svg" width="48" height="48" alt="TypeScript" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/typescript.svg" width="48" height="48" alt="TypeScript" />
       </a>
       <br />
       <p>TypeScript</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/gulp.svg" width="48" height="48" alt="Gulp" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/gulp.svg" width="48" height="48" alt="Gulp" />
       </a>
       <br />
       <p>Gulp</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/nodejs.svg" width="48" height="48" alt="NodeJS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nodejs.svg" width="48" height="48" alt="NodeJS" />
       </a>
       <br />
       <p>NodeJS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/react.svg" width="48" height="48" alt="React" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/react.svg" width="48" height="48" alt="React" />
       </a>
       <br />
       <p>React</p>
@@ -246,56 +246,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/coffeescript.svg" width="48" height="48" alt="CoffeeScript" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/coffeescript.svg" width="48" height="48" alt="CoffeeScript" />
       </a>
       <br />
       <p>CoffeeScript</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/postcss.svg" width="48" height="48" alt="PostCSS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/postcss.svg" width="48" height="48" alt="PostCSS" />
       </a>
       <br />
       <p>PostCSS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/redux.svg" width="48" height="48" alt="Redux" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/redux.svg" width="48" height="48" alt="Redux" />
       </a>
       <br />
       <p>Redux</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/nextjs.svg" width="48" height="48" alt="Next.js" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nextjs.svg" width="48" height="48" alt="Next.js" />
       </a>
       <br />
       <p>Next.js</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/styled-components.svg" width="48" height="48" alt="Styled" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/styled-components.svg" width="48" height="48" alt="Styled" />
       </a>
       <br />
       <p>Styled</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/mysql.svg" width="48" height="48" alt="MySQL" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mysql.svg" width="48" height="48" alt="MySQL" />
       </a>
       <br />
       <p>MySQL</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/jest.svg" width="48" height="48" alt="Jest" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/jest.svg" width="48" height="48" alt="Jest" />
       </a>
       <br />
       <p>Jest</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/stylus.svg" width="48" height="48" alt="Stylus" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/stylus.svg" width="48" height="48" alt="Stylus" />
       </a>
       <br />
       <p>Stylus</p>
@@ -304,56 +304,56 @@
   <tr>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/wordpress.svg" width="48" height="48" alt="Wordpress" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/wordpress.svg" width="48" height="48" alt="Wordpress" />
       </a>
       <br />
       <p>Wordpress</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/git.svg" width="48" height="48" alt="Git" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/git.svg" width="48" height="48" alt="Git" />
       </a>
       <br />
       <p>Git</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/figma.svg" width="48" height="48" alt="Figma" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rust.svg" width="48" height="48" alt="Rust" />
       </a>
       <br />
-      <p>Figma</p>
+      <p>Rust</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/docker.svg" width="48" height="48" alt="Docker" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/docker.svg" width="48" height="48" alt="Docker" />
       </a>
       <br />
       <p>Docker</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/kali.svg" width="48" height="48" alt="Kali" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/kali.svg" width="48" height="48" alt="Kali" />
       </a>
       <br />
       <p>Kali</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/eslint.svg" width="48" height="48" alt="ESlint" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/eslint.svg" width="48" height="48" alt="ESlint" />
       </a>
       <br />
       <p>ESlint</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/npm.svg" width="48" height="48" alt="Unity" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/npm.svg" width="48" height="48" alt="Unity" />
       </a>
       <br />
       <p>NPM</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/graphql.svg" width="48" height="48" alt="GraphQL" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/graphql.svg" width="48" height="48" alt="GraphQL" />
       </a>
       <br />
       <p>GraphQL</p>
@@ -362,56 +362,56 @@
   <tr>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/vim.svg" width="48" height="48" alt="Vim" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/vim.svg" width="48" height="48" alt="Vim" />
       </a>
       <br />
       <p>Vim</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/react-query.svg" width="48" height="48" alt="RQuery" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/react-query.svg" width="48" height="48" alt="RQuery" />
       </a>
       <br />
       <p>RQuery</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/rtk-query.svg" width="48" height="48" alt="RTK" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rtk-query.svg" width="48" height="48" alt="RTK" />
       </a>
       <br />
       <p>RTK</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/effector.svg" width="48" height="48" alt="Effector" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/effector.svg" width="48" height="48" alt="Effector" />
       </a>
       <br />
       <p>Effector</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/apollo.svg" width="48" height="48" alt="Apollo" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/apollo.svg" width="48" height="48" alt="Apollo" />
       </a>
       <br />
       <p>Apollo</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/stitches.svg" width="48" height="48" alt="Stitches" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/stitches.svg" width="48" height="48" alt="Stitches" />
       </a>
       <br />
       <p>Stitches</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/emotion.svg" width="48" height="48" alt="Emotion" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/emotion.svg" width="48" height="48" alt="Emotion" />
       </a>
       <br />
       <p>Emotion</p>
     </td>
     <td align="center"  width="96">
       <a href="#">
-        <img src="assets/icon/redux-saga.svg" width="48" height="48" alt="Redux Saga" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/redux-saga.svg" width="48" height="48" alt="Redux Saga" />
       </a>
       <br />
       <p>Redux Saga</p>
@@ -420,56 +420,56 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/gatsby.svg" width="48" height="48" alt="Gatsby JS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/gatsby.svg" width="48" height="48" alt="Gatsby JS" />
       </a>
       <br />
       <p>Gatsby JS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/storybook.svg" width="48" height="48" alt="Storybook" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/storybook.svg" width="48" height="48" alt="Storybook" />
       </a>
       <br />
       <p>Storybook</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/preact.svg" width="48" height="48" alt="PreactJS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/preact.svg" width="48" height="48" alt="PreactJS" />
       </a>
       <br />
       <p>PreactJS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/selenium.svg" width="48" height="48" alt="Selenium" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/selenium.svg" width="48" height="48" alt="Selenium" />
       </a>
       <br />
       <p>Selenium</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/remix.svg" width="48" height="48" alt="RemixJS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/remix.svg" width="48" height="48" alt="RemixJS" />
       </a>
       <br />
       <p>RemixJS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/grps.svg" width="48" height="48" alt="gRPS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/grps.svg" width="48" height="48" alt="gRPS" />
       </a>
       <br />
       <p>gRPS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/nanostore.svg" width="48" height="48" alt="NanoStore" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nanostore.svg" width="48" height="48" alt="NanoStore" />
       </a>
       <br />
       <p>NanoStore</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/chakra.svg" width="48" height="48" alt="Chakra" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/chakra.svg" width="48" height="48" alt="Chakra" />
       </a>
       <br />
       <p>Chakra</p>
@@ -478,48 +478,60 @@
   <tr>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/mui.svg" width="48" height="48" alt="Mui" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mui.svg" width="48" height="48" alt="Mui" />
       </a>
       <br />
       <p>Mui</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/mobx.svg" width="48" height="48" alt="MobX" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mobx.svg" width="48" height="48" alt="MobX" />
       </a>
       <br />
       <p>MobX</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/nestjs.svg" width="48" height="48" alt="NestJS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nestjs.svg" width="48" height="48" alt="NestJS" />
       </a>
       <br />
       <p>NestJS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/rxjs.svg" width="48" height="48" alt="RxJS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rxjs.svg" width="48" height="48" alt="RxJS" />
       </a>
       <br />
       <p>RxJS</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/roots.svg" width="48" height="48" alt="Roots" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/roots.svg" width="48" height="48" alt="Roots" />
       </a>
       <br />
       <p>Roots</p>
     </td>
     <td align="center" width="96">
       <a href="#">
-        <img src="assets/icon/postgresql.svg" width="48" height="48" alt="PostgreSQL" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/postgresql.svg" width="48" height="48" alt="PostgreSQL" />
       </a>
       <br />
       <p>PostgreSQL</p>
     </td>
-    <td align="center" width="96"></td>
-    <td align="center" width="96"></td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/prisma.svg" width="48" height="48" alt="Prisma" />
+      </a>
+      <br />
+      <p>Prisma</p>
+    </td>
+    <td align="center" width="96">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/typeorm.svg" width="48" height="48" alt="TypeORM" />
+      </a>
+      <br />
+      <p>TypeORM</p>
+    </td>
   </tr>
 </table>
 
@@ -527,7 +539,7 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleStats.svg" width="100%" height="29px" alt="">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/stats.svg" width="100%" height="29px" alt="">
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
@@ -556,7 +568,7 @@
 
 <br />
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/other/titleRepositories.svg" width="100%" height="29px" alt="">
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/repositories.svg" width="100%" height="29px" alt="">
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%"  alt="https://i.imgur.com/dBaSKWF.gif">
 
