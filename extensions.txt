@@ -21,6 +21,7 @@ code --install-extension GraphQL.vscode-graphql
 code --install-extension GraphQL.vscode-graphql-syntax
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension iceworks-team.iceworks-style-helper
+code --install-extension irongeek.vscode-env
 code --install-extension ionutvmi.path-autocomplete
 code --install-extension jeff-hykin.polacode-2019
 code --install-extension kah3vich.import-at-top
