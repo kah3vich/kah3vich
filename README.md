@@ -1,4 +1,4 @@
-<!--! by kah3vich !-->
+1\n1\n<!--! by kah3vich !-->
 
 <img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/profile/beloved.jpg" alt=""/>
 
@@ -116,7 +116,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/c++.svg" width="48" height="48" alt="С++" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Сp" width="100%" height="23px" alt="С++">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Сpp" width="100%" height="23px" alt="С++">
     </td>
     <td align="center" width="100">
       <a href="#">
