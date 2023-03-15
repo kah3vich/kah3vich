@@ -25,7 +25,7 @@ code --install-extension irongeek.vscode-env
 code --install-extension ionutvmi.path-autocomplete
 code --install-extension jeff-hykin.polacode-2019
 code --install-extension kah3vich.import-at-top
-code --install-extension kah3vich.nano-snippets
+code --install-extension kah3vich.nanosnippets
 code --install-extension kah3vich.nano-refactor
 code --install-extension kah3vich.holdesher
 code --install-extension gitHub.copilot
