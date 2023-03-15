@@ -6,7 +6,7 @@
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/hyperkitty.gif" width="40px" alt="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" /> 
-    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/title.svg" width="360px" height="30px" alt="">
+    <img src="https://svg-readme.vercel.app/readme/svg?type=custom&content=Welcome||to||my||profile&size=30&weight=500" width="360px" height="30px" alt="title">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif">
 </p>
 
@@ -36,7 +36,9 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/description.svg" width="100%" height="250px" alt="">
+<div align="center">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=description&content=🌺||Hi,||i'm||Kahevich,||a||self-taught||full||stack||web||developer.||my||passion||for||software||lies||with||dreaming||up||ideas||and||making||them||come||true||with||elegant||interfaces.||I||take||great||care||in||the||experience||architecture,||and||code||quality.<br><br>🧠||I||learned||a||lot||from||the||open-source||community||and||i||love||how||collaboration||and||knowledge||sharing||happened||through||open-source." width="100%" height="250px" alt="description">
+</div>
 
 <!--|||-->
 
@@ -54,7 +56,9 @@
     </a>
 </div>
 
-&nbsp;<div align="center">
+<br />
+
+<div align="center">
 
 [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d20232a&border_color=0de4e2e2)](https://open.spotify.com/user/omnitenebris)
 
@@ -64,7 +68,9 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/stack.svg" width="100%" height="29px" alt="">
+<div align="center">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=🔥||Languages||Frameworks||Tools||Abilities||🔥" width="100%" height="33px" alt="stack">
+</div>
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
@@ -75,7 +81,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/html5.svg" width="48" height="48" alt="HTML" />
       </a>
       <br />
-      <p>HTML</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=HTML" width="100%" height="20px" alt="HTML">
     </td>
     <td align="center" width="96">
       <a href="#">
@@ -539,7 +545,9 @@
 
 <!--|||-->
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/stats.svg" width="100%" height="29px" alt="">
+<div align="center">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=⚡||Stats||⚡" width="100%" height="33px" alt="stats">
+</div>
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
@@ -568,7 +576,9 @@
 
 <br />
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/svg/repositories.svg" width="100%" height="29px" alt="">
+<div align="center">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=👨‍💻||Repositories||👨‍💻" width="100%" height="33px" alt="repositories">
+</div>
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%"  alt="https://i.imgur.com/dBaSKWF.gif">
 
@@ -588,3 +598,9 @@
 <img src="https://readme-jokes.vercel.app/api?theme=react" alt="" width="100%" />
 
 <!--| https://cultofthepartyparrot.com tsss... |-->
+
+<!--
+<div align="center">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=🚀||Extensions||🚀" width="100%" height="33px" alt="extensions">
+</div>
+-->
