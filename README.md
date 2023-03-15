@@ -88,49 +88,49 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/css3.svg" width="48" height="48" alt="CSS" />
       </a>
       <br />
-      <p>CSS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=CSS" width="100%" height="20px" alt="CSS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/javascript.svg" width="48" height="48" alt="JavaScript" />
       </a>
       <br />
-      <p>JavaScript</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=JS" width="100%" height="20px" alt="JS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/php.svg" width="48" height="48" alt="PHP" />
       </a>
       <br />
-      <p>PHP</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=PHP" width="100%" height="20px" alt="PHP">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/python.svg" width="48" height="48" alt="Python" />
       </a>
       <br />
-      <p>Python</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Python" width="100%" height="20px" alt="Python">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/c++.svg" width="48" height="48" alt="С++" />
       </a>
       <br />
-      <p>С++</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Сp" width="100%" height="20px" alt="С++">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/c++++.svg" width="48" height="48" alt="С#" />
       </a>
       <br />
-      <p>С#</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Сsh" width="100%" height="20px" alt="С#">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/linux.svg" width="48" height="48" alt="Linux" />
       </a>
       <br />
-      <p>Linux</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Linux" width="100%" height="20px" alt="Linux">
     </td>
   </tr>
   <tr>
@@ -139,56 +139,56 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/pug.svg" width="48" height="48" alt="Pug" />
       </a>
       <br />
-      <p>Pug</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Pug" width="100%" height="20px" alt="Pug">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/bootstrap.svg" width="58" height="48" alt="Bootstrap" />
       </a>
       <br />
-      <p>Bootstrap</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Bootstrap" width="100%" height="20px" alt="Bootstrap">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/motion.svg" width="48" height="48" alt="Motion" />
       </a>
       <br />
-      <p>Motion</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Motion" width="100%" height="20px" alt="Motion">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/blender.svg" width="48" height="48" alt="blender" />
       </a>
       <br />
-      <p>Blender</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Blender" width="100%" height="20px" alt="Blender">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/tailwind.svg" width="48" height="48" alt="Tailwind" />
       </a>
       <br />
-      <p>Tailwind</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Tailwind" width="100%" height="20px" alt="Tailwind">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/scss.svg" width="48" height="48" alt="SCSS" />
       </a>
       <br />
-      <p>Sass</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Sass" width="100%" height="20px" alt="Sass">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/less.svg" width="48" height="48" alt="LESS" />
       </a>
       <br />
-      <p>LESS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=LESS" width="100%" height="20px" alt="LESS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/vscode.svg" width="48" height="48" alt="VScode" />
       </a>
       <br />
-      <p>VScode</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=VScode" width="100%" height="20px" alt="VScode">
     </td>
   </tr>
   <tr>
@@ -197,56 +197,56 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/jquery.svg" width="48" height="48" alt="Jquery" />
       </a>
       <br />
-      <p>Jquery</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Jquery" width="100%" height="20px" alt="Jquery">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/threejs.svg" width="48" height="48" alt="Three.js" />
       </a>
       <br />
-      <p>Three.js</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=ThreeJS" width="100%" height="20px" alt="ThreeJS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/gsap.svg" width="48" height="48" alt="GSAP" />
       </a>
       <br />
-      <p>GSAP</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=GSAP" width="100%" height="20px" alt="GSAP">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/webpack.svg" width="48" height="48" alt="Webpack" />
       </a>
       <br />
-      <p>Webpack</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Webpack" width="100%" height="20px" alt="Webpack">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/typescript.svg" width="48" height="48" alt="TypeScript" />
       </a>
       <br />
-      <p>TypeScript</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=TS" width="100%" height="20px" alt="TypeScript">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/gulp.svg" width="48" height="48" alt="Gulp" />
       </a>
       <br />
-      <p>Gulp</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Gulp" width="100%" height="20px" alt="Gulp">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nodejs.svg" width="48" height="48" alt="NodeJS" />
       </a>
       <br />
-      <p>NodeJS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=NodeJS" width="100%" height="20px" alt="NodeJS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/react.svg" width="48" height="48" alt="React" />
       </a>
       <br />
-      <p>React</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=React" width="100%" height="20px" alt="React">
     </td>
   </tr>
   <tr>
@@ -255,56 +255,56 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/coffeescript.svg" width="48" height="48" alt="CoffeeScript" />
       </a>
       <br />
-      <p>CoffeeScript</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=CScript" width="100%" height="20px" alt="CoffeeScript">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/postcss.svg" width="48" height="48" alt="PostCSS" />
       </a>
       <br />
-      <p>PostCSS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=PostCSS" width="100%" height="20px" alt="PostCSS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/redux.svg" width="48" height="48" alt="Redux" />
       </a>
       <br />
-      <p>Redux</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Redux" width="100%" height="20px" alt="Redux">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nextjs.svg" width="48" height="48" alt="Next.js" />
       </a>
       <br />
-      <p>Next.js</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=NextJS" width="100%" height="20px" alt="NextJS">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/styled-components.svg" width="48" height="48" alt="Styled" />
       </a>
       <br />
-      <p>Styled</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Styled" width="100%" height="20px" alt="Styled">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mysql.svg" width="48" height="48" alt="MySQL" />
       </a>
       <br />
-      <p>MySQL</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=MySQL" width="100%" height="20px" alt="MySQL">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/jest.svg" width="48" height="48" alt="Jest" />
       </a>
       <br />
-      <p>Jest</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Jest" width="100%" height="20px" alt="Jest">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/stylus.svg" width="48" height="48" alt="Stylus" />
       </a>
       <br />
-      <p>Stylus</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Stylus" width="100%" height="20px" alt="Stylus">
     </td>
   </tr>
   <tr>
@@ -313,56 +313,56 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/wordpress.svg" width="48" height="48" alt="Wordpress" />
       </a>
       <br />
-      <p>Wordpress</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Wordpress" width="100%" height="20px" alt="Wordpress">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/git.svg" width="48" height="48" alt="Git" />
       </a>
       <br />
-      <p>Git</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Git" width="100%" height="20px" alt="Git">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rust.svg" width="48" height="48" alt="Rust" />
       </a>
       <br />
-      <p>Rust</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Rust" width="100%" height="20px" alt="Rust">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/docker.svg" width="48" height="48" alt="Docker" />
       </a>
       <br />
-      <p>Docker</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Docker" width="100%" height="20px" alt="Docker">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/kali.svg" width="48" height="48" alt="Kali" />
       </a>
       <br />
-      <p>Kali</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Kali" width="100%" height="20px" alt="Kali">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/eslint.svg" width="48" height="48" alt="ESlint" />
       </a>
       <br />
-      <p>ESlint</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=ESlint" width="100%" height="20px" alt="ESlint">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/npm.svg" width="48" height="48" alt="Unity" />
       </a>
       <br />
-      <p>NPM</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=NPM" width="100%" height="20px" alt="NPM">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/graphql.svg" width="48" height="48" alt="GraphQL" />
       </a>
       <br />
-      <p>GraphQL</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=GraphQL" width="100%" height="20px" alt="GraphQL">
     </td>
   </tr>
   <tr>
@@ -371,56 +371,56 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/vim.svg" width="48" height="48" alt="Vim" />
       </a>
       <br />
-      <p>Vim</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Vim" width="100%" height="20px" alt="Vim">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/react-query.svg" width="48" height="48" alt="RQuery" />
       </a>
       <br />
-      <p>RQuery</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=RQuery" width="100%" height="20px" alt="RQuery">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rtk-query.svg" width="48" height="48" alt="RTK" />
       </a>
       <br />
-      <p>RTK</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=RTK" width="100%" height="20px" alt="RTK">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/effector.svg" width="48" height="48" alt="Effector" />
       </a>
       <br />
-      <p>Effector</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Effector" width="100%" height="20px" alt="Effector">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/apollo.svg" width="48" height="48" alt="Apollo" />
       </a>
       <br />
-      <p>Apollo</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Apollo" width="100%" height="20px" alt="Apollo">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/stitches.svg" width="48" height="48" alt="Stitches" />
       </a>
       <br />
-      <p>Stitches</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Stitches" width="100%" height="20px" alt="Stitches">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/emotion.svg" width="48" height="48" alt="Emotion" />
       </a>
       <br />
-      <p>Emotion</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Emotion" width="100%" height="20px" alt="Emotion">
     </td>
     <td align="center"  width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/redux-saga.svg" width="48" height="48" alt="Redux Saga" />
       </a>
       <br />
-      <p>Redux Saga</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=RSaga" width="100%" height="20px" alt="Redux Saga">
     </td>
   </tr>
   <tr>
@@ -429,56 +429,56 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/gatsby.svg" width="48" height="48" alt="Gatsby JS" />
       </a>
       <br />
-      <p>Gatsby JS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=GatsbyJS" width="100%" height="20px" alt="GatsbyJS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/storybook.svg" width="48" height="48" alt="Storybook" />
       </a>
       <br />
-      <p>Storybook</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Storybook" width="100%" height="20px" alt="Storybook">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/preact.svg" width="48" height="48" alt="PreactJS" />
       </a>
       <br />
-      <p>PreactJS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=PreactJS" width="100%" height="20px" alt="PreactJS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/selenium.svg" width="48" height="48" alt="Selenium" />
       </a>
       <br />
-      <p>Selenium</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Selenium" width="100%" height="20px" alt="Selenium">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/remix.svg" width="48" height="48" alt="RemixJS" />
       </a>
       <br />
-      <p>RemixJS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=RemixJS" width="100%" height="20px" alt="RemixJS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/grps.svg" width="48" height="48" alt="gRPS" />
       </a>
       <br />
-      <p>gRPS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=gRPS" width="100%" height="20px" alt="gRPS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nanostore.svg" width="48" height="48" alt="NanoStore" />
       </a>
       <br />
-      <p>NanoStore</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=NanoStore" width="100%" height="20px" alt="NanoStore">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/chakra.svg" width="48" height="48" alt="Chakra" />
       </a>
       <br />
-      <p>Chakra</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Chakra" width="100%" height="20px" alt="Chakra">
     </td>
   </tr>
   <tr>
@@ -487,56 +487,56 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mui.svg" width="48" height="48" alt="Mui" />
       </a>
       <br />
-      <p>Mui</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Mui" width="100%" height="20px" alt="Mui">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mobx.svg" width="48" height="48" alt="MobX" />
       </a>
       <br />
-      <p>MobX</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=MobX" width="100%" height="20px" alt="MobX">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nestjs.svg" width="48" height="48" alt="NestJS" />
       </a>
       <br />
-      <p>NestJS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=NestJS" width="100%" height="20px" alt="NestJS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rxjs.svg" width="48" height="48" alt="RxJS" />
       </a>
       <br />
-      <p>RxJS</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=RxJS" width="100%" height="20px" alt="RxJS">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/roots.svg" width="48" height="48" alt="Roots" />
       </a>
       <br />
-      <p>Roots</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Roots" width="100%" height="20px" alt="Roots">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/postgresql.svg" width="48" height="48" alt="PostgreSQL" />
       </a>
       <br />
-      <p>PostgreSQL</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Post.SQL" width="100%" height="20px" alt="PostgreSQL">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/prisma.svg" width="48" height="48" alt="Prisma" />
       </a>
       <br />
-      <p>Prisma</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Prisma" width="100%" height="20px" alt="Prisma">
     </td>
     <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/typeorm.svg" width="48" height="48" alt="TypeORM" />
       </a>
       <br />
-      <p>TypeORM</p>
+      <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=TypeORM" width="100%" height="20px" alt="TypeORM">
     </td>
   </tr>
 </table>
@@ -555,7 +555,7 @@
 
 <br />
 
-<p align=center>
+<div align=center>
   <div align=center>
       <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="" />
       <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=kah3vich&show_icons=true&theme=react&border_color=61dafb&hide_border=true" alt="" />
@@ -568,9 +568,9 @@
   </div>
 
   <br/>
-  
+
   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%" alt=""/>
-</p>
+</div>
 
 <hr>
 
