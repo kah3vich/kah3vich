@@ -1,52 +1,20 @@
-console.log('rm -rf github/*; cd github/;');
+const getUserRepos = username => {
+	const baseUrl = 'https://api.github.com';
+	const endpoint = `/users/${username}/repos`;
 
-const arrRep = [
-	'kah3vich',
-	'Import-At-Top',
-	'Nano-Refactor',
-	'Nano-Snippets',
-	'readme-project-base',
-	'Saturn',
-	'Art.Trace',
-	'Blender',
-	'Rinnegan',
-	'Medina',
-	'LEM',
-	'ThreeJS',
-	'Gulp-RS',
-	'TOGO',
-	'Project-Windows',
-	'Project-Sfera',
-	'Pit-Stop',
-	'Look-wider',
-	'Islamic',
-	'React-Hooks',
-	'Magical-Village',
-	'BLANC-DE-BLANCS',
-	'TOGO__Brands',
-	'Ferrocarril',
-	'Era_Of__Logistics',
-	'Eco_Cleaner',
-	'Islam',
-	'Project-BP',
-	'Behappy',
-	'Lore',
-	'sfera',
-	'Tracklove',
-	'Project-Life ',
-	'Autopodbor',
-	'Armor ',
-	'AFK-Mouse',
-	'Portfolio_ ',
-	'github-readme-books',
-	'GUI-py',
-	'ThreeJS__Base',
-	'ThreeJS__Starter',
-	'Diada',
-	'Portfolio',
-	'Project-Portfolio',
-];
+	return fetch(baseUrl + endpoint)
+		.then(response => response.json())
+		.then(data => {
+			const repos = data.map(repo => repo.name);
+			return repos;
+		});
+};
 
-for (const rep of arrRep) {
-	console.log(`git clone https://github.com/kah3vich/${rep}.git;`);
-}
+getUserRepos('kah3vich').then(repos => {
+	console.log('rm -rf github/*; cd github/;');
+	repos.push(...['Blender', 'ThreeJS']); // private repos
+	repos.forEach(repo => {
+		console.log(`git clone https://github.com/kah3vich/${repo}.git;`);
+	});
+	console.log('git clone https://github.com/Holdesher/Holdesher.git;');
+});
