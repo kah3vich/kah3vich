@@ -1,5 +1,0 @@
-//| Generate Snippets - https://snippet-generator.app
-
-//| VSIX - https://filext.com/
-
-//| 🔥 by kah3vich 🔥

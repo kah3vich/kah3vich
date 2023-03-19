@@ -1,9 +1,0 @@
-{
-    "✅Snippet: Message Console Log": {
-        "prefix": "mlog",
-        "body": ["console.log('🌠 ${1:message}')", "$0"],
-        "description": "✅Snippet: Message Console Log"
-    }
-}
-
-//| 🔥 by kah3vich 🔥

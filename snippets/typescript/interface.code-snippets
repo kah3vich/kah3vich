@@ -1,9 +1,0 @@
-{
-	"✅Snippet: TypeScript Interface ": {
-		"prefix": "interface",
-		"body": ["export interface I${1:Name} {", "    ${2:code}", "}", "$0"],
-		"description": "✅Snippet: TypeScript Interface "
-	}
-}
-
-//| 🔥 by kah3vich 🔥

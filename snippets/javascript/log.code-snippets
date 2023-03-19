@@ -1,9 +1,0 @@
-{
-    "✅Snippet: Console Log": {
-        "prefix": "log",
-        "body": ["console.log('✅ ${1:element}    ', ${1:element})", "$0"],
-        "description": "✅Snippet: Console Log"
-    }
-}
-
-//| 🔥 by kah3vich 🔥
