@@ -1,9 +1,0 @@
-{
-	"✅Snippet: React Hook useRef": {
-		"prefix": "useRef",
-		"body": ["const ref${1:Name} = useRef(null)", "$0"],
-		"description": "✅Snippet: React Hook useRef"
-	}
-}
-
-//| 🔥 by kah3vich 🔥

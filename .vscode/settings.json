@@ -2397,30 +2397,40 @@
 
 	//! ✅ Import At Top
 
-    //* 💡 ru - Использовать форматирование в "import-at-top".
-	//* 💡 en - Use formatting in "import-at-top".
-	"import-at-top.formatting": true,
-
 	//* 💡 ru - Конфигурация параметров в "import-at-top".
 	//* 💡 en - Config params in "import-at-top".
 	"import-at-top.config": [
         {
-            //* 💡 ru - Триггерное слово|слова.
-	        //* 💡 en - Trigger word|words.
-            "trigger": ["useState", "useEffect"],
-
+            //* 💡 ru - 
+	        //* 💡 en - 
+            "importDefault": [
+                "React"
+            ],
+            //* 💡 ru - 
+	        //* 💡 en - 
+            "importExport": [
+                "useState",
+                "useEffect",
+                "useContext",
+                "useReducer",
+                "useCallback",
+                "useMemo",
+                "useRef",
+                "useId",
+                "useImperativeHandle",
+                "useLayoutEffect",
+                "useDebugValue"
+            ],
             //* 💡 ru - Пакет из которого будет импортировано зависимость.
 	        //* 💡 en - The package from which the dependency will be imported.
-            "package": "react",
-
-            //* 💡 ru - Тип импортирование зависимости: правда - по дефолту экспорт | лож - обобщенный экспорт.
-	        //* 💡 en - Dependency import type: true - default export | lies - generalized export.
-            "defaultType": false
+            "package": "react"
         },
         {
-            "trigger": "useSelected",
-            "package": "redux",
-            "defaultType": true
+            "importDefault": [],
+            "importExport": [
+                "createStore"
+            ],
+            "package": "redux"
         },
     ],
 

@@ -1,9 +1,0 @@
-{
-    "✅Snippet: React Hook useCallback - memosations of function": {
-        "prefix": "useCallback",
-        "body": ["useCallback(() => ${1:code}, [${2:dependencies}])", "$0"],
-        "description": "✅Snippet: React Hook useCallback - memosations of function"
-    }
-}
-
-//| 🔥 by kah3vich 🔥

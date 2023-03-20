@@ -1,9 +1,0 @@
-{
-	"✅Snippet: Debugger": {
-		"prefix": "debugger",
-		"body": ["debugger; // TODO: debugger", "$0"],
-		"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'"
-	}
-}
-
-//| 🔥 by kah3vich 🔥
