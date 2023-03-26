@@ -8,5 +8,15 @@ free - free memory statistics.
 
 exit - end session in terminal.
 
+pwd - return current path directory.
+
+ls - return data list in current directory.
+    <path> - return data list in given path. ( ./bin )
+    -a - all data list ( secret file ).
+
+cd <path> - switch in given path.
+    ".." | "-" - back one level.
+    "~" | empty - switch to system main directory.
+
 echo <content> - output content.
     $(($((5 + 2)) * 3)) - algorithmic calculations ( + | - | * | : | % | ** ).
