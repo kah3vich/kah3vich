@@ -1,1 +1,12 @@
-cd <path> - *
+date - return current date.
+
+cal - return current calendar.
+
+df - disk memory statistics.
+
+free - free memory statistics.
+
+exit - end session in terminal.
+
+echo <content> - output content.
+    $(($((5 + 2)) * 3)) - algorithmic calculations ( + | - | * | : | % | ** ).
