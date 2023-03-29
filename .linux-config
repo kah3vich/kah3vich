@@ -10,9 +10,34 @@ exit - end session in terminal.
 
 pwd - return current path directory.
 
+file <file> - return type file.
+
+less <file> - show content current file. ( keyboard q - exit )
+
+cp <file|directory> - copy file or directory.
+
+mv <old> <new> - moving or rename -> file or directory.
+
+mkdir - create new directory.
+
+rm - remove file or directory.
+
+ln - create hard or symbolic link.
+
 ls - return data list in current directory.
     <path> - return data list in given path. ( ./bin )
-    -a - all data list ( secret file ).
+    -a (--all) - all data list ( secret file ).
+    -A (--almost-all) - all data list, but no hidden directories.
+    -d (--directory) - return info current directory. (-l)
+    -F (--classify) - return information on special characters:
+        * - means executable.
+    -h (--human-readable) - return (-l) info file size is not in bytes, but in units of measure.
+    -l - return full info data.
+    -r (--reverse) - return information in reverse order.
+    -S - return sort information by size.
+    -t - return sorted list information by last modified.
+    -A - return sorted list by alphabet.
+    -1 - return files in one string.
 
 cd <path> - switch in given path.
     ".." | "-" - back one level.
