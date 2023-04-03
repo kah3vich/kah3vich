@@ -1,1 +1,6 @@
-git init - project initialization.
+git archive - create archive file from path.
+    --format= - format for archive: zip | tar.
+    -o (--output) - path file for archive.
+    --prefix= - prefix for archive.
+
+git init <directory> - initialization project.
