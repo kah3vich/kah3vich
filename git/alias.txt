@@ -1,6 +1,6 @@
 [user]
 	email = 
-	name = 
+	name =
 [alias]
 	ab = git merge --abort
 	cb = "!f () { git checkout ${1:-main} && git pull; }; f"
