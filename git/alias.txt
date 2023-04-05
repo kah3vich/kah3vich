@@ -1,10 +1,11 @@
 [user]
-	email = 
+	email =
 	name =
 [alias]
 	ab = git merge --abort
 	cb = "!f () { git checkout ${1:-main} && git pull; }; f"
-	cm = "!cm () { git add -A && git commit -m ${1:-commit} && git push; }; cm"
+	cm = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 	ncm = "!ncm() { git add -A && git commit -m ${1:-commit} && git push -u origin \"$(git rev-parse --abbrev-ref HEAD)\" }; ncm"
 	hist = "!f () { git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --max-count=${1:-1000000}; }; f"
 	undo = "!f () { git reset --soft HEAD~${1:-1}; }; f"
+    gp = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
