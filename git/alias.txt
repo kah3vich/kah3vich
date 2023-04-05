@@ -1,10 +1,17 @@
-[user]
-	email = 
-	name = 
 [alias]
-	ab = git merge --abort
-	cb = "!f () { git checkout ${1:-main} && git pull; }; f"
-	cm = "!cm() { git add -A && git commit -m \"$1\" && git push; }; cm"
-	ncm = "!ncm() { git add -A && git commit -m ${1:-commit} && git push -u origin \"$(git rev-parse --abbrev-ref HEAD)\" }; ncm"
-	hist = "!f () { git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --max-count=${1:-1000000}; }; f"
-	undo = "!f () { git reset --soft HEAD~${1:-1}; }; f"
+	ch = checkout
+	st = status
+	ss = status --short
+	gl = config --global -l
+	ma = git merge --abort
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	cb = "!cb () { git checkout ${1:-main} && git pull; }; cb"
+	cm = "!cm () { git add -A && git commit -m \"$1\" && git push; }; cm"
+	ncm = "!ncm () { git add -A && git commit -m \"$1\" && git push -u origin \"$(git rev-parse --abbrev-ref HEAD)\"; }; ncm"
+	new = "!new () { git checkout -b $1; }; new"
+	del = "!del () { git branch -D $1; }; del"
+	hist = "!hist () { git log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)' --max-count=${1:-1000000}; }; hist"
+	undo = "!undo () { git reset --soft HEAD~${1:-1}; }; undo"
+	inip = "!inip () { git init && git add -A && git commit -m '✅ init' && git branch -M main && git remote add origin $1 && git push -u origin main; }; inip"
+	hard = reset --hard
+	last = log -1 HEAD --stat
