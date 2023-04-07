@@ -1,12 +1,20 @@
 [alias]
+	d = diff
+	b = branch
+	m = merge
+	s = status
+	rb = rebase
+	rv = revert 
 	co = checkout
-	df = diff
-	st = status
+	ds = diff --staged
 	gl = config --global -l
 	ma = merge --abort
 	sl = stash list 
 	sc = stash clear
 	sp = stash pop 
+	ca = commit --amend
+	rp = remote prune
+	cl = clean -n -d -f 
 	ss = "!ss () { git stash save $1 -u; }; ss"
 	sa = "!sa () { git stash apply ${1:-0}; }; sa"
 	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
@@ -19,4 +27,7 @@
 	undo = "!undo () { git reset --soft HEAD~${1:-1}; }; undo"
 	inp = "!inp () { git init && git add -A && git commit -m '✅ init' && git branch -M main && git remote add origin $1 && git push -u origin main; }; inp"
 	hard = reset --hard
+	soft = reset --soft
 	last = log -1 HEAD --stat
+	mixed = reset --mixed
+	cherry = "!cp () { git cherry-pick $1 -edit; }; cp"
