@@ -98,8 +98,74 @@ cd <path> - switch in given path.
     "~" | empty - switch to system main directory.
     -e - return error message if path empty.
 
+wc <file> - file data analysis. Displays a count of the sizes and volumes of files.
+    -c - return size file in bit.
+    -m return count symbol in object.
+    -l - return count lines in object.
+    -w - return count word in object.
+
+uniq <file> - search for identical lines in a text array.
+    -u - outputs lines that do not have repetitions.
+    -d - output repeated lines once.
+    -D - output only duplicate lines.
+    -i - ignore register.
+    -c - print the number of repetitions.
+    -z - split for output.
+
+grep <string> <file> - search in a file.
+    -f - take pattern from file.
+    -i - case insensitive.
+    -w - displays everything except found lines.
+    -c - displays the number of lines found.
+    -m - stop searching after reaching the specified number.
+    -s - don't output read error.
+    -h - don't print filename.
+
+clear - clear the terminal.
+
+head <file> - return first string in file.
+    -q - return only text.
+    -v - print file names before text.
+    -n <count> - output a limited number of lines.
+    -f - streaming.
+
+tail <file> - return last string in file.
+    -q - return only text.
+    -v - display additional information about the file.
+    -n <count> - output a limited number of lines.
+    -f - streaming.
+
+tee <file> - saves the output of a command to a file (via a pipeline).
+    -a - write data to the end of the file.
+
+history - command history output ( max-base 500 or 1000 ).
+    -d <number> - delete a specific command.
+    -c - clear history.
+    -w <file> - write commands to a file.
+    !<number> - call a command under a specific number.
+    !! - call the previous command.
+    <number> - limited list from the beginning (last commands can be received from a negative number).
+
+
 echo <content> - output content.
+    -n - don't output newline.
+    -e - enable Escape.
+    -E - disable Escape.
+
+    /c - remove newline.
+    /t - tabulation.
+    /v - vertical tab.
+    /b - delete previous character.
+    /n - line break.
+    /r - carriage return at the beginning of the line.
+
+    * - any character.
+    [[:upper:]] - upper case.
+    ~ - system directive.
+    $USER - variable.
     $(($((5 + 2)) * 3)) - algorithmic calculations ( + | - | * | : | % | ** ).
+    \$ - character escape.
+    \\ - escaping a stash.
 
 //| Additional function: 
 
@@ -107,7 +173,17 @@ echo <content> - output content.
     --help - return full info current command.
     --version - return the installed command version.
 
-> - pass data from command to file.
+> redirect to file
     > <file> - create empty file.
+
+>> redirect to end of file
+
+2> redirect (even errors) to a file
+
+&> double redirect with error handling to file
+
+&>> ...end of file
+
+< redirecting data from a file ( cat < file.txt )
 
 | - transferring data from another command to the current.
