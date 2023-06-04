@@ -146,6 +146,101 @@ history - command history output ( max-base 500 or 1000 ).
     !! - call the previous command.
     <number> - limited list from the beginning (last commands can be received from a negative number).
 
+id - returns actual data of system users.
+     -u - returns the actual user indicator.
+     -g - returns the actual indicator of the user's group.
+
+chmod <options> <permissions> <file> - command to control file permissions.
+     r - read.
+     w - entry.
+     x - execution.
+     s - run as superuser (optional).
+     u is the owner of the file.
+     g - file group.
+     o - all other users.
+
+     u+x - allow execution for the owner.
+     ugo+x - allow execution for everyone.
+     ug+w - enable write for owner and group.
+     o-x - disable execution for other users.
+     ugo+rwx - allow all for everyone.
+
+umask <options> <permissions> - used to set default permissions. (umask u=rwx)
+     u (user) – user.
+     g (group) – group.
+     o (other) – other users.
+
+     r (read) - read file.
+     w (write) - change the file.
+     x (execute) - execute the file as a program.
+
+su - Changes the shell user to the specified one.
+     [-] - change the shell execution context to the context of the specified user.
+     -c - runs the application under the specified account.
+    
+sudo - runs the command passed to it as superuser.
+     -b Runs the given program in the background.
+
+chown <option> <user> <file> - changes access to a file or directories in the system.
+     -c Verbose output of all changes being made.
+     -f - minimum information, hide error messages.
+     -H - if a symbolic link to a directory is passed, navigate to it.
+     -L - follow all symbolic links to directories.
+
+passwd <user> - Changes the user's password.
+     -d - Delete the user's password (make it blank). This is a quick way to lock out an account password.
+     -e Make the password obsolete immediately. As a result, this will force the user to change the password the next time they log in.
+     -w <number> - Set the number of warning days before the password expires.
+
+ps - returns up-to-date data about system processes.
+     -A - select all processes.
+     -a - select all processes except background ones.
+     -d - select all processes, even background ones, except session processes.
+     -C <name> - select processes by command name.
+
+top - Returns real-time system data.
+     -v - display the version of the program.
+     -c - display full path to executable command files.
+     -d - information update interval.
+     -i Do not display processes that are not using CPU resources.
+
+jobs 
+
+bg
+
+kill
+
+killall
+
+shutdown
+
+neofetch
+
+<command> & - запуск программы в фоновом режиме 
+
+halt 
+
+poweroff 
+
+reboot
+
+pstree
+
+vmstat
+
+xload
+
+tload
+
+printenv
+
+set
+
+export
+
+alias
+
+sourse
 
 echo <content> - output content.
     -n - don't output newline.
@@ -158,6 +253,15 @@ echo <content> - output content.
     /b - delete previous character.
     /n - line break.
     /r - carriage return at the beginning of the line.
+    \a - sound notification.
+    \d - current date.
+    \h - current machine.
+    \H - fully qualified hostname.
+    \t - current time.
+    \u - username.
+    \w - current directory.
+    \! - team number in history.
+    \# - number of commands in the current session.
 
     * - any character.
     [[:upper:]] - upper case.
