@@ -240,7 +240,45 @@ export
 
 alias
 
-sourse
+sourse 
+
+dpkg 
+
+apt-get 
+
+apt-cache 
+
+mount 
+
+umount 
+
+fsck 
+
+fdisk 
+
+mkfs 
+
+dd 
+
+genisoimage (mkisofs)
+
+wodim (cdrecord)
+
+md5sum 
+
+ping 
+
+traceroute 
+
+ip 
+
+netstat
+
+ftp 
+
+wget 
+
+ssh 
 
 echo <content> - output content.
     -n - don't output newline.
