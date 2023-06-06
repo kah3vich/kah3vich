@@ -204,13 +204,18 @@ top - Returns real-time system data.
      -d - information update interval.
      -i Do not display processes that are not using CPU resources.
 
-jobs 
+jobs - displays a list of processes that are running in the background.
 
-bg
+fg %<number> - brings the process to the foreground.
 
-kill
+bg %<number> - sends the process to the background.
 
-killall
+kill <signal> <process> - command to send signals to processes for state (terminating a process).
+     -l - get a list of signals supported by the system.
+     -s - use signal name.
+     -n - use signal number.
+
+killall - 
 
 shutdown
 
