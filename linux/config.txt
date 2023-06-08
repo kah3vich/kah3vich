@@ -285,6 +285,26 @@ wget
 
 ssh 
 
+locate
+
+find
+
+xargs
+
+touch
+
+stat
+
+gzip
+
+bzip2
+
+tar
+
+zip
+
+rsync
+
 echo <content> - output content.
     -n - don't output newline.
     -e - enable Escape.
