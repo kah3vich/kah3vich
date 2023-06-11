@@ -121,6 +121,18 @@ grep <string> <file> - search in a file.
     -s - don't output read error.
     -h - don't print filename.
 
+    [:alnum:] - alphanumeric characters [A-Za-z0-9].
+    [:word:] - like [:alnum:], but with an additional character (_).
+    [:alpha:] - alphabetic characters [A-Za-z].
+    [:blank:] - includes space and tab characters.
+    [:digit:] - digits from 0 to 9.
+    [:lower:] - lower case characters.
+    [:punct:] - punctuation marks.
+    [:print:] - all characters from the class [:graph:] and a space.
+    [:space:] - characters [ \t \r \n \v \f ].
+    [:upper:] - upper case characters.
+    [:xdigit:] - characters for hexadecimal digits [0-9A-Fa-f].
+
 clear - clear the terminal.
 
 head <file> - return first string in file.
@@ -215,95 +227,111 @@ kill <signal> <process> - command to send signals to processes for state (termin
      -s - use signal name.
      -n - use signal number.
 
-killall - 
+killall - .
 
-shutdown
+shutdown - .
 
-neofetch
+neofetch - .
 
-<command> & - запуск программы в фоновом режиме 
+halt - .
 
-halt 
+poweroff - .
 
-poweroff 
+reboot - .
 
-reboot
+pstree - .
 
-pstree
+vmstat - .
 
-vmstat
+xload - .
 
-xload
+tload - .
 
-tload
+printenv - .
 
-printenv
+set - .
 
-set
+export - .
 
-export
+alias- .
 
-alias
+sourse - .
 
-sourse 
+dpkg - .
 
-dpkg 
+apt-get - .
 
-apt-get 
+apt-cache - .
 
-apt-cache 
+mount - .
 
-mount 
+umount - .
 
-umount 
+fsck - .
 
-fsck 
+fdisk - .
 
-fdisk 
+mkfs - .
 
-mkfs 
+dd - .
 
-dd 
+genisoimage (mkisofs) - .
 
-genisoimage (mkisofs)
+wodim (cdrecord) - .
 
-wodim (cdrecord)
+md5sum - .
 
-md5sum 
+ping - .
 
-ping 
+traceroute - .
 
-traceroute 
+ip - .
 
-ip 
+netstat - .
 
-netstat
+ftp - .
 
-ftp 
+wget - .
 
-wget 
+ssh - .
 
-ssh 
+locate - .
 
-locate
+find - .
 
-find
+xargs - .
 
-xargs
+touch - .
 
-touch
+stat - .
 
-stat
+gzip - .
 
-gzip
+bzip2 - .
 
-bzip2
+tar - .
 
-tar
+zip - .
 
-zip
+rsync - .
 
-rsync
+cut - .
+
+paste - .
+
+join - .
+
+comm - .
+
+diff - .
+
+patch - .
+
+tr - .
+
+sed - .
+
+aspell - .
 
 echo <content> - output content.
     -n - don't output newline.
@@ -339,6 +367,7 @@ echo <content> - output content.
 <command> 
     --help - return full info current command.
     --version - return the installed command version.
+    & - running the program in the background.
 
 > redirect to file
     > <file> - create empty file.
