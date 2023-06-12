@@ -39,19 +39,24 @@ cat <file> - read file and return data in terminal.
     -E - show the $ character at the end of each line.
     -n - number all lines.
     -s - delete empty duplicate lines.
+    -A - return non-printable characters in text.
 
 less <file> - show content current file. ( keyboard q - exit )
     -E (--QUIT-AT-EOF) - exit if will reach end file.
 
 sort <file> - sorted line string.
     -b - ignore spaces.
+    -f - ignore case.
+    -n - sort based on line numbering.
+    --key=num - sort by key.
     -r - sort in reverse order.
     -c - check if file is sorted.
     -o - return result command.
 
 uniq <file> - return message if have file empty line and remove empty line.
     -u - displays only those lines that do not have repetitions.
-    -D - displays only duplicate lines.
+    -d - displays only duplicate lines.
+    -c - return number duplicate in text.
 
 cp <prev> <next> - copy file or directory.
     -l - create hard link.
@@ -315,7 +320,10 @@ zip - .
 
 rsync - .
 
-cut - .
+cut - remove fragments from all lines of the file.
+    -c (list of characters) Extracts the portion of the string specified by (list of characters).
+    -f (field list) Extracts one or more fields from the string that are passed to (field list).
+        -d (separator character) - uses (separator character) as field separator.
 
 paste - .
 
