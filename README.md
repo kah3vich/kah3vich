@@ -60,7 +60,7 @@
 
 <div align="center">
 
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d20232a&border_color=0de4e2e2)](https://open.spotify.com/user/omnitenebris)
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d20232a&border_color=0de4e2e2)](https://open.spotify.com/user/kah3vich)
 
 </div>
 
@@ -178,10 +178,10 @@
     </td>
     <td align="center"  width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/less.svg" width="48" height="48" alt="LESS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nginx.svg" width="48" height="48" alt="nginx" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=LESS" width="100%" height="23px" alt="LESS">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=nginx" width="100%" height="23px" alt="nginx">
     </td>
     <td align="center" width="100">
       <a href="#">
@@ -259,10 +259,10 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/postcss.svg" width="48" height="48" alt="PostCSS" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/kubernetes.svg" width="48" height="48" alt="kubernetes" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=PostCSS" width="100%" height="23px" alt="PostCSS">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=kubernetes" width="100%" height="23px" alt="kubernetes">
     </td>
     <td align="center" width="100">
       <a href="#">
@@ -287,10 +287,10 @@
     </td>
     <td align="center"  width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mysql.svg" width="48" height="48" alt="MySQL" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/flet.svg" width="48" height="48" alt="flet" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=MySQL" width="100%" height="23px" alt="MySQL">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=flet" width="100%" height="23px" alt="flet">
     </td>
     <td align="center"  width="100">
       <a href="#">
@@ -324,10 +324,10 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rust.svg" width="48" height="48" alt="Rust" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/opengl.svg" width="48" height="48" alt="opengl" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Rust" width="100%" height="23px" alt="Rust">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=opengl" width="100%" height="23px" alt="opengl">
     </td>
     <td align="center" width="100">
       <a href="#">
