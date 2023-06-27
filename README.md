@@ -181,7 +181,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/nginx.svg" width="48" height="48" alt="nginx" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=nginx" width="100%" height="23px" alt="nginx">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=NGINX" width="100%" height="23px" alt="nginx">
     </td>
     <td align="center" width="100">
       <a href="#">
@@ -262,7 +262,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/kubernetes.svg" width="48" height="48" alt="kubernetes" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=kubernetes" width="100%" height="23px" alt="kubernetes">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Kubernetes" width="100%" height="23px" alt="kubernetes">
     </td>
     <td align="center" width="100">
       <a href="#">
@@ -290,7 +290,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/flet.svg" width="48" height="48" alt="flet" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=flet" width="100%" height="23px" alt="flet">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Flet" width="100%" height="23px" alt="flet">
     </td>
     <td align="center"  width="100">
       <a href="#">
@@ -327,7 +327,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/opengl.svg" width="48" height="48" alt="opengl" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=opengl" width="100%" height="23px" alt="opengl">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=OpenGL" width="100%" height="23px" alt="opengl">
     </td>
     <td align="center" width="100">
       <a href="#">
