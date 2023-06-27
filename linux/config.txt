@@ -435,6 +435,8 @@ echo <content> - output content.
 
 //| Programmed: 
 
+#!/bin/bash - указание интерпретатора, который будет выполнять скрипт.
+
 //! Function: 
 
 name_function () {
@@ -484,6 +486,16 @@ until [[ $count -gt 5 ]]; do
     echo $count 
     count=$(( count + 1 ))
 done 
+
+//! Трассировка - это процесс пошагового выполнения программы: 
+
+#!/bin/bash -x - запуск трассировки во всем скрипте.
+
+set -x 
+
+script
+
+ set +x - частичный запуск трассировки.
 
 //| Additional function: 
 
