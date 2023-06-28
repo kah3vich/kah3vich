@@ -10,14 +10,15 @@
 	ds = diff --staged
 	gl = config --global -l
 	ma = merge --abort
-	sl = stash list 
-	sc = stash clear
 	sp = stash pop 
 	ca = commit --amend
 	rp = remote prune
 	cl = clean -n -d -f 
 	su = stash -u 
+	sl = stash list 
+	sc = stash clear
 	ss = "!ss () { git stash save $1 -u; }; ss"
+	sd = "!sd () { git stash drop stash@{${1:-0}}; }; sd"
 	sa = "!sa () { git stash apply stash@{${1:-0}}; }; sa"
 	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
 	cb = "!cb () { git checkout ${1:-main} && git pull; }; cb"
