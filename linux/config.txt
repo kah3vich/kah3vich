@@ -164,62 +164,62 @@ history - command history output ( max-base 500 or 1000 ).
     <number> - limited list from the beginning (last commands can be received from a negative number).
 
 id - returns actual data of system users.
-     -u - returns the actual user indicator.
-     -g - returns the actual indicator of the user's group.
+    -u - returns the actual user indicator.
+    -g - returns the actual indicator of the user's group.
 
 chmod <options> <permissions> <file> - command to control file permissions.
-     r - read.
-     w - entry.
-     x - execution.
-     s - run as superuser (optional).
-     u is the owner of the file.
-     g - file group.
-     o - all other users.
+    r - read.
+    w - entry.
+    x - execution.
+    s - run as superuser (optional).
+    u is the owner of the file.
+    g - file group.
+    o - all other users.
 
-     u+x - allow execution for the owner.
-     ugo+x - allow execution for everyone.
-     ug+w - enable write for owner and group.
-     o-x - disable execution for other users.
-     ugo+rwx - allow all for everyone.
+    u+x - allow execution for the owner.
+    ugo+x - allow execution for everyone.
+    ug+w - enable write for owner and group.
+    o-x - disable execution for other users.
+    ugo+rwx - allow all for everyone.
 
 umask <options> <permissions> - used to set default permissions. (umask u=rwx)
-     u (user) – user.
-     g (group) – group.
-     o (other) – other users.
+    u (user) – user.
+    g (group) – group.
+    o (other) – other users.
 
-     r (read) - read file.
-     w (write) - change the file.
-     x (execute) - execute the file as a program.
+    r (read) - read file.
+    w (write) - change the file.
+    x (execute) - execute the file as a program.
 
 su - Changes the shell user to the specified one.
-     [-] - change the shell execution context to the context of the specified user.
-     -c - runs the application under the specified account.
-    
+    [-] - change the shell execution context to the context of the specified user.
+    -c - runs the application under the specified account.
+
 sudo - runs the command passed to it as superuser.
-     -b Runs the given program in the background.
+    -b Runs the given program in the background.
 
 chown <option> <user> <file> - changes access to a file or directories in the system.
-     -c Verbose output of all changes being made.
-     -f - minimum information, hide error messages.
-     -H - if a symbolic link to a directory is passed, navigate to it.
-     -L - follow all symbolic links to directories.
+    -c Verbose output of all changes being made.
+    -f - minimum information, hide error messages.
+    -H - if a symbolic link to a directory is passed, navigate to it.
+    -L - follow all symbolic links to directories.
 
 passwd <user> - Changes the user's password.
-     -d - Delete the user's password (make it blank). This is a quick way to lock out an account password.
-     -e Make the password obsolete immediately. As a result, this will force the user to change the password the next time they log in.
-     -w <number> - Set the number of warning days before the password expires.
+    -d - Delete the user's password (make it blank). This is a quick way to lock out an account password.
+    -e Make the password obsolete immediately. As a result, this will force the user to change the password the next time they log in.
+    -w <number> - Set the number of warning days before the password expires.
 
 ps - returns up-to-date data about system processes.
-     -A - select all processes.
-     -a - select all processes except background ones.
-     -d - select all processes, even background ones, except session processes.
-     -C <name> - select processes by command name.
+    -A - select all processes.
+    -a - select all processes except background ones.
+    -d - select all processes, even background ones, except session processes.
+    -C <name> - select processes by command name.
 
 top - Returns real-time system data.
-     -v - display the version of the program.
-     -c - display full path to executable command files.
-     -d - information update interval.
-     -i Do not display processes that are not using CPU resources.
+    -v - display the version of the program.
+    -c - display full path to executable command files.
+    -d - information update interval.
+    -i Do not display processes that are not using CPU resources.
 
 jobs - displays a list of processes that are running in the background.
 
@@ -228,28 +228,28 @@ fg %<number> - brings the process to the foreground.
 bg %<number> - sends the process to the background.
 
 kill <signal> <process> - command to send signals to processes for state (terminating a process).
-     -l - get a list of signals supported by the system.
-     -s - use signal name.
-     -n - use signal number.
+    -l - get a list of signals supported by the system.
+    -s - use signal name.
+    -n - use signal number.
 
-killall <process> - намеренное завершение процесса.
+killall <process> - Intentionally killing a process.
 
-shutdown - завершить работу компьютера.
-    -h <now | +number | 21:00> - через сколько выключить.
-    -c - отмена выключения.
+shutdown - shut down the computer.
+    -h < now | + number | 21:00> - after how much to turn off.
+    -c - cancel shutdown.
 
-neofetch - выводит краткую информацию о текущем дистрибутиве.
+neofetch - Displays brief information about the current distribution.
 
-halt - выключение питания компьютера.
+halt - power off the computer.
 
-poweroff - аналог "halt".
+poweroff - analogue of "halt".
 
-reboot - перезагрузка компьютера. ( используется с "sudo" )
+reboot - reboot the computer. (used with "sudo")
 
-pstree - показывает дерево процессов.
+pstree - Shows the process tree.
 
 vmstat - live report virtual memory statistics.
-    -t - добавление временной метки.
+    -t - add a timestamp.
 
 xload - .
 
@@ -344,63 +344,63 @@ sed - .
 
 aspell - .
 
-nl - нумерует строки.
+nl - numbers the lines.
 
-fold - выполняет простое форматирование текста.
+fold - Performs simple text formatting.
 
-fmt - выполняет простое форматирование текста.
+fmt - Performs simple text formatting.
 
-pr - форматирует текст для печати.
+pr - formats text for printing.
 
-printf - форматирует и выводит данные.
+printf - formats and prints data.
 
-groff - система форматирование документов.
+groff is a document formatting system.
 
-lpr - печатает файл.
+lpr - prints a file.
 
-a2ps - форматирует файл для печати на принтере с поддержкой postscript.
+a2ps - formats a file for printing on a postscript printer.
 
-lpstat - выводит информацию о состоянии принтера.
+lpstat - displays information about the status of the printer.
 
-lpq - выводит информацию о состояние очереди печати.
+lpq - displays information about the state of the print queue.
 
-lprm - отменяет задания печати.
+lprm - cancels print jobs.
 
-pr - преобразует текстовый файл для печати.
+pr - converts a text file for printing.
 
-make - утилита сопровождения программ.
-    ./configure - анализ окружение сборки.
+make is a program maintenance utility.
+     ./configure - parse the build environment.
 
-test - команда для условий.
-    FILE=~/.bashrc 
-    if [ -e "$FILE" ]; then 
+test - command for conditions.
+     FILE=~/.bashrc
+     if [ -e "$FILE" ]; then
 
-    file1 -ef file2 - file1  и file2 имеют один и тот же числовой индекст узла.
-    file1 -nt file2 - file1 новее файла file2.
-    file1 -ot file2 - file1 старше файла file2.
-    -b file - файл существует и является специальным файлом блочного устройства.
-    -c file - файл существует и является специальным файлом символьного устройства.
-    -d file - файл существует и является каталогом.
-    -e file - файл существует.
-    -f file - файл существует и является обычным файлом.
-    -G file - файл существует и принадлежит действующий группе.
-    -L file - файл существует и является символьной ссылкой.
-    -O file - файл существует и принадлежит текущему пользователю.
-    -p file - файл существует и является именованным каналом.
-    -r file - файл существует и доступен для чтения.
-    -s file - файл существует и имеет размер больше нуля.
-    -S file - файл существует и является сетевым сокетом.
-    -w file - файл существует и доступен для записи.
-    -x file - файл существует и доступен для выполнения.
-    -n - длина строк больше нуля.
-    -z - длина строк равна нулю.
+     file1 -ef file2 - file1 and file2 have the same numeric node index.
+     file1 -nt file2 - file1 is newer than file2.
+     file1 -ot file2 - file1 is older than file2.
+     -b file The file exists and is a block device special file.
+     -c file File exists and is a character device special file.
+     -d file File exists and is a directory.
+     -e file - the file exists.
+     -f file The file exists and is a regular file.
+     -G file - the file exists and belongs to the current group.
+     -L file File exists and is a symbolic link.
+     -O file The file exists and is owned by the current user.
+     -p file File exists and is a named pipe.
+     -r file - the file exists and is readable.
+     -s file - the file exists and has a size greater than zero.
+     -S file File exists and is a network socket.
+     -w file - the file exists and is writable.
+     -x file - the file exists and is available for execution.
+     -n - length of lines is greater than zero.
+     -z - string length is zero.
 
-    [[]] - современная версия test. ( ~= )
-    (()) - проверка целого числа.
+     [[]] - modern version of test. ( ~= )
+     (()) - checking for an integer.
 
-    ! - не.
-    && - и.
-    || - или.
+     ! - Not.
+     && - And.
+     || - or.
 
 read - чтение значений  со стандартного ввода.
 
@@ -435,27 +435,27 @@ echo <content> - output content.
 
 //| Programmed: 
 
-#!/bin/bash - указание интерпретатора, который будет выполнять скрипт.
+#!/bin/bash - specifying the interpreter that will execute the script.
 
-//! Function: 
+//! function:
 
-name_function () {
-    return 
+name_function() {
+     return
 }
 
-function name_function () {
-    return 
+function name_function() {
+     return
 }
 
-name_function // вызов функции 
+name_function // function call
 
-//! Variables: 
+//! Variables:
 
-name_variable=value // глобальная переменная 
+name_variable=value // global variable
 
-local name_variable=value // локальная переменная 
+local name_variable=value // local variable
 
-echo "foo -> $foo" // вывод переменной
+echo "foo -> $foo" // output variable
 
 //! Условия: 
 
@@ -487,15 +487,31 @@ until [[ $count -gt 5 ]]; do
     count=$(( count + 1 ))
 done 
 
-//! Трассировка - это процесс пошагового выполнения программы: 
+//! Cases: 
 
-#!/bin/bash -x - запуск трассировки во всем скрипте.
+ read -p "... > "
 
-set -x 
+ case "$REPLY" in 
+    [[:alpha:]]) echo "1" ;;
+    [ABC][0-9]) echo "1" ;;
+    a|A) echo "1" ;;
+    ???) echo "1" ;;
+    *.txt) echo "1" ;;
+    *) echo "1" ;;
+esac 
 
-script
+;; - completion of the check.
+;;& - check other conditions.
 
- set +x - частичный запуск трассировки.
+//! Tracing is the process of executing a program step by step:
+
+#!/bin/bash -x - start tracing in the entire script.
+
+set-x
+
+script...
+
+set +x - partial start of tracing.
 
 //| Additional function: 
 
