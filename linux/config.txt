@@ -469,23 +469,33 @@ else
     echo "x -> $x"
 fi 
 
-//! Циклы: 
-
-count=1 
-
-while [[ $count -le 5 ]]; do // while true; do
-    echo $count 
-    count=$((count + 1))
-done 
-
-until - очень похожа на while, но завершает цикл не когда обнаружит ненулевой код завершения, пока не получит код завершения 0.
+//! Loop:
 
 count=1
 
-until [[ $count -gt 5 ]]; do 
-    echo $count 
-    count=$(( count + 1 ))
-done 
+while [[ $count -le 5 ]]; do // while true; do
+     echo $count
+     count=$((count + 1))
+done
+
+until - very similar to while, but terminates the loop not when it encounters a non-zero exit code until it receives an exit code of 0.
+
+count=1
+
+until [[ $count -gt 5 ]]; do
+     echo $count
+     count=$(( count + 1 ))
+done
+
+//! "For" loop:
+
+for i in A B C D; do echo $i; done 
+
+for i in {A..B}; do echo $i; done 
+
+for i in distros*.txt; do echo $i; done 
+
+for (( i=0; i<5; i=i+1 )); do echo $i; done 
 
 //! Cases: 
 

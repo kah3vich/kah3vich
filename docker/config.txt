@@ -1,0 +1,8 @@
+docker [params]
+    -v - return current version programme.
+
+ps - return list containers.
+    -a (--all) - show all containers (default shows just running).
+    -s (--size) - return display total file sizes.
+    -q (--quiet) - only display container IDs.
+    -n <number | -1> (--last) - show n last created containers (includes all states).
