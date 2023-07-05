@@ -402,7 +402,9 @@ test - command for conditions.
      && - And.
      || - or.
 
-read - чтение значений  со стандартного ввода.
+read - read values from standard input.
+
+declare - string conversion.
 
 echo <content> - output content.
     -n - don't output newline.
@@ -432,6 +434,7 @@ echo <content> - output content.
     $(($((5 + 2)) * 3)) - algorithmic calculations ( + | - | * | : | % | ** ).
     \$ - character escape.
     \\ - escaping a stash.
+    $((a > 1 ? ++a : --1))
 
 //| Programmed: 
 
@@ -457,7 +460,15 @@ local name_variable=value // local variable
 
 echo "foo -> $foo" // output variable
 
-//! Условия: 
+//! Array: 
+
+days=(Sun Mon)
+days=([0]=Sun [1]=Mon)
+days=("Sun" "Mon")
+
+unset days | unset 'days[1]'
+
+//! Conditions:
 
 x=5 
 

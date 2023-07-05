@@ -4,3 +4,11 @@ git archive - create archive file from path.
     --prefix= - prefix for archive.
 
 git init <directory> - initialization project.
+
+git stash - save changes locally.
+     save "name" - create a stesh with the name.
+         -u - count all files and folders.
+     apply stash@{number} - get stash with specified id.
+     drop stash@{number} - remove stash with specified id.
+     list - list of all stashes.
+     clear - clear the entire list of stashes.
