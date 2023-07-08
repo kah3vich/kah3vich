@@ -1,3 +1,14 @@
+//! Schema: 
+
+git add . - indexing changes.
+
+git commit -m "feat: init" - commit the change.
+
+git push - sending fixed data (snapshots).
+
+
+//! Command: 
+
 git archive - create archive file from path.
     --format= - format for archive: zip | tar.
     -o (--output) - path file for archive.
@@ -12,3 +23,33 @@ git stash - save changes locally.
      drop stash@{number} - remove stash with specified id.
      list - list of all stashes.
      clear - clear the entire list of stashes.
+
+git add - indexing changes.
+
+git commit - committing a change.
+     -m - add a comment.
+     -a - index changes (without git add ).
+
+git diff - output line-by-line changes in files.
+     --staged - display files in indexing.
+
+git status - displays the current status of files, indexing and committing.
+     -s - abbreviated output.
+
+git log - display information about versions.
+
+git rm - delete a file for git.
+
+git clone [url] [path (.)] - Clone a repository.
+
+git mv [path] [path] - move and rename files or folders.
+
+git help - display information about git.
+
+gitconfig
+     --global - global config setting.
+     --local - local config setting (in the current repository).
+     --list - display general config information.
+     user.name - specify the name for the config.
+     user.email - specifying mail for the config.
+     core.editor - set the main code editor ( vscode - git config --global core.editor "code --wait" | git config --global core.editor "code -w").
