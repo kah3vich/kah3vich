@@ -597,7 +597,7 @@
 
 <img src="https://readme-jokes.vercel.app/api?theme=react" alt="" width="100%" />
 
-<!--| https://cultofthepartyparrot.com tsss... |-->
+<!--| https://cultofthepartyparrot.com tss... |-->
 
 <!--
 <div align="center">
