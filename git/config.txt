@@ -39,10 +39,20 @@ git checkout - switch to a branch.
 git remote - remote repository.
       -v - list of remote repositories.
       add [name] [url] - adding a remote repository.
+      show [name] - show repository server.
+      rename [old] [new] - rename remote repository.
+
+git tag - show list tag in repository.
+     -a [name] - create tag.
+     -m [message] - tag message.
+     [number] - get current tag. (v1.0.0)
+     -a [name] [commit] - create tag for commit.
+
+git show [tag] - return short info tag.
 
 git fetch [name] - fetch data from a remote repository.
 
-git push (origin) [branch] - Sending data to a remote repository.
+git push (name server - origin) [branch] - Sending data to a remote repository.
 
 git diff - output line-by-line changes in files.
      --staged - display files in indexing.
