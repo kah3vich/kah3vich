@@ -33,8 +33,17 @@ git commit - committing a change.
 
 git reset HEAD [file] - cancel file indexing.
 
+git branch - return list branch.
+     -a - show all branch in repository.
+     -d [name branch] - delete branch.
+     [name branch] - create branch.
+     -v - return list branch & last commit by branch.
+     --no-merge - return list branch no merge other branch.
+     --merged - merge branch with current branch.
+
 git checkout - switch to a branch.
       -- [file] - undo changes made to the file.
+      -b [name branch] - create branch.
 
 git remote - remote repository.
       -v - list of remote repositories.
@@ -52,7 +61,8 @@ git show [tag] - return short info tag.
 
 git fetch [name] - fetch data from a remote repository.
 
-git push (name server - origin) [branch] - Sending data to a remote repository.
+git push (name server - origin) [branch] - sending data to a remote repository.
+     --tags - sending all tags.
 
 git diff - output line-by-line changes in files.
      --staged - display files in indexing.
@@ -68,15 +78,19 @@ git log - display information about versions.
 git rm - delete a file for git.
 
 git clone [url] [path (.)] - Clone a repository.
+     --bare - the command is used to create a "bare" repository
 
 git mv [path] [path] - move and rename files or folders.
 
 git help - display information about git.
 
-gitconfig
+git merge [branch] - merge branch. (rebase)
+
+git config
      --global - global config setting.
      --local - local config setting (in the current repository).
      --list - display general config information.
      user.name - specify the name for the config.
      user.email - specifying mail for the config.
      core.editor - set the main code editor ( vscode - git config --global core.editor "code --wait" | git config --global core.editor "code -w").
+     alias.[name] 'code' - create alias for config git.
