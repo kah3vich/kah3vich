@@ -78,7 +78,8 @@ git log - display information about versions.
 git rm - delete a file for git.
 
 git clone [url] [path (.)] - Clone a repository.
-     --bare - the command is used to create a "bare" repository
+     --bare - the command is used to create a "bare" repository.
+     -b [name branch] - clone repository with current branch.
 
 git mv [path] [path] - move and rename files or folders.
 
