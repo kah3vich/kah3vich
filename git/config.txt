@@ -15,6 +15,7 @@ git archive - create archive file from path.
     --prefix= - prefix for archive.
 
 git init <directory> - initialization project.
+     --initio-branch <name branch> - init repository with current branch.
 
 git stash - save changes locally.
      save "name" - create a stesh with the name.
@@ -63,17 +64,22 @@ git fetch [name] - fetch data from a remote repository.
 
 git push (name server - origin) [branch] - sending data to a remote repository.
      --tags - sending all tags.
+     -f - ignore git by error merge.
+     -u - setting "upstream" or "merge candidate".
+
+git request-pull [start commit] [end commit] [url repository] - used to send a merge request for changes from a local branch to a remote repository.
 
 git diff - output line-by-line changes in files.
      --staged - display files in indexing.
+     --check - check code by error space.
 
 git status - displays the current status of files, indexing and committing.
      -s - abbreviated output.
 
 git log - display information about versions.
-     -p - показывать изменения, внесенные в каждую версию.
-     -[number] - показывать количество последних коммитов.
-     --stat - показывать статистику изменения файлов в каждом коммите.
+     -p - show changes made to each version.
+     -[number] - show the number of recent commits.
+     --stat - show statistics of file changes in each commit.
 
 git rm - delete a file for git.
 
