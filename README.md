@@ -45,12 +45,6 @@
 <br />
 
 <div align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=kah3vich&theme=juicyfresh&no-frame=true&row=1&&margin-w=20&no-bg=true" alt="">
-</div>
-
-<br />
-
-<div align="center">
     <a href="https://www.codewars.com/users/kah3vich">
         <img src="https://www.codewars.com/users/kah3vich/badges/large" alt=""/>
     </a>
