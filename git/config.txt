@@ -18,7 +18,7 @@ git init <directory> - initialization project.
      --initio-branch <name branch> - init repository with current branch.
 
 git stash - save changes locally.
-     save "name" - create a stesh with the name.
+     save "name" - create a stesh with the name. 
          -u - count all files and folders.
      apply stash@{number} - get stash with specified id.
      drop stash@{number} - remove stash with specified id.
@@ -69,9 +69,11 @@ git push (name server - origin) [branch] - sending data to a remote repository.
 
 git request-pull [start commit] [end commit] [url repository] - used to send a merge request for changes from a local branch to a remote repository.
 
-git diff - output line-by-line changes in files.
+git diff - shows the difference between the state of the working copy and the last commit, or between two commits.
      --staged - display files in indexing.
      --check - check code by error space.
+     --cached - show differences between index and last commit.
+     --color - Display differences using colors for better readability.
 
 git status - displays the current status of files, indexing and committing.
      -s - abbreviated output.
@@ -101,3 +103,35 @@ git config
      user.email - specifying mail for the config.
      core.editor - set the main code editor ( vscode - git config --global core.editor "code --wait" | git config --global core.editor "code -w").
      alias.[name] 'code' - create alias for config git.
+
+git apply - applies git patches to files and directories in the local repository. It is often used to apply patches created with git diff or git format-patch.
+     --check - check if patches can be safely applied without making changes.
+     --stat - show statistics about applying patches.
+
+git am - applies a series of patches created with git format-patch based on email metadata. It is used to apply commits received as email patches.
+    --signoff - add your name and email address to the comments of each applied commit.
+    --3way - apply patches in 3-way merge mode if there are conflicts.
+
+git format-patch - Generates git patches for every commit in the repository's history. It converts commits into individual patches that can be applied with git apply or git am.
+     -n Send only the latest commit as a patch.
+     --stdout - output patches to stdout instead of saving them to files.
+
+git rebase - allows you to change the base point or rewrite the commit history. (merge)
+     -i (--interactive) - run interactive rebase mode, allowing you to change commits.
+     --onto <branch> - define a new base branch to rebase.
+
+git cherry-pick - allows you to select a specific commit from one branch and apply it to another branch.
+     -n (--no-commit) - apply the changes, but do not make an automatic commit.
+     -x (--signoff) Add your name and email address to the comments of the applied commit.
+
+git describe - allows you to get a concise description for the specified commit. It shows the closest tag to the commit and the number of commits after that tag.
+    --tags - include tags in commit tagging.
+    --abbrev=<n> - specify the number of characters that will be used to identify the commit.
+
+git archive - Creates an archive of specified files and directories from a repository and saves it as a zip file or other formats.
+    --format=<format> - set archive format (for example, zip, tar).
+    --prefix=<prefix> - add a prefix to the names of archived files.
+
+git shortlog - Shows a summary of individual authors' commits.
+     -s (--summary) - print only the number of commits for each author.
+     -e (--email) Print the email address of each author.
