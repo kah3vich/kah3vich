@@ -85,6 +85,8 @@ git log - display information about versions.
 
 git rm - delete a file for git.
 
+git ls-remote - displays information about a remote Git repository, including branch links and hashes of recent commits.
+
 git clone [url] [path (.)] - Clone a repository.
      --bare - the command is used to create a "bare" repository.
      -b [name branch] - clone repository with current branch.
