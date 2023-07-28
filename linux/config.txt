@@ -350,6 +350,8 @@ fold - Performs simple text formatting.
 
 fmt - Performs simple text formatting.
 
+curl - get request in internet.
+
 pr - formats text for printing.
 
 printf - formats and prints data.
@@ -555,3 +557,18 @@ set +x - partial start of tracing.
 < redirecting data from a file ( cat < file.txt )
 
 | - transferring data from another command to the current.
+
+//| Utils: 
+
+ncdu (du) - info disk system ( interface ).
+
+bat (cat) - interface for show file.
+
+fd <type file> (find) - interface for search file.
+
+exa (ls) - interface for show list data. ( params ls )
+    --tree - return files tree.
+    --level=number - return level deep files and best work with --tree.
+    --long - more info by file.
+
+httpie (curl) - get request in internet with more information ( status | method | headers | body ).
