@@ -1,3 +1,7 @@
+//! Base: 
+
+SHA-1 - the mechanism used by Git to calculate checksums is called a SHA-1 hash. This is a string of 40 hexadecimal characters (0-9 and a-f) calculated by Git based on the contents of a file or directory structure..
+
 //! Schema: 
 
 git add . - indexing changes.
@@ -21,11 +25,17 @@ git stash - save changes locally.
      save "name" - create a stesh with the name. 
          -u - count all files and folders.
      apply stash@{number} - get stash with specified id.
+          --index - add file in fix status (git add .).
      drop stash@{number} - remove stash with specified id.
      list - list of all stashes.
      clear - clear the entire list of stashes.
+     show - return info last stash.
+          -p - difference between current stash and workspace.
+     --all - save all file in stash & remove in workspace.
+     --patch - interactive control save file in stash.
 
-git add - indexing changes.
+git add [file | .(all)] - indexing changes.
+     -i - interactive control process.
 
 git commit - committing a change.
       -m - add a comment.
@@ -58,7 +68,17 @@ git tag - show list tag in repository.
      [number] - get current tag. (v1.0.0)
      -a [name] [commit] - create tag for commit.
 
-git show [tag] - return short info tag.
+git show - return info.
+     [tag] - tag info.
+     [commit] - commit info.
+     [branch] - branch info.
+     HEAD@{number} - return info number commit. (0 - last commit)
+     [branch]@{number | yesterday} - return last yesterday commit current branch.
+     HEAD^ - return last commit. (HEAD^2)
+
+git rev-parse [branch] - return last commit current branch.
+
+git reflog - return list commit & info.
 
 git fetch [name] - fetch data from a remote repository.
 
@@ -82,6 +102,8 @@ git log - display information about versions.
      -p - show changes made to each version.
      -[number] - show the number of recent commits.
      --stat - show statistics of file changes in each commit.
+     [branch1]..[branch2] - return difference between branch1 and branch2 by commit.
+     [branch1]...[branch2] - return difference between branch1 and branch2 by all commit.
 
 git rm - delete a file for git.
 
@@ -90,6 +112,13 @@ git ls-remote - displays information about a remote Git repository, including br
 git clone [url] [path (.)] - Clone a repository.
      --bare - the command is used to create a "bare" repository.
      -b [name branch] - clone repository with current branch.
+
+git clean - remove all change file in workspace.
+     -f - ignore warning.
+     -d - remove directory.
+     -n - return info remove element.
+     -i - remove in interactive format.
+     -x - remove file from .gitignore.
 
 git mv [path] [path] - move and rename files or folders.
 
