@@ -281,10 +281,10 @@
     </td>
     <td align="center"  width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/turbopack.svg" width="48" height="48" alt="turbopack" />
+        <img src="./assets/icon/fsd.svg" width="80" height="48" alt="FSD" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Turbo" width="100%" height="23px" alt="turbopack">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=FSD" width="100%" height="23px" alt="FSD">
     </td>
     <td align="center"  width="100">
       <a href="#">
