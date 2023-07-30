@@ -8,6 +8,7 @@ git add . - indexing changes.
      git restore --staged . - cancel all indexing. (git reset)
 
 git commit -m "feat: init" - commit the change.
+     git reset HEAD^ - cancel last commit and save change file.
 
 git push - sending fixed data (snapshots).
 
