@@ -1,10 +1,11 @@
 //! Base: 
 
-SHA-1 - the mechanism used by Git to calculate checksums is called a SHA-1 hash. This is a string of 40 hexadecimal characters (0-9 and a-f) calculated by Git based on the contents of a file or directory structure..
+SHA-1 - the mechanism used by Git to calculate checksums is called a SHA-1 hash. This is a string of 40 hexadecimal characters (0-9 and a-f) calculated by Git based on the contents of a file or directory structure.
 
 //! Schema: 
 
 git add . - indexing changes.
+     git restore --staged . - cancel all indexing. (git reset)
 
 git commit -m "feat: init" - commit the change.
 
@@ -37,10 +38,15 @@ git stash - save changes locally.
 git add [file | .(all)] - indexing changes.
      -i - interactive control process.
 
+git grep [string] - search string by files.
+     [format file] - search in current format file (*.c).
+     -n - count element in search.
+     -p - more info by search.
+
 git commit - committing a change.
       -m - add a comment.
       -a - index changes (without git add ).
-      --amend - cancel the change.
+      --amend - edit message last commit.
 
 git reset HEAD [file] - cancel file indexing.
 
@@ -74,7 +80,7 @@ git show - return info.
      [branch] - branch info.
      HEAD@{number} - return info number commit. (0 - last commit)
      [branch]@{number | yesterday} - return last yesterday commit current branch.
-     HEAD^ - return last commit. (HEAD^2)
+     HEAD^ | HEAD~ - return last commit. (HEAD^2 | HEAD~2)
 
 git rev-parse [branch] - return last commit current branch.
 
