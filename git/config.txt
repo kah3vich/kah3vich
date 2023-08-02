@@ -50,6 +50,16 @@ git commit - committing a change.
       --amend - edit message last commit.
 
 git reset HEAD [file] - cancel file indexing.
+     --soft - cancel last commit and save change files in indexing.
+     --hard - cancel last commit and all remove in change files.
+
+git ls-files - return list file in indexing status.
+     -u - return SHA.
+     -s - return list object name and stage number in the output.
+
+git filter-branch <command | rm -f password.txt> - search in all project history.
+     --tree-filter - for next commit this actual function.
+     --all - for all branch.
 
 git branch - return list branch.
      -a - show all branch in repository.
@@ -101,6 +111,8 @@ git diff - shows the difference between the state of the working copy and the la
      --check - check code by error space.
      --cached - show differences between index and last commit.
      --color - Display differences using colors for better readability.
+     --ours - comparison before merging.
+     -w - ignore spaces change.
 
 git status - displays the current status of files, indexing and committing.
      -s - abbreviated output.
@@ -132,6 +144,8 @@ git mv [path] [path] - move and rename files or folders.
 git help - display information about git.
 
 git merge [branch] - merge branch. (rebase)
+     --abort - cancel merge process.
+     -Xignore-all-space  / -Xignore-space-change - ignore conflict by spaces.
 
 git config
      --global - global config setting.
