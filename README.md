@@ -19,9 +19,9 @@
     <a href="https://codepen.io/kah3vich" target="_blank">
         <img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff" alt="">
     </a>
-    <a href="https://www.codewars.com/users/kah3vich" target="_blank">
+    <!-- <a href="https://www.codewars.com/users/kah3vich" target="_blank">
         <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red" alt="">
-    </a>
+    </a> -->
     <a href="https://wakatime.com/@kah3vich" target="_blank">
         <img src="https://img.shields.io/badge/-wakatime-090909?style=for-the-badge&logo=wakatime&logoColor=white" alt="">
     </a>
@@ -43,14 +43,13 @@
 <!--|||-->
 
 <br />
-
+<!-- 
 <div align="center">
     <a href="https://www.codewars.com/users/kah3vich">
         <img src="https://www.codewars.com/users/kah3vich/badges/large" alt=""/>
     </a>
 </div>
-
-<br />
+-->
 
 <div align="center">
 
