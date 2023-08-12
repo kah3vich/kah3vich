@@ -117,6 +117,9 @@ git diff - shows the difference between the state of the working copy and the la
 git status - displays the current status of files, indexing and committing.
      -s - abbreviated output.
 
+git revert - cancel commit.
+     -m [number] - children number commit.
+
 git log - display information about versions.
      -p - show changes made to each version.
      -[number] - show the number of recent commits.
@@ -143,9 +146,20 @@ git mv [path] [path] - move and rename files or folders.
 
 git help - display information about git.
 
+git rerere - reuse recorded resolution for conflicts.
+     git config --bglobal rerere.enable true - enable command rerere.
+     status - return files prev merge.
+     diff - return differences prev merge.
+
+git blame [file] - return full info by file: commit & code & time.
+     -L [range(12,22)] - return list code in file: 12 string & 22 string.
+
+git bisect - binary search.
+
 git merge [branch] - merge branch. (rebase)
      --abort - cancel merge process.
-     -Xignore-all-space  / -Xignore-space-change - ignore conflict by spaces.
+     -Xignore-all-space / -Xignore-space-change - ignore conflict by spaces.
+     -Xours / -Xtheirs - cancel conflicts & auto conflicts.
 
 git config
      --global - global config setting.
