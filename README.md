@@ -593,7 +593,9 @@
 <!--| https://cultofthepartyparrot.com tss... |-->
 
 <!--
+
 <div align="center">
 <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=🚀||Extensions||🚀" width="100%" height="33px" alt="extensions">
 </div>
+
 -->
