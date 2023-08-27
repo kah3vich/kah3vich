@@ -16,8 +16,8 @@
     <a href="https://t.me/+xXSthKatXLtiNDBi" target="_blank">
         <img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9" alt="">
     </a>
-    <a href="https://codepen.io/kah3vich" target="_blank">
-        <img src="https://img.shields.io/badge/-Codepen-090909?style=for-the-badge&logo=codepen&logoColor=fff" alt="">
+    <a href="https://leetcode.com/kah3vich" target="_blank">
+        <img src="https://img.shields.io/badge/-Leetcode-090909?style=for-the-badge&logo=leetcode&logoColor=fff" alt="">
     </a>
     <a href="https://www.codewars.com/users/kah3vich" target="_blank">
         <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red" alt="">
