@@ -293,10 +293,10 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/stylus.svg" width="48" height="48" alt="Stylus" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/mantine.svg" width="48" height="48" alt="Mantine" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Stylus" width="100%" height="23px" alt="Stylus">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Mantine" width="100%" height="23px" alt="Mantine">
     </td>
   </tr>
   <tr>
