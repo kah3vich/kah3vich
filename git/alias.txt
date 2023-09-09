@@ -9,6 +9,7 @@
 	co = checkout
 	ds = diff --staged
 	gl = config --global -l
+	ll = config --local -l
 	ma = merge --abort
 	sp = stash pop 
 	ca = commit --amend
