@@ -835,7 +835,7 @@
 
 	//* 💡 ru - Определяет, включена ли раскраска пары скобок или нет. Используйте `workbench.colorCustomizations`, чтобы переопределить цвета подсветки скобок.
 	//* 💡 en - Specifies whether brace pair coloring is enabled or not. Use `workbench.colorCustomizations` to override bracket highlight colors.
-	"editor.bracketPairColorization.enabled": false,
+	"editor.bracketPairColorization.enabled": true,
 
 	//* 💡 ru - Настраивает лигатуры шрифта или функции шрифта. Может быть либо логическим значением для включения/отключения лигатур, либо строкой для значения свойства CSS 'font-feature-settings'.
 	//* 💡 en - Customizes font ligatures or font features. Can be either a boolean to enable/disable ligatures, or a string for the value of the 'font-feature-settings' CSS property.
@@ -1175,7 +1175,7 @@
 
 	//* 💡 ru - Определяет, включено ли в редакторе связанное редактирование. В зависимости от языка связанные символы, такие как теги HTML, обновляются при редактировании.
 	//* 💡 en - Controls whether the editor has linked editing enabled. Depending on the language, related symbols such as HTML tags, are updated while editing.
-	"editor.linkedEditing": false,
+	"editor.linkedEditing": true,
 
 	//* 💡 ru - Определяет, должен ли редактор обнаруживать ссылки и делать их активными.
 	//* 💡 en - Controls whether the editor should detect links and make them clickable.
@@ -5078,8 +5078,14 @@
 
 	//* 💡 ru - Определяет, должны ли быть включены уведомления в режиме «Не беспокоить» в режиме дзен. Если true, будут появляться только уведомления об ошибках.
 	//* 💡 en - Controls whether notifications do not disturb mode should be enabled while in Zen Mode. If true, only error notifications will pop out.
-	"zenMode.silentNotifications": true
+	"zenMode.silentNotifications": true,
 
+	//! ✅ Window
+
+	//* 💡 ru - Тип высоты табов в хлебных крошках.
+	//* 💡 en - Type height in breadcrumbs.
+
+	"window.density.editorTabHeight": "compact"
 }
 
 //| 🔥 by kah3vich 🔥
