@@ -1,28 +1,3 @@
-15
-14
-13
-12
-11
-10
-9
-8
-7
-6
-5
-4
-3
-2
-1
-30
-29
-28
-27
-26
-25
-24
-23
-22
-21
 20
 19
 18
@@ -41,6 +16,20 @@
 5
 4
 3
+2
+1
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
 <!--! by kah3vich !-->
 
 <img width="100%" height="180px" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/profile/beloved.jpg" alt=""/>
@@ -155,10 +144,10 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/c++++.svg" width="48" height="48" alt="С#" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rust.svg" width="48" height="48" alt="Rust" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Сsh" width="100%" height="23px" alt="С#">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Rust" width="100%" height="23px" alt="Rust">
     </td>
     <td align="center"  width="100">
       <a href="#">
