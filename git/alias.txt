@@ -34,4 +34,5 @@
 	soft = reset --soft
 	last = log -1 HEAD --stat
 	mixed = reset --mixed
+	rename = "!rename () { git branch -m $1; git push origin -u $1; git branch -d $2; git push -d origin $2  }; rename"
 	cherry = "!cp () { git cherry-pick $1 -edit; }; cp"

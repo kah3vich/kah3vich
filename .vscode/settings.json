@@ -4657,10 +4657,6 @@
 	//* 💡 en - Specifies the file icon theme to use in the workbench, or null to not display file icons.
 	"workbench.iconTheme": "material-icon-theme",
 
-	//* 💡 ru - Управляет видимостью панели действий в рабочей среде.
-	//* 💡 en - Controls the visibility of the action bar in the workbench.
-	"workbench.activityBar.visible": true,
-
 	//* 💡 ru - Управляет тем, какой редактор отображается при запуске, если ни один из них не был восстановлен из предыдущего сеанса.
 	//* 💡 en - Controls which editor is displayed at startup if none of them have been restored from a previous session.
 	"workbench.startupEditor": "newUntitledFile",
@@ -4836,7 +4832,7 @@
 
 	//* 💡 ru - Определяет, должны ли открытые редакторы отображаться во вкладках или нет.
 	//* 💡 en - Controls whether opened editors should show in tabs or not.
-	"workbench.editor.showTabs": true,
+	"workbench.editor.showTabs": "multiple",
 
 	//* 💡 ru - Управляет макетом, когда редактор разделен в группе редакторов на вертикальный или горизонтальный.
 	//* 💡 en - Controls the layout for when an editor is split in an editor group to be either vertical or horizontal.
@@ -4857,10 +4853,6 @@
 	//* 💡 ru - Управляет высотой полос прокрутки, используемых для вкладок и навигационных цепочек в области заголовка редактора.
 	//* 💡 en - Controls the height of the scrollbars used for tabs and breadcrumbs in the editor title area.
 	"workbench.editor.titleScrollbarSizing": "default",
-
-	//* 💡 ru - Определяет, должна ли текстовая подсказка без названия отображаться в редакторе.
-	//* 💡 en - Controls if the untitled text hint should be visible in the editor.
-	"workbench.editor.untitled.hint": "text",
 
 	//* 💡 ru - Управляет форматом метки для безымянного редактора.
 	//* 💡 en - Controls the format of the label for an untitled editor.
@@ -5068,10 +5060,6 @@
 	//* 💡 en - Controls whether turning on Zen Mode also hides the status bar at the bottom of the workbench.
 	"zenMode.hideStatusBar": true,
 
-	//* 💡 ru - Определяет, будет ли включение режима Zen также скрывать вкладки верстака.
-	//* 💡 en - Controls whether turning on Zen Mode also hides workbench tabs.
-	"zenMode.hideTabs": true,
-
 	//* 💡 ru - Определяет, должно ли окно возвращаться в режим дзен, если оно было закрыто в режиме дзен.
 	//* 💡 en - Controls whether a window should restore to Zen Mode if it was exited in Zen Mode.
 	"zenMode.restore": true,
@@ -5085,7 +5073,9 @@
 	//* 💡 ru - Тип высоты табов в хлебных крошках.
 	//* 💡 en - Type height in breadcrumbs.
 
-	"window.density.editorTabHeight": "compact"
+	"window.density.editorTabHeight": "compact",
+	"zenMode.showTabs": "single",
+	"workbench.editor.empty.hint": "text"
 }
 
 //| 🔥 by kah3vich 🔥
