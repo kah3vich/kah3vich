@@ -547,26 +547,22 @@
 
 <br />
 
-<div align=center>
+<div>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kah3vich&bg_color=21232a&color=61dafb&line=61dafb&point=61dafb&area=true&hide_border=true" />
+
   <div align=center>
       <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=kah3vich&theme=react&border=61dafb&hide_border=true" alt="" />
       <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=kah3vich&show_icons=true&theme=react&border_color=61dafb&hide_border=true" alt="" />
   </div>
   <br /><br /><br /><br /><br /><br /><br /><br /><br />
   <div align=center>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" alt="" />
+    <a width="60%" href="https://github.com/anuraghazra/github-readme-stats">
+      <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kah3vich&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" alt="" />
     </a>
   </div>
-
-  <br/>
-
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=kah3vich&theme=react-dark&bg_color=20232a&hide_border=true" width="100%" alt=""/>
 </div>
 
-<hr>
-
-<br />
+<br /><br />
 
 <div align="center">
   <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=👨‍💻||Repositories||👨‍💻" width="100%" height="33px" alt="repositories">
