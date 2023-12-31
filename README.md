@@ -135,10 +135,10 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/bootstrap.svg" width="58" height="48" alt="Bootstrap" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/grafaba.svg" width="58" height="48" alt="Grafana" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=BT" width="100%" height="23px" alt="Bootstrap">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Grafana" width="100%" height="23px" alt="Grafana">
     </td>
     <td align="center"  width="100">
       <a href="#">
@@ -402,10 +402,10 @@
     </td>
     <td align="center"  width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/emotion.svg" width="48" height="48" alt="Emotion" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/loki.svg" width="48" height="48" alt="Loki" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Emotion" width="100%" height="23px" alt="Emotion">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Loki" width="100%" height="23px" alt="Loki">
     </td>
     <td align="center"  width="100">
       <a href="#">
@@ -467,10 +467,10 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/chakra.svg" width="48" height="48" alt="Chakra" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/prometheus.svg" width="48" height="48" alt="Prometheus" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Chakra" width="100%" height="23px" alt="Chakra">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Prometheus" width="100%" height="23px" alt="Prometheus">
     </td>
   </tr>
   <tr>
@@ -531,6 +531,43 @@
       <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=TypeORM" width="100%" height="23px" alt="TypeORM">
     </td>
   </tr>
+  <!-- <tr>
+    <td align="center" width="100">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/turbo.svg" width="48" height="48" alt="Turbo" />
+      </a>
+      <br />
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Turbo" width="100%" height="23px" alt="Turbo">
+    </td>
+    <td align="center" width="100">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/kafka.svg" width="48" height="48" alt="Kafka" />
+      </a>
+      <br />
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Kafka" width="100%" height="23px" alt="Kafka">
+    </td>
+    <td align="center" width="100">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rocket.svg" width="48" height="48" alt="Rocket" />
+      </a>
+      <br />
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Rocket" width="100%" height="23px" alt="Rocket">
+    </td>
+    <td align="center" width="100">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rabbitmq.svg" width="48" height="48" alt="RabbitMQ" />
+      </a>
+      <br />
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=RabbitMQ" width="100%" height="23px" alt="RabbitMQ">
+    </td>
+    <td align="center" width="100">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/elasticsearch.svg" width="48" height="48" alt="ElasticSearch" />
+      </a>
+      <br />
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=ElasticSearch" width="100%" height="23px" alt="ElasticSearch">
+    </td>
+  </tr> -->
 </table>
 
 <br />
