@@ -135,7 +135,7 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/grafaba.svg" width="58" height="48" alt="Grafana" />
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/grafana.svg" width="58" height="48" alt="Grafana" />
       </a>
       <br />
       <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Grafana" width="100%" height="23px" alt="Grafana">
@@ -548,13 +548,6 @@
     </td>
     <td align="center" width="100">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rocket.svg" width="48" height="48" alt="Rocket" />
-      </a>
-      <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=Rocket" width="100%" height="23px" alt="Rocket">
-    </td>
-    <td align="center" width="100">
-      <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/rabbitmq.svg" width="48" height="48" alt="RabbitMQ" />
       </a>
       <br />
@@ -565,7 +558,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/elasticsearch.svg" width="48" height="48" alt="ElasticSearch" />
       </a>
       <br />
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=ElasticSearch" width="100%" height="23px" alt="ElasticSearch">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=E.Search" width="100%" height="23px" alt="ElasticSearch">
     </td>
   </tr> -->
 </table>
