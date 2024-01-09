@@ -1,6 +1,6 @@
 <!--! by kah3vich !-->
 
-<img width="100%" height="200px" style="object-fit" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/profile/banner.png" alt=""/>
+<img width="100%" height="200px" style="object-fit: contain" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/profile/banner.png" alt=""/>
 
 <!--|||-->
 
