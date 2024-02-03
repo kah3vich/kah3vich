@@ -85,15 +85,15 @@ cd ~/.bashrc
 
 ### List plugins: [Here](./extensions.txt)
 
-> 💡 — Get all your plugins from `VSCode`.
+### Get all your plugins from `VSCode`.
 
-#### Mac OS / Linux
+> 💡 — Mac OS / Linux
 
 ```bash
 code --list-extensions | while read line; do echo "code --install-extension $line"; done
 ```
 
-#### Windows
+> 💡 — Windows
 
 ```bash
 code --list-extensions | % { "code --install-extension $_" }
