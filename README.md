@@ -1,50 +1,100 @@
-# Config VSCode - Kah3vich
+<div align="center">
+    <img width="40%" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/vscode.svg" />
+    <br />
+    <br />
+    <h1>Config VSCode</h1>
+    <p>
+        Configuration files and parameters for simplifying and adaptive work in the code editor. Also for various systems associated with the terminal and aliases, which shorten and simplify work with systems.
+    </p>
+</div>
 
-// mac-os | linux
+<h3 align="center">Set config</h3>
+
+### Mac OS / Linux:
+
+> 💡 — place it in the settings folder.
 
 ```bash
-cd ~/Library/Application\ Support/Code/User;
+cd ~/.../Code/User
+```
 
-rm -rf backup-config/; mkdir backup-config; mv settings.json keybindings.json snippets/ backup-config/;
+> 💡 — saving old settings to `backup-config`.
 
+```bash
+rm -rf backup-config/; mkdir backup-config; mv settings.json keybindings.json snippets/ backup-config/
+```
+
+> 💡 — installing a repository with settings and rolling them out (deleting the old repository `kah3vich/`)
+
+```bash
 rm -rf kah3vich/; git clone -b config https://github.com/kah3vich/kah3vich.git; cd kah3vich/.vscode; mv settings.json keybindings.json snippets/ ../../; cd ../../; rm -rf kah3vich/
 ```
 
-// back paht - /Code/User
+> 💡 — restoring old settings from `backup-config`.
 
 ```bash 
-cd ~/Library/Application\ Support/Code/User; rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; cd ../; rm -rf backup-config/
+cd ~/.../Code/User; rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; cd ../; rm -rf backup-config/
 ```
 
 
-// win 
+### Windows:
+
+> 💡 — place it in the settings folder.
 
 ```bash
-cd ~/AppData/Roaming/Code/User; 
+cd ~/.../Code/User
+```
 
-rm -rf backup-config/; mkdir backup-config; mv settings.json keybindings.json snippets/ backup-config/;
+> 💡 — saving old settings to `backup-config`.
 
+```bash
+rm -rf backup-config/; mkdir backup-config; mv settings.json keybindings.json snippets/ backup-config/
+```
+
+> 💡 — installing a repository with settings and rolling them out (deleting the old repository `kah3vich/`)
+
+```bash
 rm -rf kah3vich/; git clone -b config https://github.com/kah3vich/kah3vich.git; cd kah3vich/.vscode; mv settings.json keybindings.json snippets/ ../../; cd ../../; rm -rf kah3vich/
 ```
 
-
-// back paht - /Code/User
+> 💡 — restoring old settings from `backup-config`.
 
 ```bash 
-cd ~/AppData/Roaming/Code/User; rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; cd ../; rm -rf backup-config/
+cd ~/.../Code/User; rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; cd ../; rm -rf backup-config/
 ```
 
-// ready snippets 
+<h3 align="center">Alias</h3>
+
+### [Git](./git/alias.txt)
+
+> 💡 — switching to the config file to set aliases `git`.
 
 ```bash
-rm -rf .vscode/snippets/*.*; cd snippetsCatalog/; cp html/*.* ../.vscode/snippets/; cp javascript/*.* ../.vscode/snippets/; cp jquery/*.* ../.vscode/snippets/; cp pug/*.* ../.vscode/snippets/; cp react/*.* ../.vscode/snippets/; cp scss/*.* ../.vscode/snippets/; cp style/*.* ../.vscode/snippets/; cp typescript/*.* ../.vscode/snippets/; cd ../; echo 'Done ✅'
+cd ~/.gitconfig
 ```
 
-Windows %USERPROFILE%\.vscode\extensions
-Mac $HOME/.vscode/extensions
-Linux $HOME/.vscode/extensions
+### [Linux](./linux/alias.txt) 
 
-rm -rf .vscode/snippets/*; cp snippetsCatalog/**/*.code-snippets .vscode/snippets/
+> 💡 — switching to the config file to set aliases `linux`.
 
+```bash
+cd ~/.bashrc
+```
 
-cd ~/Library/Application\ Support/Code/User; | cd ~/AppData/Roaming/Code/User; -> rm -rf snippets/*.code-snippets
+<h3 align="center">Plugins (VSCode)</h3>
+
+### List plugins: [Here](./extensions.txt)
+
+> 💡 — Get all your plugins from `VSCode`.
+
+#### Mac OS / Linux
+
+```bash
+code --list-extensions | while read line; do echo "code --install-extension $line"; done
+```
+
+#### Windows
+
+```bash
+code --list-extensions | % { "code --install-extension $_" }
+```

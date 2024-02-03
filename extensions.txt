@@ -72,11 +72,3 @@ code --install-extension vunguyentuan.vscode-postcss
 code --install-extension waderyan.gitblame
 code --install-extension WakaTime.vscode-wakatime
 code --install-extension willstakayama.vscode-nextjs-snippets
-
-//| win 
-
-code --list-extensions | % { "code --install-extension $_" }
-
-//| linux 
-
-code --list-extensions | while read line; do echo "code --install-extension $line"; done
