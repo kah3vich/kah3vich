@@ -556,6 +556,13 @@
       <br />
       <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=E.Search" width="100%" height="23px" alt="ElasticSearch">
     </td>
+    <td align="center" width="100">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/htmx.svg" width="48" height="48" alt="HTMX" />
+      </a>
+      <br />
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=12&weight=600&content=HTMX" width="100%" height="23px" alt="HTMX">
+    </td>
   </tr> -->
 </table>
 
