@@ -25,6 +25,9 @@
         <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="" />
         <img src="https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?label=blue&logo=github&style=for-the-badge" alt="">
         <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="" />
+        <a href="https://leetcode.com/kah3vich/">
+          <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=blue&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fkah3vich&logo=leetcode&logoColor=yellow" alt="LeetCode"/>
+      </a>
     </div>
 </div>
 
@@ -40,7 +43,7 @@
 
 <div align="center">
     <a href="https://www.codewars.com/users/kah3vich">
-        <img src="https://www.codewars.com/users/kah3vich/badges/large" alt=""/>
+        <img src="https://www.codewars.com/users/kah3vich/badges/large" alt="CodeWars"/>
     </a>
 </div>
 
