@@ -563,7 +563,7 @@
   </tr> -->
 </table>
 
-<!-- pixi plot d3.js echart -->
+<!-- pixi plot d3.js echarts (apache) -->
 
 <br />
 
