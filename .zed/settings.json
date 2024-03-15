@@ -1,0 +1,41 @@
+// 🔥 Config Kah3vich for Zed: https://github.com/kah3vich
+// 📚 Documentation Zed settings: https://zed.dev/docs/configuring-zed
+// 📍 Path config: ~/.config/zed/settings.json
+{
+  // 🇷🇺 - Текст.
+  // 🇺🇸 - Text.
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "notification_panel": {
+    "dock": "left"
+  },
+  "chat_panel": {
+    "dock": "left"
+  },
+  "terminal": {
+    "dock": "left",
+    "shell": {
+      "program": "/bin/zsh"
+    }
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "ui_font_family": "Zed Mono",
+  "languages": {
+    "JavaScript": {
+      "tab_size": 4,
+      "formatter": "prettier"
+    },
+    "TypeScript": {
+      "formatter": "prettier"
+    }
+  },
+  "theme": "Atelier Sulphurpool Dark",
+  "vim_mode": false,
+  "autosave": "on_focus_change",
+  "ui_font_size": 16,
+  "buffer_font_size": 16
+}

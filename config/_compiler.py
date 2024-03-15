@@ -1,7 +1,6 @@
 import os
 import re
 
-
 def get_files_in_current_folder():
     current_directory = os.getcwd()
     file_list = os.listdir(current_directory)
