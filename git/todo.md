@@ -17,3 +17,7 @@ git config --global user.email ...
 git config --global user.name ...
 git stash drop stash@{n}
 git stash apply stash@{n}
+
+git checkout {name branch}; git pull; git checkout -; git pull; git merge {name branch};
+
+git merge --abort
