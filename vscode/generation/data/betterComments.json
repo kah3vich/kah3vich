@@ -1,86 +1,86 @@
 {
-	//! ✅ Better
+  // 🟢 Better
 
-	//* 💡 ru - Таги для комментариев.
-	//* 💡 en - Tags for comments.
-	"better-comments.tags": [
-		{
-			//* 💡 ru - Тег для вкл расширения.
-			//* 💡 en - Tag to enable the extension.
-			"tag": "!",
+  // 🇷🇺 - Таги для комментариев.
+  // 🇺🇸 - Tags for comments.
+  "better-comments.tags": [
+    {
+      // 🇷🇺 - Тег для вкл расширения.
+      // 🇺🇸 - Tag to enable the extension.
+      "tag": "!",
 
-			//* 💡 ru - Цвет строки.
-			//* 💡 en - Line color.
-			"color": "#FF2D00",
+      // 🇷🇺 - Цвет строки.
+      // 🇺🇸 - Line color.
+      "color": "#FF2D00",
 
-			//* 💡 ru - Зачеркнутый текст.
-			//* 💡 en - Strikethrough text.
-			"strikethrough": false,
+      // 🇷🇺 - Зачеркнутый текст.
+      // 🇺🇸 - Strikethrough text.
+      "strikethrough": false,
 
-			//* 💡 ru - Нижние подчеркивание.
-			//* 💡 en - Underscores.
-			"underline": false,
+      // 🇷🇺 - Нижние подчеркивание.
+      // 🇺🇸 - Underscores.
+      "underline": false,
 
-			//* 💡 ru - Задний цвет.
-			//* 💡 en - Back color.
-			"backgroundColor": "transparent",
+      // 🇷🇺 - Задний цвет.
+      // 🇺🇸 - Back color.
+      "backgroundColor": "transparent",
 
-			//* 💡 ru - Жирное начертание.
-			//* 💡 en - Bold font.
-			"bold": false,
+      // 🇷🇺 - Жирное начертание.
+      // 🇺🇸 - Bold font.
+      "bold": false,
 
-			//* 💡 ru - Стиль шрифта.
-			//* 💡 en - Font style.
-			"italic": false
-		},
-		{
-			"tag": "|",
-			"color": "#0FFD00",
-			"strikethrough": false,
-			"underline": false,
-			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
-		},
-		{
-			"tag": "?",
-			"color": "#3498DB",
-			"strikethrough": false,
-			"underline": false,
-			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
-		},
-		{
-			"tag": "//",
-			"color": "#474747",
-			"strikethrough": true,
-			"underline": false,
-			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
-		},
-		{
-			"tag": "todo",
-			"color": "#FF8C00",
-			"strikethrough": false,
-			"underline": false,
-			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
-		},
-		{
-			"tag": "*",
-			"color": "#98C379",
-			"strikethrough": false,
-			"underline": false,
-			"backgroundColor": "transparent",
-			"bold": false,
-			"italic": false
-		}
-	],
+      // 🇷🇺 - Стиль шрифта.
+      // 🇺🇸 - Font style.
+      "italic": false
+    },
+    {
+      "tag": "|",
+      "color": "#0FFD00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
 
-	//* 💡 ru - Этот параметр определяет, оформляются ли комментарии в текстовом файле с использованием тегов аннотаций. При значении true теги (по умолчанию: ! * ? //) будут обнаружены, если они являются первым символом в строке.
-	//* 💡 en - This setting determines whether comments in a text file are formatted using annotation tags. If set to true, tags (default: ! * ? //) will be detected if they are the first character in the string.
-	"better-comments.highlightPlainText": true
+  // 🇷🇺 - Этот параметр определяет, оформляются ли комментарии в текстовом файле с использованием тегов аннотаций. При значении true теги (по умолчанию: ! * ? //) будут обнаружены, если они являются первым символом в строке.
+  // 🇺🇸 - This setting determines whether comments in a text file are formatted using annotation tags. If set to true, tags (default: ! * ? //) will be detected if they are the first character in the string.
+  "better-comments.highlightPlainText": true
 }

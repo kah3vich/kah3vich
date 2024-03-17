@@ -7,3 +7,11 @@
 </div>
 
 ...
+
+<div align="center">
+    <br />
+    <h3>🌏 Links 🌏</h3>
+</div>
+
+1. [Font Zed -> assets/fonts](https://github.com/zed-industries/zed)
+2. [Font Iosevka -> releases](https://github.com/be5invis/Iosevka)

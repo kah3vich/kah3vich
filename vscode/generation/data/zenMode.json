@@ -1,35 +1,35 @@
 {
-	//! ✅ Zen Mode
+  // 🟢 Zen Mode
 
-	//* 💡 ru - Определяет, будет ли включение режима Zen также центрировать макет.
-	//* 💡 en - Controls whether turning on Zen Mode also centers the layout.
-	"zenMode.centerLayout": true,
+  // 🇷🇺 - Определяет, будет ли включение режима Zen также центрировать макет.
+  // 🇺🇸 - Controls whether turning on Zen Mode also centers the layout.
+  "zenMode.centerLayout": true,
 
-	//* 💡 ru - Определяет, будет ли включение режима Zen также переводить рабочее место в полноэкранный режим.
-	//* 💡 en - Controls whether turning on Zen Mode also puts the workbench into full screen mode.
-	"zenMode.fullScreen": true,
+  // 🇷🇺 - Определяет, будет ли включение режима Zen также переводить рабочее место в полноэкранный режим.
+  // 🇺🇸 - Controls whether turning on Zen Mode also puts the workbench into full screen mode.
+  "zenMode.fullScreen": true,
 
-	//* 💡 ru - Определяет, будет ли включение режима Zen также скрывать панель активности слева или справа от верстака.
-	//* 💡 en - Controls whether turning on Zen Mode also hides the activity bar either at the left or right of the workbench.
-	"zenMode.hideActivityBar": true,
+  // 🇷🇺 - Определяет, будет ли включение режима Zen также скрывать панель активности слева или справа от верстака.
+  // 🇺🇸 - Controls whether turning on Zen Mode also hides the activity bar either at the left or right of the workbench.
+  "zenMode.hideActivityBar": true,
 
-	//* 💡 ru - Определяет, будет ли включение режима Zen также скрывать номера строк редактора.
-	//* 💡 en - Controls whether turning on Zen Mode also hides the editor line numbers.
-	"zenMode.hideLineNumbers": true,
+  // 🇷🇺 - Определяет, будет ли включение режима Zen также скрывать номера строк редактора.
+  // 🇺🇸 - Controls whether turning on Zen Mode also hides the editor line numbers.
+  "zenMode.hideLineNumbers": true,
 
-	//* 💡 ru - Определяет, будет ли включение режима Zen также скрывать строку состояния в нижней части рабочего места.
-	//* 💡 en - Controls whether turning on Zen Mode also hides the status bar at the bottom of the workbench.
-	"zenMode.hideStatusBar": true,
+  // 🇷🇺 - Определяет, будет ли включение режима Zen также скрывать строку состояния в нижней части рабочего места.
+  // 🇺🇸 - Controls whether turning on Zen Mode also hides the status bar at the bottom of the workbench.
+  "zenMode.hideStatusBar": true,
 
-	//* 💡 ru - Определяет, будет ли включение режима Zen также скрывать вкладки верстака.
-	//* 💡 en - Controls whether turning on Zen Mode also hides workbench tabs.
-	"zenMode.hideTabs": true,
+  // 🇷🇺 - Определяет, будет ли включение режима Zen также скрывать вкладки верстака.
+  // 🇺🇸 - Controls whether turning on Zen Mode also hides workbench tabs.
+  "zenMode.hideTabs": true,
 
-	//* 💡 ru - Определяет, должно ли окно возвращаться в режим дзен, если оно было закрыто в режиме дзен.
-	//* 💡 en - Controls whether a window should restore to Zen Mode if it was exited in Zen Mode.
-	"zenMode.restore": true,
+  // 🇷🇺 - Определяет, должно ли окно возвращаться в режим дзен, если оно было закрыто в режиме дзен.
+  // 🇺🇸 - Controls whether a window should restore to Zen Mode if it was exited in Zen Mode.
+  "zenMode.restore": true,
 
-	//* 💡 ru - Определяет, должны ли быть включены уведомления в режиме «Не беспокоить» в режиме дзен. Если true, будут появляться только уведомления об ошибках.
-	//* 💡 en - Controls whether notifications do not disturb mode should be enabled while in Zen Mode. If true, only error notifications will pop out.
-	"zenMode.silentNotifications": true
+  // 🇷🇺 - Определяет, должны ли быть включены уведомления в режиме «Не беспокоить» в режиме дзен. Если true, будут появляться только уведомления об ошибках.
+  // 🇺🇸 - Controls whether notifications do not disturb mode should be enabled while in Zen Mode. If true, only error notifications will pop out.
+  "zenMode.silentNotifications": true
 }

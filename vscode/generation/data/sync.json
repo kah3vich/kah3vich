@@ -1,7 +1,7 @@
 {
-	//! ✅ Sync
+  // 🟢 Sync
 
-	//* 💡 ru - ID ключ sync
-	//* 💡 en - ID key sync
-	"sync.gist": ""
+  // 🇷🇺 - ID ключ sync
+  // 🇺🇸 - ID key sync
+  "sync.gist": ""
 }

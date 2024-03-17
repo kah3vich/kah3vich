@@ -1,7 +1,7 @@
 {
-	//! ✅ VS Intelli Code
+  // 🟢 VS Intelli Code
 
-	//* 💡 ru - Управляет предварительным выбором предложений при отображении списка предложений.
-	//* 💡 en - Controls the pre-selection of offers when displaying a list of offers.
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  // 🇷🇺 - Управляет предварительным выбором предложений при отображении списка предложений.
+  // 🇺🇸 - Controls the pre-selection of offers when displaying a list of offers.
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

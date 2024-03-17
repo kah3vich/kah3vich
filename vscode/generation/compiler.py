@@ -2,24 +2,20 @@ import os
 import re
 
 def get_files_in_current_folder():
-    current_directory = os.getcwd()
+    current_directory = "{}/data".format(os.getcwd())
+
     file_list = os.listdir(current_directory)
 
     return file_list
 
-def remove_elements_by_name(array, names):
-    for name in names:
-        index = None
+def get_info():
+    result = ''
 
-        for i, element in enumerate(array):
-            if element == name:
-                index = i
-                break
+    with open('./info.txt', 'r', encoding='utf-8') as file:
+        result = file.read()
+        file.close()
 
-        if index is not None:
-            array.pop(index)
-
-    return array
+    return result
 
 def remove_first_last_lines(text):
     lines = text.split('\n')
@@ -29,25 +25,30 @@ def remove_first_last_lines(text):
     return result
 
 def compiler_finally_config():
-    text = '{\n\t//| 🔥 Config Kah3vich - https://github.com/kah3vich \n\n\t//? 🧨 Info - https://code.visualstudio.com/docs/editor/codebasics \n\t//? 🤔 Config - https://code.visualstudio.com/docs/getstarted/settings \n'
+    text = '{}\n\n'.format(get_info())
+    print(text)
+    text += '{\n'
 
-    file_list = remove_elements_by_name(get_files_in_current_folder(), ['_info.txt', '_.json', '_compiler.py', '_backup.json'])
+    file_list = get_files_in_current_folder()
 
     for file in file_list:
-        with open(file, 'r', encoding="utf8") as input_file:
+        with open(f'./data/{file}', 'r', encoding="utf8") as input_file:
             if (file_list[-1] == file):
-                text += f'\n{remove_first_last_lines(input_file.read())}\n'
+                text += '\n{}\n'.format(remove_first_last_lines(input_file.read()))
             else:
-                file_text = f'\n{remove_first_last_lines(input_file.read())}\n'
+                file_text = '\n{}\n'.format(remove_first_last_lines(input_file.read()))
                 pattern = r"(.*)(\n[^\n]*)$"
                 replacement = r"\1,\2"
 
                 text += re.sub(pattern, replacement, file_text)
 
-    text += '\n}\n\n//| 🔥 by kah3vich 🔥\n'
+            input_file.close()
 
-    with open('./_.json', 'w', encoding="utf-8") as output_file:
+    text += '\n}\n'
+
+    with open('./result.json', 'w', encoding="utf8") as output_file:
         output_file.write(text)
+        output_file.close()
 
 if __name__ == "__main__":
     compiler_finally_config()

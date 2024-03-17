@@ -1,102 +1,102 @@
 {
-    //! ✅ Files
+  // 🟢 Files
 
-    //* 💡 ru - Настройте ассоциации файлов с языками (например, `"*.extension": "html"`). Они имеют приоритет над ассоциациями установленных языков по умолчанию.
-    //* 💡 en - Configure file associations to languages (for example `"*.extension": "html"`). These have precedence over the default associations of the languages installed.
-    "files.associations": {
-		"*.scss": "postcss",
-		"*.json": "jsonc"
-    },
+  // 🇷🇺 - Настройте ассоциации файлов с языками (например, `"*.extension": "html"`). Они имеют приоритет над ассоциациями установленных языков по умолчанию.
+  // 🇺🇸 - Configure file associations to languages (for example `"*.extension": "html"`). These have precedence over the default associations of the languages installed.
+  "files.associations": {
+    "*.scss": "postcss",
+    "*.json": "jsonc"
+  },
 
-    //* 💡 ru - Если этот параметр включен, редактор попытается угадать кодировку набора символов при открытии файлов. Этот параметр также можно настроить для каждого языка. Обратите внимание, что этот параметр не учитывается при текстовом поиске. Учитывается только `files.encoding`.
-    //* 💡 en - When enabled, the editor will attempt to guess the character set encoding when opening files. This setting can also be configured per language. Note, this setting is not respected by text search. Only `files.encoding` is respected.
-    "files.autoGuessEncoding": false,
+  // 🇷🇺 - Если этот параметр включен, редактор попытается угадать кодировку набора символов при открытии файлов. Этот параметр также можно настроить для каждого языка. Обратите внимание, что этот параметр не учитывается при текстовом поиске. Учитывается только `files.encoding`.
+  // 🇺🇸 - When enabled, the editor will attempt to guess the character set encoding when opening files. This setting can also be configured per language. Note, this setting is not respected by text search. Only `files.encoding` is respected.
+  "files.autoGuessEncoding": false,
 
-    //* 💡 ru - Управляет автоматическим сохранением редакторов с несохраненными изменениями.
-    //* 💡 en - Controls auto save of editors that have unsaved changes.
-    "files.autoSave": "off",
+  // 🇷🇺 - Управляет автоматическим сохранением редакторов с несохраненными изменениями.
+  // 🇺🇸 - Controls auto save of editors that have unsaved changes.
+  "files.autoSave": "off",
 
-    //* 💡 ru - Управляет задержкой в миллисекундах, после которой редактор с несохраненными изменениями автоматически сохраняется. Применяется только тогда, когда для `files.autoSave` установлено значение `afterDelay`.
-    //* 💡 en - Controls the delay in milliseconds after which an editor with unsaved changes is saved automatically. Only applies when `files.autoSave` is set to `afterDelay`.
-    "files.autoSaveDelay": 1000,
+  // 🇷🇺 - Управляет задержкой в миллисекундах, после которой редактор с несохраненными изменениями автоматически сохраняется. Применяется только тогда, когда для `files.autoSave` установлено значение `afterDelay`.
+  // 🇺🇸 - Controls the delay in milliseconds after which an editor with unsaved changes is saved automatically. Only applies when `files.autoSave` is set to `afterDelay`.
+  "files.autoSaveDelay": 1000,
 
-    //* 💡 ru - Идентификатор языка по умолчанию, который назначается новым файлам. Если настроено на `${activeEditorLanguage}`, будет использоваться идентификатор языка текущего активного текстового редактора, если таковой имеется.
-    //* 💡 en - The default language identifier that is assigned to new files. If configured to `${activeEditorLanguage}`, will use the language identifier of the currently active text editor if any.
-    "files.defaultLanguage": "",
+  // 🇷🇺 - Идентификатор языка по умолчанию, который назначается новым файлам. Если настроено на `${activeEditorLanguage}`, будет использоваться идентификатор языка текущего активного текстового редактора, если таковой имеется.
+  // 🇺🇸 - The default language identifier that is assigned to new files. If configured to `${activeEditorLanguage}`, will use the language identifier of the currently active text editor if any.
+  "files.defaultLanguage": "",
 
-    //* 💡 ru - При удалении перемещает файлы/папки в корзину ОС (корзину в Windows). Отключение этого параметра приведет к безвозвратному удалению файлов/папок.
-    //* 💡 en - Moves files/folders to the OS trash (recycle bin on Windows) when deleting. Disabling this will delete files/folders permanently.
-    "files.enableTrash": true,
+  // 🇷🇺 - При удалении перемещает файлы/папки в корзину ОС (корзину в Windows). Отключение этого параметра приведет к безвозвратному удалению файлов/папок.
+  // 🇺🇸 - Moves files/folders to the OS trash (recycle bin on Windows) when deleting. Disabling this will delete files/folders permanently.
+  "files.enableTrash": true,
 
-    //* 💡 ru - Кодировка набора символов по умолчанию для использования при чтении и записи файлов. Этот параметр также можно настроить для каждого языка.
-    //* 💡 en - The default character set encoding to use when reading and writing files. This setting can also be configured per language.
-    "files.encoding": "utf8",
+  // 🇷🇺 - Кодировка набора символов по умолчанию для использования при чтении и записи файлов. Этот параметр также можно настроить для каждого языка.
+  // 🇺🇸 - The default character set encoding to use when reading and writing files. This setting can also be configured per language.
+  "files.encoding": "utf8",
 
-    //* 💡 ru - Символ конца строки по умолчанию.
-    //* 💡 en - The default end of line character.
-    "files.eol": "auto",
+  // 🇷🇺 - Символ конца строки по умолчанию.
+  // 🇺🇸 - The default end of line character.
+  "files.eol": "auto",
 
-    //* 💡 ru - Настройте шаблоны глобусов для исключения файлов и папок. Например, File Explorer решает, какие файлы и папки показывать или скрывать, на основе этого параметра. Обратитесь к настройке `search.exclude`, чтобы определить исключения для поиска.
-    //* 💡 en - Configure glob patterns for excluding files and folders. For example, the File Explorer decides which files and folders to show or hide based on this setting. Refer to the `search.exclude` setting to define search-specific excludes.
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/Thumbs.db": true
-    },
+  // 🇷🇺 - Настройте шаблоны глобусов для исключения файлов и папок. Например, File Explorer решает, какие файлы и папки показывать или скрывать, на основе этого параметра. Обратитесь к настройке `search.exclude`, чтобы определить исключения для поиска.
+  // 🇺🇸 - Configure glob patterns for excluding files and folders. For example, the File Explorer decides which files and folders to show or hide based on this setting. Refer to the `search.exclude` setting to define search-specific excludes.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
 
-    //* 💡 ru - Определяет, запоминаются ли несохраненные файлы между сеансами, позволяя пропустить запрос на сохранение при выходе из редактора.
-    //* 💡 en - Controls whether unsaved files are remembered between sessions, allowing the save prompt when exiting the editor to be skipped.
-    "files.hotExit": "onExit",
+  // 🇷🇺 - Определяет, запоминаются ли несохраненные файлы между сеансами, позволяя пропустить запрос на сохранение при выходе из редактора.
+  // 🇺🇸 - Controls whether unsaved files are remembered between sessions, allowing the save prompt when exiting the editor to be skipped.
+  "files.hotExit": "onExit",
 
-    //* 💡 ru - Если этот параметр включен, вставляйте последнюю новую строку в конец файла при его сохранении.
-    //* 💡 en - When enabled, insert a final new line at the end of the file when saving it.
-    "files.insertFinalNewline": false,
+  // 🇷🇺 - Если этот параметр включен, вставляйте последнюю новую строку в конец файла при его сохранении.
+  // 🇺🇸 - When enabled, insert a final new line at the end of the file when saving it.
+  "files.insertFinalNewline": false,
 
-    //* 💡 ru - Управляет памятью, доступной для VS Code после перезапуска при попытке открыть большие файлы. Тот же эффект, что и при указании `--max-memory=NEWSIZE` в командной строке.
-    //* 💡 en - Controls the memory available to VS Code after restart when trying to open large files. Same effect as specifying `--max-memory=NEWSIZE` on the command line.
-    "files.maxMemoryForLargeFilesMB": 4096,
+  // 🇷🇺 - Управляет памятью, доступной для VS Code после перезапуска при попытке открыть большие файлы. Тот же эффект, что и при указании `--max-memory=NEWSIZE` в командной строке.
+  // 🇺🇸 - Controls the memory available to VS Code after restart when trying to open large files. Same effect as specifying `--max-memory=NEWSIZE` on the command line.
+  "files.maxMemoryForLargeFilesMB": 4096,
 
-    //* 💡 ru - Тайм-аут в миллисекундах, по истечении которого участники файла для создания, переименования и удаления отменяются. Используйте `0`, чтобы отключить участников.
-    //* 💡 en - Timeout in milliseconds after which file participants for create, rename, and delete are cancelled. Use `0` to disable participants.
-    "files.participants.timeout": 60000,
+  // 🇷🇺 - Тайм-аут в миллисекундах, по истечении которого участники файла для создания, переименования и удаления отменяются. Используйте `0`, чтобы отключить участников.
+  // 🇺🇸 - Timeout in milliseconds after which file participants for create, rename, and delete are cancelled. Use `0` to disable participants.
+  "files.participants.timeout": 60000,
 
-    //* 💡 ru - Управляет автоматическим сохранением файлов, которые были частью рефакторинг.
-    //* 💡 en - Controls if files that were part of a refactoring are saved automatically.
-    "files.refactoring.autoSave": true,
+  // 🇷🇺 - Управляет автоматическим сохранением файлов, которые были частью рефакторинг.
+  // 🇺🇸 - Controls if files that were part of a refactoring are saved automatically.
+  "files.refactoring.autoSave": true,
 
-    //* 💡 ru - Восстановление стека отмены при повторном открытии файла.
-    //* 💡 en - Restore the undo stack when a file is reopened.
-    "files.restoreUndoStack": true,
+  // 🇷🇺 - Восстановление стека отмены при повторном открытии файла.
+  // 🇺🇸 - Restore the undo stack when a file is reopened.
+  "files.restoreUndoStack": true,
 
-    //* 💡 ru - Конфликт сохранения может возникнуть, когда файл сохраняется на диск, который тем временем был изменен другой программой. Во избежание потери данных пользователю предлагается сравнить изменения в редакторе с версией на диске. Этот параметр следует изменять только в том случае, если вы часто сталкиваетесь с ошибками сохранения конфликта и может привести к потере данных, если использовать его без осторожности.
-    //* 💡 en - A save conflict can occur when a file is saved to disk that was changed by another program in the meantime. To prevent data loss, the user is asked to compare the changes in the editor with the version on disk. This setting should only be changed if you frequently encounter save conflict errors and may result in data loss if used without caution.
-    "files.saveConflictResolution": "askUser",
+  // 🇷🇺 - Конфликт сохранения может возникнуть, когда файл сохраняется на диск, который тем временем был изменен другой программой. Во избежание потери данных пользователю предлагается сравнить изменения в редакторе с версией на диске. Этот параметр следует изменять только в том случае, если вы часто сталкиваетесь с ошибками сохранения конфликта и может привести к потере данных, если использовать его без осторожности.
+  // 🇺🇸 - A save conflict can occur when a file is saved to disk that was changed by another program in the meantime. To prevent data loss, the user is asked to compare the changes in the editor with the version on disk. This setting should only be changed if you frequently encounter save conflict errors and may result in data loss if used without caution.
+  "files.saveConflictResolution": "askUser",
 
-    //* 💡 ru - Включает простой файловый диалог. Простое диалоговое окно файла заменяет диалоговое окно системного файла, когда оно включено.
-    //* 💡 en - Enables the simple file dialog. The simple file dialog replaces the system file dialog when enabled.
-    "files.simpleDialog.enable": false,
+  // 🇷🇺 - Включает простой файловый диалог. Простое диалоговое окно файла заменяет диалоговое окно системного файла, когда оно включено.
+  // 🇺🇸 - Enables the simple file dialog. The simple file dialog replaces the system file dialog when enabled.
+  "files.simpleDialog.enable": false,
 
-    //* 💡 ru - Если этот параметр включен, все новые строки будут обрезаться после последней новой строки в конце файла при его сохранении.
-    //* 💡 en - When enabled, will trim all new lines after the final new line at the end of the file when saving it.
-    "files.trimFinalNewlines": false,
+  // 🇷🇺 - Если этот параметр включен, все новые строки будут обрезаться после последней новой строки в конце файла при его сохранении.
+  // 🇺🇸 - When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+  "files.trimFinalNewlines": false,
 
-    //* 💡 ru - Если этот параметр включен, при сохранении файла будут обрезаны конечные пробелы.
-    //* 💡 en - When enabled, will trim trailing whitespace when saving a file.
-    "files.trimTrailingWhitespace": false,
+  // 🇷🇺 - Если этот параметр включен, при сохранении файла будут обрезаны конечные пробелы.
+  // 🇺🇸 - When enabled, will trim trailing whitespace when saving a file.
+  "files.trimTrailingWhitespace": false,
 
-    //* 💡 ru - Настройте пути или шаблоны глобусов, чтобы исключить их из просмотра файлов.
-    //* 💡 en - Configure paths or glob patterns to exclude from file watching.
-    "files.watcherExclude": {
-      "**/.git/objects/**": true,
-      "**/.git/subtree-cache/**": true,
-      "**/node_modules/*/**": true,
-      "**/.hg/store/**": true
-    },
+  // 🇷🇺 - Настройте пути или шаблоны глобусов, чтобы исключить их из просмотра файлов.
+  // 🇺🇸 - Configure paths or glob patterns to exclude from file watching.
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true
+  },
 
-    //* 💡 ru - Настройте дополнительные пути для отслеживания изменений внутри рабочей области.
-    //* 💡 en - Configure extra paths to watch for changes inside the workspace.
-    "files.watcherInclude": []
+  // 🇷🇺 - Настройте дополнительные пути для отслеживания изменений внутри рабочей области.
+  // 🇺🇸 - Configure extra paths to watch for changes inside the workspace.
+  "files.watcherInclude": []
 }

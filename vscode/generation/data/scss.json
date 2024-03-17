@@ -1,131 +1,131 @@
 {
-	//! ✅ SCSS (Sass)
+  // 🟢 SCSS (SASS)
 
-	//* 💡 ru - Вставьте точку с запятой в конце строки при заполнении свойств CSS.
-	//* 💡 en - Insert semicolon at end of line when completing CSS properties.
-	"scss.completion.completePropertyWithSemicolon": true,
+  // 🇷🇺 - Вставьте точку с запятой в конце строки при заполнении свойств CSS.
+  // 🇺🇸 - Insert semicolon at end of line when completing CSS properties.
+  "scss.completion.completePropertyWithSemicolon": true,
 
-	//* 💡 ru - По умолчанию VS Code инициирует завершение значения свойства после выбора свойства CSS. Используйте этот параметр, чтобы отключить это поведение.
-	//* 💡 en - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
-	"scss.completion.triggerPropertyValueCompletion": true,
+  // 🇷🇺 - По умолчанию VS Code инициирует завершение значения свойства после выбора свойства CSS. Используйте этот параметр, чтобы отключить это поведение.
+  // 🇺🇸 - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
+  "scss.completion.triggerPropertyValueCompletion": true,
 
-	//* 💡 ru - Ставьте фигурные скобки на той же строке, что и правила (`collapse`), или ставьте фигурные скобки на отдельной строке (`expand`).
-	//* 💡 en - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
-	"scss.format.braceStyle": "collapse",
+  // 🇷🇺 - Ставьте фигурные скобки на той же строке, что и правила (`collapse`), или ставьте фигурные скобки на отдельной строке (`expand`).
+  // 🇺🇸 - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
+  "scss.format.braceStyle": "collapse",
 
-	//* 💡 ru - Включить/отключить средство форматирования SCSS по умолчанию.
-	//* 💡 en - Enable/disable default SCSS formatter.
-	"scss.format.enable": true,
+  // 🇷🇺 - Включить/отключить средство форматирования SCSS по умолчанию.
+  // 🇺🇸 - Enable/disable default SCSS formatter.
+  "scss.format.enable": true,
 
-	//* 💡 ru - Максимальное количество разрывов строк, которое должно быть сохранено в одном фрагменте, когда включен параметр `scss.format.preserveNewLines`.
-	//* 💡 en - Maximum number of line breaks to be preserved in one chunk, when `scss.format.preserveNewLines` is enabled.
-	"scss.format.maxPreserveNewLines": null,
+  // 🇷🇺 - Максимальное количество разрывов строк, которое должно быть сохранено в одном фрагменте, когда включен параметр `scss.format.preserveNewLines`.
+  // 🇺🇸 - Maximum number of line breaks to be preserved in one chunk, when `scss.format.preserveNewLines` is enabled.
+  "scss.format.maxPreserveNewLines": null,
 
-	//* 💡 ru - Разделяйте наборы правил пустой строкой.
-	//* 💡 en - Separate rulesets by a blank line.
-	"scss.format.newlineBetweenRules": true,
+  // 🇷🇺 - Разделяйте наборы правил пустой строкой.
+  // 🇺🇸 - Separate rulesets by a blank line.
+  "scss.format.newlineBetweenRules": true,
 
-	//* 💡 ru - Разделяйте селекторы новой строкой.
-	//* 💡 en - Separate selectors with a new line.
-	"scss.format.newlineBetweenSelectors": true,
+  // 🇷🇺 - Разделяйте селекторы новой строкой.
+  // 🇺🇸 - Separate selectors with a new line.
+  "scss.format.newlineBetweenSelectors": true,
 
-	//* 💡 ru - Следует ли сохранять существующие разрывы строк перед элементами.
-	//* 💡 en - Whether existing line breaks before elements should be preserved.
-	"scss.format.preserveNewLines": true,
+  // 🇷🇺 - Следует ли сохранять существующие разрывы строк перед элементами.
+  // 🇺🇸 - Whether existing line breaks before elements should be preserved.
+  "scss.format.preserveNewLines": true,
 
-	//* 💡 ru - Обеспечьте наличие пробела вокруг разделителей селекторов '>', '+', '~' (например, `a > b`).
-	//* 💡 en - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
-	"scss.format.spaceAroundSelectorSeparator": false,
+  // 🇷🇺 - Обеспечьте наличие пробела вокруг разделителей селекторов '>', '+', '~' (например, `a > b`).
+  // 🇺🇸 - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
+  "scss.format.spaceAroundSelectorSeparator": false,
 
-	//* 💡 ru - Показать документацию по тегам и атрибутам при наведении курсора SCSS.
-	//* 💡 en - Show tag and attribute documentation in SCSS hovers.
-	"scss.hover.documentation": true,
+  // 🇷🇺 - Показать документацию по тегам и атрибутам при наведении курсора SCSS.
+  // 🇺🇸 - Show tag and attribute documentation in SCSS hovers.
+  "scss.hover.documentation": true,
 
-	//* 💡 ru - Показывать ссылки на MDN в всплывающих окнах SCSS.
-	//* 💡 en - Show references to MDN in SCSS hovers.
-	"scss.hover.references": true,
+  // 🇷🇺 - Показывать ссылки на MDN в всплывающих окнах SCSS.
+  // 🇺🇸 - Show references to MDN in SCSS hovers.
+  "scss.hover.references": true,
 
-	//* 💡 ru - Недопустимое количество параметров.
-	//* 💡 en - Invalid number of parameters.
-	"scss.lint.argumentsInColorFunction": "error",
+  // 🇷🇺 - Недопустимое количество параметров.
+  // 🇺🇸 - Invalid number of parameters.
+  "scss.lint.argumentsInColorFunction": "error",
 
-	//* 💡 ru - Не используйте `width` или `height` при использовании `padding` или `border`.
-	//* 💡 en - Do not use `width` or `height` when using `padding` or `border`.
-	"scss.lint.boxModel": "ignore",
+  // 🇷🇺 - Не используйте `width` или `height` при использовании `padding` или `border`.
+  // 🇺🇸 - Do not use `width` or `height` when using `padding` or `border`.
+  "scss.lint.boxModel": "ignore",
 
-	//* 💡 ru - При использовании префикса, специфичного для поставщика, не забудьте также включить все другие свойства, зависящие от поставщика.
-	//* 💡 en - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
-	"scss.lint.compatibleVendorPrefixes": "ignore",
+  // 🇷🇺 - При использовании префикса, специфичного для поставщика, не забудьте также включить все другие свойства, зависящие от поставщика.
+  // 🇺🇸 - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
+  "scss.lint.compatibleVendorPrefixes": "ignore",
 
-	//* 💡 ru - Не используйте повторяющиеся определения стилей.
-	//* 💡 en - Do not use duplicate style definitions.
-	"scss.lint.duplicateProperties": "ignore",
+  // 🇷🇺 - Не используйте повторяющиеся определения стилей.
+  // 🇺🇸 - Do not use duplicate style definitions.
+  "scss.lint.duplicateProperties": "ignore",
 
-	//* 💡 ru - Не используйте пустые наборы правил.
-	//* 💡 en - Do not use empty rulesets.
-	"scss.lint.emptyRules": "warning",
+  // 🇷🇺 - Не используйте пустые наборы правил.
+  // 🇺🇸 - Do not use empty rulesets.
+  "scss.lint.emptyRules": "warning",
 
-	//* 💡 ru - Избегайте использования `float`. Поплавки приводят к хрупкому CSS, который легко сломать, если изменится один аспект макета.
-	//* 💡 en - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
-	"scss.lint.float": "ignore",
+  // 🇷🇺 - Избегайте использования `float`. Поплавки приводят к хрупкому CSS, который легко сломать, если изменится один аспект макета.
+  // 🇺🇸 - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+  "scss.lint.float": "ignore",
 
-	//* 💡 ru - Правило `@font-face` должно определять свойства `src` и `font-family`.
-	//* 💡 en - `@font-face` rule must define `src` and `font-family` properties.
-	"scss.lint.fontFaceProperties": "warning",
+  // 🇷🇺 - Правило `@font-face` должно определять свойства `src` и `font-family`.
+  // 🇺🇸 - `@font-face` rule must define `src` and `font-family` properties.
+  "scss.lint.fontFaceProperties": "warning",
 
-	//* 💡 ru - Шестнадцатеричные цвета должны состоять из трех или шести шестнадцатеричных чисел.
-	//* 💡 en - Hex colors must consist of three or six hex numbers.
-	"scss.lint.hexColorLength": "error",
+  // 🇷🇺 - Шестнадцатеричные цвета должны состоять из трех или шести шестнадцатеричных чисел.
+  // 🇺🇸 - Hex colors must consist of three or six hex numbers.
+  "scss.lint.hexColorLength": "error",
 
-	//* 💡 ru - Селекторы не должны содержать идентификаторы, потому что эти правила слишком тесно связаны с HTML.
-	//* 💡 en - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
-	"scss.lint.idSelector": "ignore",
+  // 🇷🇺 - Селекторы не должны содержать идентификаторы, потому что эти правила слишком тесно связаны с HTML.
+  // 🇺🇸 - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+  "scss.lint.idSelector": "ignore",
 
-	//* 💡 ru - Взломы IE необходимы только при поддержке IE7 и старше.
-	//* 💡 en - IE hacks are only necessary when supporting IE7 and older.
-	"scss.lint.ieHack": "ignore",
+  // 🇷🇺 - Взломы IE необходимы только при поддержке IE7 и старше.
+  // 🇺🇸 - IE hacks are only necessary when supporting IE7 and older.
+  "scss.lint.ieHack": "ignore",
 
-	//* 💡 ru - Избегайте использования `!important`. Это указывает на то, что специфика всего CSS вышла из-под контроля и нуждается в рефакторинге.
-	//* 💡 en - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
-	"scss.lint.important": "ignore",
+  // 🇷🇺 - Избегайте использования `!important`. Это указывает на то, что специфика всего CSS вышла из-под контроля и нуждается в рефакторинге.
+  // 🇺🇸 - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+  "scss.lint.important": "ignore",
 
-	//* 💡 ru - Операторы импорта не загружаются параллельно.
-	//* 💡 en - Import statements do not load in parallel.
-	"scss.lint.importStatement": "ignore",
+  // 🇷🇺 - Операторы импорта не загружаются параллельно.
+  // 🇺🇸 - Import statements do not load in parallel.
+  "scss.lint.importStatement": "ignore",
 
-	//* 💡 ru - Свойство игнорируется из-за отображения. Например. с display: inline свойства width, height, margin-top, margin-bottom и float не действуют.
-	//* 💡 en - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
-	"scss.lint.propertyIgnoredDueToDisplay": "warning",
+  // 🇷🇺 - Свойство игнорируется из-за отображения. Например. с display: inline свойства width, height, margin-top, margin-bottom и float не действуют.
+  // 🇺🇸 - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
+  "scss.lint.propertyIgnoredDueToDisplay": "warning",
 
-	//* 💡 ru - Известно, что универсальный селектор (`*`) медленный.
-	//* 💡 en - The universal selector (`*`) is known to be slow.
-	"scss.lint.universalSelector": "ignore",
+  // 🇷🇺 - Известно, что универсальный селектор (`*`) медленный.
+  // 🇺🇸 - The universal selector (`*`) is known to be slow.
+  "scss.lint.universalSelector": "ignore",
 
-	//* 💡 ru - Неизвестное at-правило.
-	//* 💡 en - Unknown at-rule.
-	"scss.lint.unknownAtRules": "warning",
+  // 🇷🇺 - Неизвестное at-правило.
+  // 🇺🇸 - Unknown at-rule.
+  "scss.lint.unknownAtRules": "warning",
 
-	//* 💡 ru - Неизвестное свойство.
-	//* 💡 en - Unknown property.
-	"scss.lint.unknownProperties": "warning",
+  // 🇷🇺 - Неизвестное свойство.
+  // 🇺🇸 - Unknown property.
+  "scss.lint.unknownProperties": "warning",
 
-	//* 💡 ru - Свойство неизвестного поставщика.
-	//* 💡 en - Unknown vendor specific property.
-	"scss.lint.unknownVendorSpecificProperties": "ignore",
+  // 🇷🇺 - Свойство неизвестного поставщика.
+  // 🇺🇸 - Unknown vendor specific property.
+  "scss.lint.unknownVendorSpecificProperties": "ignore",
 
-	//* 💡 ru - Список свойств, которые не проверяются на соответствие правилу `unknownProperties`.
-	//* 💡 en - A list of properties that are not validated against the `unknownProperties` rule.
-	"scss.lint.validProperties": [],
+  // 🇷🇺 - Список свойств, которые не проверяются на соответствие правилу `unknownProperties`.
+  // 🇺🇸 - A list of properties that are not validated against the `unknownProperties` rule.
+  "scss.lint.validProperties": [],
 
-	//* 💡 ru - При использовании префикса, зависящего от поставщика, также включите стандартное свойство.
-	//* 💡 en - When using a vendor-specific prefix, also include the standard property.
-	"scss.lint.vendorPrefix": "warning",
+  // 🇷🇺 - При использовании префикса, зависящего от поставщика, также включите стандартное свойство.
+  // 🇺🇸 - When using a vendor-specific prefix, also include the standard property.
+  "scss.lint.vendorPrefix": "warning",
 
-	//* 💡 ru - Единица для нуля не нужна.
-	//* 💡 en - No unit for zero needed.
-	"scss.lint.zeroUnits": "ignore",
+  // 🇷🇺 - Единица для нуля не нужна.
+  // 🇺🇸 - No unit for zero needed.
+  "scss.lint.zeroUnits": "ignore",
 
-	//* 💡 ru - Включает или отключает все проверки.
-	//* 💡 en - Enables or disables all validations.
-	"scss.validate": true
+  // 🇷🇺 - Включает или отключает все проверки.
+  // 🇺🇸 - Enables or disables all validations.
+  "scss.validate": true
 }

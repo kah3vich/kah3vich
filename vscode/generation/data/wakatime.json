@@ -1,7 +1,7 @@
 {
-    //! ✅ WakaTime
+  // 🟢 WakaTime
 
-    //* 💡 ru - Ключ для доступа к системе фиксации времени работы - wakatime.
-    //* 💡 en - Key to access the system for fixing the time of work - wakatime.
-    "wakatime.apiKey": ""
+  // 🇷🇺 - Ключ для доступа к системе фиксации времени работы - wakatime.
+  // 🇺🇸 - Key to access the system for fixing the time of work - wakatime.
+  "wakatime.apiKey": ""
 }

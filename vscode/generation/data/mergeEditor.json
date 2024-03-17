@@ -1,7 +1,7 @@
 {
-	//! ✅ Merge Editor
+  // 🟢 Merge Editor
 
-	//* 💡 ru - Контролирует, должны ли удаления в базе или одном из входных данных обозначаться вертикальной чертой.
-	//* 💡 en - Controls if deletions in base or one of the inputs should be indicated by a vertical bar.
-	"mergeEditor.showDeletionMarkers": true
+  // 🇷🇺 - Контролирует, должны ли удаления в базе или одном из входных данных обозначаться вертикальной чертой.
+  // 🇺🇸 - Controls if deletions in base or one of the inputs should be indicated by a vertical bar.
+  "mergeEditor.showDeletionMarkers": true
 }

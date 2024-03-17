@@ -1,31 +1,31 @@
 {
-	//! ✅ Screencast Mode
+  // 🟢 Screencast Mode
 
-	//* 💡 ru - Управляет размером шрифта (в пикселях) клавиатуры в режиме скринкаста.
-	//* 💡 en - Controls the font size (in pixels) of the screencast mode keyboard.
-	"screencastMode.fontSize": 56,
+  // 🇷🇺 - Управляет размером шрифта (в пикселях) клавиатуры в режиме скринкаста.
+  // 🇺🇸 - Controls the font size (in pixels) of the screencast mode keyboard.
+  "screencastMode.fontSize": 56,
 
-	//* 💡 ru - Определяет, как долго (в миллисекундах) отображается наложение клавиатуры в режиме скринкаста.
-	//* 💡 en - Controls how long (in milliseconds) the keyboard overlay is shown in screencast mode.
-	"screencastMode.keyboardOverlayTimeout": 800,
+  // 🇷🇺 - Определяет, как долго (в миллисекундах) отображается наложение клавиатуры в режиме скринкаста.
+  // 🇺🇸 - Controls how long (in milliseconds) the keyboard overlay is shown in screencast mode.
+  "screencastMode.keyboardOverlayTimeout": 800,
 
-	//* 💡 ru - Управляет тем, что отображается на клавиатуре при отображении ярлыков.
-	//* 💡 en - Controls what is displayed in the keyboard overlay when showing shortcuts.
-	"screencastMode.keyboardShortcutsFormat": "commandAndKeys",
+  // 🇷🇺 - Управляет тем, что отображается на клавиатуре при отображении ярлыков.
+  // 🇺🇸 - Controls what is displayed in the keyboard overlay when showing shortcuts.
+  "screencastMode.keyboardShortcutsFormat": "commandAndKeys",
 
-	//* 💡 ru - Управляет цветом в шестнадцатеричном формате (#_RGB, #RGBA, #RRGGBB или #RRGGBBAA) индикатора мыши в режиме скринкаста.
-	//* 💡 en - Controls the color in hex (#_RGB, #RGBA, #RRGGBB or #RRGGBBAA) of the mouse indicator in screencast mode.
-	"screencastMode.mouseIndicatorColor": "#FF0000",
+  // 🇷🇺 - Управляет цветом в шестнадцатеричном формате (#_RGB, #RGBA, #RRGGBB или #RRGGBBAA) индикатора мыши в режиме скринкаста.
+  // 🇺🇸 - Controls the color in hex (#_RGB, #RGBA, #RRGGBB or #RRGGBBAA) of the mouse indicator in screencast mode.
+  "screencastMode.mouseIndicatorColor": "#FF0000",
 
-	//* 💡 ru - Управляет размером (в пикселях) индикатора мыши в режиме скринкаста.
-	//* 💡 en - Controls the size (in pixels) of the mouse indicator in screencast mode.
-	"screencastMode.mouseIndicatorSize": 20,
+  // 🇷🇺 - Управляет размером (в пикселях) индикатора мыши в режиме скринкаста.
+  // 🇺🇸 - Controls the size (in pixels) of the mouse indicator in screencast mode.
+  "screencastMode.mouseIndicatorSize": 20,
 
-	//* 💡 ru - Показывать сочетания клавиш только в режиме скринкаста.
-	//* 💡 en - Only show keyboard shortcuts in screencast mode.
-	"screencastMode.onlyKeyboardShortcuts": false,
+  // 🇷🇺 - Показывать сочетания клавиш только в режиме скринкаста.
+  // 🇺🇸 - Only show keyboard shortcuts in screencast mode.
+  "screencastMode.onlyKeyboardShortcuts": false,
 
-	//* 💡 ru - Управляет вертикальным смещением наложения режима скринкаста снизу в процентах от высоты рабочего места.
-	//* 💡 en - Controls the vertical offset of the screencast mode overlay from the bottom as a percentage of the workbench height.
-	"screencastMode.verticalOffset": 20
+  // 🇷🇺 - Управляет вертикальным смещением наложения режима скринкаста снизу в процентах от высоты рабочего места.
+  // 🇺🇸 - Controls the vertical offset of the screencast mode overlay from the bottom as a percentage of the workbench height.
+  "screencastMode.verticalOffset": 20
 }

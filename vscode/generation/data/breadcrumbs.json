@@ -1,127 +1,127 @@
 {
-	//! ✅ Breadcrumbs
+  // 🟢 Breadcrumbs
 
-	//* 💡 ru - Рендеринг элементов навигации с помощью значков.
-	//* 💡 en - Rendering navigation elements using icons.
-	"breadcrumbs.icons": false,
+  // 🇷🇺 - Рендеринг элементов навигации с помощью значков.
+  // 🇺🇸 - Rendering navigation elements using icons.
+  "breadcrumbs.icons": false,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы `ключей`.
-	//* 💡 en - When breadcrumbs are enabled, `key` symbols are displayed.
-	"breadcrumbs.showKeys": false,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы `ключей`.
+  // 🇺🇸 - When breadcrumbs are enabled, `key` symbols are displayed.
+  "breadcrumbs.showKeys": false,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают символы `file`.
-	//* 💡 en - When enabled, breadcrumbs show the `file` characters.
-	"breadcrumbs.showFiles": false,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают символы `file`.
+  // 🇺🇸 - When enabled, breadcrumbs show the `file` characters.
+  "breadcrumbs.showFiles": false,
 
-	//* 💡 ru - Управляет тем, отображаются ли символы в представлении навигационных крошек и каким образом.
-	//* 💡 en - Controls whether and how symbols are displayed in the navigation crumbs view.
-	"breadcrumbs.symbolPath": "off",
+  // 🇷🇺 - Управляет тем, отображаются ли символы в представлении навигационных крошек и каким образом.
+  // 🇺🇸 - Controls whether and how symbols are displayed in the navigation crumbs view.
+  "breadcrumbs.symbolPath": "off",
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают символы массива.
-	//* 💡 en - When breadcrumbs are enabled, they show array characters.
-	"breadcrumbs.showArrays": false,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают символы массива.
+  // 🇺🇸 - When breadcrumbs are enabled, they show array characters.
+  "breadcrumbs.showArrays": false,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы «события».
-	//* 💡 en - When breadcrumbs are turned on, "event" symbols are displayed.
-	"breadcrumbs.showEvents": false,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы «события».
+  // 🇺🇸 - When breadcrumbs are turned on, "event" symbols are displayed.
+  "breadcrumbs.showEvents": false,
 
-	//* 💡 ru - При включении хлебные крошки показывают символы `поля`.
-	//* 💡 en - When enabled, breadcrumbs show `field` symbols.
-	"breadcrumbs.showFields": false,
+  // 🇷🇺 - При включении хлебные крошки показывают символы `поля`.
+  // 🇺🇸 - When enabled, breadcrumbs show `field` symbols.
+  "breadcrumbs.showFields": false,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы класса.
-	//* 💡 en - When breadcrumbs are enabled, class symbols are displayed.
-	"breadcrumbs.showClasses": false,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы класса.
+  // 🇺🇸 - When breadcrumbs are enabled, class symbols are displayed.
+  "breadcrumbs.showClasses": false,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают `метод` - символы.
-	//* 💡 en - When breadcrumbs are enabled, they show the `method` symbols.
-	"breadcrumbs.showMethods": false,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают `метод` - символы.
+  // 🇺🇸 - When breadcrumbs are enabled, they show the `method` symbols.
+  "breadcrumbs.showMethods": false,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают логические символы.
-	//* 💡 en - When breadcrumbs are on, they show boolean symbols.
-	"breadcrumbs.showBooleans": false,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают логические символы.
+  // 🇺🇸 - When breadcrumbs are on, they show boolean symbols.
+  "breadcrumbs.showBooleans": false,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают `функциональные` - символы.
-	//* 💡 en - When breadcrumbs are enabled, they show `functional` symbols.
-	"breadcrumbs.showFunctions": false,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают `функциональные` - символы.
+  // 🇺🇸 - When breadcrumbs are enabled, they show `functional` symbols.
+  "breadcrumbs.showFunctions": false,
 
-	//* 💡 ru - При включении хлебных крошек отображаются `постоянные` - символы.
-	//* 💡 en - When breadcrumbs are enabled, `permanent` characters are displayed.
-	"breadcrumbs.showConstants": false,
+  // 🇷🇺 - При включении хлебных крошек отображаются `постоянные` - символы.
+  // 🇺🇸 - When breadcrumbs are enabled, `permanent` characters are displayed.
+  "breadcrumbs.showConstants": false,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы `enumMember`.
-	//* 💡 en - When breadcrumbs are enabled, `enumMember` characters are displayed.
-	"breadcrumbs.showEnumMembers": false,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы `enumMember`.
+  // 🇺🇸 - When breadcrumbs are enabled, `enumMember` characters are displayed.
+  "breadcrumbs.showEnumMembers": false,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы-конструкторы.
-	//* 💡 en - When breadcrumbs are enabled, constructor symbols are displayed.
-	"breadcrumbs.showConstructors": false,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы-конструкторы.
+  // 🇺🇸 - When breadcrumbs are enabled, constructor symbols are displayed.
+  "breadcrumbs.showConstructors": false,
 
-	//* 💡 ru - Включить/отключить навигационные крошки.
-	//* 💡 en - Enable/disable navigation breadcrumbs.
-	"breadcrumbs.enabled": true,
+  // 🇷🇺 - Включить/отключить навигационные крошки.
+  // 🇺🇸 - Enable/disable navigation breadcrumbs.
+  "breadcrumbs.enabled": true,
 
-	//* 💡 ru - Определяет, будут ли и каким образом пути к файлам отображаться в представлении «хлебных крошек».
-	//* 💡 en - Controls whether and how file paths are shown in the breadcrumbs view.
-	"breadcrumbs.filePath": "on",
+  // 🇷🇺 - Определяет, будут ли и каким образом пути к файлам отображаться в представлении «хлебных крошек».
+  // 🇺🇸 - Controls whether and how file paths are shown in the breadcrumbs view.
+  "breadcrumbs.filePath": "on",
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают `enum`-символы.
-	//* 💡 en - When enabled breadcrumbs show `enum`-symbols.
-	"breadcrumbs.showEnums": true,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают `enum`-символы.
+  // 🇺🇸 - When enabled breadcrumbs show `enum`-symbols.
+  "breadcrumbs.showEnums": true,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы `module`.
-	//* 💡 en - When enabled breadcrumbs show `interface`-symbols.
-	"breadcrumbs.showInterfaces": true,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы `module`.
+  // 🇺🇸 - When enabled breadcrumbs show `interface`-symbols.
+  "breadcrumbs.showInterfaces": true,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы `module`.
-	//* 💡 en - When enabled breadcrumbs show `module`-symbols.
-	"breadcrumbs.showModules": true,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы `module`.
+  // 🇺🇸 - When enabled breadcrumbs show `module`-symbols.
+  "breadcrumbs.showModules": true,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают символы пространства имен.
-	//* 💡 en - When enabled breadcrumbs show `namespace`-symbols.
-	"breadcrumbs.showNamespaces": true,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают символы пространства имен.
+  // 🇺🇸 - When enabled breadcrumbs show `namespace`-symbols.
+  "breadcrumbs.showNamespaces": true,
 
-	//* 💡 ru - При включении хлебных крошек отображаются нулевые символы.
-	//* 💡 en - When enabled breadcrumbs show `null`-symbols.
-	"breadcrumbs.showNull": true,
+  // 🇷🇺 - При включении хлебных крошек отображаются нулевые символы.
+  // 🇺🇸 - When enabled breadcrumbs show `null`-symbols.
+  "breadcrumbs.showNull": true,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают числовые символы.
-	//* 💡 en - When enabled breadcrumbs show `number`-symbols.
-	"breadcrumbs.showNumbers": true,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают числовые символы.
+  // 🇺🇸 - When enabled breadcrumbs show `number`-symbols.
+  "breadcrumbs.showNumbers": true,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают `объектные` символы.
-	//* 💡 en - When enabled breadcrumbs show `object`-symbols.
-	"breadcrumbs.showObjects": true,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают `объектные` символы.
+  // 🇺🇸 - When enabled breadcrumbs show `object`-symbols.
+  "breadcrumbs.showObjects": true,
 
-	//* 💡 ru - При включении хлебные крошки показывают символы оператора.
-	//* 💡 en - When enabled breadcrumbs show `operator`-symbols.
-	"breadcrumbs.showOperators": true,
+  // 🇷🇺 - При включении хлебные крошки показывают символы оператора.
+  // 🇺🇸 - When enabled breadcrumbs show `operator`-symbols.
+  "breadcrumbs.showOperators": true,
 
-	//* 💡 ru - При включении хлебных крошек отображаются символы `package`.
-	//* 💡 en - When enabled breadcrumbs show `package`-symbols.
-	"breadcrumbs.showPackages": true,
+  // 🇷🇺 - При включении хлебных крошек отображаются символы `package`.
+  // 🇺🇸 - When enabled breadcrumbs show `package`-symbols.
+  "breadcrumbs.showPackages": true,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают `property`-символы.
-	//* 💡 en - When enabled breadcrumbs show `property`-symbols.
-	"breadcrumbs.showProperties": true,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают `property`-символы.
+  // 🇺🇸 - When enabled breadcrumbs show `property`-symbols.
+  "breadcrumbs.showProperties": true,
 
-	//* 💡 ru - При включении хлебные крошки показывают `строковые` символы.
-	//* 💡 en - When enabled breadcrumbs show `string`-symbols.
-	"breadcrumbs.showStrings": true,
+  // 🇷🇺 - При включении хлебные крошки показывают `строковые` символы.
+  // 🇺🇸 - When enabled breadcrumbs show `string`-symbols.
+  "breadcrumbs.showStrings": true,
 
-	//* 💡 ru - Когда хлебные крошки включены, они показывают `struct`-символы.
-	//* 💡 en - When enabled breadcrumbs show `struct`-symbols.
-	"breadcrumbs.showStructs": true,
+  // 🇷🇺 - Когда хлебные крошки включены, они показывают `struct`-символы.
+  // 🇺🇸 - When enabled breadcrumbs show `struct`-symbols.
+  "breadcrumbs.showStructs": true,
 
-	//* 💡 ru - При включении хлебные крошки показывают символы `typeParameter`.
-	//* 💡 en - When enabled breadcrumbs show `typeParameter`-symbols.
-	"breadcrumbs.showTypeParameters": true,
+  // 🇷🇺 - При включении хлебные крошки показывают символы `typeParameter`.
+  // 🇺🇸 - When enabled breadcrumbs show `typeParameter`-symbols.
+  "breadcrumbs.showTypeParameters": true,
 
-	//* 💡 ru - При включении хлебных крошек отображаются `переменные`-символы.
-	//* 💡 en - When enabled breadcrumbs show `variable`-symbols.
-	"breadcrumbs.showVariables": true,
+  // 🇷🇺 - При включении хлебных крошек отображаются `переменные`-символы.
+  // 🇺🇸 - When enabled breadcrumbs show `variable`-symbols.
+  "breadcrumbs.showVariables": true,
 
-	//* 💡 ru - Управляет сортировкой символов в представлении схемы навигационных крошек.
-	//* 💡 en - Controls how symbols are sorted in the breadcrumbs outline view.
-	"breadcrumbs.symbolSortOrder": "position"
+  // 🇷🇺 - Управляет сортировкой символов в представлении схемы навигационных крошек.
+  // 🇺🇸 - Controls how symbols are sorted in the breadcrumbs outline view.
+  "breadcrumbs.symbolSortOrder": "position"
 }

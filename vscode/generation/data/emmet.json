@@ -1,71 +1,70 @@
 {
-	//! ✅ Emmet
-	//? 🧨 Info - https://code.visualstudio.com/docs/editor/emmet
+  // 🟢 Emmet
 
-	//* 💡 ru - Укажите местоположение каталога, в котором находится snippets.json файл, который, в свою очередь, содержит ваши пользовательские фрагменты.
-	//* 💡 en - Specify the directory location that contains the snippets.json file, which in turn contains your custom snippets.
-	"emmet.triggerExpansionOnTab": true,
+  // 🇷🇺 - Укажите местоположение каталога, в котором находится snippets.json файл, который, в свою очередь, содержит ваши пользовательские фрагменты.
+  // 🇺🇸 - Specify the directory location that contains the snippets.json file, which in turn contains your custom snippets.
+  "emmet.triggerExpansionOnTab": true,
 
-	//* 💡 ru - Если вы вообще не хотите видеть аббревиатуры Emmet в предложениях.
-	//* 💡 en - If you don't want to see Emmet abbreviations in sentences at all.
-	"emmet.showExpandedAbbreviation": "never",
+  // 🇷🇺 - Если вы вообще не хотите видеть аббревиатуры Emmet в предложениях.
+  // 🇺🇸 - If you don't want to see Emmet abbreviations in sentences at all.
+  "emmet.showExpandedAbbreviation": "never",
 
-	//* 💡 ru - Если есть язык, для которого вы не хотите видеть расширения Emmet, добавьте его в этот параметр, который принимает массив строк идентификатора языка.
-	//* 💡 en - If there is a language for which you don't want to see Emmet extensions, add it to this parameter, which takes an array of language ID strings.
-	"emmet.excludeLanguages": ["html", "css", "markdown", "javascript"],
+  // 🇷🇺 - Если есть язык, для которого вы не хотите видеть расширения Emmet, добавьте его в этот параметр, который принимает массив строк идентификатора языка.
+  // 🇺🇸 - If there is a language for which you don't want to see Emmet extensions, add it to this parameter, which takes an array of language ID strings.
+  "emmet.excludeLanguages": ["html", "css", "markdown", "javascript"],
 
-	//* 💡 ru - Чтобы включить расширение аббревиатуры Emmet в типах файлов, где оно недоступно по умолчанию.
-	//* 💡 en - To enable the Emmet abbreviation extension in file types where it is not available by default.
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact",
-		"html": "html",
-		"php": "html",
-		"blade": "html",
-		"postcss": "css"
-	},
+  // 🇷🇺 - Чтобы включить расширение аббревиатуры Emmet в типах файлов, где оно недоступно по умолчанию.
+  // 🇺🇸 - To enable the Emmet abbreviation extension in file types where it is not available by default.
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "html": "html",
+    "php": "html",
+    "blade": "html",
+    "postcss": "css"
+  },
 
-	//* 💡 ru - Массив языков, на которых не следует раскрывать аббревиатуры Emmet.
-	//* 💡 en - An array of languages where Emmet abbreviations should not be expanded.
-	"emmet.excludeLanguages": ["markdown"],
+  // 🇷🇺 - Массив языков, на которых не следует раскрывать аббревиатуры Emmet.
+  // 🇺🇸 - An array of languages where Emmet abbreviations should not be expanded.
+  "emmet.excludeLanguages": ["markdown"],
 
-	//* 💡 ru - Массив путей, где каждый путь может содержать синтаксические профили Emmet и/или файлы фрагментов. В случае конфликтов профили/фрагменты более поздних путей переопределяют профили/фрагменты более ранних путей.
-	//* 💡 en - An array of paths, where each path can contain Emmet syntaxProfiles and/or snippet files. In case of conflicts, the profiles/snippets of later paths will override those of earlier paths.
-	"emmet.extensionsPath": [],
+  // 🇷🇺 - Массив путей, где каждый путь может содержать синтаксические профили Emmet и/или файлы фрагментов. В случае конфликтов профили/фрагменты более поздних путей переопределяют профили/фрагменты более ранних путей.
+  // 🇺🇸 - An array of paths, where each path can contain Emmet syntaxProfiles and/or snippet files. In case of conflicts, the profiles/snippets of later paths will override those of earlier paths.
+  "emmet.extensionsPath": [],
 
-	//* 💡 ru - Включите сокращения Emmet на языках, которые не поддерживаются по умолчанию. Добавьте здесь сопоставление между языком и языком, поддерживаемым Emmet.
-	//* 💡 en - Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.
-	"emmet.includeLanguages": {},
-	//| For example: `{"vue-html": "html", "javascript": "javascriptreact"}`
+  // 🇷🇺 - Включите сокращения Emmet на языках, которые не поддерживаются по умолчанию. Добавьте здесь сопоставление между языком и языком, поддерживаемым Emmet.
+  // 🇺🇸 - Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.
+  "emmet.includeLanguages": {},
+  //| For example: `{"vue-html": "html", "javascript": "javascriptreact"}`
 
-	//* 💡 ru - Если установлено значение «false», весь файл анализируется, чтобы определить, допустима ли текущая позиция для расширения аббревиатур Emmet. Если установлено значение «true», анализируется только содержимое вокруг текущей позиции в файлах CSS/SCSS/Less.
-	//* 💡 en - When set to `false`, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to `true`, only the content around the current position in CSS/SCSS/Less files is parsed.
-	"emmet.optimizeStylesheetParsing": true,
+  // 🇷🇺 - Если установлено значение «false», весь файл анализируется, чтобы определить, допустима ли текущая позиция для расширения аббревиатур Emmet. Если установлено значение «true», анализируется только содержимое вокруг текущей позиции в файлах CSS/SCSS/Less.
+  // 🇺🇸 - When set to `false`, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to `true`, only the content around the current position in CSS/SCSS/Less files is parsed.
+  "emmet.optimizeStylesheetParsing": true,
 
-	//* 💡 ru - Настройки, используемые для изменения поведения некоторых действий и преобразователей Emmet.
-	//* 💡 en - Preferences used to modify behavior of some actions and resolvers of Emmet.
-	"emmet.preferences": {},
+  // 🇷🇺 - Настройки, используемые для изменения поведения некоторых действий и преобразователей Emmet.
+  // 🇺🇸 - Preferences used to modify behavior of some actions and resolvers of Emmet.
+  "emmet.preferences": {},
 
-	//* 💡 ru - Показывает возможные сокращения Emmet в качестве предложений. Неприменимо в таблицах стилей или когда для расширенного сокращения emmet.show установлено значение «никогда».
-	//* 💡 en - Shows possible Emmet abbreviations as suggestions. Not applicable in stylesheets or when emmet.showExpandedAbbreviation is set to `"never"`.
-	"emmet.showAbbreviationSuggestions": true,
+  // 🇷🇺 - Показывает возможные сокращения Emmet в качестве предложений. Неприменимо в таблицах стилей или когда для расширенного сокращения emmet.show установлено значение «никогда».
+  // 🇺🇸 - Shows possible Emmet abbreviations as suggestions. Not applicable in stylesheets or when emmet.showExpandedAbbreviation is set to `"never"`.
+  "emmet.showAbbreviationSuggestions": true,
 
-	//* 💡 ru - Показывает расширенные сокращения Emmet в качестве предложений.
-	//* 💡 en - Shows expanded Emmet abbreviations as suggestions.
-	"emmet.showExpandedAbbreviation": "always",
+  // 🇷🇺 - Показывает расширенные сокращения Emmet в качестве предложений.
+  // 🇺🇸 - Shows expanded Emmet abbreviations as suggestions.
+  "emmet.showExpandedAbbreviation": "always",
 
-	//* 💡 ru - Если установлено значение «true», предложения Emmet будут отображаться в виде фрагментов, что позволит вам упорядочить их в соответствии с настройкой «Предложения Editor.snippet».
-	//* 💡 en - If `true`, then Emmet suggestions will show up as snippets allowing you to order them as per `editor.snippetSuggestions` setting.
-	"emmet.showSuggestionsAsSnippets": false,
+  // 🇷🇺 - Если установлено значение «true», предложения Emmet будут отображаться в виде фрагментов, что позволит вам упорядочить их в соответствии с настройкой «Предложения Editor.snippet».
+  // 🇺🇸 - If `true`, then Emmet suggestions will show up as snippets allowing you to order them as per `editor.snippetSuggestions` setting.
+  "emmet.showSuggestionsAsSnippets": false,
 
-	//* 💡 ru - Определите профиль для указанного синтаксиса или используйте свой собственный профиль с определенными правилами.
-	//* 💡 en - Define profile for specified syntax or use your own profile with specific rules.
-	"emmet.syntaxProfiles": {},
+  // 🇷🇺 - Определите профиль для указанного синтаксиса или используйте свой собственный профиль с определенными правилами.
+  // 🇺🇸 - Define profile for specified syntax or use your own profile with specific rules.
+  "emmet.syntaxProfiles": {},
 
-	//* 💡 ru - Если `true`, Эммет будет использовать встроенные дополнения, чтобы предлагать расширения.
-	//* 💡 en - If `true`, Emmet will use inline completions to suggest expansions.
-	"emmet.useInlineCompletions": false,
+  // 🇷🇺 - Если `true`, Эммет будет использовать встроенные дополнения, чтобы предлагать расширения.
+  // 🇺🇸 - If `true`, Emmet will use inline completions to suggest expansions.
+  "emmet.useInlineCompletions": false,
 
-	//* 💡 ru - Переменные, которые будут использоваться во фрагментах Emmet.
-	//* 💡 en - Variables to be used in Emmet snippets.
-	"emmet.variables": {}
+  // 🇷🇺 - Переменные, которые будут использоваться во фрагментах Emmet.
+  // 🇺🇸 - Variables to be used in Emmet snippets.
+  "emmet.variables": {}
 }

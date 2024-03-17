@@ -1,43 +1,43 @@
 {
-	//! ✅ Testing
+  // 🟢 Testing
 
-	//* 💡 ru - Всегда показывать выполненный тест, когда `testing.followRunningTest` включен. Если этот параметр отключен, будут обнаружены только неудачные тесты.
-	//* 💡 en - Always reveal the executed test when `testing.followRunningTest` is on. If this setting is turned off, only failed tests will be revealed.
-	"testing.alwaysRevealTestOnStateChange": false,
+  // 🇷🇺 - Всегда показывать выполненный тест, когда `testing.followRunningTest` включен. Если этот параметр отключен, будут обнаружены только неудачные тесты.
+  // 🇺🇸 - Always reveal the executed test when `testing.followRunningTest` is on. If this setting is turned off, only failed tests will be revealed.
+  "testing.alwaysRevealTestOnStateChange": false,
 
-	//* 💡 ru - Настраивает, когда ошибка Peek автоматически открывается.
-	//* 💡 en - Configures when the error Peek view is automatically opened.
-	"testing.automaticallyOpenPeekView": "failureInVisibleDocument",
+  // 🇷🇺 - Настраивает, когда ошибка Peek автоматически открывается.
+  // 🇺🇸 - Configures when the error Peek view is automatically opened.
+  "testing.automaticallyOpenPeekView": "failureInVisibleDocument",
 
-	//* 💡 ru - Определяет, следует ли автоматически открывать представление Peek в режиме автозапуска.
-	//* 💡 en - Controls whether to automatically open the Peek view during auto-run mode.
-	"testing.automaticallyOpenPeekViewDuringAutoRun": false,
+  // 🇷🇺 - Определяет, следует ли автоматически открывать представление Peek в режиме автозапуска.
+  // 🇺🇸 - Controls whether to automatically open the Peek view during auto-run mode.
+  "testing.automaticallyOpenPeekViewDuringAutoRun": false,
 
-	//* 💡 ru - Как долго ждать в миллисекундах после того, как тест помечен как устаревший и начинается новый запуск.
-	//* 💡 en - How long to wait, in milliseconds, after a test is marked as outdated and starting a new run.
-	"testing.autoRun.delay": 1000,
+  // 🇷🇺 - Как долго ждать в миллисекундах после того, как тест помечен как устаревший и начинается новый запуск.
+  // 🇺🇸 - How long to wait, in milliseconds, after a test is marked as outdated and starting a new run.
+  "testing.autoRun.delay": 1000,
 
-	//* 💡 ru - Определяет, какие тесты запускаются автоматически.
-	//* 💡 en - Controls which tests are automatically run.
-	"testing.autoRun.mode": "all",
+  // 🇷🇺 - Определяет, какие тесты запускаются автоматически.
+  // 🇺🇸 - Controls which tests are automatically run.
+  "testing.autoRun.mode": "all",
 
-	//* 💡 ru - Управляет действием, выполняемым при щелчке левой кнопкой мыши по тестовому декору в желобе.
-	//* 💡 en - Controls the action to take when left-clicking on a test decoration in the gutter.
-	"testing.defaultGutterClickAction": "run",
+  // 🇷🇺 - Управляет действием, выполняемым при щелчке левой кнопкой мыши по тестовому декору в желобе.
+  // 🇺🇸 - Controls the action to take when left-clicking on a test decoration in the gutter.
+  "testing.defaultGutterClickAction": "run",
 
-	//* 💡 ru - Определяет, следует ли отслеживать запущенный тест в представлении обозревателя тестов.
-	//* 💡 en - Controls whether the running test should be followed in the Test Explorer view.
-	"testing.followRunningTest": true,
+  // 🇷🇺 - Определяет, следует ли отслеживать запущенный тест в представлении обозревателя тестов.
+  // 🇺🇸 - Controls whether the running test should be followed in the Test Explorer view.
+  "testing.followRunningTest": true,
 
-	//* 💡 ru - Определяет, будут ли тестовые декорации отображаться в поле редактора.
-	//* 💡 en - Controls whether test decorations are shown in the editor gutter.
-	"testing.gutterEnabled": true,
+  // 🇷🇺 - Определяет, будут ли тестовые декорации отображаться в поле редактора.
+  // 🇺🇸 - Controls whether test decorations are shown in the editor gutter.
+  "testing.gutterEnabled": true,
 
-	//* 💡 ru - Определяет, когда должно открываться представление тестирования.
-	//* 💡 en - Controls when the testing view should open.
-	"testing.openTesting": "openOnTestStart",
+  // 🇷🇺 - Определяет, когда должно открываться представление тестирования.
+  // 🇺🇸 - Controls when the testing view should open.
+  "testing.openTesting": "openOnTestStart",
 
-	//* 💡 ru - Проверьте, нужно ли сохранять все грязные редакторы перед запуском теста.
-	//* 💡 en - Control whether save all dirty editors before running a test.
-	"testing.saveBeforeTest": true
+  // 🇷🇺 - Проверьте, нужно ли сохранять все грязные редакторы перед запуском теста.
+  // 🇺🇸 - Control whether save all dirty editors before running a test.
+  "testing.saveBeforeTest": true
 }

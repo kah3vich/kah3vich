@@ -1,164 +1,164 @@
 {
-	//! ✅ Debug
+  // 🟢 Debug
 
-	//* 💡 ru - Управляет расположением панели инструментов отладки. Либо «плавающий» во всех представлениях, либо «закрепленный» в представлении отладки, либо «скрытый».
-	//* 💡 en - Controls the location of the debug toolbar. Either "floating" in all views, or "pinned" in debug view, or "hidden".
-	"debug.toolBarLocation": "hidden",
+  // 🇷🇺 - Управляет расположением панели инструментов отладки. Либо «плавающий» во всех представлениях, либо «закрепленный» в представлении отладки, либо «скрытый».
+  // 🇺🇸 - Controls the location of the debug toolbar. Either "floating" in all views, or "pinned" in debug view, or "hidden".
+  "debug.toolBarLocation": "hidden",
 
-	//* 💡 ru - Определяет, должно ли окно рабочей среды быть сфокусировано при остановке отладчика.
-	//* 💡 en - Specifies whether the workbench window should be focused when the debugger is stopped.
-	"debug.focusWindowOnBreak": false,
+  // 🇷🇺 - Определяет, должно ли окно рабочей среды быть сфокусировано при остановке отладчика.
+  // 🇺🇸 - Specifies whether the workbench window should be focused when the debugger is stopped.
+  "debug.focusWindowOnBreak": false,
 
-	//* 💡 ru - Определяет, следует ли отображать в редакторе украшения-кандидаты встроенных точек останова во время отладки.
-	//* 💡 en - Controls whether to display inline breakpoint decoration candidates in the editor during debugging.
-	"debug.showInlineBreakpointCandidates": false,
+  // 🇷🇺 - Определяет, следует ли отображать в редакторе украшения-кандидаты встроенных точек останова во время отладки.
+  // 🇺🇸 - Controls whether to display inline breakpoint decoration candidates in the editor during debugging.
+  "debug.showInlineBreakpointCandidates": false,
 
-	//* 💡 ru - Определяет, должны ли точки останова отображаться на обзорной линейке.
-	//* 💡 en - Specifies whether breakpoints should be displayed on the overview ruler.
-	"debug.showBreakpointsInOverviewRuler": false,
+  // 🇷🇺 - Определяет, должны ли точки останова отображаться на обзорной линейке.
+  // 🇺🇸 - Specifies whether breakpoints should be displayed on the overview ruler.
+  "debug.showBreakpointsInOverviewRuler": false,
 
-	//* 💡 ru - Разрешить установку точек останова в любом файле.
-	//* 💡 en - Allow setting breakpoints in any file.
-	"debug.allowBreakpointsEverywhere": false,
+  // 🇷🇺 - Разрешить установку точек останова в любом файле.
+  // 🇺🇸 - Allow setting breakpoints in any file.
+  "debug.allowBreakpointsEverywhere": false,
 
-	//* 💡 ru - Автоматически показывать значения для переменных, которые лениво разрешаются отладчиком, например геттеры.
-	//* 💡 en - Automatically show values for variables that are lazily resolved by the debugger, such as getters.
-	"debug.autoExpandLazyVariables": false,
+  // 🇷🇺 - Автоматически показывать значения для переменных, которые лениво разрешаются отладчиком, например геттеры.
+  // 🇺🇸 - Automatically show values for variables that are lazily resolved by the debugger, such as getters.
+  "debug.autoExpandLazyVariables": false,
 
-	//* 💡 ru - Определяет, следует ли подтверждать закрытие окна при наличии активных сеансов отладки.
-	//* 💡 en - Controls whether to confirm when the window closes if there are active debug sessions.
-	"debug.confirmOnExit": "never",
+  // 🇷🇺 - Определяет, следует ли подтверждать закрытие окна при наличии активных сеансов отладки.
+  // 🇺🇸 - Controls whether to confirm when the window closes if there are active debug sessions.
+  "debug.confirmOnExit": "never",
 
-	//* 💡 ru - Определяет, следует ли принимать предложения при нажатии Enter в консоли отладки. Enter также используется для оценки того, что набирается в консоли отладки.
-	//* 💡 en - Controls whether suggestions should be accepted on Enter in the Debug Console. Enter is also used to evaluate whatever is typed in the Debug Console.
-	"debug.console.acceptSuggestionOnEnter": "off",
+  // 🇷🇺 - Определяет, следует ли принимать предложения при нажатии Enter в консоли отладки. Enter также используется для оценки того, что набирается в консоли отладки.
+  // 🇺🇸 - Controls whether suggestions should be accepted on Enter in the Debug Console. Enter is also used to evaluate whatever is typed in the Debug Console.
+  "debug.console.acceptSuggestionOnEnter": "off",
 
-	//* 💡 ru - Определяет, должна ли консоль отладки автоматически закрываться после завершения сеанса отладки.
-	//* 💡 en - Controls if the Debug Console should be automatically closed when the debug session ends.
-	"debug.console.closeOnEnd": false,
+  // 🇷🇺 - Определяет, должна ли консоль отладки автоматически закрываться после завершения сеанса отладки.
+  // 🇺🇸 - Controls if the Debug Console should be automatically closed when the debug session ends.
+  "debug.console.closeOnEnd": false,
 
-	//* 💡 ru - Определяет, должна ли консоль отладки сворачивать идентичные строки и показывать количество вхождений со значком.
-	//* 💡 en - Controls if the Debug Console should collapse identical lines and show a number of occurrences with a badge.
-	"debug.console.collapseIdenticalLines": true,
+  // 🇷🇺 - Определяет, должна ли консоль отладки сворачивать идентичные строки и показывать количество вхождений со значком.
+  // 🇺🇸 - Controls if the Debug Console should collapse identical lines and show a number of occurrences with a badge.
+  "debug.console.collapseIdenticalLines": true,
 
-	//* 💡 ru - Управляет семейством шрифтов в консоли отладки.
-	//* 💡 en - Controls the font family in the Debug Console.
-	"debug.console.fontFamily": "default",
+  // 🇷🇺 - Управляет семейством шрифтов в консоли отладки.
+  // 🇺🇸 - Controls the font family in the Debug Console.
+  "debug.console.fontFamily": "default",
 
-	//* 💡 ru - Управляет размером шрифта в пикселях в консоли отладки.
-	//* 💡 en - Controls the font size in pixels in the Debug Console.
-	"debug.console.fontSize": 14,
+  // 🇷🇺 - Управляет размером шрифта в пикселях в консоли отладки.
+  // 🇺🇸 - Controls the font size in pixels in the Debug Console.
+  "debug.console.fontSize": 14,
 
-	//* 💡 ru - Определяет, должна ли консоль отладки предлагать введенные ранее данные.
-	//* 💡 en - Controls if the Debug Console should suggest previously typed input.
-	"debug.console.historySuggestions": true,
+  // 🇷🇺 - Определяет, должна ли консоль отладки предлагать введенные ранее данные.
+  // 🇺🇸 - Controls if the Debug Console should suggest previously typed input.
+  "debug.console.historySuggestions": true,
 
-	//* 💡 ru - Управляет высотой строки в пикселях в консоли отладки. Используйте 0, чтобы вычислить высоту строки по размеру шрифта.
-	//* 💡 en - Controls the line height in pixels in the Debug Console. Use 0 to compute the line height from the font size.
-	"debug.console.lineHeight": 0,
+  // 🇷🇺 - Управляет высотой строки в пикселях в консоли отладки. Используйте 0, чтобы вычислить высоту строки по размеру шрифта.
+  // 🇺🇸 - Controls the line height in pixels in the Debug Console. Use 0 to compute the line height from the font size.
+  "debug.console.lineHeight": 0,
 
-	//* 💡 ru - Определяет, должны ли строки переноситься в консоли отладки.
-	//* 💡 en - Controls if the lines should wrap in the Debug Console.
-	"debug.console.wordWrap": true,
+  // 🇷🇺 - Определяет, должны ли строки переноситься в консоли отладки.
+  // 🇺🇸 - Controls if the lines should wrap in the Debug Console.
+  "debug.console.wordWrap": true,
 
-	//* 💡 ru - Показать исходный код в режиме дизассемблирования.
-	//* 💡 en - Show Source Code in Disassembly View.
-	"debug.disassemblyView.showSourceCode": true,
+  // 🇷🇺 - Показать исходный код в режиме дизассемблирования.
+  // 🇺🇸 - Show Source Code in Disassembly View.
+  "debug.disassemblyView.showSourceCode": true,
 
-	//* 💡 ru - Определяет, должен ли редактор быть в фокусе, когда отладчик ломается.
-	//* 💡 en - Controls whether the editor should be focused when the debugger breaks.
-	"debug.focusEditorOnBreak": true,
+  // 🇷🇺 - Определяет, должен ли редактор быть в фокусе, когда отладчик ломается.
+  // 🇺🇸 - Controls whether the editor should be focused when the debugger breaks.
+  "debug.focusEditorOnBreak": true,
 
-	//* 💡 ru - Показывать значения переменных в редакторе во время отладки.
-	//* 💡 en - Show variable values inline in editor while debugging.
-	"debug.inlineValues": "auto",
+  // 🇷🇺 - Показывать значения переменных в редакторе во время отладки.
+  // 🇺🇸 - Show variable values inline in editor while debugging.
+  "debug.inlineValues": "auto",
 
-	//* 💡 ru - Определяет, когда должна открываться внутренняя консоль отладки.
-	//* 💡 en - Controls when the internal Debug Console should open.
-	"debug.internalConsoleOptions": "openOnFirstSessionStart",
+  // 🇷🇺 - Определяет, когда должна открываться внутренняя консоль отладки.
+  // 🇺🇸 - Controls when the internal Debug Console should open.
+  "debug.internalConsoleOptions": "openOnFirstSessionStart",
 
-	//* 💡 ru - Управляет действиями при возникновении ошибок после запуска preLaunchTask.
-	//* 💡 en - Controls what to do when errors are encountered after running a preLaunchTask.
-	"debug.onTaskErrors": "prompt",
+  // 🇷🇺 - Управляет действиями при возникновении ошибок после запуска preLaunchTask.
+  // 🇺🇸 - Controls what to do when errors are encountered after running a preLaunchTask.
+  "debug.onTaskErrors": "prompt",
 
-	//* 💡 ru - Определяет, когда должно открываться представление отладки.
-	//* 💡 en - Controls when the debug view should open.
-	"debug.openDebug": "openOnDebugBreak",
+  // 🇷🇺 - Определяет, когда должно открываться представление отладки.
+  // 🇺🇸 - Controls when the debug view should open.
+  "debug.openDebug": "openOnDebugBreak",
 
-	//* 💡 ru - Автоматически открывать представление проводника в конце сеанса отладки.
-	//* 💡 en - Automatically open the explorer view at the end of a debug session.
-	"debug.openExplorerOnEnd": false,
+  // 🇷🇺 - Автоматически открывать представление проводника в конце сеанса отладки.
+  // 🇺🇸 - Automatically open the explorer view at the end of a debug session.
+  "debug.openExplorerOnEnd": false,
 
-	//* 💡 ru - Определяет, какие редакторы сохранять перед запуском сеанса отладки.
-	//* 💡 en - Controls what editors to save before starting a debug session.
-	"debug.saveBeforeStart": "allEditorsInActiveGroup",
+  // 🇷🇺 - Определяет, какие редакторы сохранять перед запуском сеанса отладки.
+  // 🇺🇸 - Controls what editors to save before starting a debug session.
+  "debug.saveBeforeStart": "allEditorsInActiveGroup",
 
-	//* 💡 ru - Определяет, когда должна быть видна строка состояния отладки.
-	//* 💡 en - Controls when the debug Status bar should be visible.
-	"debug.showInStatusBar": "onFirstSessionStart",
+  // 🇷🇺 - Определяет, когда должна быть видна строка состояния отладки.
+  // 🇺🇸 - Controls when the debug Status bar should be visible.
+  "debug.showInStatusBar": "onFirstSessionStart",
 
-	//* 💡 ru - Управляет отображением подсеансов отладки на панели инструментов отладки. Если для этого параметра установлено значение false, команда остановки в подсеансе также остановит родительский сеанс.
-	//* 💡 en - Controls whether the debug sub-sessions are shown in the debug tool bar. When this setting is false the stop command on a sub-session will also stop the parent session.
-	"debug.showSubSessionsInToolBar": false,
+  // 🇷🇺 - Управляет отображением подсеансов отладки на панели инструментов отладки. Если для этого параметра установлено значение false, команда остановки в подсеансе также остановит родительский сеанс.
+  // 🇺🇸 - Controls whether the debug sub-sessions are shown in the debug tool bar. When this setting is false the stop command on a sub-session will also stop the parent session.
+  "debug.showSubSessionsInToolBar": false,
 
-	//* 💡 ru - Перед запуском нового сеанса отладки во встроенном или внешнем терминале очистите терминал.
-	//* 💡 en - Before starting a new debug session in an integrated or external terminal, clear the terminal.
-	"debug.terminal.clearBeforeReusing": false,
+  // 🇷🇺 - Перед запуском нового сеанса отладки во встроенном или внешнем терминале очистите терминал.
+  // 🇺🇸 - Before starting a new debug session in an integrated or external terminal, clear the terminal.
+  "debug.terminal.clearBeforeReusing": false,
 
-	//* 💡 ru - Конфигурация запуска глобальной отладки. Следует использовать в качестве альтернативы файлу «launch.json», который является общим для всех рабочих областей.
-	//* 💡 en - Global debug launch configuration. Should be used as an alternative to 'launch.json' that is shared across workspaces.
-	"launch": {
-		"configurations": [],
-		"compounds": []
-	},
+  // 🇷🇺 - Конфигурация запуска глобальной отладки. Следует использовать в качестве альтернативы файлу «launch.json», который является общим для всех рабочих областей.
+  // 🇺🇸 - Global debug launch configuration. Should be used as an alternative to 'launch.json' that is shared across workspaces.
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
 
-	//* 💡 ru - Настраивает процессы для автоматического подключения и отладки, когда `debug.node.autoAttach` включен. Процесс Node, запущенный с флагом `--inspect`, всегда будет присоединен к независимо от этого параметра.
-	//* 💡 en - Configures which processes to automatically attach and debug when `debug.node.autoAttach` is on. A Node process launched with the `--inspect` flag will always be attached to, regardless of this setting.
-	"debug.javascript.autoAttachFilter": "disabled",
+  // 🇷🇺 - Настраивает процессы для автоматического подключения и отладки, когда `debug.node.autoAttach` включен. Процесс Node, запущенный с флагом `--inspect`, всегда будет присоединен к независимо от этого параметра.
+  // 🇺🇸 - Configures which processes to automatically attach and debug when `debug.node.autoAttach` is on. A Node process launched with the `--inspect` flag will always be attached to, regardless of this setting.
+  "debug.javascript.autoAttachFilter": "disabled",
 
-	//* 💡 ru - Настраивает шаблоны глобусов для определения момента подключения в «умном» режиме `debug.javascript.autoAttachFilter`. `$KNOWN_TOOLS$` заменяется списком имен общих тестов и исполнителей кода.
-	//* 💡 en - Configures glob patterns for determining when to attach in "smart" `debug.javascript.autoAttachFilter` mode. `$KNOWN_TOOLS$` is replaced with a list of names of common test and code runners.
-	"debug.javascript.autoAttachSmartPattern": [
-		"${workspaceFolder}/**",
-		"!**/node_modules/**",
-		"**/$KNOWN_TOOLS$/**"
-	],
+  // 🇷🇺 - Настраивает шаблоны глобусов для определения момента подключения в «умном» режиме `debug.javascript.autoAttachFilter`. `$KNOWN_TOOLS$` заменяется списком имен общих тестов и исполнителей кода.
+  // 🇺🇸 - Configures glob patterns for determining when to attach in "smart" `debug.javascript.autoAttachFilter` mode. `$KNOWN_TOOLS$` is replaced with a list of names of common test and code runners.
+  "debug.javascript.autoAttachSmartPattern": [
+    "${workspaceFolder}/**",
+    "!**/node_modules/**",
+    "**/$KNOWN_TOOLS$/**"
+  ],
 
-	//* 💡 ru - При отладке удаленного веб-приложения настраивает, следует ли автоматически туннелировать удаленный сервер на локальный компьютер.
-	//* 💡 en - When debugging a remote web app, configures whether to automatically tunnel the remote server to your local machine.
-	"debug.javascript.automaticallyTunnelRemoteServer": true,
+  // 🇷🇺 - При отладке удаленного веб-приложения настраивает, следует ли автоматически туннелировать удаленный сервер на локальный компьютер.
+  // 🇺🇸 - When debugging a remote web app, configures whether to automatically tunnel the remote server to your local machine.
+  "debug.javascript.automaticallyTunnelRemoteServer": true,
 
-	//* 💡 ru - Следует ли останавливаться, когда условные точки останова вызывают ошибку.
-	//* 💡 en - Whether to stop when conditional breakpoints throw an error.
-	"debug.javascript.breakOnConditionalError": false,
+  // 🇷🇺 - Следует ли останавливаться, когда условные точки останова вызывают ошибку.
+  // 🇺🇸 - Whether to stop when conditional breakpoints throw an error.
+  "debug.javascript.breakOnConditionalError": false,
 
-	//* 💡 ru - Где в ваших сценариях npm должны отображаться линзы кода «Выполнение» и «Отладка». Это может быть «все», сценарии, «верхняя часть» раздела сценариев или «никогда».
-	//* 💡 en - Where a "Run" and "Debug" code lens should be shown in your npm scripts. It may be on "all", scripts, on "top" of the script section, or "never".
-	"debug.javascript.codelens.npmScripts": "top",
+  // 🇷🇺 - Где в ваших сценариях npm должны отображаться линзы кода «Выполнение» и «Отладка». Это может быть «все», сценарии, «верхняя часть» раздела сценариев или «никогда».
+  // 🇺🇸 - Where a "Run" and "Debug" code lens should be shown in your npm scripts. It may be on "all", scripts, on "top" of the script section, or "never".
+  "debug.javascript.codelens.npmScripts": "top",
 
-	//* 💡 ru - Параметры, используемые при отладке открытых ссылок, нажимаемых внутри терминала отладки JavaScript. Можно установить «выкл.», чтобы отключить это поведение, или «всегда», чтобы включить отладку во всех терминалах.
-	//* 💡 en - Options used when debugging open links clicked from inside the JavaScript Debug Terminal. Can be set to "off" to disable this behavior, or "always" to enable debugging in all terminals.
-	"debug.javascript.debugByLinkOptions": "on",
+  // 🇷🇺 - Параметры, используемые при отладке открытых ссылок, нажимаемых внутри терминала отладки JavaScript. Можно установить «выкл.», чтобы отключить это поведение, или «всегда», чтобы включить отладку во всех терминалах.
+  // 🇺🇸 - Options used when debugging open links clicked from inside the JavaScript Debug Terminal. Can be set to "off" to disable this behavior, or "always" to enable debugging in all terminals.
+  "debug.javascript.debugByLinkOptions": "on",
 
-	//* 💡 ru - `runtimeExecutable` по умолчанию, используемый для конфигураций запуска, если он не указан. Это можно использовать для настройки пользовательских путей к Node.js или установкам браузера.
-	//* 💡 en - The default `runtimeExecutable` used for launch configurations, if unspecified. This can be used to config custom paths to Node.js or browser installations.
-	"debug.javascript.defaultRuntimeExecutable": {
-		"pwa-node": "node"
-	},
+  // 🇷🇺 - `runtimeExecutable` по умолчанию, используемый для конфигураций запуска, если он не указан. Это можно использовать для настройки пользовательских путей к Node.js или установкам браузера.
+  // 🇺🇸 - The default `runtimeExecutable` used for launch configurations, if unspecified. This can be used to config custom paths to Node.js or browser installations.
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "node"
+  },
 
-	//* 💡 ru - Параметры по умолчанию, используемые при отладке процесса с помощью команды «Отладка: присоединение к процессу Node.js».
-	//* 💡 en - Default options used when debugging a process through the `Debug: Attach to Node.js Process` command.
-	"debug.javascript.pickAndAttachOptions": {},
+  // 🇷🇺 - Параметры по умолчанию, используемые при отладке процесса с помощью команды «Отладка: присоединение к процессу Node.js».
+  // 🇺🇸 - Default options used when debugging a process through the `Debug: Attach to Node.js Process` command.
+  "debug.javascript.pickAndAttachOptions": {},
 
-	//* 💡 ru - Параметры запроса для использования при загрузке ресурсов, таких как исходные карты, в отладчике. Вам может потребоваться настроить это, например, если ваши исходные карты требуют аутентификации или используют самозаверяющий сертификат. Опции используются для создания запроса с использованием библиотеки got. Обычный случай отключения проверки сертификата можно выполнить, передав `{ "https": { "rejectUnauthorized": false } }`.
-	//* 💡 en - Request options to use when loading resources, such as source maps, in the debugger. You may need to configure this if your sourcemaps require authentication or use a self-signed certificate, for instance. Options are used to create a request using the `got` library. A common case to disable certificate verification can be done by passing `{ "https": { "rejectUnauthorized": false } }`.
-	"debug.javascript.resourceRequestOptions": {},
+  // 🇷🇺 - Параметры запроса для использования при загрузке ресурсов, таких как исходные карты, в отладчике. Вам может потребоваться настроить это, например, если ваши исходные карты требуют аутентификации или используют самозаверяющий сертификат. Опции используются для создания запроса с использованием библиотеки got. Обычный случай отключения проверки сертификата можно выполнить, передав `{ "https": { "rejectUnauthorized": false } }`.
+  // 🇺🇸 - Request options to use when loading resources, such as source maps, in the debugger. You may need to configure this if your sourcemaps require authentication or use a self-signed certificate, for instance. Options are used to create a request using the `got` library. A common case to disable certificate verification can be done by passing `{ "https": { "rejectUnauthorized": false } }`.
+  "debug.javascript.resourceRequestOptions": {},
 
-	//* 💡 ru - Параметры запуска по умолчанию для терминала отладки JavaScript и скриптов npm.
-	//* 💡 en - Default launch options for the JavaScript debug terminal and npm scripts.
-	"debug.javascript.terminalOptions": {},
+  // 🇷🇺 - Параметры запуска по умолчанию для терминала отладки JavaScript и скриптов npm.
+  // 🇺🇸 - Default launch options for the JavaScript debug terminal and npm scripts.
+  "debug.javascript.terminalOptions": {},
 
-	//* 💡 ru - Настраивает, будет ли файл с исходным сопоставлением, где исходный файл не может быть прочитан, автоматически удален. Если это значение равно false (по умолчанию), отображается подсказка.
-	//* 💡 en - Configures whether sourcemapped file where the original file can't be read will automatically be unmapped. If this is false (default), a prompt is shown.
-	"debug.javascript.unmapMissingSources": false
+  // 🇷🇺 - Настраивает, будет ли файл с исходным сопоставлением, где исходный файл не может быть прочитан, автоматически удален. Если это значение равно false (по умолчанию), отображается подсказка.
+  // 🇺🇸 - Configures whether sourcemapped file where the original file can't be read will automatically be unmapped. If this is false (default), a prompt is shown.
+  "debug.javascript.unmapMissingSources": false
 }

@@ -1,7 +1,7 @@
 {
-	//! ✅ Gulp
+  // 🟢 Gulp
 
-	//* 💡 ru - Управляет включением обнаружения задач Gulp. Обнаружение задачи Gulp может привести к выполнению файлов в любой открытой рабочей области.
-	//* 💡 en - Controls enablement of Gulp task detection. Gulp task detection can cause files in any open workspace to be executed.
-	"gulp.autoDetect": "off"
+  // 🇷🇺 - Управляет включением обнаружения задач Gulp. Обнаружение задачи Gulp может привести к выполнению файлов в любой открытой рабочей области.
+  // 🇺🇸 - Controls enablement of Gulp task detection. Gulp task detection can cause files in any open workspace to be executed.
+  "gulp.autoDetect": "off"
 }

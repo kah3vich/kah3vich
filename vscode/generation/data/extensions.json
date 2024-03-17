@@ -1,31 +1,31 @@
 {
-	//! ✅ Extensions
+  // 🟢 Extensions
 
-	//* 💡 ru - Когда включено, автоматически проверяет расширения на наличие обновлений. Если расширение имеет обновление, оно помечается как устаревшее в представлении «Расширения». Обновления загружаются из онлайн-сервиса Microsoft.
-	//* 💡 en - When enabled, automatically checks extensions for updates. If an extension has an update, it is marked as outdated in the Extensions view. The updates are fetched from a Microsoft online service.
-	"extensions.autoCheckUpdates": true,
+  // 🇷🇺 - Когда включено, автоматически проверяет расширения на наличие обновлений. Если расширение имеет обновление, оно помечается как устаревшее в представлении «Расширения». Обновления загружаются из онлайн-сервиса Microsoft.
+  // 🇺🇸 - When enabled, automatically checks extensions for updates. If an extension has an update, it is marked as outdated in the Extensions view. The updates are fetched from a Microsoft online service.
+  "extensions.autoCheckUpdates": true,
 
-	//* 💡 ru - Управляет поведением автоматического обновления расширений. Обновления загружаются из онлайн-сервиса Microsoft.
-	//* 💡 en - Controls the automatic update behavior of extensions. The updates are fetched from a Microsoft online service.
-	"extensions.autoUpdate": true,
+  // 🇷🇺 - Управляет поведением автоматического обновления расширений. Обновления загружаются из онлайн-сервиса Microsoft.
+  // 🇺🇸 - Controls the automatic update behavior of extensions. The updates are fetched from a Microsoft online service.
+  "extensions.autoUpdate": true,
 
-	//* 💡 ru - Если этот параметр включен, редакторы с подробной информацией о расширении будут автоматически закрываться при выходе из представления расширений.
-	//* 💡 en - When enabled, editors with extension details will be automatically closed upon navigating away from the Extensions View.
-	"extensions.closeExtensionDetailsOnViewChange": false,
+  // 🇷🇺 - Если этот параметр включен, редакторы с подробной информацией о расширении будут автоматически закрываться при выходе из представления расширений.
+  // 🇺🇸 - When enabled, editors with extension details will be automatically closed upon navigating away from the Extensions View.
+  "extensions.closeExtensionDetailsOnViewChange": false,
 
-	//* 💡 ru - Когда здесь указано расширение, запрос подтверждения не будет отображаться, когда это расширение обрабатывает URI.
-	//* 💡 en - When an extension is listed here, a confirmation prompt will not be shown when that extension handles a URI.
-	"extensions.confirmedUriHandlerExtensionIds": [],
+  // 🇷🇺 - Когда здесь указано расширение, запрос подтверждения не будет отображаться, когда это расширение обрабатывает URI.
+  // 🇺🇸 - When an extension is listed here, a confirmation prompt will not be shown when that extension handles a URI.
+  "extensions.confirmedUriHandlerExtensionIds": [],
 
-	//* 💡 ru - Если этот параметр включен, уведомления о рекомендациях по расширению не будут отображаться.
-	//* 💡 en - When enabled, the notifications for extension recommendations will not be shown.
-	"extensions.ignoreRecommendations": false,
+  // 🇷🇺 - Если этот параметр включен, уведомления о рекомендациях по расширению не будут отображаться.
+  // 🇺🇸 - When enabled, the notifications for extension recommendations will not be shown.
+  "extensions.ignoreRecommendations": false,
 
-	//* 💡 ru - Переопределить поддержку ненадежной рабочей области расширения. Расширения, использующие true, всегда будут включены. Расширения, использующие `limited`, всегда будут включены, и расширение будет скрывать функциональность, требующую доверия. Расширения, использующие false, будут включены только в том случае, если рабочая область является доверенной.
-	//* 💡 en - Override the untrusted workspace support of an extension. Extensions using `true` will always be enabled. Extensions using `limited` will always be enabled, and the extension will hide functionality that requires trust. Extensions using `false` will only be enabled only when the workspace is trusted.
-	"extensions.supportUntrustedWorkspaces": {},
+  // 🇷🇺 - Переопределить поддержку ненадежной рабочей области расширения. Расширения, использующие true, всегда будут включены. Расширения, использующие `limited`, всегда будут включены, и расширение будет скрывать функциональность, требующую доверия. Расширения, использующие false, будут включены только в том случае, если рабочая область является доверенной.
+  // 🇺🇸 - Override the untrusted workspace support of an extension. Extensions using `true` will always be enabled. Extensions using `limited` will always be enabled, and the extension will hide functionality that requires trust. Extensions using `false` will only be enabled only when the workspace is trusted.
+  "extensions.supportUntrustedWorkspaces": {},
 
-	//* 💡 ru - Переопределить поддержку виртуальных рабочих пространств расширения.
-	//* 💡 en - Override the virtual workspaces support of an extension.
-	"extensions.supportVirtualWorkspaces": {}
+  // 🇷🇺 - Переопределить поддержку виртуальных рабочих пространств расширения.
+  // 🇺🇸 - Override the virtual workspaces support of an extension.
+  "extensions.supportVirtualWorkspaces": {}
 }

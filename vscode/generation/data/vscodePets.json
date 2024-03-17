@@ -1,19 +1,19 @@
 {
-	//! ✅ VS Code Pets
+  // 🟢 VS Code Pets
 
-	//* 💡 ru - Фоновая тема.
-	//* 💡 en - Background theme.
-	"vscode-pets.theme": "forest",
+  // 🇷🇺 - Фоновая тема.
+  // 🇺🇸 - Background theme.
+  "vscode-pets.theme": "forest",
 
-	//* 💡 ru - Расположение анимации.
-	//* 💡 en - Animation location.
-	"vscode-pets.position": "explorer",
+  // 🇷🇺 - Расположение анимации.
+  // 🇺🇸 - Animation location.
+  "vscode-pets.position": "explorer",
 
-	//* 💡 ru - Тип персонажа.
-	//* 💡 en - Character type.
-	"vscode-pets.petType": "totoro",
+  // 🇷🇺 - Тип персонажа.
+  // 🇺🇸 - Character type.
+  "vscode-pets.petType": "totoro",
 
-	//* 💡 ru - Размер персонажа.
-	//* 💡 en - Character size.
-	"vscode-pets.petSize": "nano"
+  // 🇷🇺 - Размер персонажа.
+  // 🇺🇸 - Character size.
+  "vscode-pets.petSize": "nano"
 }

@@ -1,7 +1,7 @@
 {
-	//! ✅ Jake
+  // 🟢 Jake
 
-	//* 💡 ru - Управляет включением обнаружения задач Jake. Обнаружение задачи Jake может привести к выполнению файлов в любой открытой рабочей области.
-	//* 💡 en - Controls enablement of Jake task detection. Jake task detection can cause files in any open workspace to be executed.
-	"jake.autoDetect": "off"
+  // 🇷🇺 - Управляет включением обнаружения задач Jake. Обнаружение задачи Jake может привести к выполнению файлов в любой открытой рабочей области.
+  // 🇺🇸 - Controls enablement of Jake task detection. Jake task detection can cause files in any open workspace to be executed.
+  "jake.autoDetect": "off"
 }

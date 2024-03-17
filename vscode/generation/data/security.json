@@ -1,23 +1,23 @@
 {
-	//! ✅ Security
+  // 🟢 Security
 
-	//* 💡 ru - Управляет отображением баннера ограниченного режима.
-	//* 💡 en - Controls when the restricted mode banner is shown.
-	"security.workspace.trust.banner": "untilDismissed",
+  // 🇷🇺 - Управляет отображением баннера ограниченного режима.
+  // 🇺🇸 - Controls when the restricted mode banner is shown.
+  "security.workspace.trust.banner": "untilDismissed",
 
-	//* 💡 ru - Определяет, является ли пустое окно доверенным по умолчанию в VS Code. При использовании с `security.workspace.trust.untrustedFiles` вы можете включить полную функциональность VS Code без запроса в пустом окне.
-	//* 💡 en - Controls whether or not the empty window is trusted by default within VS Code. When used with `security.workspace.trust.untrustedFiles`, you can enable the full functionality of VS Code without prompting in an empty window.
-	"security.workspace.trust.emptyWindow": true,
+  // 🇷🇺 - Определяет, является ли пустое окно доверенным по умолчанию в VS Code. При использовании с `security.workspace.trust.untrustedFiles` вы можете включить полную функциональность VS Code без запроса в пустом окне.
+  // 🇺🇸 - Controls whether or not the empty window is trusted by default within VS Code. When used with `security.workspace.trust.untrustedFiles`, you can enable the full functionality of VS Code without prompting in an empty window.
+  "security.workspace.trust.emptyWindow": true,
 
-	//* 💡 ru - Определяет, включено ли доверие рабочей области в VS Code.
-	//* 💡 en - Controls whether or not Workspace Trust is enabled within VS Code.
-	"security.workspace.trust.enabled": true,
+  // 🇷🇺 - Определяет, включено ли доверие рабочей области в VS Code.
+  // 🇺🇸 - Controls whether or not Workspace Trust is enabled within VS Code.
+  "security.workspace.trust.enabled": true,
 
-	//* 💡 ru - Определяет, когда отображается приглашение при запуске доверять рабочей области.
-	//* 💡 en - Controls when the startup prompt to trust a workspace is shown.
-	"security.workspace.trust.startupPrompt": "once",
+  // 🇷🇺 - Определяет, когда отображается приглашение при запуске доверять рабочей области.
+  // 🇺🇸 - Controls when the startup prompt to trust a workspace is shown.
+  "security.workspace.trust.startupPrompt": "once",
 
-	//* 💡 ru - Определяет, как обрабатывать открытие ненадежных файлов в доверенной рабочей области. Этот параметр также применяется к открытию файлов в пустом окне, которому доверяют через `security.workspace.trust.emptyWindow`.
-	//* 💡 en - Controls how to handle opening untrusted files in a trusted workspace. This setting also applies to opening files in an empty window which is trusted via `security.workspace.trust.emptyWindow`.
-	"security.workspace.trust.untrustedFiles": "prompt"
+  // 🇷🇺 - Определяет, как обрабатывать открытие ненадежных файлов в доверенной рабочей области. Этот параметр также применяется к открытию файлов в пустом окне, которому доверяют через `security.workspace.trust.emptyWindow`.
+  // 🇺🇸 - Controls how to handle opening untrusted files in a trusted workspace. This setting also applies to opening files in an empty window which is trusted via `security.workspace.trust.emptyWindow`.
+  "security.workspace.trust.untrustedFiles": "prompt"
 }

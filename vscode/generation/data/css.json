@@ -1,139 +1,139 @@
 {
-	//! ✅ CSS
+  // 🟢 CSS
 
-	//* 💡 ru - Вставьте точку с запятой в конце строки при заполнении свойств CSS.
-	//* 💡 en - Insert semicolon at end of line when completing CSS properties.
-	"css.completion.completePropertyWithSemicolon": true,
+  // 🇷🇺 - Вставьте точку с запятой в конце строки при заполнении свойств CSS.
+  // 🇺🇸 - Insert semicolon at end of line when completing CSS properties.
+  "css.completion.completePropertyWithSemicolon": true,
 
-	//* 💡 ru - По умолчанию VS Code инициирует завершение значения свойства после выбора свойства CSS. Используйте этот параметр, чтобы отключить это поведение.
-	//* 💡 en - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
-	"css.completion.triggerPropertyValueCompletion": true,
+  // 🇷🇺 - По умолчанию VS Code инициирует завершение значения свойства после выбора свойства CSS. Используйте этот параметр, чтобы отключить это поведение.
+  // 🇺🇸 - By default, VS Code triggers property value completion after selecting a CSS property. Use this setting to disable this behavior.
+  "css.completion.triggerPropertyValueCompletion": true,
 
-	//* 💡 ru - Список относительных путей к файлам, указывающих на файлы JSON в пользовательском формате данных.
-	//* 💡 en - A list of relative file paths pointing to JSON files following the custom data format.
-	"css.customData": [],
+  // 🇷🇺 - Список относительных путей к файлам, указывающих на файлы JSON в пользовательском формате данных.
+  // 🇺🇸 - A list of relative file paths pointing to JSON files following the custom data format.
+  "css.customData": [],
 
-	//* 💡 ru - Ставьте фигурные скобки на той же строке, что и правила (`collapse`), или ставьте фигурные скобки на отдельной строке (`expand`).
-	//* 💡 en - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
-	"css.format.braceStyle": "collapse",
+  // 🇷🇺 - Ставьте фигурные скобки на той же строке, что и правила (`collapse`), или ставьте фигурные скобки на отдельной строке (`expand`).
+  // 🇺🇸 - Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).
+  "css.format.braceStyle": "collapse",
 
-	//* 💡 ru - Включить/отключить средство форматирования CSS по умолчанию.
-	//* 💡 en - Enable/disable default CSS formatter.
-	"css.format.enable": true,
+  // 🇷🇺 - Включить/отключить средство форматирования CSS по умолчанию.
+  // 🇺🇸 - Enable/disable default CSS formatter.
+  "css.format.enable": true,
 
-	//* 💡 ru - Максимальное количество разрывов строк, которое должно быть сохранено в одном фрагменте, когда включено `css.format.preserve NewLines`.
-	//* 💡 en - Maximum number of line breaks to be preserved in one chunk, when `css.format.preserveNewLines` is enabled.
-	"css.format.maxPreserveNewLines": null,
+  // 🇷🇺 - Максимальное количество разрывов строк, которое должно быть сохранено в одном фрагменте, когда включено `css.format.preserve NewLines`.
+  // 🇺🇸 - Maximum number of line breaks to be preserved in one chunk, when `css.format.preserveNewLines` is enabled.
+  "css.format.maxPreserveNewLines": null,
 
-	//* 💡 ru - Разделяйте наборы правил пустой строкой.
-	//* 💡 en - Separate rulesets by a blank line.
-	"css.format.newlineBetweenRules": true,
+  // 🇷🇺 - Разделяйте наборы правил пустой строкой.
+  // 🇺🇸 - Separate rulesets by a blank line.
+  "css.format.newlineBetweenRules": true,
 
-	//* 💡 ru - Разделяйте селекторы новой строкой.
-	//* 💡 en - Separate selectors with a new line.
-	"css.format.newlineBetweenSelectors": true,
+  // 🇷🇺 - Разделяйте селекторы новой строкой.
+  // 🇺🇸 - Separate selectors with a new line.
+  "css.format.newlineBetweenSelectors": true,
 
-	//* 💡 ru - Следует ли сохранять существующие разрывы строк перед элементами.
-	//* 💡 en - Whether existing line breaks before elements should be preserved.
-	"css.format.preserveNewLines": true,
+  // 🇷🇺 - Следует ли сохранять существующие разрывы строк перед элементами.
+  // 🇺🇸 - Whether existing line breaks before elements should be preserved.
+  "css.format.preserveNewLines": true,
 
-	//* 💡 ru - Обеспечьте наличие пробела вокруг разделителей селекторов '>', '+', '~' (например, `a > b`).
-	//* 💡 en - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
-	"css.format.spaceAroundSelectorSeparator": false,
+  // 🇷🇺 - Обеспечьте наличие пробела вокруг разделителей селекторов '>', '+', '~' (например, `a > b`).
+  // 🇺🇸 - Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).
+  "css.format.spaceAroundSelectorSeparator": false,
 
-	//* 💡 ru - Показать документацию по тегам и атрибутам при наведении курсора CSS.
-	//* 💡 en - Show tag and attribute documentation in CSS hovers.
-	"css.hover.documentation": true,
+  // 🇷🇺 - Показать документацию по тегам и атрибутам при наведении курсора CSS.
+  // 🇺🇸 - Show tag and attribute documentation in CSS hovers.
+  "css.hover.documentation": true,
 
-	//* 💡 ru - Показывать ссылки на MDN при наведении CSS.
-	//* 💡 en - Show references to MDN in CSS hovers.
-	"css.hover.references": true,
+  // 🇷🇺 - Показывать ссылки на MDN при наведении CSS.
+  // 🇺🇸 - Show references to MDN in CSS hovers.
+  "css.hover.references": true,
 
-	//* 💡 ru - Недопустимое количество параметров.
-	//* 💡 en - Invalid number of parameters.
-	"css.lint.argumentsInColorFunction": "error",
+  // 🇷🇺 - Недопустимое количество параметров.
+  // 🇺🇸 - Invalid number of parameters.
+  "css.lint.argumentsInColorFunction": "error",
 
-	//* 💡 ru - Не используйте `width` или `height` при использовании `padding` или `border`.
-	//* 💡 en - Do not use `width` or `height` when using `padding` or `border`.
-	"css.lint.boxModel": "ignore",
+  // 🇷🇺 - Не используйте `width` или `height` при использовании `padding` или `border`.
+  // 🇺🇸 - Do not use `width` or `height` when using `padding` or `border`.
+  "css.lint.boxModel": "ignore",
 
-	//* 💡 ru - При использовании префикса, специфичного для поставщика, не забудьте также включить все другие свойства, зависящие от поставщика.
-	//* 💡 en - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
-	"css.lint.compatibleVendorPrefixes": "ignore",
+  // 🇷🇺 - При использовании префикса, специфичного для поставщика, не забудьте также включить все другие свойства, зависящие от поставщика.
+  // 🇺🇸 - When using a vendor-specific prefix make sure to also include all other vendor-specific properties.
+  "css.lint.compatibleVendorPrefixes": "ignore",
 
-	//* 💡 ru - Не используйте повторяющиеся определения стилей.
-	//* 💡 en - Do not use duplicate style definitions.
-	"css.lint.duplicateProperties": "ignore",
+  // 🇷🇺 - Не используйте повторяющиеся определения стилей.
+  // 🇺🇸 - Do not use duplicate style definitions.
+  "css.lint.duplicateProperties": "ignore",
 
-	//* 💡 ru - Не используйте пустые наборы правил.
-	//* 💡 en - Do not use empty rulesets.
-	"css.lint.emptyRules": "warning",
+  // 🇷🇺 - Не используйте пустые наборы правил.
+  // 🇺🇸 - Do not use empty rulesets.
+  "css.lint.emptyRules": "warning",
 
-	//* 💡 ru - Избегайте использования `float`. Поплавки приводят к хрупкому CSS, который легко сломать, если изменится один аспект макета.
-	//* 💡 en - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
-	"css.lint.float": "ignore",
+  // 🇷🇺 - Избегайте использования `float`. Поплавки приводят к хрупкому CSS, который легко сломать, если изменится один аспект макета.
+  // 🇺🇸 - Avoid using `float`. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+  "css.lint.float": "ignore",
 
-	//* 💡 ru - Правило `@font-face` должно определять свойства `src` и `font-family`.
-	//* 💡 en - `@font-face` rule must define `src` and `font-family` properties.
-	"css.lint.fontFaceProperties": "warning",
+  // 🇷🇺 - Правило `@font-face` должно определять свойства `src` и `font-family`.
+  // 🇺🇸 - `@font-face` rule must define `src` and `font-family` properties.
+  "css.lint.fontFaceProperties": "warning",
 
-	//* 💡 ru - Шестнадцатеричные цвета должны состоять из трех или шести шестнадцатеричных чисел.
-	//* 💡 en - Hex colors must consist of three or six hex numbers.
-	"css.lint.hexColorLength": "error",
+  // 🇷🇺 - Шестнадцатеричные цвета должны состоять из трех или шести шестнадцатеричных чисел.
+  // 🇺🇸 - Hex colors must consist of three or six hex numbers.
+  "css.lint.hexColorLength": "error",
 
-	//* 💡 ru - Селекторы не должны содержать идентификаторы, потому что эти правила слишком тесно связаны с HTML.
-	//* 💡 en - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
-	"css.lint.idSelector": "ignore",
+  // 🇷🇺 - Селекторы не должны содержать идентификаторы, потому что эти правила слишком тесно связаны с HTML.
+  // 🇺🇸 - Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+  "css.lint.idSelector": "ignore",
 
-	//* 💡 ru - Взломы IE необходимы только при поддержке IE7 и старше.
-	//* 💡 en - IE hacks are only necessary when supporting IE7 and older.
-	"css.lint.ieHack": "ignore",
+  // 🇷🇺 - Взломы IE необходимы только при поддержке IE7 и старше.
+  // 🇺🇸 - IE hacks are only necessary when supporting IE7 and older.
+  "css.lint.ieHack": "ignore",
 
-	//* 💡 ru - Избегайте использования `!important`. Это указывает на то, что специфика всего CSS вышла из-под контроля и нуждается в рефакторинг.
-	//* 💡 en - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
-	"css.lint.important": "ignore",
+  // 🇷🇺 - Избегайте использования `!important`. Это указывает на то, что специфика всего CSS вышла из-под контроля и нуждается в рефакторинг.
+  // 🇺🇸 - Avoid using `!important`. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+  "css.lint.important": "ignore",
 
-	//* 💡 ru - Операторы импорта не загружаются параллельно.
-	//* 💡 en - Import statements do not load in parallel.
-	"css.lint.importStatement": "ignore",
+  // 🇷🇺 - Операторы импорта не загружаются параллельно.
+  // 🇺🇸 - Import statements do not load in parallel.
+  "css.lint.importStatement": "ignore",
 
-	//* 💡 ru - Свойство игнорируется из-за отображения. Например. с display: inline свойства width, height, margin-top, margin-bottom и float не действуют.
-	//* 💡 en - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
-	"css.lint.propertyIgnoredDueToDisplay": "warning",
+  // 🇷🇺 - Свойство игнорируется из-за отображения. Например. с display: inline свойства width, height, margin-top, margin-bottom и float не действуют.
+  // 🇺🇸 - Property is ignored due to the display. E.g. with `display: inline`, the `width`, `height`, `margin-top`, `margin-bottom`, and `float` properties have no effect.
+  "css.lint.propertyIgnoredDueToDisplay": "warning",
 
-	//* 💡 ru - Известно, что универсальный селектор (`*`) медленный.
-	//* 💡 en - The universal selector (`*`) is known to be slow.
-	"css.lint.universalSelector": "ignore",
+  // 🇷🇺 - Известно, что универсальный селектор (`*`) медленный.
+  // 🇺🇸 - The universal selector (`*`) is known to be slow.
+  "css.lint.universalSelector": "ignore",
 
-	//* 💡 ru - Неизвестное at-правило.
-	//* 💡 en - Unknown at-rule.
-	"css.lint.unknownAtRules": "warning",
+  // 🇷🇺 - Неизвестное at-правило.
+  // 🇺🇸 - Unknown at-rule.
+  "css.lint.unknownAtRules": "warning",
 
-	//* 💡 ru - Неизвестное свойство.
-	//* 💡 en - Unknown property.
-	"css.lint.unknownProperties": "warning",
+  // 🇷🇺 - Неизвестное свойство.
+  // 🇺🇸 - Unknown property.
+  "css.lint.unknownProperties": "warning",
 
-	//* 💡 ru - Свойство неизвестного поставщика.
-	//* 💡 en - Unknown vendor specific property.
-	"css.lint.unknownVendorSpecificProperties": "ignore",
+  // 🇷🇺 - Свойство неизвестного поставщика.
+  // 🇺🇸 - Unknown vendor specific property.
+  "css.lint.unknownVendorSpecificProperties": "ignore",
 
-	//* 💡 ru - Список свойств, которые не проверяются на соответствие правилу `unknownProperties`.
-	//* 💡 en - A list of properties that are not validated against the `unknownProperties` rule.
-	"css.lint.validProperties": [],
+  // 🇷🇺 - Список свойств, которые не проверяются на соответствие правилу `unknownProperties`.
+  // 🇺🇸 - A list of properties that are not validated against the `unknownProperties` rule.
+  "css.lint.validProperties": [],
 
-	//* 💡 ru - При использовании префикса, зависящего от поставщика, также включите стандартное свойство.
-	//* 💡 en - When using a vendor-specific prefix, also include the standard property.
-	"css.lint.vendorPrefix": "warning",
+  // 🇷🇺 - При использовании префикса, зависящего от поставщика, также включите стандартное свойство.
+  // 🇺🇸 - When using a vendor-specific prefix, also include the standard property.
+  "css.lint.vendorPrefix": "warning",
 
-	//* 💡 ru - Единица для нуля не нужна.
-	//* 💡 en - No unit for zero needed.
-	"css.lint.zeroUnits": "ignore",
+  // 🇷🇺 - Единица для нуля не нужна.
+  // 🇺🇸 - No unit for zero needed.
+  "css.lint.zeroUnits": "ignore",
 
-	//* 💡 ru - Отслеживает связь между VS Code и языковым сервером CSS.
-	//* 💡 en - Traces the communication between VS Code and the CSS language server.
-	"css.trace.server": "off",
+  // 🇷🇺 - Отслеживает связь между VS Code и языковым сервером CSS.
+  // 🇺🇸 - Traces the communication between VS Code and the CSS language server.
+  "css.trace.server": "off",
 
-	//* 💡 ru - Включает или отключает все проверки.
-	//* 💡 en - Enables or disables all validations.
-	"css.validate": true
+  // 🇷🇺 - Включает или отключает все проверки.
+  // 🇺🇸 - Enables or disables all validations.
+  "css.validate": true
 }

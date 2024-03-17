@@ -1,19 +1,19 @@
 {
-	//! ✅ Merge Conflict
+  // 🟢 Merge Conflict
 
-	//* 💡 ru - Следует ли автоматически переходить к следующему конфликту слияния после разрешения конфликта слияния.
-	//* 💡 en - Whether to automatically navigate to the next merge conflict after resolving a merge conflict.
-	"merge-conflict.autoNavigateNextConflict.enabled": false,
+  // 🇷🇺 - Следует ли автоматически переходить к следующему конфликту слияния после разрешения конфликта слияния.
+  // 🇺🇸 - Whether to automatically navigate to the next merge conflict after resolving a merge conflict.
+  "merge-conflict.autoNavigateNextConflict.enabled": false,
 
-	//* 💡 ru - Создайте CodeLens для блоков конфликтов слияния в редакторе.
-	//* 💡 en - Create a CodeLens for merge conflict blocks within editor.
-	"merge-conflict.codeLens.enabled": true,
+  // 🇷🇺 - Создайте CodeLens для блоков конфликтов слияния в редакторе.
+  // 🇺🇸 - Create a CodeLens for merge conflict blocks within editor.
+  "merge-conflict.codeLens.enabled": true,
 
-	//* 💡 ru - Создайте декораторы для блоков конфликтов слияния в редакторе.
-	//* 💡 en - Create decorators for merge conflict blocks within editor.
-	"merge-conflict.decorators.enabled": true,
+  // 🇷🇺 - Создайте декораторы для блоков конфликтов слияния в редакторе.
+  // 🇺🇸 - Create decorators for merge conflict blocks within editor.
+  "merge-conflict.decorators.enabled": true,
 
-	//* 💡 ru - Определяет, где должно открываться представление различий при сравнении изменений в конфликтах слияния.
-	//* 💡 en - Controls where the diff view should be opened when comparing changes in merge conflicts.
-	"merge-conflict.diffViewPosition": "Current"
+  // 🇷🇺 - Определяет, где должно открываться представление различий при сравнении изменений в конфликтах слияния.
+  // 🇺🇸 - Controls where the diff view should be opened when comparing changes in merge conflicts.
+  "merge-conflict.diffViewPosition": "Current"
 }

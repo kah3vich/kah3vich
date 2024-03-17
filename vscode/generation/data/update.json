@@ -1,15 +1,15 @@
 {
-	//! ✅ Update
+  // 🟢 Update
 
-	//* 💡 ru - Включите загрузку и установку новых версий VS Code в фоновом режиме в Windows.
-	//* 💡 en - Enable to download and install new VS Code versions in the background on Windows.
-	"update.enableWindowsBackgroundUpdates": true,
+  // 🇷🇺 - Включите загрузку и установку новых версий VS Code в фоновом режиме в Windows.
+  // 🇺🇸 - Enable to download and install new VS Code versions in the background on Windows.
+  "update.enableWindowsBackgroundUpdates": true,
 
-	//* 💡 ru - Настройте получение автоматических обновлений. Требует перезагрузки после изменения. Обновления загружаются из онлайн-сервиса Microsoft.
-	//* 💡 en - Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.
-	"update.mode": "default",
+  // 🇷🇺 - Настройте получение автоматических обновлений. Требует перезагрузки после изменения. Обновления загружаются из онлайн-сервиса Microsoft.
+  // 🇺🇸 - Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.
+  "update.mode": "default",
 
-	//* 💡 ru - Показать примечания к выпуску после обновления. Примечания к выпуску получены из онлайн-сервиса Microsoft.
-	//* 💡 en - Show Release Notes after an update. The Release Notes are fetched from a Microsoft online service.
-	"update.showReleaseNotes": true
+  // 🇷🇺 - Показать примечания к выпуску после обновления. Примечания к выпуску получены из онлайн-сервиса Microsoft.
+  // 🇺🇸 - Show Release Notes after an update. The Release Notes are fetched from a Microsoft online service.
+  "update.showReleaseNotes": true
 }
