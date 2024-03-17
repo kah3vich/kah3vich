@@ -1,6 +1,7 @@
 import os
 import re
 
+
 def get_files_in_current_folder():
     current_directory = "{}/data".format(os.getcwd())
 
@@ -25,9 +26,8 @@ def remove_first_last_lines(text):
     return result
 
 def compiler_finally_config():
-    text = '{}\n\n'.format(get_info())
-    print(text)
-    text += '{\n'
+    text = '{}\n'.format(get_info())
+    text += '{'
 
     file_list = get_files_in_current_folder()
 
