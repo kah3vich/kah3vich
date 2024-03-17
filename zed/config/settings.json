@@ -1,7 +1,9 @@
-// 🔥 Config Kah3vich for Zed: https://github.com/kah3vich
+// 🔥 Config Kah3vich for Zed: https://github.com/kah3vich/tree/config
 // 📚 Documentation Zed settings: https://zed.dev/docs/configuring-zed
 // 📍 Path config: ~/.config/zed/settings.json
+// ✏️ Location file config: .zed/settings.json
 {
+  // 🟢 Telemetry
   // 🇷🇺 - Текст.
   // 🇺🇸 - Text.
   "telemetry": {

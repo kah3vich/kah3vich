@@ -1,8 +1,6 @@
 <div align="center">
-    <img width="40%" src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/vscode.svg" />
     <br />
-    <br />
-    <h1>Config VSCode</h1>
+    <h1>Config</h1>
     <p>
         Configuration files and parameters for simplifying and adaptive work in the code editor. Also for various systems associated with the terminal and aliases, which shorten and simplify work with systems.
     </p>
@@ -32,10 +30,9 @@ rm -rf kah3vich/; git clone -b config https://github.com/kah3vich/kah3vich.git; 
 
 > 💡 — restoring old settings from `backup-config`.
 
-```bash 
+```bash
 cd ~/.../Code/User; rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; cd ../; rm -rf backup-config/
 ```
-
 
 ### Windows:
 
@@ -59,42 +56,8 @@ rm -rf kah3vich/; git clone -b config https://github.com/kah3vich/kah3vich.git; 
 
 > 💡 — restoring old settings from `backup-config`.
 
-```bash 
+```bash
 cd ~/.../Code/User; rm -rf settings.json keybindings.json snippets/; cd backup-config/; mv settings.json keybindings.json snippets/ ../; cd ../; rm -rf backup-config/
 ```
 
 <h3 align="center">Alias</h3>
-
-### [Git](./git/alias.txt)
-
-> 💡 — switching to the config file to set aliases `git`.
-
-```bash
-cd ~/.gitconfig
-```
-
-### [Linux](./linux/alias.txt) 
-
-> 💡 — switching to the config file to set aliases `linux`.
-
-```bash
-cd ~/.bashrc
-```
-
-<h3 align="center">Plugins (VSCode)</h3>
-
-### List plugins: [Here](./extensions.txt)
-
-### Get all your plugins from `VSCode`.
-
-> 💡 — Mac OS / Linux
-
-```bash
-code --list-extensions | while read line; do echo "code --install-extension $line"; done
-```
-
-> 💡 — Windows
-
-```bash
-code --list-extensions | % { "code --install-extension $_" }
-```

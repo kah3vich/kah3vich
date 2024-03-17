@@ -1,0 +1,10 @@
+{
+  "version": "0.0.1",
+  "tasks": [
+    {
+      "label": "clear packages",
+      "type": "shell",
+      "command": "rm -rf node_modules; rm -rf package-lock.json; rm -rf yarn.lock;"
+    }
+  ]
+}

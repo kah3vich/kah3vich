@@ -1,0 +1,8 @@
+[
+  {
+    "command": "import-at-top",
+    "key": "ctrl+alt+s",
+    "when": "editorTextFocus",
+    "mac": "command+option+s"
+  }
+]

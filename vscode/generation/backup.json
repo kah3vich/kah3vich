@@ -1,0 +1,412 @@
+{
+  //| 🔥 Config Kah3vich - https://github.com/kah3vich
+  //! ✅ Editor
+  //? 🧨 Info - https://code.visualstudio.com/docs/editor/codebasics
+  //? 🤔 Config - https://code.visualstudio.com/docs/getstarted/settings
+  //* 💡 ru - Размер Таба.
+  //* 💡 en - Taba size.
+  "editor.tabSize": 4,
+  //* 💡 ru - Включение переноса слов.
+  //* 💡 en - Enable word wrap.
+  "editor.wordWrap": "on",
+  //* 💡 ru - Сворачивание кусков кода.
+  //* 💡 en - Folding pieces of code.
+  "editor.folding": true,
+  //* 💡 ru - Отступы Табом.
+  //* 💡 en - Tab indents.
+  "editor.insertSpaces": true,
+  //* 💡 ru - Плавная прокрутка.
+  //* 💡 en - Smooth scrolling.
+  "editor.smoothScrolling": true,
+  //* 💡 ru - Мини-карта кода.
+  //* 💡 en - Code minimap.
+  "editor.minimap.enabled": true,
+  //* 💡 ru - Тип размера мини-карты.
+  //* 💡 en - Minimap size type.
+  "editor.minimap.size": "fill",
+  //* 💡 ru - Удаление всего Таба.
+  //* 💡 en - Minimap size type.
+  "editor.detectIndentation": true,
+  //* 💡 ru - Позволяет прокручивать редактор дальше последний строки.
+  //* 💡 en - Allows the editor to scroll beyond the last line.
+  "editor.scrollBeyondLastLine": true,
+  //* 💡 ru - Отображение кастомным сниппетов в самом верху.
+  //* 💡 en - Display custom snippets at the very top.
+  "editor.snippetSuggestions": "bottom",
+  //* 💡 ru - Включение мультикурсора на указанную кнопку.
+  //* 💡 en - Turn on the multicursor on the specified button.
+  "editor.multiCursorModifier": "alt",
+  //* 💡 ru - Определяет, должен ли редактор отображать управляющие символы.
+  //* 💡 en - Specifies whether the editor should display control characters.
+  "editor.renderControlCharacters": false,
+  //* 💡 ru - Определяет, выделяются ли символы, которые можно спутать с основными символами ASCII, за исключением тех, которые распространены в текущем языковом стандарте пользователя.
+  //* 💡 en - Determines whether characters that can be confused with basic ASCII characters, other than those common in the user's current locale, are highlighted.
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  //* 💡 ru - Переключение по snippet`y кнопкой Tab.
+  //* 💡 en - Switching by snippet`y with the Tab button.
+  "editor.tabCompletion": "on",
+  //* 💡 ru - Включить форматирование при сохранение файла.
+  //* 💡 en - Enable formatting when saving a file.
+  "editor.formatOnSave": true,
+  //* 💡 ru - Определяет, должен ли редактор автоматически форматировать вставленное содержимое. Модуль форматирования должен быть доступен, и модуль форматирования должен иметь возможность форматировать диапазон в документе.
+  //* 💡 en - Specifies whether the editor should automatically format pasted content. The formatter must be available, and the formatter must be able to format the range in the document.
+  "editor.formatOnPaste": false,
+  //* 💡 ru - Определяет, должен ли редактор автоматически форматировать строку после ввода.
+  //* 💡 en - Specifies whether the editor should automatically format the string after input.
+  "editor.formatOnType": false,
+  //* 💡 ru - Определяет, форматирует ли формат при сохранении весь файл или только его модификации. Применяется только тогда, когда включен `editor.formatOnSave`.
+  //* 💡 en - Specifies whether the format formats the entire file or only modifications of the file when saved. Applies only when `editor.formatOnSave` is enabled.
+  "editor.formatOnSaveMode": "file",
+  //* 💡 ru - Установка дефолтного расширения для vscode.
+  //* 💡 en - Installing the default extension for vscode.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //* 💡 ru - Действия при сохранение файла.
+  //* 💡 en - Actions when saving a file.
+  "editor.codeActionsOnSave": {
+    //* 💡 ru - Использование приводит к удалению неиспользуемых инструкций импорта и к размещению команд импорта таким образом, чтобы сначала шли бы команды, в которых используются абсолютные пути.
+    //* 💡 en - Use causes unused import statements to be removed and import commands to be placed so that commands that use absolute paths come first.
+    "source.organizeImports": true
+  },
+  //* 💡 ru - Определяет, распределяются ли запомненные варианты выбора между несколькими рабочими пространствами и окнами (требуется `editor.suggestSelection`).
+  //* 💡 en - Determines whether learned choices are shared across multiple workspaces and windows (requires `editor.suggestSelection`).
+  "editor.suggestSelection": "first",
+  //* 💡 ru - Управляет миганием курсора терминала.
+  //* 💡 en - Controls the blinking of the terminal cursor.
+  "editor.cursorBlinking": "expand",
+  //* 💡 ru - Определяет, включена ли раскраска пары скобок или нет. Используйте `workbench.colorCustomizations`, чтобы переопределить цвета подсветки скобок.
+  //* 💡 en - Specifies whether brace pair coloring is enabled or not. Use `workbench.colorCustomizations` to override bracket highlight colors.
+  "editor.bracketPairColorization.enabled": false,
+  //* 💡 ru - Настраивает лигатуры шрифта или функции шрифта. Может быть либо логическим значением для включения/отключения лигатур, либо строкой для значения свойства CSS 'font-feature-settings'.
+  //* 💡 en - Customizes font ligatures or font features. Can be either a boolean to enable/disable ligatures, or a string for the value of the 'font-feature-settings' CSS property.
+  "editor.fontLigatures": true,
+  //* 💡 ru - Начертание шрифта.
+  //* 💡 en - Font style.
+  "editor.fontWeight": "500",
+  //* 💡 ru - Размер шрифта.
+  //* 💡 en - Font size.
+  "editor.fontSize": 16,
+  //* 💡 ru - Высота строки.
+  //* 💡 en - Line height.
+  "editor.lineHeight": 24,
+  //* 💡 ru - Установка шрифта - https://github.com/kah3vich/Gulp-RS/tree/font/fonts/JetBrainsMono.
+  //* 💡 en - Font installation - https://github.com/kah3vich/Gulp-RS/tree/font/fonts/JetBrainsMono.
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  //* 💡 ru - Определяет, должен ли редактор отображать вертикальное поле глифа.
+  //* 💡 en - Specifies whether the editor should display the glyph's vertical margin.
+  "editor.glyphMargin": false,
+  //! ✅ Explorer
+  //* 💡 ru - Убираем алерты с предупреждениями при удалении и перетаскивании файлов и директорий.
+  //* 💡 en - We remove alerts with warnings when deleting and dragging files and directories.
+  "explorer.confirmDelete": false,
+  //* 💡 ru - Отображение дочерних папок в компактной форме.
+  //* 💡 en - Display child folders in a compact form.
+  "explorer.compactFolders": false,
+  //* 💡 ru - Убираем алерты с предупреждениями при удалении и перетаскивании файлов и директорий.
+  //* 💡 en - We remove alerts with warnings when deleting and dragging files and directories.
+  "explorer.confirmDragAndDrop": true,
+  //! ✅ Emmet
+  //? 🧨 Info - https://code.visualstudio.com/docs/editor/emmet
+  //* 💡 ru - Укажите местоположение каталога, в котором находится snippets.json файл, который, в свою очередь, содержит ваши пользовательские фрагменты.
+  //* 💡 en - Specify the directory location that contains the snippets.json file, which in turn contains your custom snippets.
+  "emmet.triggerExpansionOnTab": true,
+  //* 💡 ru - Если вы вообще не хотите видеть аббревиатуры Emmet в предложениях.
+  //* 💡 en - If you don't want to see Emmet abbreviations in sentences at all.
+  "emmet.showExpandedAbbreviation": "never",
+  //* 💡 ru - Если есть язык, для которого вы не хотите видеть расширения Emmet, добавьте его в этот параметр, который принимает массив строк идентификатора языка.
+  //* 💡 en - If there is a language for which you don't want to see Emmet extensions, add it to this parameter, which takes an array of language ID strings.
+  "emmet.excludeLanguages": [
+    "html",
+    "css",
+    "markdown",
+    "javascript"
+  ],
+  //* 💡 ru - Чтобы включить расширение аббревиатуры Emmet в типах файлов, где оно недоступно по умолчанию.
+  //* 💡 en - To enable the Emmet abbreviation extension in file types where it is not available by default.
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "html": "html",
+    "php": "html",
+    "blade": "html",
+    "postcss": "css"
+  },
+  //! ✅ Window
+  //* 💡 ru - Определяет, должны ли файлы открываться в новом окне при использовании командной строки или файлового диалога.
+  //* 💡 en - Specifies whether files should open in a new window when using the command line or file dialog.
+  "window.openFilesInNewWindow": "off",
+  //* 💡 ru - Отрегулируйте уровень масштабирования окна.
+  //* 💡 en - Adjust the zoom level of the window.
+  "window.zoomLevel": -1,
+  //! ✅ Workbench
+  //* 💡 ru - Указывает цветовую тему, используемую в рабочей среде.
+  //* 💡 en - Specifies the color theme used in the working environment.
+  "workbench.colorTheme": "Holdesher Theme",
+  //* 💡 ru - Управляет размером вкладок редактора.
+  //* 💡 en - Controls the size of the editor tabs.
+  "workbench.editor.tabSizing": "shrink",
+  //* 💡 ru - Указывает тему значков файлов, используемую в рабочей среде, или значение null, чтобы значки файлов не отображались.
+  //* 💡 en - Specifies the file icon theme to use in the workbench, or null to not display file icons.
+  "workbench.iconTheme": "material-icon-theme",
+  //* 💡 ru - Управляет видимостью панели действий в рабочей среде.
+  //* 💡 en - Controls the visibility of the action bar in the workbench.
+  "workbench.activityBar.visible": true,
+  //* 💡 ru - Управляет тем, какой редактор отображается при запуске, если ни один из них не был восстановлен из предыдущего сеанса.
+  //* 💡 en - Controls which editor is displayed at startup if none of them have been restored from a previous session.
+  "workbench.startupEditor": "newUntitledFile",
+  //* 💡 ru - Настройте шаблоны шаблонов для редакторов (например, `'*.hex': 'hexEditor.hexEdit'`). Они имеют приоритет над поведением по умолчанию.
+  //* 💡 en - Set up template templates for editors (eg `'*.hex': 'hexEditor.hexEdit'`). They take precedence over the default behavior.
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  //! ✅ Debug
+  //* 💡 ru - Управляет расположением панели инструментов отладки. Либо «плавающий» во всех представлениях, либо «закрепленный» в представлении отладки, либо «скрытый».
+  //* 💡 en - Controls the location of the debug toolbar. Either "floating" in all views, or "pinned" in debug view, or "hidden".
+  "debug.toolBarLocation": "hidden",
+  //* 💡 ru - Определяет, должно ли окно рабочей среды быть сфокусировано при остановке отладчика.
+  //* 💡 en - Specifies whether the workbench window should be focused when the debugger is stopped.
+  "debug.focusWindowOnBreak": false,
+  //* 💡 ru - Определяет, следует ли отображать в редакторе украшения-кандидаты встроенных точек останова во время отладки.
+  //* 💡 en - Controls whether to display inline breakpoint decoration candidates in the editor during debugging.
+  "debug.showInlineBreakpointCandidates": false,
+  //* 💡 ru - Определяет, должны ли точки останова отображаться на обзорной линейке.
+  //* 💡 en - Specifies whether breakpoints should be displayed on the overview ruler.
+  "debug.showBreakpointsInOverviewRuler": false,
+  //! ✅ Format
+  //? 🧨 Info - https://prettier.io/docs/en/options.html
+  //* 💡 ru - Правило устанавливает в конце выражений добавляется точка с запятой.
+  //* 💡 en - The rule sets a semicolon is added at the end of expressions.
+  "prettier.semi": true,
+  //* 💡 ru - Делайте отступы с помощью табуляции вместо пробелов.
+  //* 💡 en - Indent with tabs instead of spaces.
+  "prettier.useTabs": true,
+  //* 💡 ru - Это правило для символа ">" в многострочных JSX-элементах будет помещён в последней строке.
+  //* 💡 en - This rule for the ">" character in multiline JSX elements will be placed on the last line.
+  "prettier.jsxBracketSameLine": false,
+  //* 💡 ru - Отвечает за вставку пробелов между телом объекта и фигурными скобками в объектных литералах.
+  //* 💡 en - Responsible for inserting spaces between the object body and curly braces in object literals.
+  "prettier.bracketSpacing": true,
+  //* 💡 ru - Обеспечивает наличие запятой после последнего свойства объекта.
+  //* 💡 en - Ensures that there is a comma after the last object property.
+  "prettier.trailingComma": "all",
+  //* 💡 ru - Все двойные кавычки будут преобразованы в одинарные.
+  //* 💡 en - All double quotes will be converted to single quotes.
+  "prettier.singleQuote": true,
+  //* 💡 ru - Все двойные кавычки будут преобразованы в одинарные для формата файлов jsx.
+  //* 💡 en - All double quotes will be converted to single quotes for the jsx file format.
+  "prettier.jsxSingleQuote": true,
+  //* 💡 ru - Включите круглые скобки вокруг единственного параметра функции стрелки.
+  //* 💡 en - Include parentheses around the single parameter of the arrow function.
+  "prettier.arrowParens": "avoid",
+  //* 💡 ru - Задаёт количество пробелов на один уровень выравнивания.
+  //* 💡 en - Specifies the number of spaces per alignment level.
+  "prettier.tabWidth": 2,
+  //* 💡 ru - Длина строки не должна превышать 100 символов.
+  //* 💡 en - The string length must not exceed 100 characters.
+  "prettier.printWidth": 100,
+  //! ✅ Terminal
+  //* 💡 ru - Размер шрифта.
+  //* 💡 en - Font size.
+  "terminal.integrated.fontSize": 16,
+  //* 💡 ru - Начертание шрифта.
+  //* 💡 en - Font style.
+  "terminal.integrated.fontWeight": "600",
+  //* 💡 ru - Установка шрифта - https://github.com/kah3vich/Gulp-RS/tree/font/fonts/JetBrainsMono.
+  //* 💡 en - Installing the font - https://github.com/kah3vich/Gulp-RS/tree/font/fonts/JetBrainsMono.
+  "terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+  //* 💡 ru - Стартовая командная строка.
+  //* 💡 en - Start command line.
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  //* 💡 ru - Путь для командной строки git-bash.
+  //* 💡 en - Path for git-bash command line.
+  "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\git-bash.exe",
+  //! ✅ Breadcrumbs
+  //* 💡 ru - Рендеринг элементов навигации с помощью значков.
+  //* 💡 en - Rendering navigation elements using icons.
+  "breadcrumbs.icons": false,
+  //* 💡 ru - При включении хлебных крошек отображаются символы `ключей`.
+  //* 💡 en - When breadcrumbs are enabled, `key` symbols are displayed.
+  "breadcrumbs.showKeys": false,
+  //* 💡 ru - Когда хлебные крошки включены, они показывают символы `file`.
+  //* 💡 en - When enabled, breadcrumbs show the `file` characters.
+  "breadcrumbs.showFiles": false,
+  //* 💡 ru - Управляет тем, отображаются ли символы в представлении навигационных крошек и каким образом.
+  //* 💡 en - Controls whether and how symbols are displayed in the navigation crumbs view.
+  "breadcrumbs.symbolPath": "off",
+  //* 💡 ru - Когда хлебные крошки включены, они показывают символы массива.
+  //* 💡 en - When breadcrumbs are enabled, they show array characters.
+  "breadcrumbs.showArrays": false,
+  //* 💡 ru - При включении хлебных крошек отображаются символы «события».
+  //* 💡 en - When breadcrumbs are turned on, "event" symbols are displayed.
+  "breadcrumbs.showEvents": false,
+  //* 💡 ru - При включении хлебные крошки показывают символы `поля`.
+  //* 💡 en - When enabled, breadcrumbs show `field` symbols.
+  "breadcrumbs.showFields": false,
+  //* 💡 ru - При включении хлебных крошек отображаются символы класса.
+  //* 💡 en - When breadcrumbs are enabled, class symbols are displayed.
+  "breadcrumbs.showClasses": false,
+  //* 💡 ru - Когда хлебные крошки включены, они показывают `метод` - символы.
+  //* 💡 en - When breadcrumbs are enabled, they show the `method` symbols.
+  "breadcrumbs.showMethods": false,
+  //* 💡 ru - Когда хлебные крошки включены, они показывают логические символы.
+  //* 💡 en - When breadcrumbs are on, they show boolean symbols.
+  "breadcrumbs.showBooleans": false,
+  //* 💡 ru - Когда хлебные крошки включены, они показывают `функциональные` - символы.
+  //* 💡 en - When breadcrumbs are enabled, they show `functional` symbols.
+  "breadcrumbs.showFunctions": false,
+  //* 💡 ru - При включении хлебных крошек отображаются `постоянные` - символы.
+  //* 💡 en - When breadcrumbs are enabled, `permanent` characters are displayed.
+  "breadcrumbs.showConstants": false,
+  //* 💡 ru - При включении хлебных крошек отображаются символы `enumMember`.
+  //* 💡 en - When breadcrumbs are enabled, `enumMember` characters are displayed.
+  "breadcrumbs.showEnumMembers": false,
+  //* 💡 ru - При включении хлебных крошек отображаются символы-конструкторы.
+  //* 💡 en - When breadcrumbs are enabled, constructor symbols are displayed.
+  "breadcrumbs.showConstructors": false,
+  //! ✅ JS & TS
+  //* 💡 ru - Включить/отключить диагностику предложений для файлов JavaScript в редакторе.
+  //* 💡 en - Enable/disable suggestion diagnostics for JavaScript files in the editor.
+  "javascript.suggestionActions.enabled": false,
+  //* 💡 ru - Позволяет включать и выключать предложения по автоматическому импорту.
+  //* 💡 en - Allows you to turn automatic import suggestions on and off.
+  "javascript.suggest.autoImports": true,
+  //* 💡 ru - Позволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в vscode.
+  //* 💡 en - Allows you to choose how your module import paths are automatically updated when you rename or move files in vscode.
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  //* 💡 ru - Включить/отключить диагностику предложений для файлов TypeScript в редакторе.
+  //* 💡 en - Enable/disable suggestion diagnostics for TypeScript files in the editor.
+  "typescript.suggestionActions.enabled": false,
+  //* 💡 ru - Позволяет включать и выключать предложения по автоматическому импорту.
+  //* 💡 en - Allows you to turn automatic import suggestions on and off.
+  "typescript.suggest.autoImports": true,
+  //* 💡 ru - Позволяет выбирать способ автоматического обновления путей импорта модулей при переименовании или перемещении файлов в vscode.
+  //* 💡 en - Allows you to choose how your module import paths are automatically updated when you rename or move files in vscode.
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  //! ✅ Сhecker Spell
+  //* 💡 ru - Виды языков.
+  //* 💡 en - Types of languages.
+  "cSpell.language": "en,ru",
+  //* 💡 ru - Список слов исключения.
+  //* 💡 en - Exception word list.
+  "cSpell.userWords": [],
+  //* 💡 ru - Включить в определенных языка.
+  //* 💡 en - Enable in certain languages.
+  "cSpell.enabled": true,
+  //* 💡 ru - Список расширений файлов, в которых будет работать cSpell.
+  //* 💡 en - List of file extensions in which cSpell.
+  "cSpell.enableFiletypes": [
+    "jsx",
+    "js",
+    "css",
+    "scss",
+    "pug",
+    "html",
+    "php"
+  ],
+  //! ✅ Better
+  //* 💡 ru - Таги для комментариев
+  //* 💡 en - Tags for comments
+  "better-comments.tags": [
+    {
+      //* 💡 ru - Тег для вкл расширения.
+      //* 💡 en - Tag to enable the extension.
+      "tag": "!",
+      //* 💡 ru - Цвет строки.
+      //* 💡 en - Line color.
+      "color": "#FF2D00",
+      //* 💡 ru - Зачеркнутый текст.
+      //* 💡 en - Strikethrough text.
+      "strikethrough": false,
+      //* 💡 ru - Нижние подчеркивание.
+      //* 💡 en - Underscores.
+      "underline": false,
+      //* 💡 ru - Задний цвет.
+      //* 💡 en - back color.
+      "backgroundColor": "transparent",
+      //* 💡 ru - Жирное начертание.
+      //* 💡 en - Bold font.
+      "bold": false,
+      //* 💡 ru - Стиль шрифта.
+      //* 💡 en - Font style.
+      "italic": false
+    },
+    {
+      "tag": "|",
+      "color": "#0FFD00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  //* 💡 ru - Этот параметр определяет, оформляются ли комментарии в текстовом файле с использованием тегов аннотаций. При значении true теги (по умолчанию: ! * ? //) будут обнаружены, если они являются первым символом в строке.
+  //* 💡 en - This setting determines whether comments in a text file are formatted using annotation tags. If set to true, tags (default: ! * ? //) will be detected if they are the first character in the string.
+  "better-comments.highlightPlainText": true,
+  //! ✅ Sync
+  //* 💡 ru - ID ключ sync
+  //* 💡 en - ID key sync
+  "sync.gist": "",
+  //! ✅ Git
+  //* 💡 ru - Подтвердите перед синхронизацией репозиториев git.
+  //* 💡 en - Confirm before syncing git repositories.
+  "git.confirmSync": false,
+  //! ✅ VS Intelli Code
+  //* 💡 ru - Управляет предварительным выбором предложений при отображении списка предложений.
+  //* 💡 en - Controls the pre-selection of offers when displaying a list of offers.
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  //! ✅ VS Code Pets
+  //* 💡 ru - Tема заднего фона.
+  //* 💡 en - Background theme.
+  "vscode-pets.theme": "forest",
+  //* 💡 ru - Расположение анимации.
+  //* 💡 en - Animation location.
+  "vscode-pets.position": "explorer",
+  //* 💡 ru - Тип персонажа.
+  //* 💡 en - Character type.
+  "vscode-pets.petType": "totoro",
+  //* 💡 ru - Размер персонажа.
+  //* 💡 en - Character size.
+  "vscode-pets.petSize": "nano",
+  //! ✅ ESLint
+  //* 💡 ru - Включение eslint форматор.
+  //* 💡 en - Enable eslint formatter.
+  "eslint.format.enable": true,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+}

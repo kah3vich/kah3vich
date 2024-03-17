@@ -52,4 +52,4 @@ def compiler_finally_config():
 if __name__ == "__main__":
     compiler_finally_config()
 
-    print('\ncompiler_finally_config - Done ✅')
+    print('\nCompiler config - Done ✅')

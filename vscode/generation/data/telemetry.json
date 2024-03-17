@@ -1,0 +1,11 @@
+{
+  //! ✅ Telemetry
+
+  //* 💡 ru - Если этот параметр имеет значение false, телеметрия не будет отправляться независимо от значения нового параметра. Устарело в пользу параметра `telemetry.telemetryLevel`. Включите сбор диагностических данных.
+  //* 💡 en - If this setting is false, no telemetry will be sent regardless of the new setting's value. Deprecated in favor of the `telemetry.telemetryLevel` setting. Enable diagnostic data to be collected.
+  "telemetry.enableTelemetry": false,
+
+  //* 💡 ru - Контролирует всю телеметрию ядра, собственных расширений и участвующих сторонних расширений.
+  //* 💡 en - Controls all core, first-party extension, and participating third-party extension telemetry.
+  "telemetry.telemetryLevel": "all"
+}

@@ -1,0 +1,5 @@
+// 🔥 Config Kah3vich for VSCode: https://github.com/kah3vich/tree/config
+// 📚 Documentation VSCode settings: https://code.visualstudio.com/docs/editor/codebasics
+// 📄 Default config for VSCode: https://code.visualstudio.com/docs/getstarted/settings
+// 📍 Path config: ~/.../Code/User/settings.json
+// ✏️ Location file config: .vscode/settings.json

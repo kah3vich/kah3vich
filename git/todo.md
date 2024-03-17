@@ -1,8 +1,11 @@
-<h1 align="center">Todo</h1>
+<div align="center">
+  <br />
+  <h1 align="center">Todo</h1>
+</div>
 
-git branch rename 
+git branch rename
 
-git config --show-origin --get user.name & set 
+git config --show-origin --get user.name & set
 
 git branch -m "new-name"; git push origin -u "new-name" = git rename "new-name"
 
