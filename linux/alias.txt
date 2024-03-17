@@ -1,3 +1,4 @@
 alias ls='ls --color=auto -al'
 alias rf='rm -rf'
-alisa rf='clear'
+alisa c='clear'
+alisa b='cd ../'
