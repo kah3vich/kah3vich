@@ -1,208 +1,80 @@
+[Back](../)
+
 <div align="center">
   <br />
-  <h1 align="center">Zsh</h1>
+  <h1 align="center">ZSH</h1>
 </div>
 
-...
+### Settings:
 
-https://ohmyz.sh/
+1. Установите образ zsh на устройство - [ZSH](https://ohmyz.sh/)
 
-https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation
+- Конфиг файл zsh - `~/.zshrc`
 
-~/.zshrc
+2. Тема для образа - [PowerLevel10K](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation)
 
-ZSH_THEME
+- Пример конфиг файла с темой `~/.zshrc`:
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+  ```
+  if [[-r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+  fi
 
-# Initialization code that may require console input (password prompts, [y/n]
+  export ZSH="$HOME/.oh-my-zsh"
 
-# confirmations, etc.) must go above this block; everything else may go below.
+  ZSH_THEME="powerlevel10k/powerlevel10k"
 
-if [[-r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"]]; then
-source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+  plugins=(git)
 
-# If you come from bash you might have to change your $PATH.
+  source $ZSH/oh-my-zsh.sh
 
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+  [[! -f ~/.p10k.zsh]] || source ~/.p10k.zsh
+  ```
 
-# Path to your oh-my-zsh installation.
+- Для вызова найстроки темы, можно использовать команду: `p10k configure`
 
-export ZSH="$HOME/.oh-my-zsh"
+- Конфиг файл темы для `PowerLevel10K` - `~/.p10k.zsh`
 
-# Set name of the theme to load --- if set to "random", it will
+3. Шрифт - Meslo LG S DZ
 
-# load a random theme each time oh-my-zsh is loaded, in which case,
+- MacOS ошибка шрифта - [Here](https://stackoverflow.com/questions/64973308/why-does-oh-my-zsh-terminal-macos-missing-symbols)
 
-# to know which specific one was loaded, run: echo $RANDOM_THEME
+4. Иконки - [Icons](https://github.com/sebastiencs/icons-in-terminal/tree/master)
 
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+5. Плагины:
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+- Автоподсказки ввода команд - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
-# Set list of themes to pick from when loading at random
+  Установка:
 
-# Setting this variable when ZSH_THEME=random will cause zsh to load
+  ```
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  ```
 
-# a theme from this variable instead of looking in $ZSH/themes/
+- Подсветка команд - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-# If set to an empty array, this variable will have no effect.
+  ```
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  ```
 
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+> 💡 — Для запуска плагинов в `zsh`, нужно прописать их в конфиг файле `~/.zshrc`: `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
 
-# Uncomment the following line to use case-sensitive completion.
+6. Дополнение: 
 
-# CASE_SENSITIVE="true"
+- Перезапуск системы `zsh` в терминале: `source ~/.zshrc` или `exec zsh`
 
-# Uncomment the following line to use hyphen-insensitive completion.
+- Пакет начального экрана - [PokemonSay](https://github.com/possatti/pokemonsay/tree/master)
+  - [Pokemons List](https://www.pokemon.com/ru/pokedex/charizard)
+  - [Translate](https://vse-zadarma.ru/translit.php)
 
-# Case-sensitive completion must be off. \_ and - will be interchangeable.
+<div align="center">
+  <br />
+  <h3>🌏 Links 🌏</h3>
+</div>
 
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment one of the following lines to change the auto-update behavior
-
-# zstyle ':omz:update' mode disabled # disable automatic updates
-
-# zstyle ':omz:update' mode auto # update automatically without asking
-
-# zstyle ':omz:update' mode reminder # just remind me to update when it's time
-
-# Uncomment the following line to change how often to auto-update (in days).
-
-# zstyle ':omz:update' frequency 13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-
-# You can also set it to another string to have that shown instead of the default red dots.
-
-# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
-
-# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-
-# under VCS as dirty. This makes repository status check for large repositories
-
-# much, much faster.
-
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-
-# stamp shown in the history command output.
-
-# You can set one of the optional three formats:
-
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-
-# or set a custom format using the strftime function format specifications,
-
-# see 'man strftime' for details.
-
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-
-# Standard plugins can be found in $ZSH/plugins/
-
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-
-# Example format: plugins=(rails git textmate ruby lighthouse)
-
-# Add wisely, as too many plugins slow down shell startup.
-
-plugins=(git zsh-autosuggestions)
-
-source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-
-# if [[-n $SSH_CONNECTION]]; then
-
-# export EDITOR='vim'
-
-# else
-
-# export EDITOR='mvim'
-
-# fi
-
-# Compilation flags
-
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-
-# For a full list of active aliases, run `alias`.
-
-#
-
-# Example aliases
-
-# alias zshconfig="mate ~/.zshrc"
-
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-
-[[! -f ~/.p10k.zsh]] || source ~/.p10k.zsh
-
-p10k configure
-
-~/.p10k.zsh
-
-https://github.com/sebastiencs/icons-in-terminal/tree/master
-
-https://stackoverflow.com/questions/64973308/why-does-oh-my-zsh-terminal-macos-missing-symbols
-
-// Plugins
-
-https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
-
-https://github.com/zsh-users/zsh-autosuggestions
-
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-plugins=(zsh-autosuggestions)
-
-https://www.sitepoint.com/zsh-tips-tricks/
-
-https://catalins.tech/zsh-plugins/
-
-https://habr.com/ru/articles/739376/
+0. [Config File](./config.sh)
+1. [Список плагинов](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+2. [Статья про установку](https://www.sitepoint.com/zsh-tips-tricks/)
+3. [5 плагинов](https://catalins.tech/zsh-plugins/)
+4. [ZSH + PowerLevel10K](https://habr.com/ru/articles/739376/)
+5. [Advanced Settings](https://medium.com/swlh/the-ultimate-terminal-emulator-with-oh-my-zsh-experience-f81f838c6daf)

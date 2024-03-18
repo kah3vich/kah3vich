@@ -6,7 +6,12 @@
     </p>
 </div>
 
-...
+1. [Git](./git/readme.md)
+2. [Linux](./linux/readme.md)
+3. [Prettier](./prettier/readme.md)
+4. [VSCode](./vscode/readme.md)
+5. [Zed](./zed/readme.md)
+6. [Zsh](./zsh/readme.md)
 
 <div align="center">
     <br />
