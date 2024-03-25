@@ -130,13 +130,11 @@ POWERLEVEL9K_INSTANT_PROMPT=quiet
 # POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460%f "
 # POWERLEVEL9K_CUSTOM_BATTERY_STATUS="prompt_zsh_battery_level"
 
-# # Prompt Elements
-# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon host custom_battery_status ssh root_indicator dir dir_writable vcs)
-# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs disk_usage ram ip time)
-# HIST_STAMPS="mm/dd/yyyy"
-# DISABLE_UPDATE_PROMPT=true
-
-# Other:
+# Prompt Elements
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon host custom_battery_status ssh root_indicator dir dir_writable vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs disk_usage ram ip time)
+HIST_STAMPS="mm/dd/yyyy"
+DISABLE_UPDATE_PROMPT=true
 
 # Start screen.
 pokemonsay -p Charizard -n -w 18 "GDE MOI NASVAI ? GDE MOI NASVAI ? GDE MOI NASVAI ?"

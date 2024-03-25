@@ -1,5 +1,0 @@
-alias ls='ls --color=auto -al'
-alias rf='rm -rf'
-alisa c='clear'
-alisa b='cd ../'
-alias s='cd ~; clear; exec zsh'
