@@ -3,4 +3,4 @@
   <h1 align="center">Todo</h1>
 </div>
 
-//? 🧨 Info - https://prettier.io/docs/en/options.html
+1. [ ] — https://prettier.io/docs/en/options.html

@@ -14,20 +14,10 @@
 2. [Settigns](./config/settings.json)
 3. [Tasks](./config/tasks.json)
 
-<h3 align="center">Plugins</h3>
+<h3 align="center">Get all your plugins</h3>
 
-#### List plugins: [Here](./extensions.txt)
+1. Mac OS / Linux — `code --list-extensions | while read line; do echo "code --install-extension $line"; done`
 
-#### Get all your plugins from `VSCode`.
+2. Windows — `code --list-extensions | % { "code --install-extension $_" }`
 
-> 💡 — Mac OS / Linux
-
-```bash
-code --list-extensions | while read line; do echo "code --install-extension $line"; done
-```
-
-> 💡 — Windows
-
-```bash
-code --list-extensions | % { "code --install-extension $_" }
-```
+> List plugins: [Here](./extensions.txt)
