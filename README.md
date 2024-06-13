@@ -30,7 +30,7 @@
 <!--|||-->
 
 <div align="center">
-  <img src="https://svg-readme.vercel.app/readme/svg?type=description&content=🌺||Hi,||i'm||Kahevich,||a||self-taught||full||stack||web||developer.||my||passion||for||software||lies||with||dreaming||up||ideas||and||making||them||come||true||with||elegant||interfaces.||I||take||great||care||in||the||experience||architecture,||and||code||quality.<br><br>🧠||I||learned||a||lot||from||the||open-source||community||and||i||love||how||collaboration||and||knowledge||sharing||happened||through||open-source." width="100%" height="250px" alt="description">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=description&content=%F0%9F%8C%BA%20Hi%2C%20i%27m%20Kahevich%2C%20a%20self-taught%20full%20stack%20web%20developer.%20my%20passion%20for%20software%20lies%20with%20dreaming%20up%20ideas%20and%20making%20them%20come%20true%20with%20elegant%20interfaces.%20I%20take%20great%20care%20in%20the%20experience%20architecture%2C%20and%20code%20quality." width="100%" height="250px" alt="description">
 </div>
 
 <!--|||-->
