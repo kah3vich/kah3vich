@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/hyperkitty.gif" width="40px" alt="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" /> 
-    <img src="https://svg-readme.vercel.app/readme/svg?type=custom&content=Welcome||to||my||profile&size=30&weight=500" width="360px" height="30px" alt="title">
+    <img src="https://svg-readme.vercel.app/readme/svg?type=custom&content=Welcome%7C%7Cto%7C%7Cmy%7C%7Cprofile&size=30&weight=500" width="360px" height="30px" alt="title">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif">
 </p>
 
@@ -54,7 +54,7 @@
 <!--|||-->
 
 <div align="center">
-  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=🔥||Languages||Frameworks||Tools||Abilities||🔥" width="100%" height="33px" alt="stack">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=%F0%9F%94%A5%7C%7CLanguages%7C%7CFrameworks%7C%7CTools%7C%7CAbilities%7C%7C%F0%9F%94%A5" width="100%" height="33px" alt="stack">
 </div>
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
@@ -570,7 +570,7 @@
 <!--|||-->
 
 <div align="center">
-  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=⚡||Stats||⚡" width="100%" height="33px" alt="stats">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=%E2%9A%A1%7C%7CStats%7C%7C%E2%9A%A1" width="100%" height="33px" alt="stats">
 </div>
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
@@ -597,7 +597,7 @@
 <br /><br />
 
 <div align="center">
-  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=👨‍💻||Repositories||👨‍💻" width="100%" height="33px" alt="repositories">
+  <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%7C%7CRepositories%7C%7C%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" width="100%" height="33px" alt="repositories">
 </div>
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%"  alt="https://i.imgur.com/dBaSKWF.gif">
@@ -622,7 +622,7 @@
 <!--
 
 <div align="center">
-<img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=🚀||Extensions||🚀" width="100%" height="33px" alt="extensions">
+<img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=%F0%9F%9A%80%7C%7CExtensions%7C%7C%F0%9F%9A%80" width="100%" height="33px" alt="extensions">
 </div>
 
 -->

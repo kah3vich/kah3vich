@@ -12,7 +12,7 @@ const getUserRepos = username => {
 
 getUserRepos('kah3vich').then(repos => {
 	console.log('rm -rf github/*; cd github/;');
-	repos.push(...['Blender', 'ThreeJS']); // private repos
+	repos.push(...[]); // private repos
 	repos.forEach(repo => {
 		console.log(`git clone https://github.com/kah3vich/${repo}.git;`);
 	});
