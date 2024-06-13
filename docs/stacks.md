@@ -13,6 +13,7 @@
 ### Logos: 
 
 1. [gulp-rs](../assets/icon/rs.svg)
+2. [project](../assets/icon/project.svg)
 
 ### Langs: 
 
