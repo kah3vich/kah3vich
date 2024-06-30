@@ -137,4 +137,4 @@ HIST_STAMPS="mm/dd/yyyy"
 DISABLE_UPDATE_PROMPT=true
 
 # Start screen.
-pokemonsay -p Charizard -n -w 18 "GDE MOI NASVAI ? GDE MOI NASVAI ? GDE MOI NASVAI ?"
+pokemonsay -p Haunter -n -w 18 "GDE MOI NASVAI ? GDE MOI NASVAI ? GDE MOI NASVAI ?"
