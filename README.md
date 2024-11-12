@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/hyperkitty.gif" width="40px" alt="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" /> 
-    <img src="https://svg-readme.vercel.app/readme/svg?type=custom&content=Welcome%7C%7Cto%7C%7Cmy%7C%7Cprofile&size=30&weight=500" width="360px" height="30px" alt="title">
+    <img src="https://svg-readme.vercel.app/readme/svg?type=custom&content=Welcome%7C%7Cto%7C%7Cmy%7C%7Cprofile&size=30&weight=500" width="360px" height="40px" alt="title">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="https://cultofthepartyparrot.com/parrots/hd/reactparrot.gif">
 </p>
 
