@@ -5,7 +5,7 @@
       <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="reactparrot">
     </a>
     <a href="#main">
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=30&weight=500&content=Socials" width="140px" height="40px" alt="fullname">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=30&weight=500&content=Socials" width="140px" height="30px" alt="fullname">
     </a>
     <a href="https://cultofthepartyparrot.com" target="_blank">
       <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/nextparrot.gif" width="30px" alt="nextparrot">
@@ -13,7 +13,6 @@
 </div>
 
 <hr />
-<br />
 
 <div align="center">
   <a href="https://t.me/@kah3vich" target="_blank">
@@ -90,10 +89,14 @@
 <br />
 
 <div align="center">
-  <a>
-  <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="" />
-  <img src="https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?label=blue&logo=github&style=for-the-badge" alt="">
-  <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="" />
+  <a href="https://github.com/kah3vich" target="_blank">
+    <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="View Profile" />
+  </a>
+  <a href="https://wakatime.com/@kah3vich" target="_blank">
+  </a>
+    <img src="https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?label=blue&logo=github&style=for-the-badge" alt="WakaTime">
+  <a href="https://github.com/kah3vich" target="_blank">
+    <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="Followers" />
   </a>
 </div>
 
