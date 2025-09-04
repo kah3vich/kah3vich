@@ -8,7 +8,7 @@
       <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=30&weight=500&content=Socials" width="140px" height="30px" alt="fullname">
     </a>
     <a href="https://cultofthepartyparrot.com" target="_blank">
-      <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/laptopparrot.gif" width="40px" alt="laptopparrot">
+      <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/russiaparrot.gif" width="40px" alt="russiaparrot">
     </a>
 </div>
 
