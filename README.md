@@ -5,7 +5,7 @@
       <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="reactparrot">
     </a>
     <a href="#main">
-      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=30&weight=500&content=kah3vich" width="140px" height="40px" alt="fullname">
+      <img src="https://svg-readme.vercel.app/readme/svg?type=custom&size=30&weight=500&content=Socials" width="140px" height="40px" alt="fullname">
     </a>
     <a href="https://cultofthepartyparrot.com" target="_blank">
       <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/nextparrot.gif" width="30px" alt="nextparrot">
@@ -48,7 +48,7 @@
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/portalorangeparrot.gif" width="40px" alt="portalorangeparrot">
   </a>
   <a href="#description">
-    <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=Description" width="100%" height="33px" alt="description">
+    <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=Description" width="160px" height="33px" alt="description">
   </a>
   <a href="https://cultofthepartyparrot.com" target="_blank">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/portalblueparrot.gif" width="40px" alt="portalblueparrot">
@@ -68,13 +68,13 @@
 
 <div align="center">
   <a href="https://cultofthepartyparrot.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reverseportalorangeparrot.gif" width="40px" alt="reverseportalorangeparrot">
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reverseportalblueparrot.gif" width="40px" alt="reverseportalblueparrot">
   </a>
   <a href="#stats">
-    <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=Stats" width="100%" height="33px" alt="stats">
+    <img src="https://svg-readme.vercel.app/readme/svg?type=subtitle&content=Stats" width="80px" height="33px" alt="stats">
   </a>
   <a href="https://cultofthepartyparrot.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reverseportalblueparrot.gif" width="40px" alt="reverseportalblueparrot">
+    <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reverseportalorangeparrot.gif" width="40px" alt="reverseportalorangeparrot">
   </a>
 </div>
 
