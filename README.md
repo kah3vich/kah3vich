@@ -12,7 +12,7 @@
     </a>
 </div>
 
-<hr />
+<br />
 
 <div align="center">
   <a href="https://t.me/@kah3vich" target="_blank">
@@ -38,9 +38,11 @@
   </a>
 </div>
 
-<!--|||-->
-
 <br />
+<hr />
+<br />
+
+<!--|||-->
 
 <div align="center">
   <a href="https://cultofthepartyparrot.com" target="_blank">
@@ -54,12 +56,14 @@
   </a>
 </div>
 
-<hr />
 <br />
 
 <div align="center">
   <p>...</p>
 </div>
+
+<br />
+<hr />
 
 <!--|||-->
 
@@ -77,7 +81,6 @@
   </a>
 </div>
 
-<hr />
 <br />
 
 <div align="center">
@@ -85,8 +88,6 @@
     <img src="https://www.codewars.com/users/kah3vich/badges/large" alt="codewars"/>
   </a>
 </div>
-
-<br />
 
 <div align="center">
   <a href="https://github.com/kah3vich" target="_blank">
@@ -100,6 +101,8 @@
   </a>
 </div>
 
+<br />
+<hr />
 <br />
 
 <div align="center">
