@@ -1,13 +1,11 @@
-[↪️ Back](../)
+[BACK](../)
 
-<div align="center">
-    <br />
-    <h1>Docs</h1>
-</div>
+# Docs
 
-<div align="center">
-    <br />
-    <h3>🌏 Links 🌏</h3>
-</div>
+### Links
 
-1. [Stacks](./stacks.md)
+- [Parrot](https://cultofthepartyparrot.com)
+
+# Utils
+
+...
