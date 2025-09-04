@@ -21,7 +21,7 @@
   <a href="https://www.codewars.com/users/kah3vich" target="_blank">
     <img src="https://img.shields.io/badge/-BlueSky-090909?style=for-the-badge&logo=bluesky&logoColor=blue" alt="BlueSky">
   </a>
-  <a href="https://www.linkedin.com/in/kah3ivch" target="_blank">
+  <a href="https://www.linkedin.com/in/kah3vich" target="_blank">
     <img src="https://img.shields.io/badge/-linkedin-090909?style=for-the-badge&logo=outline&logoColor=blue" alt="LinkedIn">
   </a>
 </div>
