@@ -94,10 +94,7 @@
     <img src="https://komarev.com/ghpvc/?username=kah3vich&color=blue&style=for-the-badge" alt="View Profile" />
   </a>
   <a href="https://wakatime.com/@kah3vich" target="_blank">
-  </a>
     <img src="https://wakatime.com/badge/user/bce86a87-7891-4b44-ab58-a5b64ee23b9b.svg?label=blue&logo=github&style=for-the-badge" alt="WakaTime">
-  <a href="https://github.com/kah3vich" target="_blank">
-    <img src="https://img.shields.io/github/followers/kah3vich?tab=followers?label=blue&logo=github&style=for-the-badge" alt="Followers" />
   </a>
 </div>
 
