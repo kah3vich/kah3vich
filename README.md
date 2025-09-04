@@ -1,5 +1,3 @@
-<!-- ||| -->
-
 <div align="center">
     <a href="https://cultofthepartyparrot.com" target="_blank">
       <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/reactparrot.gif" width="40px" alt="reactparrot">
@@ -42,7 +40,7 @@
 <hr />
 <br />
 
-<!--|||-->
+<!---->
 
 <div align="center">
   <a href="https://cultofthepartyparrot.com" target="_blank">
@@ -64,10 +62,9 @@
 
 <br />
 <hr />
-
-<!--|||-->
-
 <br />
+
+<!---->
 
 <div align="center">
   <a href="https://cultofthepartyparrot.com" target="_blank">
@@ -101,6 +98,8 @@
 <br />
 <hr />
 <br />
+
+<!---->
 
 <div align="center">
   <a href="https://cultofthepartyparrot.com" target="_blank">
