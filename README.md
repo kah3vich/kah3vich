@@ -26,7 +26,7 @@
 
 <div align="center">
   <a href="https://www.reddit.com/user/k_88888" target="_blank">
-    <img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=reddit&logoColor=orange" alt="Reddit">
+    <img src="https://img.shields.io/badge/-Reddit-090909?style=for-the-badge&logo=reddit&logoColor=orange" alt="Reddit">
   </a>
   <a href="https://www.codewars.com/users/kah3vich" target="_blank">
     <img src="https://img.shields.io/badge/-Codewars-090909?style=for-the-badge&logo=codewars&logoColor=red" alt="CodeWars">
@@ -81,8 +81,11 @@
 <br />
 
 <div align="center">
-  <a href="https://www.codewars.com/users/kah3vich">
+  <a href="https://www.codewars.com/users/kah3vich" target="_blank">
     <img src="https://www.codewars.com/users/kah3vich/badges/large" alt="codewars"/>
+  </a>
+  <a href="https://leetcode.com/kah3vich" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/kah3vich?theme=dark&font=Overpass&ext=contest" alt="leetcode" />
   </a>
 </div>
 
