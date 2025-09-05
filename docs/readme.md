@@ -18,5 +18,4 @@
 - 🟨 - `Progress`
 - 🟩 - `Done`
 - ⬜️ - `Static`
- 
 
