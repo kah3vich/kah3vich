@@ -8,9 +8,8 @@
 
 ## Utils
 
-- [Git](../utils/git.js)
-- [GitHub](../utils/github.js)
-- [SVG](../utils/svg.html)
+- [Range](../utils/range.bash)
+- [GitHub](../utils/github.bash)
 
 ## Types
 
