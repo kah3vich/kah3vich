@@ -13,7 +13,8 @@
 
 ## Types
 
-- 🟥 - `Draft`
-- 🟨 - `Progress`
-- 🟩 - `Done`
-- ⬜️ - `Static`
+- `🟥 Draft`
+- `🟨 Progress`
+- `🟩 Done`
+- `⬜️ Static`
+- `🟧 Archive`
