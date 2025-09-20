@@ -42,6 +42,7 @@
 
 <!---->
 
+<!--
 <div align="center">
   <a href="https://cultofthepartyparrot.com" target="_blank">
     <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/portalorangeparrot.gif" width="40px" alt="portalorangeparrot">
@@ -63,6 +64,7 @@
 <br />
 <hr />
 <br />
+-->
 
 <!---->
 
