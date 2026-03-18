@@ -1,5 +1,17 @@
-# These are supported funding model platforms
+# Funding platforms for sponsors
 
-github: [kah3vich]
+# GitHub Sponsors
+github: kah3vich
+
+# Patreon
+# patreon: USERNAME
+
+# Open Collective
 open_collective: kah3vich
-custom: ['https://github.com/kah3vich']
+
+# Buy Me a Coffee
+# buy_me_a_coffee: USERNAME
+
+# Custom funding URLs
+# custom:
+#   - URL
